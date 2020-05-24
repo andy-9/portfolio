@@ -1,13 +1,84 @@
 <template>
     <div class="container">
         <div>
-            <logo />
+            <!-- <logo /> -->
             <h1 class="title">
-                portfolio
+                Andreas Hechler
             </h1>
             <h2 class="subtitle">
-                My brilliant Nuxt.js project
+                Software | Agility | Coaching | Antidiscrimination
             </h2>
+
+            <img src="/images/DBV_BID19_0622.jpg" alt="Andreas Hechler" />
+
+            <div>
+                <div id="copyright">© Andreas Hechler 2020</div>
+
+                <div class="social-media">
+                    <a href="https://github.com/andy-9" target="_blank">
+                        <img
+                            src="/icons/round-github.svg"
+                            alt="github logo"
+                            class="social-media-logo"
+                        />
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/andreas-hechler-810172192"
+                        target="_blank"
+                    >
+                        <img
+                            src="/icons/round-linkedin.svg"
+                            alt="linkedin-logo"
+                            class="social-media-logo"
+                        />
+                    </a>
+
+                    <a
+                        href="https://www.xing.com/profile/Andreas_Hechler10"
+                        target="_blank"
+                    >
+                        <img
+                            src="/icons/round-xing.svg"
+                            alt="xing-logo"
+                            class="social-media-logo"
+                        />
+                    </a>
+
+                    <a
+                        href="https://dissens.academia.edu/AndreasHechler"
+                        target="_blank"
+                    >
+                        <img
+                            src="/icons/academia.svg"
+                            alt="academia-logo"
+                            class="social-media-logo"
+                    /></a>
+
+                    <a
+                        href="https://www.researchgate.net/profile/Andreas_Hechler"
+                        target="_blank"
+                    >
+                        <img
+                            src="/icons/round-researchgate.svg"
+                            alt="researchgate-logo"
+                            class="social-media-logo"
+                        />
+                    </a>
+
+                    <a
+                        href="https://twitter.com/HechlerAndreas"
+                        target="_blank"
+                    >
+                        <img
+                            src="/icons/round-twitter.svg"
+                            alt="twitter-logo"
+                            class="social-media-logo"
+                        />
+                    </a>
+                </div>
+            </div>
+
             <div class="links">
                 <a
                     href="https://nuxtjs.org/"
@@ -29,11 +100,18 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+// import Logo from '~/components/Logo.vue'
 
 export default {
-    components: {
-        Logo
+    //     components: {
+    //         Logo
+    //     }
+    // }
+    head() {
+        return {
+            title: 'Andreas Hechler Portfolio',
+            meta: []
+        }
     }
 }
 </script>
@@ -69,5 +147,50 @@ export default {
 
 .links {
     padding-top: 15px;
+}
+
+.social-media {
+    /* height: 100px; */
+    /* width: 100px; */
+    /* display: flex; */
+}
+
+.sm-container {
+    /* height: 100px; */
+    /* width: 100px; */
+}
+
+.social-media-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.button--green {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #3b8070;
+    color: #3b8070;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.button--green:hover {
+    color: #fff;
+    background-color: #3b8070;
+}
+
+.button--grey {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #35495e;
+    color: #35495e;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-left: 15px;
+}
+
+.button--grey:hover {
+    color: #fff;
+    background-color: #35495e;
 }
 </style>

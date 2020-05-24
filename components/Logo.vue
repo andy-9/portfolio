@@ -1,6 +1,4 @@
-<template>
-    <img src="DBV_BID19_0622.jpg" alt="Andreas Hechler" />
-</template>
+<template> <div></div></template>
 
 <style>
 /* .NuxtLogo {
