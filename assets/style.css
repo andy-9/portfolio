@@ -22,12 +22,22 @@ body {
     background: var(--navy);
 }
 
+p {
+    font-size: 1.2em;
+    color: black;
+}
+
 a {
-    color: var(--teal-light);
+    color: rgb(85, 84, 84);
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 a:hover {
-    color: var(--teal);
+    /* color: var(--teal); */
+    text-decoration: underline;
+}
+
+.margin-top-bottom-five-percent {
+    margin: 5% 0;
 }
