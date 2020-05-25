@@ -339,7 +339,7 @@
                 meiner als "lebensunwert" diagnostizierten Urgroßmutter</a
             >. In: Rotzoll, Maike u.a. (Hrsg.):
             <a
-                href="https://www.psychiatrie-verlag.de/de/buecher/detail/book-detail/der-regionalvernetzte-krankenmord.html"
+                href="https://psychiatrie-verlag.de/product/der-regional-vernetzte-krankenmord/"
                 target="_blank"
                 >Der regional vernetzte Krankenmord. Die Heil- und Pflegeanstalt
                 Klingenmünster/Pfalz in Verbindung mit Baden, Bayern, Elsass und

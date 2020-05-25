@@ -9,7 +9,7 @@
                 Software | Agility | Coaching | Antidiscrimination
             </h2>
 
-            <img src="/images/DBV_BID19_0622.jpg" alt="Andreas Hechler" />
+            <img src="/images/ah.jpg" alt="Andreas Hechler" />
 
             <div>
                 <div id="copyright">© Andreas Hechler 2020</div>

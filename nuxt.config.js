@@ -18,8 +18,16 @@ export default {
             }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/icons/favicon.ico' }
+            { rel: 'icon', type: 'image/x-icon', href: '/icons/favicon.jpg' }
         ]
+    },
+    pageTransition: {
+        name: 'page',
+        mode: 'out-in'
+    },
+    layoutTransition: {
+        name: 'layout',
+        mode: 'out-in'
     },
     /*
      ** Customize the progress-bar color

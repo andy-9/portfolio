@@ -1,73 +1,70 @@
 <template>
     <div class="">
-        <h1></h1>
-        <p></p>
-        <div>
-            <!-- [Academia] -->
-            1 icon created by
-            <a
-                href="https://www.flaticon.com/de/autoren/pixel-perfect"
-                title="Pixel perfect"
-                >Pixel perfect</a
+        <h1>Contact</h1>
+        <h2>Contact form</h2>
+
+        <!-- <nuxt-child /> -->
+
+        <p>
+            <nuxt-link class="" :to="{ name: 'contact-credits' }" title=""
+                >Credits</nuxt-link
             >
-            from
-            <a href="https://www.flaticon.com/de/" title="Flaticon"
-                >www.flaticon.com</a
+        </p>
+
+        <p>
+            <nuxt-link
+                class=""
+                :to="{ name: 'contact-imprint' }"
+                title="legal notice"
+                >Imprint</nuxt-link
             >
-        </div>
-        <div>
-            All other icons created by
-            <!-- facebook_icon_130940, github_icon_130931, researchgate_icon_130843, twitter_icon_130806, xing_icon_130780 -->
-            <a href="https://icon-icons.com/pack/SuperTiny/2108"
-                >Terence Eden.
-            </a>
-            <div>
-                Icon created by
-                <!-- Twitter_icon-icons.com_66803 -->
-                <a href="https://icon-icons.com/pack/Social-icons/836"
-                    >Just UI.</a
+        </p>
+
+        <div class="container">
+            <h1 class="title">
+                Contact
+            </h1>
+            <div class="content">
+                <form
+                    name="contact"
+                    heroku-honeypot="bot-field"
+                    action="/thanks"
+                    method="post"
+                    heroku
                 >
-            </div>
-            <div>
-                2 Icons created by
-                <!-- twitter_2_icon-icons.com_59206 -->
-                <a
-                    href="https://icon-icons.com/pack/Flat-Social-Media-Icons-Set-(Round-Style)/642"
-                    >BrandBundle.</a
-                >
-            </div>
-            <div>
-                Icon created by
-                <!-- github-logo_icon-icons.com_73546 -->
-                <a href="https://icon-icons.com/pack/Font-Awesome-Icons/936"
-                    >Dave Gandy.</a
-                >
-            </div>
-            <div>
-                Icon created by
-                <!-- xing_icon-icons.com_66675 -->
-                <a
-                    href="https://icon-icons.com/pack/Social-Network-Icons---color/832"
-                    >Nitu t786.</a
-                >
-            </div>
-            <div>
-                Icon created by
-                <!-- round-linkedin -->
-                <a href="https://icon-icons.com/pack/Social-Network-Icon/805"
-                    >Adam Watson.</a
-                >
-            </div>
-            <div>
-                Icon created by
-                <!-- eckig-linkedin -->
-                <a
-                    href="https://icon-icons.com/pack/Social-Media-Applications/1753"
-                    >tulpahn.</a
-                >
-            </div>
-            <div>
-                No changes were made.
+                    <input type="hidden" name="form-name" value="contact" />
+
+                    <p class="hidden">
+                        <label
+                            >Don’t fill this out: <input name="bot-field"
+                        /></label>
+                    </p>
+
+                    <label class="form-label" for="name">
+                        Name:
+                    </label>
+                    <input id="name" class="form-field" name="name" />
+
+                    <label class="form-label" for="email">
+                        Email:
+                    </label>
+                    <input id="email" class="form-field" name="email" />
+
+                    <label class="form-label" for="message">
+                        Message:
+                    </label>
+                    <textarea
+                        id="message"
+                        class="form-field"
+                        name="message"
+                    ></textarea>
+
+                    <input
+                        class="form-button"
+                        type="submit"
+                        value="Send message"
+                    />
+                </form>
             </div>
         </div>
     </div>
@@ -84,4 +81,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.hidden {
+    display: none;
+}
+</style>
