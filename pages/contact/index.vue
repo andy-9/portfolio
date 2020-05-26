@@ -1,9 +1,6 @@
 <template>
     <div class="">
         <h1>Contact</h1>
-        <h2>Contact form</h2>
-
-        <!-- <nuxt-child /> -->
 
         <p>
             <nuxt-link class="" :to="{ name: 'contact-credits' }" title=""
@@ -21,9 +18,6 @@
         </p>
 
         <div class="container">
-            <h1 class="title">
-                Contact
-            </h1>
             <div class="content">
                 <form
                     name="contact"
@@ -40,24 +34,45 @@
                         /></label>
                     </p>
 
-                    <label class="form-label" for="name">
-                        Name:
-                    </label>
-                    <input id="name" class="form-field" name="name" />
+                    <div>
+                        <label class="form-label" for="name">
+                            Name:
+                        </label>
+                        <img
+                            src="/icons/person-circle-outline.svg"
+                            alt="icon for person"
+                            class="social-media-logo"
+                        />
+                        <input id="name" class="form-field" name="name" />
+                    </div>
 
-                    <label class="form-label" for="email">
-                        Email:
-                    </label>
-                    <input id="email" class="form-field" name="email" />
+                    <div>
+                        <label class="form-label" for="email">
+                            Email:
+                        </label>
+                        <img
+                            src="/icons/at-outline.svg"
+                            alt="@-icon for email"
+                            class="social-media-logo"
+                        />
+                        <input id="email" class="form-field" name="email" />
+                    </div>
 
-                    <label class="form-label" for="message">
-                        Message:
-                    </label>
-                    <textarea
-                        id="message"
-                        class="form-field"
-                        name="message"
-                    ></textarea>
+                    <div>
+                        <label class="form-label" for="message">
+                            Message:
+                        </label>
+                        <img
+                            src="/icons/pencil-outline.svg"
+                            alt="pen for textfield"
+                            class="social-media-logo"
+                        />
+                        <textarea
+                            id="message"
+                            class="form-field"
+                            name="message"
+                        ></textarea>
+                    </div>
 
                     <input
                         class="form-button"
@@ -70,7 +85,7 @@
             <div class="social-media">
                 <a href="https://github.com/andy-9" target="_blank">
                     <img
-                        src="/icons/round-github.svg"
+                        src="/icons/logo-github.svg"
                         alt="github logo"
                         class="social-media-logo"
                     />
@@ -81,7 +96,7 @@
                     target="_blank"
                 >
                     <img
-                        src="/icons/round-linkedin.svg"
+                        src="/icons/logo-linkedin.svg"
                         alt="linkedin-logo"
                         class="social-media-logo"
                     />
@@ -92,8 +107,16 @@
                     target="_blank"
                 >
                     <img
-                        src="/icons/round-xing.svg"
+                        src="/icons/logo-xing.svg"
                         alt="xing-logo"
+                        class="social-media-logo"
+                    />
+                </a>
+
+                <a href="https://twitter.com/HechlerAndreas" target="_blank">
+                    <img
+                        src="/icons/logo-twitter.svg"
+                        alt="twitter-logo"
                         class="social-media-logo"
                     />
                 </a>
@@ -103,7 +126,7 @@
                     target="_blank"
                 >
                     <img
-                        src="/icons/academia.svg"
+                        src="/icons/academia.png"
                         alt="academia-logo"
                         class="social-media-logo"
                 /></a>
@@ -113,16 +136,8 @@
                     target="_blank"
                 >
                     <img
-                        src="/icons/round-researchgate.svg"
+                        src="/icons/researchgate-icon.svg"
                         alt="researchgate-logo"
-                        class="social-media-logo"
-                    />
-                </a>
-
-                <a href="https://twitter.com/HechlerAndreas" target="_blank">
-                    <img
-                        src="/icons/round-twitter.svg"
-                        alt="twitter-logo"
                         class="social-media-logo"
                     />
                 </a>

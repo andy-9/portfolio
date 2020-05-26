@@ -6,6 +6,7 @@
 
         <h2 id="bigger-projects">Bigger projects</h2>
 
+        <!-- //////////// Social Network //////////// -->
         <div>
             <h3><p>Social Network</p></h3>
             <a href="https://kite-inc.herokuapp.com/" target="_blank"
@@ -13,24 +14,42 @@
                     src="/images/kite.png"
                     alt="screenshot of social Network Kite.Inc displaying some search results"
             /></a>
-            <a href="https://kite-inc.herokuapp.com/" target="_blank"
-                >Kite.Inc</a
-            >
-            <!-- icon: is what? -->
-            <p>Facebook-inspired single-page-application (SPA)</p>
-            <!-- icon: tech -->
-            <p>
-                Tech stack: React & Redux, Express, Node, PostgreSQL, Socket.io,
-                Amazon S3 and SES, CSS, HTML
-            </p>
-            <!-- icon: features -->
-            <p>
-                Features: a personal profile with bio and image upload, sending,
-                receiving and accepting friend requests, unfriend, having
-                conversations in a chat room, display of last 3 registered
-                users, searching for users by first and last name, showing
-                friends of friends, logout
-            </p>
+            <div>
+                <img
+                    src="/icons/information-outline.svg"
+                    alt="icon for information"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Social Network</b> - facebook-inspired
+                    single-page-application (SPA)
+                </p>
+            </div>
+            <div>
+                <img
+                    src="/icons/code-slash.svg"
+                    alt="icon for code"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Tech stack:</b> React & Redux, Express, Node, PostgreSQL,
+                    Socket.io, Amazon S3 and SES, CSS, HTML
+                </p>
+            </div>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> a personal profile with bio and image
+                    upload, sending, receiving and accepting friend requests,
+                    unfriend, having conversations in a chat room, display of
+                    last 3 registered users, searching for users by first and
+                    last name, showing friends of friends, logout
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleSocialNetwork">
                 {{ button.text }}
@@ -53,6 +72,8 @@
             </div>
         </div>
 
+        <!-- //////////// Imageboard //////////// -->
+
         <div>
             <h3><p>Imageboard</p></h3>
             <a href="http://graf-streetart.herokuapp.com/" target="_blank"
@@ -60,23 +81,41 @@
                     src="/images/imageboard.png"
                     alt="screenshot of imageboard graffiti and street art displaying landing page"
             /></a>
-            <a href="http://graf-streetart.herokuapp.com/" target="_blank"
-                >Graffiti & Street Art</a
-            >
-            <!-- icon: is what? -->
-            <p>Instagram-inspired single-page-application (SPA)</p>
-            <!-- icon: tech -->
-            <p>
-                Tech stack: Vue, Express, Node, PostgreSQL, Amazon S3, Jest,
-                CSS, HTML
-            </p>
-            <!-- icon: features -->
-            <p>
-                Features: upload of images with title, description and
-                user-name, each image can be clicked and displayed in large with
-                more info and the possibility to comment and also delete the
-                image, more images can be loaded
-            </p>
+            <div>
+                <img
+                    src="/icons/information-outline.svg"
+                    alt="icon for information"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Imageboard</b> - instagram-inspired
+                    single-page-application (SPA)
+                </p>
+            </div>
+            <div>
+                <img
+                    src="/icons/code-slash.svg"
+                    alt="icon for code"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Tech stack:</b> Vue, Express, Node, PostgreSQL, Amazon
+                    S3, Jest, CSS, HTML
+                </p>
+            </div>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> upload of images with title, description
+                    and user-name, each image can be clicked and displayed in
+                    large with more info and the possibility to comment and also
+                    delete the image, more images can be loaded
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleImageboard">
                 {{ button.text }}
@@ -95,6 +134,8 @@
             </div>
         </div>
 
+        <!-- //////////// Petition //////////// -->
+
         <div>
             <h3><p>Petition</p></h3>
             <a href="https://algobias.herokuapp.com/" target="_blank"
@@ -102,22 +143,37 @@
                     src="/images/algobias.png"
                     alt="screenshot of petition against algorithmic bias displaying the register site"
             /></a>
-            <a href="https://algobias.herokuapp.com/" target="_blank"
-                >Petition against algorithmic bias
-            </a>
-            <!-- icon: is what? -->
-            <p>Online petition-project</p>
-            <!-- icon: tech -->
-            <p>
-                Tech stack: Express handlebars, Node, PostgreSQL, jQuery, CSS,
-                HTML
-            </p>
-            <!-- icon: features -->
-            <p>
-                Features: supporters can register, login, update their profile
-                information, sign, unsign, view fellow signees sorted by
-                location, logout
-            </p>
+            <div>
+                <img
+                    src="/icons/information-outline.svg"
+                    alt="icon for information"
+                    class="social-media-logo"
+                />
+                <p><b>Online-Petition</b> against algorithmic bias</p>
+            </div>
+            <div>
+                <img
+                    src="/icons/code-slash.svg"
+                    alt="icon for code"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Tech stack:</b> Express handlebars, Node, PostgreSQL,
+                    jQuery, CSS, HTML
+                </p>
+            </div>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> supporters can register, login, update
+                    their profile information, sign, unsign, view fellow signees
+                    sorted by location, logout
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="togglePetition">
                 {{ button.text }}
@@ -155,24 +211,39 @@
                     src="/images/kaleidoscope.png"
                     alt="screenshot of Kaleidoscope displaying the landing page with all the projects"
             /></a>
-            <h3>
-                <a href="http://kaleidoscop.herokuapp.com/" target="_blank"
-                    >Kaleidoscope</a
-                >
-            </h3>
-            <!-- icon: is what? -->
-            <p>
-                Kaleidoscope to display my smaller and medium-sized projects
-                <!-- icon: tech -->
-            </p>
-
-            <p>Tech stack: Express handlebars, CSS, HTML</p>
-            <!-- icon: features -->
-            <p>
-                Features: display of all projects, description-site for each
-                project
-            </p>
+            <div>
+                <img
+                    src="/icons/information-outline.svg"
+                    alt="icon for information"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Kaleidoscope:</b>
+                    My smaller and medium-sized projects
+                </p>
+            </div>
+            <div>
+                <img
+                    src="/icons/code-slash.svg"
+                    alt="icon for code"
+                    class="social-media-logo"
+                />
+                <p><b>Tech stack:</b> Express handlebars, CSS, HTML</p>
+            </div>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> Display of all projects, description-site
+                    for each project
+                </p>
+            </div>
         </div>
+
+        <!-- //////////// Spotify Search //////////// -->
 
         <div>
             <a
@@ -189,12 +260,18 @@
                     >Spotify Search</a
                 >
             </h3>
-            <!-- icon: features -->
-            <p>
-                Features: search Spotify database through API, display
-                album/artist with hyperlinked cover and name, load more through
-                button click or infinite scroll
-            </p>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> Search Spotify database through API,
+                    display album/artist with hyperlinked cover and name, load
+                    more through button click or infinite scroll
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleSpotify">
                 {{ button.text }}
@@ -218,6 +295,8 @@
             </div>
         </div>
 
+        <!-- //////////// Resizable Panes //////////// -->
+
         <div>
             <a
                 href="http://kaleidoscop.herokuapp.com/resizable_panes/"
@@ -233,11 +312,17 @@
                     >Resizable Panes</a
                 >
             </h3>
-            <!-- icon: features -->
-            <p>
-                Features: Resize pane with slider, display one image or the
-                other
-            </p>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> Resize pane with slider, display one image
+                    or the other
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="togglePanes">
                 {{ button.text }}
@@ -257,6 +342,8 @@
             </div>
         </div>
 
+        <!-- //////////// Connect 4 //////////// -->
+
         <div>
             <a href="http://kaleidoscop.herokuapp.com/connect4/" target="_blank"
                 ><img
@@ -270,12 +357,18 @@
                     >Connect 4</a
                 >
             </h3>
-            <!-- icon: features -->
-            <p>
-                Features: 2 players can play against each other, horizontal,
-                vertical or diagonal victories, animation when one player wins,
-                winning color gets displayed, play again
-            </p>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> 2 players can play against each other,
+                    horizontal, vertical or diagonal victories, animation when
+                    one player wins, winning color gets displayed, play again
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleConnect">
                 {{ button.text }}
@@ -296,6 +389,8 @@
             </div>
         </div>
 
+        <!-- //////////// Kitty Carousel //////////// -->
+
         <div>
             <a
                 href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
@@ -311,11 +406,17 @@
                     >Kitty Carousel</a
                 >
             </h3>
-            <!-- icon: features -->
-            <p>
-                Features: watch kitties carouseling, pick a specific image to be
-                displayed again
-            </p>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> Watch kitties carouseling, pick a specific
+                    image to be displayed again
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleCarousel">
                 {{ button.text }}
@@ -334,6 +435,8 @@
             </div>
         </div>
 
+        <!-- //////////// Spiced Homepage //////////// -->
+
         <div>
             <a
                 href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
@@ -349,11 +452,18 @@
                     >Spiced Homepage</a
                 >
             </h3>
-            <!-- icon: features -->
-            <p>
-                Features: pop-up modal, hamburger menu with navigation sliding
-                in from the right, also suited for smaller screens
-            </p>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> Pop-up modal, hamburger menu with
+                    navigation sliding in from the right, also suited for
+                    smaller screens
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleSpiced">
                 {{ button.text }}
@@ -371,6 +481,8 @@
             </div>
         </div>
 
+        <!-- //////////// Local Storage //////////// -->
+
         <div>
             <a
                 href="http://kaleidoscop.herokuapp.com/local_storage/"
@@ -386,11 +498,17 @@
                     >Local Storage</a
                 >
             </h3>
-            <!-- icon: features -->
-            <p>
-                Features: write a message and save it in local storage, display
-                and/or delete message
-            </p>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> Write a message and save it in local
+                    storage, display and/or delete message
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleStorage">
                 {{ button.text }}
@@ -410,6 +528,8 @@
             </div>
         </div>
 
+        <!-- //////////// JSON-validator //////////// -->
+
         <div>
             <a
                 href="http://kaleidoscop.herokuapp.com/JSON_validator/"
@@ -425,8 +545,14 @@
                     >JSON-validator</a
                 >
             </h3>
-            <!-- icon: features -->
-            <p>Features: test if data is JSON or not</p>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p><b>Features:</b> Test if data is JSON or not</p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleJSON">
                 {{ button.text }}
@@ -446,6 +572,8 @@
             </div>
         </div>
 
+        <!-- //////////// Ticker //////////// -->
+
         <div>
             <a href="http://kaleidoscop.herokuapp.com/ticker/" target="_blank"
                 ><img
@@ -459,11 +587,17 @@
                     >Ticker</a
                 >
             </h3>
-            <!-- icon: features -->
-            <p>
-                Features: get the latest news displayed, click if you are
-                interested
-            </p>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> Get the latest news displayed, click if you
+                    are interested
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleTicker">
                 {{ button.text }}
@@ -485,6 +619,8 @@
             </div>
         </div>
 
+        <!-- //////////// Incremental Search //////////// -->
+
         <div>
             <a
                 href="http://kaleidoscop.herokuapp.com/incremental_search/"
@@ -500,8 +636,16 @@
                     >Incremental Search</a
                 >
             </h3>
-            <!-- icon: features -->
-            <p>Features: search countries, use either mouse or keys</p>
+            <div>
+                <img
+                    src="/icons/checklist.svg"
+                    alt="icon for features"
+                    class="social-media-logo"
+                />
+                <p>
+                    <b>Features:</b> Search countries, use either mouse or keys
+                </p>
+            </div>
             <!-- Zum Ausklappen -->
             <button @click="toggleIncremental">
                 {{ button.text }}
