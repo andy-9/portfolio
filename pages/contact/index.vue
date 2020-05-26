@@ -66,6 +66,67 @@
                     />
                 </form>
             </div>
+
+            <div class="social-media">
+                <a href="https://github.com/andy-9" target="_blank">
+                    <img
+                        src="/icons/round-github.svg"
+                        alt="github logo"
+                        class="social-media-logo"
+                    />
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/andreas-hechler-810172192"
+                    target="_blank"
+                >
+                    <img
+                        src="/icons/round-linkedin.svg"
+                        alt="linkedin-logo"
+                        class="social-media-logo"
+                    />
+                </a>
+
+                <a
+                    href="https://www.xing.com/profile/Andreas_Hechler10"
+                    target="_blank"
+                >
+                    <img
+                        src="/icons/round-xing.svg"
+                        alt="xing-logo"
+                        class="social-media-logo"
+                    />
+                </a>
+
+                <a
+                    href="https://dissens.academia.edu/AndreasHechler"
+                    target="_blank"
+                >
+                    <img
+                        src="/icons/academia.svg"
+                        alt="academia-logo"
+                        class="social-media-logo"
+                /></a>
+
+                <a
+                    href="https://www.researchgate.net/profile/Andreas_Hechler"
+                    target="_blank"
+                >
+                    <img
+                        src="/icons/round-researchgate.svg"
+                        alt="researchgate-logo"
+                        class="social-media-logo"
+                    />
+                </a>
+
+                <a href="https://twitter.com/HechlerAndreas" target="_blank">
+                    <img
+                        src="/icons/round-twitter.svg"
+                        alt="twitter-logo"
+                        class="social-media-logo"
+                    />
+                </a>
+            </div>
         </div>
     </div>
 </template>
@@ -84,5 +145,10 @@ export default {
 <style scoped>
 .hidden {
     display: none;
+}
+
+.social-media-logo {
+    height: 30px;
+    width: 30px;
 }
 </style>
