@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div id="software-container">
         <h1>Software</h1>
 
         <!-- ///////////////////// BIGGER PROJECTS ///////////////////// -->
@@ -7,239 +7,263 @@
         <h2 id="bigger-projects">Bigger projects</h2>
 
         <!-- //////////// Social Network //////////// -->
-        <div>
-            <h3><p>Social Network</p></h3>
-            <a href="https://kite-inc.herokuapp.com/" target="_blank"
-                ><img
-                    src="/images/kite.png"
-                    alt="screenshot of social Network Kite.Inc displaying some search results"
-            /></a>
-            <div>
-                <img
-                    src="/icons/information-outline.svg"
-                    alt="icon for information"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Social Network</b> - facebook-inspired
-                    single-page-application (SPA)
-                </p>
+        <div class="grid-container">
+            <div class="image-container">
+                <a href="https://kite-inc.herokuapp.com/" target="_blank"
+                    ><img
+                        src="/images/kite.png"
+                        alt="screenshot of social Network Kite.Inc displaying some search results"
+                /></a>
             </div>
-            <div>
-                <img
-                    src="/icons/code-slash.svg"
-                    alt="icon for code"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Tech stack:</b> React & Redux, Express, Node, PostgreSQL,
-                    Socket.io, Amazon S3 and SES, CSS, HTML
-                </p>
-            </div>
-            <div>
-                <img
-                    src="/icons/checklist.svg"
-                    alt="icon for features"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Features:</b> a personal profile with bio and image
-                    upload, sending, receiving and accepting friend requests,
-                    unfriend, having conversations in a chat room, display of
-                    last 3 registered users, searching for users by first and
-                    last name, showing friends of friends, logout
-                </p>
-            </div>
-            <!-- Zum Ausklappen -->
-            <button @click="toggleSocialNetwork">
-                {{ button.text }}
-            </button>
-            <div v-if="infoSocialNetwork">
-                <p>
-                    Users can join a social network, in this case focusing on
-                    inclusive kitesurfing communities.
-                </p>
-                <p>
-                    A high priority is on conditional rendering, security issues
-                    (password hashing, protection against SQL-injection, CSRF-
-                    and XSS-attacks, reset code by mail) and a differentiated
-                    error handling (different error messages get displayed, e.g.
-                    if the email is not in the database, the retyped password
-                    does not match the first or password or the input fields are
-                    left empty) in the register, login, and reset password
-                    components.
-                </p>
+            <div class="flex-column space-evenly">
+                <h3>Social Network</h3>
+                <div class="flex-row">
+                    <img
+                        src="/icons/information-outline.svg"
+                        alt="icon for information"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Facebook-inspired</b>
+                        single-page-application (SPA)
+                    </p>
+                </div>
+                <div class="flex-row">
+                    <img
+                        src="/icons/code-slash.svg"
+                        alt="icon for code"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Tech stack:</b> React & Redux, Express, Node,
+                        PostgreSQL, Socket.io, Amazon S3 and SES, CSS, HTML
+                    </p>
+                </div>
+                <div class="flex-row">
+                    <img
+                        src="/icons/checklist.svg"
+                        alt="icon for features"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Features:</b> a personal profile with bio and image
+                        upload, sending, receiving and accepting friend
+                        requests, unfriend, having conversations in a chat room,
+                        display of last 3 registered users, searching for users
+                        by first and last name, showing friends of friends,
+                        logout
+                    </p>
+                </div>
+                <!-- Zum Ausklappen -->
+                <button @click="toggleSocialNetwork">
+                    {{ button.text }}
+                </button>
+                <div v-if="infoSocialNetwork">
+                    <p>
+                        Users can join a social network, in this case focusing
+                        on inclusive kitesurfing communities.
+                    </p>
+                    <p>
+                        A high priority is on conditional rendering, security
+                        issues (password hashing, protection against
+                        SQL-injection, CSRF- and XSS-attacks, reset code by
+                        mail) and a differentiated error handling (different
+                        error messages get displayed, e.g. if the email is not
+                        in the database, the retyped password does not match the
+                        first or password or the input fields are left empty) in
+                        the register, login, and reset password components.
+                    </p>
+                </div>
             </div>
         </div>
 
         <!-- //////////// Imageboard //////////// -->
 
-        <div>
-            <h3><p>Imageboard</p></h3>
-            <a href="http://graf-streetart.herokuapp.com/" target="_blank"
-                ><img
-                    src="/images/imageboard.png"
-                    alt="screenshot of imageboard graffiti and street art displaying landing page"
-            /></a>
-            <div>
-                <img
-                    src="/icons/information-outline.svg"
-                    alt="icon for information"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Imageboard</b> - instagram-inspired
-                    single-page-application (SPA)
-                </p>
+        <div class="grid-container">
+            <div class="image-container">
+                <a href="http://graf-streetart.herokuapp.com/" target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/imageboard.png"
+                        alt="screenshot of imageboard graffiti and street art displaying landing page"
+                /></a>
             </div>
-            <div>
-                <img
-                    src="/icons/code-slash.svg"
-                    alt="icon for code"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Tech stack:</b> Vue, Express, Node, PostgreSQL, Amazon
-                    S3, Jest, CSS, HTML
-                </p>
-            </div>
-            <div>
-                <img
-                    src="/icons/checklist.svg"
-                    alt="icon for features"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Features:</b> upload of images with title, description
-                    and user-name, each image can be clicked and displayed in
-                    large with more info and the possibility to comment and also
-                    delete the image, more images can be loaded
-                </p>
-            </div>
-            <!-- Zum Ausklappen -->
-            <button @click="toggleImageboard">
-                {{ button.text }}
-            </button>
-            <div v-if="infoImageboard">
-                <p>
-                    Anyone can upload images of their choosing; the theme of
-                    this imageboard is graffiti and street art.
-                </p>
-                <p>
-                    I learned about Vue.js and working with state, un/mounting,
-                    dynamic routing, click handlers, event-emitters and
-                    watchers. The imageboard is protected against SQL-injection,
-                    clickjacking, XSS- and CSRF-attacks.
-                </p>
+            <div class="flex-column space-evenly">
+                <h3>Imageboard</h3>
+                <div class="flex-row">
+                    <img
+                        src="/icons/information-outline.svg"
+                        alt="icon for information"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Instagram-inspired</b> single-page-application (SPA)
+                    </p>
+                </div>
+                <div class="flex-row">
+                    <img
+                        src="/icons/code-slash.svg"
+                        alt="icon for code"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Tech stack:</b> Vue, Express, Node, PostgreSQL,
+                        Amazon S3, Jest, CSS, HTML
+                    </p>
+                </div>
+                <div class="flex-row">
+                    <img
+                        src="/icons/checklist.svg"
+                        alt="icon for features"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Features:</b> upload of images with title,
+                        description and user-name, each image can be clicked and
+                        displayed in large with more info and the possibility to
+                        comment and also delete the image, more images can be
+                        loaded
+                    </p>
+                </div>
+                <!-- Zum Ausklappen -->
+                <button @click="toggleImageboard">
+                    {{ button.text }}
+                </button>
+                <div v-if="infoImageboard">
+                    <p>
+                        Anyone can upload images of their choosing; the theme of
+                        this imageboard is graffiti and street art.
+                    </p>
+                    <p>
+                        I learned about Vue.js and working with state,
+                        un/mounting, dynamic routing, click handlers,
+                        event-emitters and watchers. The imageboard is protected
+                        against SQL-injection, clickjacking, XSS- and
+                        CSRF-attacks.
+                    </p>
+                </div>
             </div>
         </div>
 
         <!-- //////////// Petition //////////// -->
 
-        <div>
-            <h3><p>Petition</p></h3>
-            <a href="https://algobias.herokuapp.com/" target="_blank"
-                ><img
-                    src="/images/algobias.png"
-                    alt="screenshot of petition against algorithmic bias displaying the register site"
-            /></a>
-            <div>
-                <img
-                    src="/icons/information-outline.svg"
-                    alt="icon for information"
-                    class="social-media-logo"
-                />
-                <p><b>Online-Petition</b> against algorithmic bias</p>
+        <div class="grid-container">
+            <div class="image-container">
+                <a href="https://algobias.herokuapp.com/" target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/algobias.png"
+                        alt="screenshot of petition against algorithmic bias displaying the register site"
+                /></a>
             </div>
-            <div>
-                <img
-                    src="/icons/code-slash.svg"
-                    alt="icon for code"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Tech stack:</b> Express handlebars, Node, PostgreSQL,
-                    jQuery, CSS, HTML
-                </p>
-            </div>
-            <div>
-                <img
-                    src="/icons/checklist.svg"
-                    alt="icon for features"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Features:</b> supporters can register, login, update
-                    their profile information, sign, unsign, view fellow signees
-                    sorted by location, logout
-                </p>
-            </div>
-            <!-- Zum Ausklappen -->
-            <button @click="togglePetition">
-                {{ button.text }}
-            </button>
-            <div v-if="infoPetition">
-                <p>
-                    This petition advocates for signing the Algo.Rules and
-                    against algorithmic bias. Depending on whether users
-                    register and sign, they get served different sites. If they
-                    sign, other signees, their homepages, age and city are
-                    displayed.
-                </p>
-                <p>
-                    I learned about dataflow, working with session-cookies, get-
-                    and post-routes and how to test them with supertest. I was
-                    also working with promises, password hashing and inserts,
-                    updates, upserts and deletes in the database. Getting the
-                    signature on a canvas and conditionally editing the profile
-                    I found particularly challenging.
-                </p>
-                <p>
-                    The site has a differentiated error-handling and is
-                    protected against SQL-injection, clickjacking, XSS- and
-                    CSRF-attacks.
-                </p>
+            <div class="flex-column space-evenly">
+                <h3>Petition</h3>
+                <div class="flex-row">
+                    <img
+                        src="/icons/information-outline.svg"
+                        alt="icon for information"
+                        class="social-media-logo"
+                    />
+                    <p><b>Online-Petition</b> against algorithmic bias</p>
+                </div>
+                <div class="flex-row">
+                    <img
+                        src="/icons/code-slash.svg"
+                        alt="icon for code"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Tech stack:</b> Express handlebars, Node, PostgreSQL,
+                        jQuery, CSS, HTML
+                    </p>
+                </div>
+                <div class="flex-row">
+                    <img
+                        src="/icons/checklist.svg"
+                        alt="icon for features"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Features:</b> supporters can register, login, update
+                        their profile information, sign, unsign, view fellow
+                        signees sorted by location, logout
+                    </p>
+                </div>
+                <!-- Zum Ausklappen -->
+                <button @click="togglePetition">
+                    {{ button.text }}
+                </button>
+                <div v-if="infoPetition">
+                    <p>
+                        This petition advocates for signing the Algo.Rules and
+                        against algorithmic bias. Depending on whether users
+                        register and sign, they get served different sites. If
+                        they sign, other signees, their homepages, age and city
+                        are displayed.
+                    </p>
+                    <p>
+                        I learned about dataflow, working with session-cookies,
+                        get- and post-routes and how to test them with
+                        supertest. I was also working with promises, password
+                        hashing and inserts, updates, upserts and deletes in the
+                        database. Getting the signature on a canvas and
+                        conditionally editing the profile I found particularly
+                        challenging.
+                    </p>
+                    <p>
+                        The site has a differentiated error-handling and is
+                        protected against SQL-injection, clickjacking, XSS- and
+                        CSRF-attacks.
+                    </p>
+                </div>
             </div>
         </div>
 
         <!-- ///////////////////// SMALLER PROJECTS ///////////////////// -->
         <h2 id="smaller-projects">Smaller projects</h2>
 
-        <div>
-            <a href="http://kaleidoscop.herokuapp.com/" target="_blank"
-                ><img
-                    src="/images/kaleidoscope.png"
-                    alt="screenshot of Kaleidoscope displaying the landing page with all the projects"
-            /></a>
-            <div>
-                <img
-                    src="/icons/information-outline.svg"
-                    alt="icon for information"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Kaleidoscope:</b>
-                    My smaller and medium-sized projects
-                </p>
+        <div class="grid-container">
+            <div class="image-container">
+                <a href="http://kaleidoscop.herokuapp.com/" target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/kaleidoscope.png"
+                        alt="screenshot of Kaleidoscope displaying the landing page with all the projects"
+                /></a>
             </div>
-            <div>
-                <img
-                    src="/icons/code-slash.svg"
-                    alt="icon for code"
-                    class="social-media-logo"
-                />
-                <p><b>Tech stack:</b> Express handlebars, CSS, HTML</p>
-            </div>
-            <div>
-                <img
-                    src="/icons/checklist.svg"
-                    alt="icon for features"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Features:</b> Display of all projects, description-site
-                    for each project
-                </p>
+            <div class="flex-column space-evenly">
+                <h3>Kaleidoscope</h3>
+
+                <div class="flex-row">
+                    <img
+                        src="/icons/information-outline.svg"
+                        alt="icon for information"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>My smaller</b>
+                        and medium-sized projects
+                    </p>
+                </div>
+                <div class="flex-row">
+                    <img
+                        src="/icons/code-slash.svg"
+                        alt="icon for code"
+                        class="social-media-logo"
+                    />
+                    <p><b>Tech stack:</b> Express handlebars, CSS, HTML</p>
+                </div>
+                <div class="flex-row">
+                    <img
+                        src="/icons/checklist.svg"
+                        alt="icon for features"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Features:</b> Display of all projects,
+                        description-site for each project
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -250,48 +274,46 @@
                 href="http://kaleidoscop.herokuapp.com/spotify_search/"
                 target="_blank"
                 ><img
+                    class="fifty-percent"
                     src="/images/spotify.png"
                     alt="screenshot of spotify search, displaying search results for 'monae'"
             /></a>
-            <h3>
-                <a
-                    href="http://kaleidoscop.herokuapp.com/spotify_search/"
-                    target="_blank"
-                    >Spotify Search</a
-                >
-            </h3>
+            <h3>Spotify Search</h3>
             <div>
-                <img
-                    src="/icons/checklist.svg"
-                    alt="icon for features"
-                    class="social-media-logo"
-                />
-                <p>
-                    <b>Features:</b> Search Spotify database through API,
-                    display album/artist with hyperlinked cover and name, load
-                    more through button click or infinite scroll
-                </p>
-            </div>
-            <!-- Zum Ausklappen -->
-            <button @click="toggleSpotify">
-                {{ button.text }}
-            </button>
-            <div v-if="infoSpotify">
-                <p>
-                    Still not having a Spotify account myself, nonetheless I
-                    programmed a user interface to search via an API the spotify
-                    database. When you search for an artist or album the first
-                    20 search items are displayed with an image of the album and
-                    the name of the artist. If you've reached the bottom, you
-                    can click 'More' to load the next 20 items. I also added
-                    infinite scroll. I used jQuery, clickhandlers, several ajax
-                    'GET'-requests, CSS flexbox and all kinds of animations with
-                    pseudo-selectors - fun! I found it quite difficult to figure
-                    out the order when to call which function and that they
-                    don't interfere with each other. In the end I managed and if
-                    you click on the link below you have an unlimited supply of
-                    search results - hopefully YOU have a spotify account...
-                </p>
+                <div class="flex-row">
+                    <img
+                        src="/icons/checklist.svg"
+                        alt="icon for features"
+                        class="social-media-logo"
+                    />
+                    <p>
+                        <b>Features:</b> Search Spotify database through API,
+                        display album/artist with hyperlinked cover and name,
+                        load more through button click or infinite scroll
+                    </p>
+                </div>
+                <!-- Zum Ausklappen -->
+                <button @click="toggleSpotify">
+                    {{ button.text }}
+                </button>
+                <div v-if="infoSpotify">
+                    <p>
+                        Still not having a Spotify account myself, nonetheless I
+                        programmed a user interface to search via an API the
+                        spotify database. When you search for an artist or album
+                        the first 20 search items are displayed with an image of
+                        the album and the name of the artist. If you've reached
+                        the bottom, you can click 'More' to load the next 20
+                        items. I also added infinite scroll. I used jQuery,
+                        clickhandlers, several ajax 'GET'-requests, CSS flexbox
+                        and all kinds of animations with pseudo-selectors - fun!
+                        I found it quite difficult to figure out the order when
+                        to call which function and that they don't interfere
+                        with each other. In the end I managed and if you click
+                        on the link below you have an unlimited supply of search
+                        results - hopefully YOU have a spotify account...
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -302,17 +324,12 @@
                 href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                 target="_blank"
                 ><img
+                    class="fifty-percent"
                     src="/images/panes.png"
                     alt="screenshot of resizable panes"
             /></a>
-            <h3>
-                <a
-                    href="http://kaleidoscop.herokuapp.com/resizable_panes/"
-                    target="_blank"
-                    >Resizable Panes</a
-                >
-            </h3>
-            <div>
+            <h3>Resizable Panes</h3>
+            <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
                     alt="icon for features"
@@ -347,17 +364,12 @@
         <div>
             <a href="http://kaleidoscop.herokuapp.com/connect4/" target="_blank"
                 ><img
+                    class="fifty-percent"
                     src="/images/connect4.png"
                     alt="screenshot of connect four, both colors in the game"
             /></a>
-            <h3>
-                <a
-                    href="http://kaleidoscop.herokuapp.com/connect4/"
-                    target="_blank"
-                    >Connect 4</a
-                >
-            </h3>
-            <div>
+            <h3>Connect 4</h3>
+            <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
                     alt="icon for features"
@@ -396,17 +408,12 @@
                 href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                 target="_blank"
                 ><img
+                    class="fifty-percent"
                     src="/images/carousel.png"
                     alt="screenshot of imageboard graffiti and street art displaying landing page"
             /></a>
-            <h3>
-                <a
-                    href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
-                    target="_blank"
-                    >Kitty Carousel</a
-                >
-            </h3>
-            <div>
+            <h3>Kitty Carousel</h3>
+            <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
                     alt="icon for features"
@@ -442,17 +449,12 @@
                 href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
                 target="_blank"
                 ><img
+                    class="fifty-percent"
                     src="/images/spiced.png"
                     alt="screenshot of spiced homepage"
             /></a>
-            <h3>
-                <a
-                    href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
-                    target="_blank"
-                    >Spiced Homepage</a
-                >
-            </h3>
-            <div>
+            <h3>Spiced Homepage</h3>
+            <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
                     alt="icon for features"
@@ -488,17 +490,12 @@
                 href="http://kaleidoscop.herokuapp.com/local_storage/"
                 target="_blank"
                 ><img
+                    class="fifty-percent"
                     src="/images/localstorage.png"
                     alt="screenshot of local storage project"
             /></a>
-            <h3>
-                <a
-                    href="http://kaleidoscop.herokuapp.com/local_storage/"
-                    target="_blank"
-                    >Local Storage</a
-                >
-            </h3>
-            <div>
+            <h3>Local Storage</h3>
+            <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
                     alt="icon for features"
@@ -535,17 +532,12 @@
                 href="http://kaleidoscop.herokuapp.com/JSON_validator/"
                 target="_blank"
                 ><img
+                    class="fifty-percent"
                     src="/images/JSON.png"
                     alt="screenshot of JSON-validator displaying vald JSON in green"
             /></a>
-            <h3>
-                <a
-                    href="http://kaleidoscop.herokuapp.com/JSON_validator/"
-                    target="_blank"
-                    >JSON-validator</a
-                >
-            </h3>
-            <div>
+            <h3>JSON-validator</h3>
+            <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
                     alt="icon for features"
@@ -577,17 +569,12 @@
         <div>
             <a href="http://kaleidoscop.herokuapp.com/ticker/" target="_blank"
                 ><img
+                    class="fifty-percent"
                     src="/images/ticker.png"
                     alt="screenshot of ticker running"
             /></a>
-            <h3>
-                <a
-                    href="http://kaleidoscop.herokuapp.com/ticker/"
-                    target="_blank"
-                    >Ticker</a
-                >
-            </h3>
-            <div>
+            <h3>Ticker</h3>
+            <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
                     alt="icon for features"
@@ -626,17 +613,12 @@
                 href="http://kaleidoscop.herokuapp.com/incremental_search/"
                 target="_blank"
                 ><img
+                    class="fifty-percent"
                     src="/images/incremental_search.png"
                     alt="screenshot of incremental search displaying search results for 'ca'"
             /></a>
-            <h3>
-                <a
-                    href="http://kaleidoscop.herokuapp.com/incremental_search/"
-                    target="_blank"
-                    >Incremental Search</a
-                >
-            </h3>
-            <div>
+            <h3>Incremental Search</h3>
+            <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
                     alt="icon for features"
@@ -751,4 +733,45 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+#software-container {
+    margin: 2em;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+p {
+    /* margin-bottom: 0.4em; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.social-media-logo {
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+</style>

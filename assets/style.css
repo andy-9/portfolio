@@ -18,8 +18,8 @@ html {
 }
 
 body {
-    padding: 1rem;
-    background: var(--navy);
+    /* padding: 1rem; */
+    /* background: var(--navy); */
 }
 
 .layout-enter-active,
@@ -50,4 +50,21 @@ a:hover {
 
 .margin-top-bottom-five-percent {
     margin: 5% 0;
+}
+
+.fifty-percent {
+    width: 50%;
+}
+
+.hundred-percent {
+    width: 100%;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
