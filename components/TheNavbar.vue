@@ -53,7 +53,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 2em;
+    margin: 0.4em 0 2em 0;
     letter-spacing: 0.5px;
 }
 </style>

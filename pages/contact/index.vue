@@ -134,6 +134,10 @@ body > * {
     /* flex-shrink: 0; */
 }
 
+h1 {
+    margin-left: 3%;
+}
+
 .content {
     padding: 3%;
     background-image: url(/images/typewriter.jpg);

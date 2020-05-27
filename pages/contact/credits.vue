@@ -1,13 +1,15 @@
 <template>
     <div id="credits-container">
         <h1 class="white">Credits</h1>
-        <p></p>
         <div id="credit-paragraphs">
             <p>
                 Checklist icon from Seekicon. Academia icon from Pinclipart. All
                 other icons by Ionicon icons. No changes were made.
             </p>
-            <p>Flower image from Pixabay. Typewriter image from Pexels.</p>
+            <p>
+                Flower image from DarkWorkX. Typewriter image from Leah Kelley.
+                Imprint image from Elviss Railijs.
+            </p>
             <p>
                 Inspirations found on CSS-tricks, codepen.io, and stack
                 overflow.
