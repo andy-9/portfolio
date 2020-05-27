@@ -120,13 +120,13 @@ body,
     display: flex;
     flex-direction: column;
 }
-
-body > * {
-    flex-shrink: 0;
-}
 </style>
 
 <style scoped>
+body > * {
+    flex-shrink: 0;
+}
+
 #contact-container {
     flex-grow: 1;
     display: flex;
