@@ -56,6 +56,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.white {
+    color: white;
+}
+
 .margin-top-bottom-five-percent {
     margin: 5% 0;
 }

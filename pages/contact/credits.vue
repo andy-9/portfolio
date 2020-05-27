@@ -7,6 +7,8 @@
                 Checklist icon from Seekicon. Academia icon from Pinclipart. All
                 other icons by Ionicon icons. No changes were made.
             </p>
+            <p>Inspirations found on CSS-tricks, codepen.io, stack overflow.</p>
+            <p></p>
         </div>
     </div>
 </template>

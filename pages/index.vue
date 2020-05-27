@@ -149,20 +149,14 @@ export default {
     padding-top: 15px;
 }
 
-.social-media {
-    /* height: 100px; */
-    /* width: 100px; */
-    /* display: flex; */
-}
-
-.sm-container {
-    /* height: 100px; */
-    /* width: 100px; */
-}
-
 .social-media-logo {
     height: 30px;
     width: 30px;
+}
+
+.social-media-logo:hover {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
+        brightness(110%) contrast(100%);
 }
 
 .button--green {

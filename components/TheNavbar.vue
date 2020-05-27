@@ -49,11 +49,11 @@
 
 <style scoped>
 nav {
+    font-size: 1.2em;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 2em;
-    font-weight: lighter;
     letter-spacing: 0.5px;
 }
 </style>
