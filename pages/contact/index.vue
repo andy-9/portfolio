@@ -1,71 +1,64 @@
 <template>
-    <div id="contac-container">
+    <div id="contact-container">
         <h1>Contact</h1>
+        <div class="content">
+            <form
+                name="contact"
+                heroku-honeypot="bot-field"
+                action="/contact/thanks"
+                method="post"
+                heroku
+            >
+                <input type="hidden" name="form-name" value="contact" />
 
-        <div id="contact-container">
-            <div class="content">
-                <form
-                    name="contact"
-                    heroku-honeypot="bot-field"
-                    action="/contact/thanks"
-                    method="post"
-                    heroku
-                >
-                    <input type="hidden" name="form-name" value="contact" />
+                <p class="hidden">
+                    <label
+                        >Don’t fill this out: <input name="bot-field"
+                    /></label>
+                </p>
 
-                    <p class="hidden">
-                        <label
-                            >Don’t fill this out: <input name="bot-field"
-                        /></label>
-                    </p>
-
-                    <div>
-                        <label class="form-label" for="name">
-                            Name:
-                        </label>
-                        <img
-                            src="/icons/person-circle-outline.svg"
-                            alt="icon for person"
-                            class="social-media-logo"
-                        />
-                        <input id="name" class="form-field" name="name" />
-                    </div>
-
-                    <div>
-                        <label class="form-label" for="email">
-                            Email:
-                        </label>
-                        <img
-                            src="/icons/at-outline.svg"
-                            alt="@-icon for email"
-                            class="social-media-logo"
-                        />
-                        <input id="email" class="form-field" name="email" />
-                    </div>
-
-                    <div>
-                        <label class="form-label" for="message">
-                            Message:
-                        </label>
-                        <img
-                            src="/icons/pencil-outline.svg"
-                            alt="pen for textfield"
-                            class="social-media-logo"
-                        />
-                        <textarea
-                            id="message"
-                            class="form-field"
-                            name="message"
-                        ></textarea>
-                    </div>
-
-                    <input
-                        class="form-button"
-                        type="submit"
-                        value="Send message"
+                <div>
+                    <label class="form-label" for="name">
+                        Name:
+                    </label>
+                    <img
+                        src="/icons/person-circle-outline.svg"
+                        alt="icon for person"
+                        class="social-media-logo"
                     />
-                </form>
-            </div>
+                    <input id="name" class="form-field" name="name" />
+                </div>
+
+                <div>
+                    <label class="form-label" for="email">
+                        Email:
+                    </label>
+                    <img
+                        src="/icons/at-outline.svg"
+                        alt="@-icon for email"
+                        class="social-media-logo"
+                    />
+                    <input id="email" class="form-field" name="email" />
+                </div>
+
+                <div>
+                    <label class="form-label" for="message">
+                        Message:
+                    </label>
+                    <img
+                        src="/icons/pencil-outline.svg"
+                        alt="pen for textfield"
+                        class="social-media-logo"
+                    />
+                    <textarea
+                        id="message"
+                        class="form-field"
+                        name="message"
+                    ></textarea>
+                </div>
+
+                <input class="form-button" type="submit" value="Send message" />
+            </form>
 
             <div class="social-media">
                 <a href="https://github.com/andy-9" target="_blank">
@@ -127,22 +120,22 @@
                     />
                 </a>
             </div>
+
+            <p>
+                <nuxt-link class="" :to="{ name: 'contact-credits' }" title=""
+                    >Credits</nuxt-link
+                >
+            </p>
+
+            <p>
+                <nuxt-link
+                    class=""
+                    :to="{ name: 'contact-imprint' }"
+                    title="legal notice"
+                    >Imprint</nuxt-link
+                >
+            </p>
         </div>
-
-        <p>
-            <nuxt-link class="" :to="{ name: 'contact-credits' }" title=""
-                >Credits</nuxt-link
-            >
-        </p>
-
-        <p>
-            <nuxt-link
-                class=""
-                :to="{ name: 'contact-imprint' }"
-                title="legal notice"
-                >Imprint</nuxt-link
-            >
-        </p>
     </div>
 </template>
 
@@ -158,9 +151,11 @@ export default {
 </script>
 
 <style scoped>
-#contact-container {
+.content {
     height: 100vh;
-    background: url(/images/typewriter.jpg);
+    background-image: url(/images/typewriter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hidden {
@@ -174,14 +169,6 @@ export default {
 }
 
 .social-media-logo:hover {
-    color: rgb(85, 84, 84);
-}
-
-a .social-media-logo:hover {
-    color: rgb(85, 84, 84);
-}
-
-img.social-media-logo:hover {
-    color: rgb(85, 84, 84);
+    opacity: 0.5;
 }
 </style>
