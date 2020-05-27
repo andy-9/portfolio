@@ -1,28 +1,13 @@
 <template>
-    <div class="">
+    <div id="contac-container">
         <h1>Contact</h1>
 
-        <p>
-            <nuxt-link class="" :to="{ name: 'contact-credits' }" title=""
-                >Credits</nuxt-link
-            >
-        </p>
-
-        <p>
-            <nuxt-link
-                class=""
-                :to="{ name: 'contact-imprint' }"
-                title="legal notice"
-                >Imprint</nuxt-link
-            >
-        </p>
-
-        <div class="container">
+        <div id="contact-container">
             <div class="content">
                 <form
                     name="contact"
                     heroku-honeypot="bot-field"
-                    action="/thanks"
+                    action="/contact/thanks"
                     method="post"
                     heroku
                 >
@@ -143,6 +128,21 @@
                 </a>
             </div>
         </div>
+
+        <p>
+            <nuxt-link class="" :to="{ name: 'contact-credits' }" title=""
+                >Credits</nuxt-link
+            >
+        </p>
+
+        <p>
+            <nuxt-link
+                class=""
+                :to="{ name: 'contact-imprint' }"
+                title="legal notice"
+                >Imprint</nuxt-link
+            >
+        </p>
     </div>
 </template>
 
@@ -158,6 +158,11 @@ export default {
 </script>
 
 <style scoped>
+#contact-container {
+    height: 100vh;
+    background: url(/images/typewriter.jpg);
+}
+
 .hidden {
     display: none;
 }
@@ -165,5 +170,18 @@ export default {
 .social-media-logo {
     height: 30px;
     width: 30px;
+    color: black;
+}
+
+.social-media-logo:hover {
+    color: rgb(85, 84, 84);
+}
+
+a .social-media-logo:hover {
+    color: rgb(85, 84, 84);
+}
+
+img.social-media-logo:hover {
+    color: rgb(85, 84, 84);
 }
 </style>

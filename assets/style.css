@@ -32,6 +32,14 @@ body {
     opacity: 0;
 }
 
+h1 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 4em;
+    letter-spacing: 0.4em;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
 p {
     font-size: 1.2em;
     color: black;
@@ -40,11 +48,11 @@ p {
 a {
     color: rgb(85, 84, 84);
     text-decoration: none;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
 a:hover {
-    /* color: var(--teal); */
     text-decoration: underline;
 }
 

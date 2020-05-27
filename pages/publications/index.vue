@@ -1,6 +1,8 @@
 <template>
     <div class="publications-container">
-        <a href="#deutsch">deutsch</a>
+        <nuxt-link :to="{ path: 'publications', hash: '#deutsch' }"
+            >deutsch
+        </nuxt-link>
 
         <h1>Publications</h1>
 
@@ -861,9 +863,8 @@
                 Praxis</a
             >. Wirkungen politischer Bildung am Beispiel der Fortbildungsreihe
             "breit aufgestellt". Perspektiven aus der begleitenden Evaluation.
-            Gespräch mit Andreas Hechler (Dissens – Institut für Bildung und
-            Forschung). In: Journal für politische Bildung, Nr. 3/2018, 8. Jg.,
-            Wochenschau Verlag, S. 46–51.
+            Gespräch mit Andreas Hechler. In: Journal für politische Bildung,
+            Nr. 3/2018, 8. Jg., Wochenschau Verlag, S. 46–51.
         </p>
 
         <p>
@@ -903,8 +904,7 @@
                 href="https://soundcloud.com/dehatepodcast/04-gender-und-rechte-ideologien"
                 target="_blank"
                 >Gender und rechte Ideologien</a
-            >
-            . Podcast des Projekts "de:hate".
+            >. Podcast des Projekts "de:hate".
         </p>
 
         <p>

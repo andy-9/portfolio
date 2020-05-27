@@ -16,7 +16,9 @@
                 /></a>
             </div>
             <div class="flex-column space-evenly">
-                <h3>Social Network</h3>
+                <a href="https://kite-inc.herokuapp.com/" target="_blank"
+                    ><h3>Social Network</h3></a
+                >
                 <div class="flex-row">
                     <img
                         src="/icons/information-outline.svg"
@@ -55,25 +57,31 @@
                     </p>
                 </div>
                 <!-- Zum Ausklappen -->
-                <button @click="toggleSocialNetwork">
+                <div>
+                    <details>
+                        <summary>More info</summary>
+                        <p>
+                            Users can join a social network, in this case
+                            focusing on inclusive kitesurfing communities.
+                        </p>
+                        <p>
+                            A high priority is on conditional rendering,
+                            security issues (password hashing, protection
+                            against SQL-injection, CSRF- and XSS-attacks, reset
+                            code by mail) and a differentiated error handling
+                            (different error messages get displayed, e.g. if the
+                            email is not in the database, the retyped password
+                            does not match the first or password or the input
+                            fields are left empty) in the register, login, and
+                            reset password components.
+                        </p>
+                    </details>
+                </div>
+                <!-- <button @click="toggleSocialNetwork">
                     {{ button.text }}
                 </button>
                 <div v-if="infoSocialNetwork">
-                    <p>
-                        Users can join a social network, in this case focusing
-                        on inclusive kitesurfing communities.
-                    </p>
-                    <p>
-                        A high priority is on conditional rendering, security
-                        issues (password hashing, protection against
-                        SQL-injection, CSRF- and XSS-attacks, reset code by
-                        mail) and a differentiated error handling (different
-                        error messages get displayed, e.g. if the email is not
-                        in the database, the retyped password does not match the
-                        first or password or the input fields are left empty) in
-                        the register, login, and reset password components.
-                    </p>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -89,7 +97,9 @@
                 /></a>
             </div>
             <div class="flex-column space-evenly">
-                <h3>Imageboard</h3>
+                <a href="http://graf-streetart.herokuapp.com/" target="_blank"
+                    ><h3>Imageboard</h3></a
+                >
                 <div class="flex-row">
                     <img
                         src="/icons/information-outline.svg"
@@ -126,22 +136,27 @@
                     </p>
                 </div>
                 <!-- Zum Ausklappen -->
-                <button @click="toggleImageboard">
+                <div>
+                    <details>
+                        <summary>More info</summary>
+                        <p>
+                            Anyone can upload images of their choosing; the
+                            theme of this imageboard is graffiti and street art.
+                        </p>
+                        <p>
+                            I learned about Vue.js and working with state,
+                            un/mounting, dynamic routing, click handlers,
+                            event-emitters and watchers. The imageboard is
+                            protected against SQL-injection, clickjacking, XSS-
+                            and CSRF-attacks.
+                        </p>
+                    </details>
+                </div>
+                <!-- <button @click="toggleImageboard">
                     {{ button.text }}
                 </button>
                 <div v-if="infoImageboard">
-                    <p>
-                        Anyone can upload images of their choosing; the theme of
-                        this imageboard is graffiti and street art.
-                    </p>
-                    <p>
-                        I learned about Vue.js and working with state,
-                        un/mounting, dynamic routing, click handlers,
-                        event-emitters and watchers. The imageboard is protected
-                        against SQL-injection, clickjacking, XSS- and
-                        CSRF-attacks.
-                    </p>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -157,7 +172,9 @@
                 /></a>
             </div>
             <div class="flex-column space-evenly">
-                <h3>Petition</h3>
+                <a href="https://algobias.herokuapp.com/" target="_blank"
+                    ><h3>Petition</h3></a
+                >
                 <div class="flex-row">
                     <img
                         src="/icons/information-outline.svg"
@@ -190,32 +207,37 @@
                     </p>
                 </div>
                 <!-- Zum Ausklappen -->
-                <button @click="togglePetition">
+                <div>
+                    <details>
+                        <summary>More info</summary>
+                        <p>
+                            This petition advocates for signing the Algo.Rules
+                            and against algorithmic bias. Depending on whether
+                            users register and sign, they get served different
+                            sites. If they sign, other signees, their homepages,
+                            age and city are displayed.
+                        </p>
+                        <p>
+                            I learned about dataflow, working with
+                            session-cookies, get- and post-routes and how to
+                            test them with supertest. I was also working with
+                            promises, password hashing and inserts, updates,
+                            upserts and deletes in the database. Getting the
+                            signature on a canvas and conditionally editing the
+                            profile I found particularly challenging.
+                        </p>
+                        <p>
+                            The site has a differentiated error-handling and is
+                            protected against SQL-injection, clickjacking, XSS-
+                            and CSRF-attacks.
+                        </p>
+                    </details>
+                </div>
+                <!-- <button @click="togglePetition">
                     {{ button.text }}
                 </button>
                 <div v-if="infoPetition">
-                    <p>
-                        This petition advocates for signing the Algo.Rules and
-                        against algorithmic bias. Depending on whether users
-                        register and sign, they get served different sites. If
-                        they sign, other signees, their homepages, age and city
-                        are displayed.
-                    </p>
-                    <p>
-                        I learned about dataflow, working with session-cookies,
-                        get- and post-routes and how to test them with
-                        supertest. I was also working with promises, password
-                        hashing and inserts, updates, upserts and deletes in the
-                        database. Getting the signature on a canvas and
-                        conditionally editing the profile I found particularly
-                        challenging.
-                    </p>
-                    <p>
-                        The site has a differentiated error-handling and is
-                        protected against SQL-injection, clickjacking, XSS- and
-                        CSRF-attacks.
-                    </p>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -232,7 +254,9 @@
                 /></a>
             </div>
             <div class="flex-column space-evenly">
-                <h3>Kaleidoscope</h3>
+                <a href="http://kaleidoscop.herokuapp.com/" target="_blank"
+                    ><h3>Kaleidoscope</h3></a
+                >
 
                 <div class="flex-row">
                     <img
@@ -270,15 +294,21 @@
         <!-- //////////// Spotify Search //////////// -->
 
         <div>
+            <div class="image-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/spotify_search/"
+                    target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/spotify.png"
+                        alt="screenshot of spotify search, displaying search results for 'monae'"
+                /></a>
+            </div>
             <a
                 href="http://kaleidoscop.herokuapp.com/spotify_search/"
                 target="_blank"
-                ><img
-                    class="fifty-percent"
-                    src="/images/spotify.png"
-                    alt="screenshot of spotify search, displaying search results for 'monae'"
-            /></a>
-            <h3>Spotify Search</h3>
+                ><h3>Spotify Search</h3></a
+            >
             <div>
                 <div class="flex-row">
                     <img
@@ -293,42 +323,55 @@
                     </p>
                 </div>
                 <!-- Zum Ausklappen -->
-                <button @click="toggleSpotify">
+                <div>
+                    <details>
+                        <summary>More info</summary>
+                        <p>
+                            Still not having a Spotify account myself,
+                            nonetheless I programmed a user interface to search
+                            via an API the spotify database. When you search for
+                            an artist or album the first 20 search items are
+                            displayed with an image of the album and the name of
+                            the artist. If you've reached the bottom, you can
+                            click 'More' to load the next 20 items. I also added
+                            infinite scroll. I used jQuery, clickhandlers,
+                            several ajax 'GET'-requests, CSS flexbox and all
+                            kinds of animations with pseudo-selectors - fun! I
+                            found it quite difficult to figure out the order
+                            when to call which function and that they don't
+                            interfere with each other. In the end I managed and
+                            if you click on the link below you have an unlimited
+                            supply of search results - hopefully YOU have a
+                            spotify account...
+                        </p>
+                    </details>
+                </div>
+                <!-- <button @click="toggleSpotify">
                     {{ button.text }}
                 </button>
                 <div v-if="infoSpotify">
-                    <p>
-                        Still not having a Spotify account myself, nonetheless I
-                        programmed a user interface to search via an API the
-                        spotify database. When you search for an artist or album
-                        the first 20 search items are displayed with an image of
-                        the album and the name of the artist. If you've reached
-                        the bottom, you can click 'More' to load the next 20
-                        items. I also added infinite scroll. I used jQuery,
-                        clickhandlers, several ajax 'GET'-requests, CSS flexbox
-                        and all kinds of animations with pseudo-selectors - fun!
-                        I found it quite difficult to figure out the order when
-                        to call which function and that they don't interfere
-                        with each other. In the end I managed and if you click
-                        on the link below you have an unlimited supply of search
-                        results - hopefully YOU have a spotify account...
-                    </p>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <!-- //////////// Resizable Panes //////////// -->
 
         <div>
+            <div class="image-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/resizable_panes/"
+                    target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/panes.png"
+                        alt="screenshot of resizable panes"
+                /></a>
+            </div>
             <a
                 href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                 target="_blank"
-                ><img
-                    class="fifty-percent"
-                    src="/images/panes.png"
-                    alt="screenshot of resizable panes"
-            /></a>
-            <h3>Resizable Panes</h3>
+                ><h3>Resizable Panes</h3></a
+            >
             <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
@@ -341,34 +384,45 @@
                 </p>
             </div>
             <!-- Zum Ausklappen -->
-            <button @click="togglePanes">
+            <div>
+                <details>
+                    <summary>More info</summary>
+                    <p>
+                        2 images blending into each other, usually used for
+                        before-after-images. I used it to commemorate my
+                        great-grandmother Emilie Rau. If you click on the white
+                        slider in the middle and slide it to the left you will
+                        see more of the image on the right-hand side and vice
+                        versa. Programming-wise I used mousedown, mousemove and
+                        mouseup events and offset().left became a good friend.
+                        It was difficult to end the sliding within the
+                        boundaries of the pane.
+                    </p>
+                </details>
+            </div>
+            <!-- <button @click="togglePanes">
                 {{ button.text }}
             </button>
             <div v-if="infoPanes">
-                <p>
-                    2 images blending into each other, usually used for
-                    before-after-images. I used it to commemorate my
-                    great-grandmother Emilie Rau. If you click on the white
-                    slider in the middle and slide it to the left you will see
-                    more of the image on the right-hand side and vice versa.
-                    Programming-wise I used mousedown, mousemove and mouseup
-                    events and offset().left became a good friend. It was
-                    difficult to end the sliding within the boundaries of the
-                    pane.
-                </p>
-            </div>
+            </div> -->
         </div>
 
         <!-- //////////// Connect 4 //////////// -->
 
         <div>
+            <div class="image-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/connect4/"
+                    target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/connect4.png"
+                        alt="screenshot of connect four, both colors in the game"
+                /></a>
+            </div>
             <a href="http://kaleidoscop.herokuapp.com/connect4/" target="_blank"
-                ><img
-                    class="fifty-percent"
-                    src="/images/connect4.png"
-                    alt="screenshot of connect four, both colors in the game"
-            /></a>
-            <h3>Connect 4</h3>
+                ><h3>Connect 4</h3></a
+            >
             <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
@@ -382,37 +436,49 @@
                 </p>
             </div>
             <!-- Zum Ausklappen -->
-            <button @click="toggleConnect">
+            <div>
+                <details>
+                    <summary>More info</summary>
+                    <p>
+                        I loved playing Connect 4 as a child - and I still do
+                        today! I never thought I would build one as a computer
+                        game. The hardest part was figuring out and programming
+                        the diagonal victories. You can either pick dark-red or
+                        pink to play. Every move is accompanied by a sound. When
+                        one color wins, the whole board expands and the winning
+                        color fills the screen. This animation I did with
+                        jQuery. Additionally, there is a winning-message
+                        blinking - I programmed this in CSS with animations and
+                        keyframes. The 'Play again' button restarts a new game -
+                        you should give it a shot!
+                    </p>
+                </details>
+            </div>
+            <!-- <button @click="toggleConnect">
                 {{ button.text }}
             </button>
             <div v-if="infoConnect">
-                <p>
-                    I loved playing Connect 4 as a child - and I still do today!
-                    I never thought I would build one as a computer game. The
-                    hardest part was figuring out and programming the diagonal
-                    victories. You can either pick dark-red or pink to play.
-                    Every move is accompanied by a sound. When one color wins,
-                    the whole board expands and the winning color fills the
-                    screen. This animation I did with jQuery. Additionally,
-                    there is a winning-message blinking - I programmed this in
-                    CSS with animations and keyframes. The 'Play again' button
-                    restarts a new game - you should give it a shot!
-                </p>
-            </div>
+            </div> -->
         </div>
 
         <!-- //////////// Kitty Carousel //////////// -->
 
         <div>
+            <div class="image-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
+                    target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/carousel.png"
+                        alt="screenshot of imageboard graffiti and street art displaying landing page"
+                /></a>
+            </div>
             <a
                 href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                 target="_blank"
-                ><img
-                    class="fifty-percent"
-                    src="/images/carousel.png"
-                    alt="screenshot of imageboard graffiti and street art displaying landing page"
-            /></a>
-            <h3>Kitty Carousel</h3>
+                ><h3>Kitty Carousel</h3></a
+            >
             <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
@@ -425,35 +491,46 @@
                 </p>
             </div>
             <!-- Zum Ausklappen -->
-            <button @click="toggleCarousel">
+            <div>
+                <details>
+                    <summary>More info</summary>
+                    <p>
+                        4 kitty-images move from right to left in an endless
+                        loop, one image per second. You can also pick a specific
+                        image by clicking on the corresponding white dot. Timing
+                        and space was important to program the carousel,
+                        including the addition and removal of querySelectors,
+                        eventListeners and clickHandlers. It was also the first
+                        time I worked with CSS-transitions. It's cute, ain't it?
+                        Click on the link to watch the kitties carouseling...
+                    </p>
+                </details>
+            </div>
+            <!-- <button @click="toggleCarousel">
                 {{ button.text }}
             </button>
             <div v-if="infoCarousel">
-                <p>
-                    4 kitty-images move from right to left in an endless loop,
-                    one image per second. You can also pick a specific image by
-                    clicking on the corresponding white dot. Timing and space
-                    was important to program the carousel, including the
-                    addition and removal of querySelectors, eventListeners and
-                    clickHandlers. It was also the first time I worked with
-                    CSS-transitions. It's cute, ain't it? Click on the link to
-                    watch the kitties carouseling...
-                </p>
-            </div>
+            </div> -->
         </div>
 
         <!-- //////////// Spiced Homepage //////////// -->
 
         <div>
+            <div class="image-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
+                    target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/spiced.png"
+                        alt="screenshot of spiced homepage"
+                /></a>
+            </div>
             <a
                 href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
                 target="_blank"
-                ><img
-                    class="fifty-percent"
-                    src="/images/spiced.png"
-                    alt="screenshot of spiced homepage"
-            /></a>
-            <h3>Spiced Homepage</h3>
+                ><h3>Spiced Homepage</h3></a
+            >
             <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
@@ -466,35 +543,46 @@
                     smaller screens
                 </p>
             </div>
+            <div>
+                <details>
+                    <summary>More info</summary>
+                    <p>
+                        An exercise in building a homepage for Spiced with HTML,
+                        CSS and JavaScript/jQuery without flexbox or grid -
+                        quite challenging! I worked on it several times, adding
+                        a pop-up modal and a menu that slides in from the right.
+                        It is also designed for a smaller screen with @media
+                        screen. I used animations, click handlers and
+                        (dis)played (with) in/visibility.
+                    </p>
+                </details>
+            </div>
             <!-- Zum Ausklappen -->
-            <button @click="toggleSpiced">
+            <!-- <button @click="toggleSpiced">
                 {{ button.text }}
             </button>
             <div v-if="infoSpiced">
-                <p>
-                    An exercise in building a homepage for Spiced with HTML, CSS
-                    and JavaScript/jQuery without flexbox or grid - quite
-                    challenging! I worked on it several times, adding a pop-up
-                    modal and a menu that slides in from the right. It is also
-                    designed for a smaller screen with @media screen. I used
-                    animations, click handlers and (dis)played (with)
-                    in/visibility.
-                </p>
-            </div>
+            </div> -->
         </div>
 
         <!-- //////////// Local Storage //////////// -->
 
         <div>
+            <div class="image-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/local_storage/"
+                    target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/localstorage.png"
+                        alt="screenshot of local storage project"
+                /></a>
+            </div>
             <a
                 href="http://kaleidoscop.herokuapp.com/local_storage/"
                 target="_blank"
-                ><img
-                    class="fifty-percent"
-                    src="/images/localstorage.png"
-                    alt="screenshot of local storage project"
-            /></a>
-            <h3>Local Storage</h3>
+                ><h3>Local Storage</h3></a
+            >
             <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
@@ -507,36 +595,48 @@
                 </p>
             </div>
             <!-- Zum Ausklappen -->
-            <button @click="toggleStorage">
+            <div>
+                <details>
+                    <summary>More info</summary>
+                    <p>
+                        Working with local storage was fun. If you write
+                        something in the text field and click the button 'Keep
+                        it a secret!' the text disappears and the button cannot
+                        be clicked again (to keep what was saved to local
+                        storage). The button left to this ('Tell me the
+                        secret!') reveals what was saved, even after the browser
+                        was closed. The last button ('I don't trust you anymore
+                        - forget my secret!') clears the local storage and the
+                        console. I worked with jQuery using click handlers and
+                        try-catch error-handling.
+                    </p>
+                </details>
+            </div>
+            <!-- <button @click="toggleStorage">
                 {{ button.text }}
             </button>
             <div v-if="infoStorage">
-                <p>
-                    Working with local storage was fun. If you write something
-                    in the text field and click the button 'Keep it a secret!'
-                    the text disappears and the button cannot be clicked again
-                    (to keep what was saved to local storage). The button left
-                    to this ('Tell me the secret!') reveals what was saved, even
-                    after the browser was closed. The last button ('I don't
-                    trust you anymore - forget my secret!') clears the local
-                    storage and the console. I worked with jQuery using click
-                    handlers and try-catch error-handling.
-                </p>
-            </div>
+            </div> -->
         </div>
 
         <!-- //////////// JSON-validator //////////// -->
 
         <div>
+            <div class="image-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/JSON_validator/"
+                    target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/JSON.png"
+                        alt="screenshot of JSON-validator displaying vald JSON in green"
+                /></a>
+            </div>
             <a
                 href="http://kaleidoscop.herokuapp.com/JSON_validator/"
                 target="_blank"
-                ><img
-                    class="fifty-percent"
-                    src="/images/JSON.png"
-                    alt="screenshot of JSON-validator displaying vald JSON in green"
-            /></a>
-            <h3>JSON-validator</h3>
+                ><h3>JSON-validator</h3></a
+            >
             <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
@@ -546,34 +646,45 @@
                 <p><b>Features:</b> Test if data is JSON or not</p>
             </div>
             <!-- Zum Ausklappen -->
-            <button @click="toggleJSON">
+            <div>
+                <details>
+                    <summary>More info</summary>
+                    <p>
+                        This simple validation test tells you if you have JSON
+                        or not. Simply copy-paste in the textfield and hit the
+                        'Validate JSON' button. If you have JSON, the border of
+                        the textfield turns into green and a 'Valid JSON!' text
+                        blinks at the bottom of the textfield. If you don't have
+                        valid JSON, the border turns red and it will let you
+                        know that you do not have valid JSON. 'Clear textarea'
+                        to test some more... Done with jQuery with the
+                        parse()-method and flexbox and keyframes in CSS.
+                    </p>
+                </details>
+            </div>
+            <!-- <button @click="toggleJSON">
                 {{ button.text }}
             </button>
             <div v-if="infoJSON">
-                <p>
-                    This simple validation test tells you if you have JSON or
-                    not. Simply copy-paste in the textfield and hit the
-                    'Validate JSON' button. If you have JSON, the border of the
-                    textfield turns into green and a 'Valid JSON!' text blinks
-                    at the bottom of the textfield. If you don't have valid
-                    JSON, the border turns red and it will let you know that you
-                    do not have valid JSON. 'Clear textarea' to test some
-                    more... Done with jQuery with the parse()-method and flexbox
-                    and keyframes in CSS.
-                </p>
-            </div>
+            </div> -->
         </div>
 
         <!-- //////////// Ticker //////////// -->
 
         <div>
+            <div class="image-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/ticker/"
+                    target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/ticker.png"
+                        alt="screenshot of ticker running"
+                /></a>
+            </div>
             <a href="http://kaleidoscop.herokuapp.com/ticker/" target="_blank"
-                ><img
-                    class="fifty-percent"
-                    src="/images/ticker.png"
-                    alt="screenshot of ticker running"
-            /></a>
-            <h3>Ticker</h3>
+                ><h3>Ticker</h3></a
+            >
             <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
@@ -586,38 +697,50 @@
                 </p>
             </div>
             <!-- Zum Ausklappen -->
-            <button @click="toggleTicker">
+            <div>
+                <details>
+                    <summary>More info</summary>
+                    <p>
+                        Tickers are a bit outdated, but a good programming
+                        exercise. Mine runs from right to left, and if you
+                        mouseover on one of the titles the ticker stops running,
+                        the hyperlink becomes blue and underlined and if clicked
+                        the desired information opens in a new tab. The
+                        programming is in vanilla JavaScript with event
+                        listeners, mouseovers, mouseouts, offsetWidth and
+                        AnimationFrames among other things. If you wanna deep
+                        dive into my ticker you get to read all my texts that
+                        got translated into English... In a later exercise we
+                        added a backend and fetched live data from existing
+                        twitter-accounts through the twitter-API using tokens.
+                    </p>
+                </details>
+            </div>
+            <!-- <button @click="toggleTicker">
                 {{ button.text }}
             </button>
             <div v-if="infoTicker">
-                <p>
-                    Tickers are a bit outdated, but a good programming exercise.
-                    Mine runs from right to left, and if you mouseover on one of
-                    the titles the ticker stops running, the hyperlink becomes
-                    blue and underlined and if clicked the desired information
-                    opens in a new tab. The programming is in vanilla JavaScript
-                    with event listeners, mouseovers, mouseouts, offsetWidth and
-                    AnimationFrames among other things. If you wanna deep dive
-                    into my ticker you get to read all my texts that got
-                    translated into English... In a later exercise we added a
-                    backend and fetched live data from existing twitter-accounts
-                    through the twitter-API using tokens.
-                </p>
-            </div>
+            </div> -->
         </div>
 
         <!-- //////////// Incremental Search //////////// -->
 
         <div>
+            <div class="image-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/incremental_search/"
+                    target="_blank"
+                    ><img
+                        class="fifty-percent"
+                        src="/images/incremental_search.png"
+                        alt="screenshot of incremental search displaying search results for 'ca'"
+                /></a>
+            </div>
             <a
                 href="http://kaleidoscop.herokuapp.com/incremental_search/"
                 target="_blank"
-                ><img
-                    class="fifty-percent"
-                    src="/images/incremental_search.png"
-                    alt="screenshot of incremental search displaying search results for 'ca'"
-            /></a>
-            <h3>Incremental Search</h3>
+                ><h3>Incremental Search</h3></a
+            >
             <div class="flex-row">
                 <img
                     src="/icons/checklist.svg"
@@ -629,101 +752,106 @@
                 </p>
             </div>
             <!-- Zum Ausklappen -->
-            <button @click="toggleIncremental">
+            <div>
+                <details>
+                    <summary>More info</summary>
+                    <p>
+                        I have used incremental searches many times in my life
+                        and did not even know this term until I had to build
+                        one... I never thought about all the different steps
+                        that need to be programmed. I learned how to work with
+                        mouseovers, mousedowns and key-commands and how to
+                        highlight my search result, all programmed with jQuery.
+                        I also used focus and blur when a user's attention blurs
+                        (pun intended 😉) and after all it was my first ajax
+                        'GET'-request to search from an API serving over 200
+                        countries.
+                    </p>
+                </details>
+            </div>
+            <!-- <button @click="toggleIncremental">
                 {{ button.text }}
             </button>
-            <div v-if="infoIncremental">
-                <p>
-                    I have used incremental searches many times in my life and
-                    did not even know this term until I had to build one... I
-                    never thought about all the different steps that need to be
-                    programmed. I learned how to work with mouseovers,
-                    mousedowns and key-commands and how to highlight my search
-                    result, all programmed with jQuery. I also used focus and
-                    blur when a user's attention blurs (pun intended 😉) and
-                    after all it was my first ajax 'GET'-request to search from
-                    an API serving over 200 countries.
-                </p>
-            </div>
+            <div v-if="infoIncremental"></div> -->
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            button: {
-                text: 'More info'
-            },
-            infoSocialNetwork: false,
-            infoImageboard: false,
-            infoPetition: false,
-            infoSpotify: false,
-            infoPanes: false,
-            infoConnect: false,
-            infoCarousel: false,
-            infoSpiced: false,
-            infoStorage: false,
-            infoJSON: false,
-            infoTicker: false,
-            infoIncremental: false
-        }
-    },
-    methods: {
-        toggleSocialNetwork(e) {
-            // e.stopPropagation()
-            // e.preventDefault()
-            this.infoSocialNetwork = !this.infoSocialNetwork
-            this.button.text = this.infoSocialNetwork
-                ? 'Show less'
-                : 'More info'
-        },
-        toggleImageboard() {
-            this.infoImageboard = !this.infoImageboard
-            this.button.text = this.infoImageboard ? 'Show less' : 'More info'
-        },
-        togglePetition() {
-            this.infoPetition = !this.infoPetition
-            this.button.text = this.infoPetition ? 'Show less' : 'More info'
-        },
-        toggleSpotify() {
-            this.infoSpotify = !this.infoSpotify
-            this.button.text = this.infoSpotify ? 'Show less' : 'More info'
-        },
-        togglePanes() {
-            this.infoPanes = !this.infoPanes
-            this.button.text = this.infoPanes ? 'Show less' : 'More info'
-        },
-        toggleConnect() {
-            this.infoConnect = !this.infoConnect
-            this.button.text = this.infoConnect ? 'Show less' : 'More info'
-        },
-        toggleCarousel() {
-            this.infoCarousel = !this.infoCarousel
-            this.button.text = this.infoCarousel ? 'Show less' : 'More info'
-        },
-        toggleSpiced() {
-            this.infoSpiced = !this.infoSpiced
-            this.button.text = this.infoSpiced ? 'Show less' : 'More info'
-        },
-        toggleStorage() {
-            this.infoStorage = !this.infoStorage
-            this.button.text = this.infoStorage ? 'Show less' : 'More info'
-        },
-        toggleJSON() {
-            this.infoJSON = !this.infoJSON
-            this.button.text = this.infoJSON ? 'Show less' : 'More info'
-        },
-        toggleTicker() {
-            this.infoTicker = !this.infoTicker
-            this.button.text = this.infoTicker ? 'Show less' : 'More info'
-        },
-        toggleIncremental() {
-            this.infoIncremental = !this.infoIncremental
-            this.button.text = this.infoIncremental ? 'Show less' : 'More info'
-        }
-    },
+    // data() {
+    //     return {
+    //         button: {
+    //             text: 'More info'
+    //         },
+    //         infoSocialNetwork: false,
+    //         infoImageboard: false,
+    //         infoPetition: false,
+    //         infoSpotify: false,
+    //         infoPanes: false,
+    //         infoConnect: false,
+    //         infoCarousel: false,
+    //         infoSpiced: false,
+    //         infoStorage: false,
+    //         infoJSON: false,
+    //         infoTicker: false,
+    //         infoIncremental: false
+    //     }
+    // },
+    // methods: {
+    //     toggleSocialNetwork(e) {
+    //         // e.stopPropagation()
+    //         // e.preventDefault()
+    //         this.infoSocialNetwork = !this.infoSocialNetwork
+    //         this.button.text = this.infoSocialNetwork
+    //             ? 'Show less'
+    //             : 'More info'
+    //     },
+    //     toggleImageboard() {
+    //         this.infoImageboard = !this.infoImageboard
+    //         this.button.text = this.infoImageboard ? 'Show less' : 'More info'
+    //     },
+    //     togglePetition() {
+    //         this.infoPetition = !this.infoPetition
+    //         this.button.text = this.infoPetition ? 'Show less' : 'More info'
+    //     },
+    //     toggleSpotify() {
+    //         this.infoSpotify = !this.infoSpotify
+    //         this.button.text = this.infoSpotify ? 'Show less' : 'More info'
+    //     },
+    //     togglePanes() {
+    //         this.infoPanes = !this.infoPanes
+    //         this.button.text = this.infoPanes ? 'Show less' : 'More info'
+    //     },
+    //     toggleConnect() {
+    //         this.infoConnect = !this.infoConnect
+    //         this.button.text = this.infoConnect ? 'Show less' : 'More info'
+    //     },
+    //     toggleCarousel() {
+    //         this.infoCarousel = !this.infoCarousel
+    //         this.button.text = this.infoCarousel ? 'Show less' : 'More info'
+    //     },
+    //     toggleSpiced() {
+    //         this.infoSpiced = !this.infoSpiced
+    //         this.button.text = this.infoSpiced ? 'Show less' : 'More info'
+    //     },
+    //     toggleStorage() {
+    //         this.infoStorage = !this.infoStorage
+    //         this.button.text = this.infoStorage ? 'Show less' : 'More info'
+    //     },
+    //     toggleJSON() {
+    //         this.infoJSON = !this.infoJSON
+    //         this.button.text = this.infoJSON ? 'Show less' : 'More info'
+    //     },
+    //     toggleTicker() {
+    //         this.infoTicker = !this.infoTicker
+    //         this.button.text = this.infoTicker ? 'Show less' : 'More info'
+    //     },
+    //     toggleIncremental() {
+    //         this.infoIncremental = !this.infoIncremental
+    //         this.button.text = this.infoIncremental ? 'Show less' : 'More info'
+    //     }
+    // },
     head() {
         return {
             title: 'Software - Andreas Hechler',
@@ -738,12 +866,6 @@ export default {
     margin: 2em;
 }
 
-h1 {
-    font-size: 4em;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
 h2 {
     font-size: 3em;
     padding-bottom: 1em;
@@ -753,11 +875,8 @@ h3 {
     font-size: 2.2em;
 }
 
-p {
-    /* margin-bottom: 0.4em; */
-}
-
 .grid-container {
+    /* height: 100vh; */
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -766,8 +885,33 @@ p {
     width: 100%;
 }
 
+.image-container:hover {
+    filter: brightness(110%);
+}
+
 .space-evenly {
     justify-content: space-evenly;
+}
+
+details {
+    font-size: 1.2em;
+}
+
+details > summary {
+    padding: 2px 6px;
+    width: 15em;
+    background-color: #ddd;
+    border: none;
+    /* box-shadow: 3px 3px 2px black; */
+    cursor: pointer;
+}
+
+details > p {
+    font-size: 1em;
+    background-color: #ddd;
+    padding: 2px 6px;
+    margin: 0;
+    /* box-shadow: 3px 3px 4px black; */
 }
 
 .social-media-logo {

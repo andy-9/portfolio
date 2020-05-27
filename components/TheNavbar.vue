@@ -50,9 +50,9 @@
 <style scoped>
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 2em;
     font-weight: lighter;
     letter-spacing: 0.5px;
 }

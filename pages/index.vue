@@ -61,7 +61,7 @@
                         target="_blank"
                     >
                         <img
-                            src="/icons/academia.svg"
+                            src="/icons/academia.png"
                             alt="academia-logo"
                             class="social-media-logo"
                     /></a>
