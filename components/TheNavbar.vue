@@ -28,7 +28,10 @@
             >
         </div>
         <div class="">
-            <nuxt-link class="" :to="{ name: 'about' }" title="Who is this guy?"
+            <nuxt-link
+                class=""
+                :to="{ name: 'about' }"
+                title="Who is Andreas Hechler?"
                 >About</nuxt-link
             >
         </div>

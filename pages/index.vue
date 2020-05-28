@@ -1,85 +1,84 @@
 <template>
-    <div class="container">
+    <div class="home-container">
+        <!-- <logo /> -->
+
+        <div id="img-container">
+            <img src="/images/ah.jpg" alt="Andreas Hechler" />
+        </div>
+
         <div>
-            <!-- <logo /> -->
             <h1 class="title">
                 Andreas Hechler
             </h1>
+
             <h2 class="subtitle">
                 Software | Agility | Coaching | Antidiscrimination
             </h2>
+            <div id="copyright">© Andreas Hechler 2020</div>
 
-            <img src="/images/ah.jpg" alt="Andreas Hechler" />
+            <div class="social-media">
+                <a href="https://github.com/andy-9" target="_blank">
+                    <img
+                        src="/icons/logo-github.svg"
+                        alt="github logo"
+                        class="social-media-logo"
+                    />
+                </a>
 
-            <div>
-                <div id="copyright">© Andreas Hechler 2020</div>
+                <a
+                    href="https://www.linkedin.com/in/andreas-hechler-810172192"
+                    target="_blank"
+                >
+                    <img
+                        src="/icons/logo-linkedin.svg"
+                        alt="linkedin-logo"
+                        class="social-media-logo"
+                    />
+                </a>
 
-                <div class="social-media">
-                    <a href="https://github.com/andy-9" target="_blank">
-                        <img
-                            src="/icons/logo-github.svg"
-                            alt="github logo"
-                            class="social-media-logo"
-                        />
-                    </a>
+                <a
+                    href="https://www.xing.com/profile/Andreas_Hechler10"
+                    target="_blank"
+                >
+                    <img
+                        src="/icons/logo-xing.svg"
+                        alt="xing-logo"
+                        class="social-media-logo"
+                    />
+                </a>
 
-                    <a
-                        href="https://www.linkedin.com/in/andreas-hechler-810172192"
-                        target="_blank"
-                    >
-                        <img
-                            src="/icons/logo-linkedin.svg"
-                            alt="linkedin-logo"
-                            class="social-media-logo"
-                        />
-                    </a>
+                <a href="https://twitter.com/HechlerAndreas" target="_blank">
+                    <img
+                        src="/icons/logo-twitter.svg"
+                        alt="twitter-logo"
+                        class="social-media-logo"
+                    />
+                </a>
 
-                    <a
-                        href="https://www.xing.com/profile/Andreas_Hechler10"
-                        target="_blank"
-                    >
-                        <img
-                            src="/icons/logo-xing.svg"
-                            alt="xing-logo"
-                            class="social-media-logo"
-                        />
-                    </a>
+                <a
+                    href="https://dissens.academia.edu/AndreasHechler"
+                    target="_blank"
+                >
+                    <img
+                        src="/icons/academia.png"
+                        alt="academia-logo"
+                        class="social-media-logo"
+                /></a>
 
-                    <a
-                        href="https://twitter.com/HechlerAndreas"
-                        target="_blank"
-                    >
-                        <img
-                            src="/icons/logo-twitter.svg"
-                            alt="twitter-logo"
-                            class="social-media-logo"
-                        />
-                    </a>
-
-                    <a
-                        href="https://dissens.academia.edu/AndreasHechler"
-                        target="_blank"
-                    >
-                        <img
-                            src="/icons/academia.png"
-                            alt="academia-logo"
-                            class="social-media-logo"
-                    /></a>
-
-                    <a
-                        href="https://www.researchgate.net/profile/Andreas_Hechler"
-                        target="_blank"
-                    >
-                        <img
-                            src="/icons/researchgate-icon.svg"
-                            alt="researchgate-logo"
-                            class="social-media-logo"
-                        />
-                    </a>
-                </div>
+                <a
+                    href="https://www.researchgate.net/profile/Andreas_Hechler"
+                    target="_blank"
+                >
+                    <img
+                        src="/icons/researchgate-icon.svg"
+                        alt="researchgate-logo"
+                        class="social-media-logo"
+                    />
+                </a>
             </div>
+        </div>
 
-            <!-- <div class="links">
+        <!-- <div class="links">
                 <a
                     href="https://nuxtjs.org/"
                     target="_blank"
@@ -95,7 +94,6 @@
                     GitHub
                 </a>
             </div> -->
-        </div>
     </div>
 </template>
 
@@ -117,24 +115,18 @@ export default {
 </script>
 
 <style>
-.container {
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .title {
     font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
         BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
         sans-serif;
-    display: block;
-    font-weight: 300;
     font-size: 100px;
-    color: #35495e;
+    font-weight: 300;
     letter-spacing: 1px;
+    color: #35495e;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    /* display: block; */
 }
 
 .subtitle {
@@ -142,7 +134,32 @@ export default {
     font-size: 42px;
     color: #526488;
     word-spacing: 5px;
+    /* position: absolute; */
     padding-bottom: 15px;
+}
+</style>
+
+<style scoped>
+.home-container {
+    /* margin: 0 auto; */
+    /* min-height: 100vh; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#img-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#img-container img {
+    /* max-height: 100%; */
+    /* width: auto; */
+    width: 90%;
 }
 
 .links {

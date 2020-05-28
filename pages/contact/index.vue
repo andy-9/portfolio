@@ -1,11 +1,12 @@
 <template>
     <div id="contact-container">
         <h1>Contact</h1>
+
         <div class="content">
             <div class="flex-column info-left">
                 <p class="white">
-                    If you want to get in touch I'll be happy to receive an
-                    email or see you on my social media profiles.
+                    I'll be happy to receive an email or meet you on my social
+                    media profiles.
                 </p>
                 <div>
                     <img
@@ -135,6 +136,9 @@ body > * {
 }
 
 h1 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 4em;
+    letter-spacing: 0.4em;
     margin-left: 3%;
 }
 

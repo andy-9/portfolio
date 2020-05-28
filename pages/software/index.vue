@@ -866,6 +866,12 @@ export default {
     margin: 2em;
 }
 
+h1 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 4em;
+    letter-spacing: 0.4em;
+}
+
 h2 {
     font-size: 3em;
     padding-bottom: 1em;
@@ -915,6 +921,8 @@ details > p {
 }
 
 .social-media-logo {
+    height: 30px;
+    width: 30px;
     font-size: 1.2em;
     margin-right: 0.5em;
 }

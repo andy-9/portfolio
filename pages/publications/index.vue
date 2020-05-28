@@ -1047,6 +1047,7 @@ export default {
 h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 4em;
+    letter-spacing: 0.4em;
     margin-bottom: 1%;
 }
 

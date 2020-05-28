@@ -31,12 +31,12 @@ body {
 .layout-leave-active {
     opacity: 0;
 }
-
+/* 
 h1 {
     font-family: 'Baloo 2', cursive;
     font-size: 4em;
     letter-spacing: 0.4em;
-}
+} */
 
 p {
     font-size: 1.2em;

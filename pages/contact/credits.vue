@@ -1,6 +1,7 @@
 <template>
     <div id="credits-container">
-        <h1 class="white">Credits</h1>
+        <h1 id="credits-heading">Credits</h1>
+
         <div id="credit-paragraphs">
             <p>
                 Checklist icon from Seekicon. Academia icon from Pinclipart. All
@@ -11,11 +12,11 @@
                 Imprint image from Elviss Railijs.
             </p>
             <p>
-                Inspirations found on CSS-tricks, codepen.io, and stack
-                overflow.
+                Inspirations and code-snippets found on CSS-tricks, codepen.io,
+                and stack overflow.
             </p>
             <p>...and probably way more resources I forgot 🙃</p>
-            <p>A special thanks to Spiced Academy, MSG, Jan & Andy.</p>
+            <p>A special thanks to Spiced Academy, MSG, Jan, Gino & Andy.</p>
         </div>
     </div>
 </template>
@@ -54,6 +55,12 @@ body,
     background-attachment: fixed;
     text-align: right;
     padding: 5%;
+}
+
+#credits-heading {
+    font-size: 4em;
+    letter-spacing: 0.4em;
+    color: white;
 }
 
 #credit-paragraphs > p {
