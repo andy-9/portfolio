@@ -7,7 +7,7 @@
             <nuxt-link
                 class=""
                 :to="{ name: 'software' }"
-                title="bigger and smaller projects I have built as a software engineer"
+                title="Bigger and smaller projects I have built as a software engineer"
                 >Software</nuxt-link
             >
         </div>
@@ -15,7 +15,7 @@
             <nuxt-link
                 class=""
                 :to="{ name: 'coaching' }"
-                title="coaching, education, evaluation and other things I do"
+                title="Coaching, education, evaluation and other things I do"
                 >Coaching</nuxt-link
             >
         </div>
@@ -23,24 +23,39 @@
             <nuxt-link
                 class=""
                 :to="{ name: 'publications' }"
-                title="writing and talking"
+                title="Writing and speaking"
                 >Publications</nuxt-link
             >
         </div>
         <div class="">
-            <nuxt-link class="" :to="{ name: 'about' }" title="who is this guy?"
+            <nuxt-link class="" :to="{ name: 'about' }" title="Who is this guy?"
                 >About</nuxt-link
             >
         </div>
         <div class="">
-            <nuxt-link class="" :to="{ name: 'contact' }" title="get in touch"
+            <nuxt-link
+                class=""
+                :to="{ name: 'contact' }"
+                title="Get in touch, imprint & credits"
                 >Contact</nuxt-link
             >
         </div>
         <div class="">
-            <!-- <nuxt-link class="" :to="{ name: 'language' }"> -->
-            EN | DE
-            <!-- </nuxt-link> -->
+            <nuxt-link
+                class=""
+                :to="{ name: 'language' }"
+                title="Switch to English"
+            >
+                EN</nuxt-link
+            >
+            |
+            <nuxt-link
+                class=""
+                :to="{ name: 'language' }"
+                title="Auf Deutsch anzeigen"
+            >
+                DE
+            </nuxt-link>
         </div>
     </nav>
 </template>

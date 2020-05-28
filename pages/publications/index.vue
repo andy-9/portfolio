@@ -1,10 +1,35 @@
 <template>
     <div class="publications-container">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+            rel="stylesheet"
+        />
+
         <nuxt-link :to="{ path: 'publications', hash: '#deutsch' }"
             >deutsch
         </nuxt-link>
 
         <h1>Publications</h1>
+
+        <div id="peeler" class="peeler-transition">
+            <div class="reveal circle_wrapper">
+                <p class="circle">...but better read this stuff! 📚</p>
+            </div>
+
+            <div class="sticky peeler-transition">
+                <div class="front circle_wrapper peeler-transition">
+                    <div class="circle peeler-transition"></div>
+                </div>
+            </div>
+
+            <h4>Peel me!</h4>
+
+            <div class="sticky peeler-transition">
+                <div class="back circle_wrapper peeler-transition">
+                    <div class="circle peeler-transition"></div>
+                </div>
+            </div>
+        </div>
 
         <p>I do not only write code.</p>
         <p>
@@ -68,9 +93,9 @@
 
         <hr class="margin-top-bottom-five-percent" />
 
-        <h2>English</h2>
+        <!-- ///////////////////// ENGLISH ///////////////////// -->
 
-        <h3>Publications</h3>
+        <h2>English</h2>
 
         <p>Texts on intersex and pedagogy:</p>
         <ul>
@@ -178,6 +203,8 @@
 
         <hr class="margin-top-bottom-five-percent" />
 
+        <!-- ///////////////////// FRANCAIS ///////////////////// -->
+
         <h2>Français</h2>
         <p>
             <a
@@ -189,7 +216,15 @@
 
         <hr class="margin-top-bottom-five-percent" />
 
+        <!-- ///////////////////// TÜRKCE ///////////////////// -->
+
         <h2>Türkçe</h2>
+        <p>
+            Hechler, Andreas (2020):
+            <a href="https://inter-nrw.de/tr/ev/" target="_blank"
+                >inter-nrw.de:</a
+            >
+        </p>
         <ul>
             <li>
                 <a
@@ -230,10 +265,10 @@
 
         <hr class="margin-top-bottom-five-percent" />
 
+        <!-- ///////////////////// DEUTSCH ///////////////////// -->
+
         <h2 id="deutsch">Deutsch</h2>
         <!-- <a href="#deutsch"> -->
-
-        <h3>Publikationen</h3>
 
         <p>
             Hechler, Andreas (2020): Nicht nur, sondern auch. In:
@@ -954,19 +989,159 @@ export default {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 4em;
 }
 
 h2 {
-    font-size: 3rem;
-    padding: 2% 0;
+    font-size: 2.8em;
+    padding: 0 0 2% 0;
 }
 
 h3 {
     font-size: 2rem;
 }
 
+h4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.7em;
+    text-align: center;
+    color: white;
+}
+
 p {
     margin: 1em 0;
+}
+
+#peeler {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 60%;
+    right: 6%;
+    backface-visibility: hidden;
+}
+
+.peeler-transition {
+    transition: all 750ms ease-in-out;
+}
+
+#peeler .sticky {
+    transform: rotate(225deg);
+}
+
+#peeler:hover .sticky {
+    transform: rotate(200deg);
+}
+
+#peeler .sticky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+}
+
+#peeler .reveal .circle {
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+#peeler .reveal .circle {
+    background: #fafafa;
+}
+
+#peeler .circle_wrapper {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+#peeler .circle {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+#peeler .back {
+    height: 10px;
+    top: 30px;
+}
+
+#peeler:hover .back {
+    height: 110px;
+    top: 130px;
+}
+
+#peeler .back .circle {
+    margin-top: -130px;
+    background-color: red;
+    background-image: -webkit-linear-gradient(
+        bottom,
+        rgba(251, 236, 63, 0),
+        rgba(255, 255, 255, 0.6)
+    );
+}
+
+#peeler:hover .back .circle {
+    margin-top: -50px;
+}
+
+#peeler .front {
+    height: 150px;
+    bottom: 0;
+    top: auto;
+    -webkit-box-shadow: 0 -140px 20px -140px rgba(0, 0, 0, 0.3);
+}
+
+#peeler:hover .front {
+    height: 50px;
+    -webkit-box-shadow: 0 -60px 10px -60px rgba(0, 0, 0, 0.1);
+}
+
+#peeler .front .circle {
+    margin-top: -10px;
+    background: red;
+    background-image: -webkit-linear-gradient(
+        to top,
+        rgba(251, 236, 63, 0) 75%,
+        rgb(160, 17, 17) 95%
+    );
+    background-image: -moz-linear-gradient(
+        to top,
+        rgba(251, 236, 63, 0) 75%,
+        rgb(160, 17, 17) 95%
+    );
+    background-image: linear-gradient(
+        to top,
+        rgba(251, 236, 63, 0) 75%,
+        rgb(160, 17, 17) 95%
+    );
+}
+
+#peeler h4 {
+    position: absolute;
+    width: 180px;
+    height: 140px;
+    line-height: 170px;
+    transition: opacity 50ms linear 400ms;
+}
+
+#peeler:hover h4 {
+    opacity: 0;
+    transition: opacity 50ms linear 300ms;
+    /* transform: translateY(-2px); */
+}
+
+#peeler:hover .front .circle {
+    margin-top: -90px;
+    background-color: rgb(235, 26, 26);
+    background-position: 0 100px;
 }
 </style>
