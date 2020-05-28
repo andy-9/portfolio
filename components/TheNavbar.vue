@@ -28,10 +28,7 @@
             >
         </div>
         <div class="">
-            <nuxt-link
-                class=""
-                :to="{ name: 'about' }"
-                title="Who is Andreas Hechler?"
+            <nuxt-link class="" :to="{ name: 'about' }" title="About me"
                 >About</nuxt-link
             >
         </div>
@@ -44,11 +41,15 @@
             >
         </div>
         <div class="">
-            <nuxt-link class="" :to="{ name: '' }" title="Switch to English">
+            <nuxt-link class="" :to="{ name: '' }" title="Not working yet">
                 EN</nuxt-link
             >
             |
-            <nuxt-link class="" :to="{ name: '' }" title="Auf Deutsch anzeigen">
+            <nuxt-link
+                class=""
+                :to="{ name: '' }"
+                title="Geht bisher noch nicht"
+            >
                 DE
             </nuxt-link>
         </div>
@@ -59,11 +60,12 @@
 
 <style scoped>
 nav {
+    max-height: 10vh;
+    min-height: 10vh;
     font-size: 1.2em;
+    letter-spacing: 0.5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0.4em 0 2em 0;
-    letter-spacing: 0.5px;
 }
 </style>

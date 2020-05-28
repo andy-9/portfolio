@@ -30,15 +30,15 @@
             >english</nuxt-link
         >
         <nuxt-link
-            :to="{ path: 'publications', hash: '#francais' }"
-            class="link-padding"
-            >français</nuxt-link
-        >
-        <nuxt-link
             :to="{ path: 'publications', hash: '#turkce' }"
             class="link-padding"
             >türkçe
         </nuxt-link>
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#francais' }"
+            class="link-padding"
+            >français</nuxt-link
+        >
 
         <p class="margin-top">I do not only write code.</p>
         <p>

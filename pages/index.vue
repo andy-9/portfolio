@@ -16,25 +16,25 @@
             </h2>
 
             <div id="short-bio">
-                <p>I'm a full stack web developer based in Berlin.</p>
                 <p>
-                    I'm also interested in agility in general and Scrum in
-                    particular.
+                    I'm a full stack web developer based in Berlin. I'm
+                    interested in agility in general and Scrum in particular.‎
                 </p>
                 <p>
-                    In the past years I have been in adult education, have given
-                    trainings, coached, evaluated and produced a number of
-                    articles, talks and interviews.
+                    My background is in adult education, as a trainer, coach,
+                    and I have even conducted evaluations. I am ‎also a
+                    published author and as such am invited to give interviews
+                    and lectures on my topics of expertise.‎
                 </p>
                 <p>
-                    Antidiscrimination and the challenge to create a society
-                    where people can be different without fear has been an
-                    important endeavour for me the past decades.
+                    Over the past decades, antidiscrimination and the challenge
+                    to create a society where people can be ‎different without
+                    fear has been the focus of my work.‎
                 </p>
                 <p>
                     I am fascinated by what language can do - changing people's
-                    thoughts with words or the DOM with code maintains an
-                    interesting topic to explore and will keep me busy.
+                    thoughts with words or the DOM with ‎code is the topic that
+                    keeps me busy now.‎
                 </p>
             </div>
 
@@ -175,9 +175,21 @@ export default {
 
 <style scoped>
 .home-container {
-    /* min-height: 100vh; */
+    height: 90vh;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-container {
+        height: initial;
+        padding: 20px;
+        grid-template-columns: 100%;
+    }
+
+    #img-container img {
+        width: 100%;
+    }
 }
 
 #img-container {
@@ -192,7 +204,7 @@ export default {
 }
 
 #text-container {
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 #heading-home {
@@ -219,8 +231,8 @@ export default {
 }
 
 #social-media {
-    float: right;
     width: 50%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }

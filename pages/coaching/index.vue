@@ -1,5 +1,7 @@
 <template>
+    <!-- <div id="coaching-container"> -->
     <div class="gradient"></div>
+    <!-- </div> -->
 </template>
 
 <script>
@@ -19,14 +21,11 @@ export default {
     height: 100%;
     background: linear-gradient(
         45deg,
-        #ff0000,
-        #ee7752,
-        #e73c7e,
-        #23a6d5,
-        #23d5ab
+        /* #ff0000, */ /* #ee7752, */ #e73c7e,
+        #23a6d5 /* #23d5ab */
     );
     background-size: 300% 300%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 1s ease infinite;
 }
 
 @keyframes gradient {

@@ -1,9 +1,4 @@
-<template>
-    <div class="">
-        <h1></h1>
-        <p></p>
-    </div>
-</template>
+<template> <div></div> </template>
 
 <script>
 export default {
