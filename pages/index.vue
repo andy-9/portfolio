@@ -6,17 +6,39 @@
             <img src="/images/ah.jpg" alt="Andreas Hechler" />
         </div>
 
-        <div>
-            <h1 class="title">
+        <div id="text-container">
+            <h1 id="heading-home" class="title">
                 Andreas Hechler
             </h1>
 
-            <h2 class="subtitle">
+            <h2 id="subheading-home" class="subtitle">
                 Software | Agility | Coaching | Antidiscrimination
             </h2>
-            <div id="copyright">© Andreas Hechler 2020</div>
 
-            <div class="social-media">
+            <div id="short-bio">
+                <p>I'm a full stack web developer based in Berlin.</p>
+                <p>
+                    I'm also interested in agility in general and Scrum in
+                    particular.
+                </p>
+                <p>
+                    In the past years I have been in adult education, have given
+                    trainings, coached, evaluated and produced a number of
+                    articles, talks and interviews.
+                </p>
+                <p>
+                    Antidiscrimination and the challenge to create a society
+                    where people can be different without fear has been an
+                    important endeavour for me the past decades.
+                </p>
+                <p>
+                    I am fascinated by what language can do - changing people's
+                    thoughts with words or the DOM with code maintains an
+                    interesting topic to explore and will keep me busy.
+                </p>
+            </div>
+
+            <div id="social-media">
                 <a href="https://github.com/andy-9" target="_blank">
                     <img
                         src="/icons/logo-github.svg"
@@ -105,6 +127,18 @@ export default {
     //         Logo
     //     }
     // }
+    // let hash = location.hash,
+    // let currentElem = document.querySelector(hash),
+    // function scrollToPlaces(elem) {
+    //     window.scrollTo({
+    //         'behavior': 'smooth',
+    //         'left': 0,
+    //         'top': elem.offsetTop
+    //     });
+    // }
+    // if (currentElem) {
+    //     scrollToPlaces(currentElem)
+    // },
     head() {
         return {
             title: 'Andreas Hechler Portfolio',
@@ -116,13 +150,13 @@ export default {
 
 <style>
 .title {
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
+    /* font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
         BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
         sans-serif;
     font-size: 100px;
     font-weight: 300;
     letter-spacing: 1px;
-    color: #35495e;
+    color: #35495e; */
     /* position: absolute; */
     /* left: 50%; */
     /* transform: translateX(-50%); */
@@ -130,23 +164,18 @@ export default {
 }
 
 .subtitle {
-    font-weight: 300;
+    /* font-weight: 300;
     font-size: 42px;
     color: #526488;
     word-spacing: 5px;
-    /* position: absolute; */
-    padding-bottom: 15px;
+    position: absolute; */
+    /* padding-bottom: 15px; */
 }
 </style>
 
 <style scoped>
 .home-container {
-    /* margin: 0 auto; */
     /* min-height: 100vh; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -162,8 +191,38 @@ export default {
     width: 90%;
 }
 
-.links {
-    padding-top: 15px;
+#text-container {
+    margin-right: 5%;
+}
+
+#heading-home {
+    font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        sans-serif;
+    font-size: 6em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #35495e;
+}
+
+#subheading-home {
+    font-weight: 300;
+    font-size: 2em;
+    color: #526488;
+    word-spacing: 5px;
+    /* position: absolute; */
+    padding-bottom: 15px;
+}
+
+#short-bio > p {
+    margin: 2% 0;
+}
+
+#social-media {
+    float: right;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .social-media-logo {

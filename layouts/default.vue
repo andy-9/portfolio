@@ -6,6 +6,11 @@
         />
 
         <TheNavbar />
+
+        <!-- <transition name="fade" mode="out-in">
+            <router-view :key="$route.path" />
+        </transition> -->
+
         <nuxt />
     </div>
 </template>
