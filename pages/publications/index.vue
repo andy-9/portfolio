@@ -4,12 +4,117 @@
             href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
             rel="stylesheet"
         />
-
-        <nuxt-link :to="{ path: 'publications', hash: '#deutsch' }"
-            >deutsch
-        </nuxt-link>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
+            rel="stylesheet"
+        />
 
         <h1>Publications</h1>
+
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#deutsch' }"
+            class="link-padding"
+            >deutsch</nuxt-link
+        >
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#english' }"
+            class="link-padding"
+            >english</nuxt-link
+        >
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#francais' }"
+            class="link-padding"
+            >français</nuxt-link
+        >
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#turkce' }"
+            class="link-padding"
+            >türkçe
+        </nuxt-link>
+
+        <p class="margin-top">I do not only write code.</p>
+        <p>
+            I have written a number of articles in the past years, ranging from
+            scientific articles to blogposts.
+        </p>
+        <p>
+            Topics I deal with range from National Socialist 'euthanasia' and
+            right-wing extremism, masculinity and sexism to intersex-related
+            topics. You can find out more
+            <nuxt-link
+                class=""
+                :to="{ name: 'about', hash: '#' }"
+                title="Topics I work on"
+                >here</nuxt-link
+            >
+            about the topics I work on. Most of my texts are also on
+            <a
+                href="https://dissens.academia.edu/AndreasHechler"
+                target="_blank"
+                >Academia</a
+            >
+            and
+            <a
+                href="https://www.researchgate.net/profile/Andreas_Hechler"
+                target="_blank"
+                >ResearchGate</a
+            >. Many of them are in
+            <nuxt-link
+                class=""
+                :to="{ name: 'publications', hash: '#deutsch' }"
+                title="Publikationen, Texte und Interviews auf Deutsch"
+                >German</nuxt-link
+            >, some got translated into
+            <nuxt-link
+                class=""
+                :to="{ name: 'publications', hash: '#deutsch' }"
+                title="Jump to texts in English"
+                >English</nuxt-link
+            >
+            though and a few even into
+            <nuxt-link
+                class=""
+                :to="{ name: 'publications', hash: '#turkce' }"
+                title="Jump to texts in Turkish"
+                >Turkish</nuxt-link
+            >
+            and
+            <nuxt-link
+                class=""
+                :to="{ name: 'publications', hash: '#francais' }"
+                title="Textes en français"
+                >French</nuxt-link
+            >.
+        </p>
+        <p>
+            Below you'll also find a selection of
+            <nuxt-link
+                class=""
+                :to="{ name: 'publications', hash: '#talks' }"
+                title="Jump to talks"
+                >talks</nuxt-link
+            >
+            and
+            <nuxt-link
+                class=""
+                :to="{ name: 'publications', hash: '#interviews' }"
+                title="Jump to interviews"
+                >interviews</nuxt-link
+            >
+            I have given.
+        </p>
+
+        <hr class="margin-top-bottom-five-percent" />
+
+        <!-- ///////////////////// ANIMATION ///////////////////// -->
 
         <div id="peeler" class="peeler-transition">
             <div class="reveal circle_wrapper">
@@ -30,240 +135,6 @@
                 </div>
             </div>
         </div>
-
-        <p>I do not only write code.</p>
-        <p>
-            I have written a number of articles in the past years, ranging from
-            scientific articles to blogposts.
-        </p>
-        <p>
-            Topics I deal with range from National Socialist 'euthanasia' and
-            right-wing extremism, masculinity and sexism to intersex-related
-            topics. You can find out more
-            <nuxt-link class="" :to="{ name: 'about' }" title="topics I work on"
-                >here</nuxt-link
-            >
-            about the topics I work on. Most of my texts are also on
-            <a
-                href="https://dissens.academia.edu/AndreasHechler"
-                target="_blank"
-                >Academia</a
-            >
-            and
-            <a
-                href="https://www.researchgate.net/profile/Andreas_Hechler"
-                target="_blank"
-                >ResearchGate</a
-            >. Many of them are in German, some got translated into English
-            though and a few even into Turkish and French.
-        </p>
-        <p>
-            Below you'll also find a selection of
-            <nuxt-link
-                class=""
-                :to="{ name: 'publications' }"
-                title="jump to lectures"
-                >talks</nuxt-link
-            >
-            and
-            <nuxt-link
-                class=""
-                :to="{ name: 'publications' }"
-                title="jump to interviews"
-                >interviews</nuxt-link
-            >
-            I have given.
-        </p>
-        <p>
-            My publications, talks and interviews in German you find
-            <nuxt-link
-                class=""
-                :to="{ name: 'publications' }"
-                title="jump to publications, talks and interviews in German"
-                >here</nuxt-link
-            >
-            and my texts in Turkish
-            <nuxt-link
-                class=""
-                :to="{ name: 'publications' }"
-                title="jump to texts in Turkish"
-                >here</nuxt-link
-            >.
-        </p>
-
-        <hr class="margin-top-bottom-five-percent" />
-
-        <!-- ///////////////////// ENGLISH ///////////////////// -->
-
-        <h2>English</h2>
-
-        <p>Texts on intersex and pedagogy:</p>
-        <ul>
-            <li>
-                <a
-                    href="https://inter-nrw.de/en/information-for-educators/"
-                    target="_blank"
-                >
-                    Information for educators
-                </a>
-            </li>
-
-            <li>
-                <a
-                    href="https://inter-nrw.de/en/integrating-inter-into-education-and-teaching/"
-                    target="_blank"
-                >
-                    Integrating inter* into education and teaching
-                </a>
-            </li>
-
-            <li>
-                <a
-                    href="https://inter-nrw.de/en/dos-donts-for-educators-communication-tips/"
-                    target="_blank"
-                >
-                    Dos & don'ts for educators – communication tips
-                </a>
-            </li>
-
-            <li>
-                <a
-                    href="https://inter-nrw.de/en/learning-materials/"
-                    target="_blank"
-                >
-                    Learning materials
-                </a>
-            </li>
-        </ul>
-
-        <p>
-            Hechler, Andreas (2017):
-            <a href="http://dsq-sds.org/article/view/5573/4651" target="_blank"
-                >Diagnoses That Matter: My Great-Grandmother's Murder as One
-                Deemed 'Unworthy of Living' and Its Impact on Our Family</a
-            >. In: Disability Studies Quarterly, Vol 37, No 2.
-        </p>
-
-        <p>
-            Hechler, Andreas (2007):
-            <a
-                href="http://www.contactfestival.de/english/archiv/textdocu/other/owsites/07AHechler.htm"
-                target="_blank"
-                >Heteronormativity in Contact Improvisation</a
-            >. En français:
-            <a
-                href="https://www.researchgate.net/profile/Andreas_Hechler/publication/329880071_Heteronormativite_en_Contact_Improvisation/links/5c1f8fdf92851c22a340e05c/Heteronormativite-en-Contact-Improvisation.pdf?origin=publication_detail"
-                target="_blank"
-                >Hétéronormativité en Contact Improvisation</a
-            >.
-        </p>
-
-        <h3>Talks</h3>
-
-        <p>
-            10/2016: "'In-Between-Things' – Cissexism and Interphobia within the
-            (Extreme) Right in Germany". Lecture at the international conference
-            <a
-                href="https://www.kuwi.europa-uni.de/de/lehrstuhl/lw/depolitbez/projekte/sexstillsells/index.html"
-                target="_blank"
-            >
-                "Sex Still Sells – Paradoxical Right Wing Sexual Politics in
-                Europe"
-            </a>
-            in Słubice (Polen)‎.
-        </p>
-
-        <p>
-            04/2009:
-            <a
-                href="/files/Kahle_Hechler - Intergenerational dialogue on the Shoah in German families (2009).pdf"
-                target="_blank"
-            >
-                "Intergenerational Dialogue on the Shoah in German Families – A
-                Personal Story as a Political Claim"
-            </a>
-            . Presentation with Lena Kahle on family biographies in National
-            Socialism in Beit Lochamei Hagetaot/ Ghetto Fighter's Museum
-            (Israel).
-        </p>
-
-        <h3>
-            Interviews
-        </h3>
-
-        <p>
-            American Academy Berlin (2019):
-            <a
-                href="https://soundcloud.com/american-academy-berlin/beyond-the-lecture-anne-finger"
-                target="_blank"
-                >Beyond the Lecture: Anne Finger on Disability and the Politics
-                of Memory</a
-            >.
-        </p>
-
-        <hr class="margin-top-bottom-five-percent" />
-
-        <!-- ///////////////////// FRANCAIS ///////////////////// -->
-
-        <h2>Français</h2>
-        <p>
-            <a
-                href="https://www.researchgate.net/profile/Andreas_Hechler/publication/329880071_Heteronormativite_en_Contact_Improvisation/links/5c1f8fdf92851c22a340e05c/Heteronormativite-en-Contact-Improvisation.pdf?origin=publication_detail"
-                target="_blank"
-                >Hétéronormativité en Contact Improvisation</a
-            >.
-        </p>
-
-        <hr class="margin-top-bottom-five-percent" />
-
-        <!-- ///////////////////// TÜRKCE ///////////////////// -->
-
-        <h2>Türkçe</h2>
-        <p>
-            Hechler, Andreas (2020):
-            <a href="https://inter-nrw.de/tr/ev/" target="_blank"
-                >inter-nrw.de:</a
-            >
-        </p>
-        <ul>
-            <li>
-                <a
-                    href="https://inter-nrw.de/tr/pedagoglar-icin-bilgiler/"
-                    target="_blank"
-                >
-                    Pedagoglar için bilgiler
-                </a>
-            </li>
-
-            <li>
-                <a
-                    href="https://inter-nrw.de/tr/interseks-bireylerin-egitim-ve-oegrenime-entegre-edilmeleri/"
-                    target="_blank"
-                >
-                    İnterseks bireylerin eğitim ve öğrenime entegre edilmeleri
-                </a>
-            </li>
-
-            <li>
-                <a
-                    href="https://inter-nrw.de/tr/pedagoglar-acisindan-yapilmasi-ve-yapilmamasi-gerekenler-iyi-bir-iletisim-icin-tavsiyeler/"
-                    target="_blank"
-                >
-                    Pedagoglar açısından yapılması ve yapılmaması gerekenler –
-                    İyi bir iletişim için tavsiyeler
-                </a>
-            </li>
-
-            <li>
-                <a
-                    href="https://inter-nrw.de/tr/calisma-malzemesi/"
-                    target="_blank"
-                    >Çalışma malzemesi</a
-                >
-            </li>
-        </ul>
-
-        <hr class="margin-top-bottom-five-percent" />
 
         <!-- ///////////////////// DEUTSCH ///////////////////// -->
 
@@ -969,6 +840,191 @@
                 >Geschlechterreflektierte Pädagogik gegen Rechts</a
             >. Interview mit Olaf Stuve und Andreas Hechler vom 30.11.2015.
         </p>
+
+        <hr class="margin-top-bottom-five-percent" />
+
+        <!-- ///////////////////// ENGLISH ///////////////////// -->
+
+        <h2 id="english">English</h2>
+
+        <p>
+            Hechler, Andreas (2020): Texts on intersex and pedagogy on
+            <a href="https://inter-nrw.de/en/home/" target="_blank"
+                >inter-nrw.de:</a
+            >:
+        </p>
+        <ul>
+            <li>
+                <a
+                    href="https://inter-nrw.de/en/information-for-educators/"
+                    target="_blank"
+                >
+                    Information for educators
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="https://inter-nrw.de/en/integrating-inter-into-education-and-teaching/"
+                    target="_blank"
+                >
+                    Integrating inter* into education and teaching
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="https://inter-nrw.de/en/dos-donts-for-educators-communication-tips/"
+                    target="_blank"
+                >
+                    Dos & don'ts for educators – communication tips
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="https://inter-nrw.de/en/learning-materials/"
+                    target="_blank"
+                >
+                    Learning materials
+                </a>
+            </li>
+        </ul>
+
+        <p>
+            Hechler, Andreas (2017):
+            <a href="http://dsq-sds.org/article/view/5573/4651" target="_blank"
+                >Diagnoses That Matter: My Great-Grandmother's Murder as One
+                Deemed 'Unworthy of Living' and Its Impact on Our Family</a
+            >. In: Disability Studies Quarterly, Vol 37, No 2.
+        </p>
+
+        <p>
+            Hechler, Andreas (2007):
+            <a
+                href="http://www.contactfestival.de/english/archiv/textdocu/other/owsites/07AHechler.htm"
+                target="_blank"
+                >Heteronormativity in Contact Improvisation</a
+            >.<br />
+            En français:
+            <a
+                href="https://www.researchgate.net/profile/Andreas_Hechler/publication/329880071_Heteronormativite_en_Contact_Improvisation/links/5c1f8fdf92851c22a340e05c/Heteronormativite-en-Contact-Improvisation.pdf?origin=publication_detail"
+                target="_blank"
+                >Hétéronormativité en Contact Improvisation</a
+            >.
+        </p>
+
+        <h3 id="talks">Talks</h3>
+
+        <p>
+            10/2016: "'In-Between-Things' – Cissexism and Interphobia within the
+            (Extreme) Right in Germany". Lecture at the international conference
+            <a
+                href="https://www.kuwi.europa-uni.de/de/lehrstuhl/lw/depolitbez/projekte/sexstillsells/index.html"
+                target="_blank"
+            >
+                "Sex Still Sells – Paradoxical Right Wing Sexual Politics in
+                Europe"
+            </a>
+            in Słubice (Polen)‎.
+        </p>
+
+        <p>
+            04/2009:
+            <a
+                href="/files/Kahle_Hechler - Intergenerational dialogue on the Shoah in German families (2009).pdf"
+                target="_blank"
+            >
+                "Intergenerational Dialogue on the Shoah in German Families – A
+                Personal Story as a Political Claim"
+            </a>
+            . Presentation with Lena Kahle on family biographies in National
+            Socialism in Beit Lochamei Hagetaot/ Ghetto Fighter's Museum
+            (Israel).
+        </p>
+
+        <h3 id="interviews">
+            Interviews
+        </h3>
+
+        <p>
+            American Academy Berlin (2019):
+            <a
+                href="https://soundcloud.com/american-academy-berlin/beyond-the-lecture-anne-finger"
+                target="_blank"
+                >Beyond the Lecture: Anne Finger on Disability and the Politics
+                of Memory</a
+            >.
+        </p>
+
+        <hr class="margin-top-bottom-five-percent" />
+
+        <!-- ///////////////////// TÜRKCE ///////////////////// -->
+
+        <h2 id="turkce">Türkçe</h2>
+        <p>
+            Hechler, Andreas (2020):
+            <a href="https://inter-nrw.de/tr/ev/" target="_blank"
+                >inter-nrw.de:</a
+            >
+        </p>
+        <ul>
+            <li>
+                <a
+                    href="https://inter-nrw.de/tr/pedagoglar-icin-bilgiler/"
+                    target="_blank"
+                >
+                    Pedagoglar için bilgiler
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="https://inter-nrw.de/tr/interseks-bireylerin-egitim-ve-oegrenime-entegre-edilmeleri/"
+                    target="_blank"
+                >
+                    İnterseks bireylerin eğitim ve öğrenime entegre edilmeleri
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="https://inter-nrw.de/tr/pedagoglar-acisindan-yapilmasi-ve-yapilmamasi-gerekenler-iyi-bir-iletisim-icin-tavsiyeler/"
+                    target="_blank"
+                >
+                    Pedagoglar açısından yapılması ve yapılmaması gerekenler –
+                    İyi bir iletişim için tavsiyeler
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="https://inter-nrw.de/tr/calisma-malzemesi/"
+                    target="_blank"
+                    >Çalışma malzemesi</a
+                >
+            </li>
+        </ul>
+
+        <hr class="margin-top-bottom-five-percent" />
+
+        <!-- ///////////////////// FRANCAIS ///////////////////// -->
+
+        <h2 id="francais">Français</h2>
+        <p>
+            Hechler, Andreas (2007):
+            <a
+                href="https://www.researchgate.net/profile/Andreas_Hechler/publication/329880071_Heteronormativite_en_Contact_Improvisation/links/5c1f8fdf92851c22a340e05c/Heteronormativite-en-Contact-Improvisation.pdf?origin=publication_detail"
+                target="_blank"
+                >Hétéronormativité en Contact Improvisation</a
+            >.<br />
+            In English:
+            <a
+                href="http://www.contactfestival.de/english/archiv/textdocu/other/owsites/07AHechler.htm"
+                target="_blank"
+                >Heteronormativity in Contact Improvisation</a
+            >.
+        </p>
     </div>
 </template>
 
@@ -985,20 +1041,27 @@ export default {
 
 <style scoped>
 .publications-container {
-    margin: 0 15%;
+    margin: 0 20% 3% 15%;
 }
 
 h1 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 4em;
+    margin-bottom: 1%;
 }
 
 h2 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2.8em;
-    padding: 0 0 2% 0;
+    letter-spacing: 0.2em;
+    padding: 0 0 1% 0;
 }
 
 h3 {
-    font-size: 2rem;
+    letter-spacing: 0.2em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    padding-top: 2%;
 }
 
 h4 {
@@ -1012,12 +1075,22 @@ p {
     margin: 1em 0;
 }
 
+.link-padding {
+    margin: 0 13.6% 0 0;
+}
+
+.margin-top {
+    margin-top: 5%;
+}
+
+/* ANIMATION */
+
 #peeler {
     position: absolute;
     width: 180px;
     height: 180px;
-    top: 60%;
-    right: 6%;
+    top: 56%;
+    right: 15%;
     backface-visibility: hidden;
 }
 
@@ -1039,6 +1112,11 @@ p {
     left: 0;
     width: 180px;
     height: 180px;
+}
+
+.circle {
+    font-family: 'Indie Flower', cursive;
+    padding: 3%;
 }
 
 #peeler .reveal .circle {

@@ -41,19 +41,11 @@
             >
         </div>
         <div class="">
-            <nuxt-link
-                class=""
-                :to="{ name: 'language' }"
-                title="Switch to English"
-            >
+            <nuxt-link class="" :to="{ name: '' }" title="Switch to English">
                 EN</nuxt-link
             >
             |
-            <nuxt-link
-                class=""
-                :to="{ name: 'language' }"
-                title="Auf Deutsch anzeigen"
-            >
+            <nuxt-link class="" :to="{ name: '' }" title="Auf Deutsch anzeigen">
                 DE
             </nuxt-link>
         </div>
