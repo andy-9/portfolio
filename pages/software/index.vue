@@ -26,11 +26,15 @@
                     ><img
                         src="/images/kite.png"
                         alt="screenshot of social Network Kite.Inc displaying some search results"
+                        title="Visit my Social Network"
                 /></a>
             </div>
 
             <div class="text-container-one flex-column">
-                <a href="https://kite-inc.herokuapp.com/" target="_blank"
+                <a
+                    href="https://kite-inc.herokuapp.com/"
+                    target="_blank"
+                    title="Visit my Social Network"
                     ><h3 id="socialnetwork">Social Network</h3></a
                 >
                 <div class="flex-row">
@@ -107,11 +111,15 @@
                     ><img
                         src="/images/imageboard.png"
                         alt="screenshot of imageboard graffiti and street art displaying landing page"
+                        title="Visit my imageboard"
                 /></a>
             </div>
 
             <div class="text-container flex-column">
-                <a href="http://graf-streetart.herokuapp.com/" target="_blank"
+                <a
+                    href="http://graf-streetart.herokuapp.com/"
+                    target="_blank"
+                    title="Visit my imageboard"
                     ><h3 id="imageboard">Imageboard</h3></a
                 >
                 <div class="flex-row">
@@ -182,11 +190,15 @@
                     ><img
                         src="/images/algobias.png"
                         alt="screenshot of petition against algorithmic bias displaying the register site"
+                        title="Visit my online petition"
                 /></a>
             </div>
 
             <div class="text-container flex-column">
-                <a href="https://algobias.herokuapp.com/" target="_blank"
+                <a
+                    href="https://algobias.herokuapp.com/"
+                    target="_blank"
+                    title="Visit my online petition"
                     ><h3 id="petition">Petition</h3></a
                 >
                 <div class="flex-row">
@@ -259,9 +271,12 @@
 
         <!-- <h2 id="smaller-projects">Smaller projects</h2> -->
 
-        <div class="grid-container">
+        <div class="grid-container-bigger">
             <div class="small-project-container">
-                <a href="http://kaleidoscop.herokuapp.com/" target="_blank"
+                <a
+                    href="http://kaleidoscop.herokuapp.com/"
+                    target="_blank"
+                    title="Visit my online Kaleidoscope displaying all my medium-sized and smaller projects"
                     ><h3 id="kaleidoscope">Kaleidoscope</h3></a
                 >
 
@@ -270,6 +285,7 @@
                         ><img
                             src="/images/kaleidoscope.png"
                             alt="screenshot of Kaleidoscope displaying the landing page with all the projects"
+                            title="Visit my online Kaleidoscope displaying all my medium-sized and smaller projects"
                     /></a>
                 </div>
 
@@ -309,20 +325,22 @@
 
             <!-- //////////// Spotify Search //////////// -->
 
-            <div class="small-project-container">
+            <div class="small-project-container-bigger">
                 <a
                     href="http://kaleidoscop.herokuapp.com/spotify_search/"
                     target="_blank"
+                    title="Visit my Spotify search project"
                     ><h3 id="spotify">Spotify Search</h3></a
                 >
 
-                <div class="image-container-small-big-one">
+                <div class="image-container-small">
                     <a
                         href="http://kaleidoscop.herokuapp.com/spotify_search/"
                         target="_blank"
                         ><img
                             src="/images/spotify.png"
                             alt="screenshot of spotify search, displaying search results for 'monae'"
+                            title="Visit my Spotify search project"
                     /></a>
                 </div>
 
@@ -381,6 +399,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                     target="_blank"
+                    title="Visit my resizable panes project"
                     ><h3 id="panes">Resizable Panes</h3></a
                 >
 
@@ -388,6 +407,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                         target="_blank"
+                        title="Visit my resizable panes project"
                         ><img
                             src="/images/panes.png"
                             alt="screenshot of resizable panes"
@@ -438,6 +458,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/connect4/"
                     target="_blank"
+                    title="Visit my Connect 4 project"
                     ><h3 id="connectfour">Connect 4</h3></a
                 >
 
@@ -448,6 +469,7 @@
                         ><img
                             src="/images/connect4.png"
                             alt="screenshot of connect four, both colors in the game"
+                            title="Visit my Connect 4 project"
                     /></a>
                 </div>
 
@@ -502,6 +524,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                     target="_blank"
+                    title="Visit my kitty carousel"
                     ><h3 id="carousel">Kitty Carousel</h3></a
                 >
 
@@ -509,9 +532,10 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                         target="_blank"
+                        title="Visit my kitty carousel"
                         ><img
                             src="/images/carousel.png"
-                            alt="screenshot of imageboard graffiti and street art displaying landing page"
+                            alt="screenshot of kitty carousel displaying one kitty sliding to the left and one another coming in from the right"
                     /></a>
                 </div>
 
@@ -556,6 +580,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
                     target="_blank"
+                    title="Visit my Spiced homepage project"
                     ><h3 id="spicedhomepage">Spiced Homepage</h3></a
                 >
 
@@ -566,6 +591,7 @@
                         ><img
                             src="/images/spiced.png"
                             alt="screenshot of spiced homepage"
+                            title="Visit my Spiced homepage project"
                     /></a>
                 </div>
 
@@ -614,6 +640,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/local_storage/"
                     target="_blank"
+                    title="Visit my local storage project"
                     ><h3 id="localstorage">Local Storage</h3></a
                 >
 
@@ -624,6 +651,7 @@
                         ><img
                             src="/images/localstorage.png"
                             alt="screenshot of local storage project"
+                            title="Visit my local storage project"
                     /></a>
                 </div>
 
@@ -672,6 +700,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/JSON_validator/"
                     target="_blank"
+                    title="Visit my JSON-validator"
                     ><h3 id="validator">JSON-validator</h3></a
                 >
 
@@ -682,6 +711,7 @@
                         ><img
                             src="/images/JSON.png"
                             alt="screenshot of JSON-validator displaying vald JSON in green"
+                            title="Visit my JSON-validator"
                     /></a>
                 </div>
 
@@ -730,6 +760,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/ticker/"
                     target="_blank"
+                    title="Visit my ticker project"
                     ><h3 id="ticker">Ticker</h3></a
                 >
 
@@ -740,6 +771,7 @@
                         ><img
                             src="/images/ticker.png"
                             alt="screenshot of ticker running"
+                            title="Visit my ticker project"
                     /></a>
                 </div>
 
@@ -792,12 +824,14 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/incremental_search/"
                         target="_blank"
+                        title="Visit my incremental search project"
                         ><h3 id="incremental">Incremental Search</h3></a
                     >
 
                     <a
                         href="http://kaleidoscop.herokuapp.com/incremental_search/"
                         target="_blank"
+                        title="Visit my incremental search project"
                         ><img
                             src="/images/incremental_search.png"
                             alt="screenshot of incremental search displaying search results for 'ca'"
@@ -930,6 +964,10 @@ export default {
 </script>
 
 <style scoped>
+html {
+    scroll-snap-type: y mandatory;
+}
+
 #software-container {
     margin: 0 2em 2em 2em;
 }
@@ -990,6 +1028,7 @@ h3 {
     margin-top: 5vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    scroll-snap-align: end;
 }
 
 .image-container {
@@ -1040,6 +1079,18 @@ details > p {
 .small-project-container {
     width: 100%;
     height: 95vh;
+}
+
+.grid-container-bigger {
+    height: 100vh;
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    scroll-snap-align: end;
+}
+.small-project-container-bigger {
+    width: 100%;
+    height: 100vh;
 }
 
 #kaleidoscope,

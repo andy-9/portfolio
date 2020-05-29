@@ -5,10 +5,6 @@
             rel="stylesheet"
         />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
-            rel="stylesheet"
-        />
-        <link
             href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
             rel="stylesheet"
         />
@@ -17,26 +13,30 @@
             rel="stylesheet"
         />
 
-        <h1>Publications</h1>
+        <h1 id="top">Publications</h1>
 
         <nuxt-link
             :to="{ path: 'publications', hash: '#deutsch' }"
             class="link-padding"
+            title="Publikationen, Texte und Interviews auf Deutsch"
             >deutsch</nuxt-link
         >
         <nuxt-link
             :to="{ path: 'publications', hash: '#english' }"
             class="link-padding"
+            title="Jump to texts, talks and interviews in English"
             >english</nuxt-link
         >
         <nuxt-link
             :to="{ path: 'publications', hash: '#turkce' }"
             class="link-padding"
+            title="Jump to texts in Turkish"
             >türkçe
         </nuxt-link>
         <nuxt-link
             :to="{ path: 'publications', hash: '#francais' }"
             class="link-padding"
+            title="Textes en français"
             >français</nuxt-link
         >
 
@@ -75,8 +75,8 @@
             >, some got translated into
             <nuxt-link
                 class=""
-                :to="{ name: 'publications', hash: '#deutsch' }"
-                title="Jump to texts in English"
+                :to="{ name: 'publications', hash: '#english' }"
+                title="Jump to texts, talks and interviews in English"
                 >English</nuxt-link
             >
             though and a few even into
@@ -98,14 +98,14 @@
             Below you'll also find a selection of
             <nuxt-link
                 class=""
-                :to="{ name: 'publications', hash: '#talks' }"
+                :to="{ name: 'publications', hash: '#talks_en' }"
                 title="Jump to talks"
                 >talks</nuxt-link
             >
             and
             <nuxt-link
                 class=""
-                :to="{ name: 'publications', hash: '#interviews' }"
+                :to="{ name: 'publications', hash: '#interviews_en' }"
                 title="Jump to interviews"
                 >interviews</nuxt-link
             >
@@ -556,6 +556,13 @@
             Kinder- und Jugendfreizeitbereich. Dokumentation, S. 45-50.
         </p>
 
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
+
         <!-- ///////////////////////////////////// VORTRÄGE ///////////////////////////////////// -->
 
         <h3>
@@ -710,6 +717,13 @@
             Berlin.
         </p>
 
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
+
         <!-- ///////////////////////////////////// INTERVIEWS ///////////////////////////////////// -->
 
         <h3>
@@ -841,6 +855,13 @@
             >. Interview mit Olaf Stuve und Andreas Hechler vom 30.11.2015.
         </p>
 
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
+
         <hr class="margin-top-bottom-five-percent" />
 
         <!-- ///////////////////// ENGLISH ///////////////////// -->
@@ -914,7 +935,7 @@
             >.
         </p>
 
-        <h3 id="talks">Talks</h3>
+        <h3 id="talks_en">Talks</h3>
 
         <p>
             10/2016: "'In-Between-Things' – Cissexism and Interphobia within the
@@ -943,7 +964,7 @@
             (Israel).
         </p>
 
-        <h3 id="interviews">
+        <h3 id="interviews_en">
             Interviews
         </h3>
 
@@ -956,6 +977,13 @@
                 of Memory</a
             >.
         </p>
+
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
 
         <hr class="margin-top-bottom-five-percent" />
 
@@ -1025,11 +1053,34 @@
                 >Heteronormativity in Contact Improvisation</a
             >.
         </p>
+
+        <nuxt-link
+            :to="{ path: 'publications', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
     </div>
 </template>
 
 <script>
 export default {
+    mounted() {
+        const hash = location.hash
+        if (hash) {
+            const currentElem = document.querySelector(hash)
+            if (currentElem) {
+                scrollToPlaces(currentElem)
+            }
+        }
+        function scrollToPlaces(elem) {
+            window.scrollTo({
+                behavior: 'smooth',
+                left: 0,
+                top: elem.offsetTop
+            })
+        }
+    },
     head() {
         return {
             title: 'Publications Andreas Hechler',
@@ -1082,6 +1133,10 @@ p {
 
 .margin-top {
     margin-top: 5%;
+}
+
+.jump-to-top {
+    float: right;
 }
 
 /* ANIMATION */

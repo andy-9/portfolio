@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav id="navbar">
         <div class="">
             <nuxt-link class="" :to="{ name: 'index' }">Home</nuxt-link>
         </div>

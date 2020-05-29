@@ -43,6 +43,7 @@
                     <img
                         src="/icons/logo-github.svg"
                         alt="github logo"
+                        title="Visit my profile on GitHub"
                         class="social-media-logo"
                     />
                 </a>
@@ -54,6 +55,7 @@
                     <img
                         src="/icons/logo-linkedin.svg"
                         alt="linkedin-logo"
+                        title="Visit my profile on LinkedIn"
                         class="social-media-logo"
                     />
                 </a>
@@ -65,6 +67,7 @@
                     <img
                         src="/icons/logo-xing.svg"
                         alt="xing-logo"
+                        title="Visit my profile on XING"
                         class="social-media-logo"
                     />
                 </a>
@@ -73,6 +76,7 @@
                     <img
                         src="/icons/logo-twitter.svg"
                         alt="twitter-logo"
+                        title="Visit my profile on twitter"
                         class="social-media-logo"
                     />
                 </a>
@@ -84,6 +88,7 @@
                     <img
                         src="/icons/academia.png"
                         alt="academia-logo"
+                        title="Visit my profile on Academia"
                         class="social-media-logo"
                 /></a>
 
@@ -94,6 +99,7 @@
                     <img
                         src="/icons/researchgate-icon.svg"
                         alt="researchgate-logo"
+                        title="Visit my profile on Research Gate"
                         class="social-media-logo"
                     />
                 </a>
