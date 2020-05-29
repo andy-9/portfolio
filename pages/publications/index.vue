@@ -901,13 +901,13 @@
                 ><b>Gender und rechte Ideologien</b></a
             >. Podcast des Projekts "de:hate".
         </p>
+        <!-- allow="autoplay" -->
         <div>
             <iframe
                 width="100%"
                 height="166"
                 scrolling="no"
                 frameborder="no"
-                allow="autoplay"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323381707&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
             >
             </iframe>
@@ -1091,13 +1091,14 @@
                 ></a
             >.
         </p>
+        <!-- allow="autoplay" -->
+
         <div>
             <iframe
                 width="100%"
                 height="166"
                 scrolling="no"
                 frameborder="no"
-                allow="autoplay"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606279804&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
             ></iframe>
             <div
