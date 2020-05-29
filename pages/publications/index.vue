@@ -31,8 +31,8 @@
             :to="{ path: 'publications', hash: '#turkce' }"
             class="link-padding"
             title="Jump to texts in Turkish"
-            >türkçe
-        </nuxt-link>
+            >türkçe</nuxt-link
+        >
         <nuxt-link
             :to="{ path: 'publications', hash: '#francais' }"
             class="link-padding"
@@ -653,22 +653,26 @@
                 href="http://www.ak-ns-euthanasie.de/wp-content/uploads/2016/02/Herbst_2016.pdf"
                 target="_blank"
             >
-                "Der regionalvernetzte Krankenmord"
-            </a>
-            <a href="http://www.ak-ns-euthanasie.de/" target="_blank">
-                des Arbeitskreises zur Erforschung der nationalsozialistischen
-                "Euthanasie" und Zwangssterilisation
-            </a>
-            in Klingenmünster. Ein ähnlicher Vortrag ist
-            <a
-                href="https://www.oldenburger-rundschau.de/2016/06/27/gegendiagnose-beitraege-zur-radikalen-kritik-an-psychologie-und-psychiatrie-2/"
-                target="_blank"
+                "Der regionalvernetzte Krankenmord"</a
             >
-                hier
-            </a>
-            zum Nachhören.
+            des
+            <a href="http://www.ak-ns-euthanasie.de/" target="_blank">
+                Arbeitskreises zur Erforschung der nationalsozialistischen
+                "Euthanasie" und Zwangssterilisation</a
+            >
+            in Klingenmünster. Ein ähnlicher Vortrag kann hier nachgehört
+            werden:
         </p>
-
+        <p>
+            <iframe
+                id="hearthis_at_track_938165"
+                src="https://hearthis.at/embed/938165/transparent/?hcolor=&amp;color=&amp;style=2&amp;block_size=2&amp;block_space=1&amp;background=0&amp;waveform=0&amp;cover=0&amp;autoplay=0&amp;css="
+                scrolling="no"
+                width="100%"
+                height="130"
+                frameborder="0"
+            ></iframe>
+        </p>
         <p>
             11/2016: "Männlichkeit und Neonazismus-(prävention) –
             Geschlechterreflektierte Pädagogik mit Jungen". Vortrag auf der
@@ -677,8 +681,8 @@
                 href="http://www.bag-jungenarbeit.de/termin/hamburg2016"
                 target="_blank"
             >
-                "Rechte Jungen! – Herausforderungen für die Jungenarbeit"
-            </a>
+                "Rechte Jungen! – Herausforderungen für die Jungenarbeit"</a
+            >
             der BAG-Jungenarbeit in Hamburg.
         </p>
 
@@ -695,9 +699,8 @@
                 target="_blank"
             >
                 "Geschlechterreflektierte Pädagogik gegen Rechts – Präsentation
-                der Projektergebnisse und -erfahrungen".
-            </a>
-            Vortrag zusammen mit Olaf Stuve auf der gleichnamigen
+                der Projektergebnisse und -erfahrungen"</a
+            >. Vortrag zusammen mit Olaf Stuve auf der gleichnamigen
             <a
                 href="https://gerenep.dissens.de/fortbildungsangebote/tagung.html"
                 target="_blank"
@@ -711,8 +714,8 @@
             11/2005: Teilnahme an Podiumsdiskussion
             <a href="https://idw-online.de/en/event15188" target="_blank">
                 "Tradierungen – Aufhebungen – (Neu)Konstruktionen. Rasse im
-                heutigen deutschen Wissenschaftsbetrieb"
-            </a>
+                heutigen deutschen Wissenschaftsbetrieb"</a
+            >
             für die "AG gegen Rassismus" am Zentrum für Literaturforschung in
             Berlin.
         </p>
@@ -738,7 +741,19 @@
             >. Panorama-Sendung vom 31.10.2019. Interviews mit Anne Helm, einer
             Gamerin und Andreas Hechler.
         </p>
-
+        <p>
+            <iframe
+                id="pp_panorama9050"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                style="display: block; width: 100%; height: 261.563px;"
+                webkitallowfullscreen=""
+                mozallowfullscreen=""
+                allowfullscreen=""
+                src="https://mediandr-a.akamaihd.net/progressive/2019/1101/TV-20191101-0843-2000.hi.mp4"
+            ></iframe>
+        </p>
         <p>
             Hannah Engelmann (2019):
             <a
@@ -826,6 +841,36 @@
                 >Gender und rechte Ideologien</a
             >. Podcast des Projekts "de:hate".
         </p>
+        <div>
+            <iframe
+                width="100%"
+                height="166"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323381707&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            >
+            </iframe>
+            <div
+                style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+            >
+                <a
+                    href="https://soundcloud.com/dehatepodcast"
+                    title="de:hate"
+                    target="_blank"
+                    style="color: #cccccc; text-decoration: none;"
+                    >de:hate</a
+                >
+                ·
+                <a
+                    href="https://soundcloud.com/dehatepodcast/04-gender-und-rechte-ideologien"
+                    title="#04  Gender und rechte Ideologien"
+                    target="_blank"
+                    style="color: #cccccc; text-decoration: none;"
+                    >#04 Gender und rechte Ideologien
+                </a>
+            </div>
+        </div>
 
         <p>
             Maskos, Rebecca (2016):
@@ -977,6 +1022,36 @@
                 of Memory</a
             >.
         </p>
+        <div>
+            <iframe
+                width="100%"
+                height="166"
+                scrolling="no"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606279804&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            ></iframe>
+            <div
+                style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+            >
+                <a
+                    href="https://soundcloud.com/american-academy-berlin"
+                    title="Beyond the Lecture"
+                    target="_blank"
+                    style="color: #cccccc; text-decoration: none;"
+                    >Beyond the Lecture</a
+                >
+                ·
+                <a
+                    href="https://soundcloud.com/american-academy-berlin/beyond-the-lecture-anne-finger"
+                    title="Beyond the Lecture: Anne Finger on Disability and the Politics of Memory"
+                    target="_blank"
+                    style="color: #cccccc; text-decoration: none;"
+                    >Beyond the Lecture: Anne Finger on Disability and the
+                    Politics of Memory</a
+                >
+            </div>
+        </div>
 
         <nuxt-link
             :to="{ path: 'publications', hash: '#navbar' }"
