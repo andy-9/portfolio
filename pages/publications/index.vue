@@ -724,11 +724,10 @@
         </p>
         <p>
             <iframe
-                id="hearthis_at_track_938165"
                 src="https://hearthis.at/embed/938165/transparent/?hcolor=&amp;color=&amp;style=2&amp;block_size=2&amp;block_space=1&amp;background=0&amp;waveform=0&amp;cover=0&amp;autoplay=0&amp;css="
                 scrolling="no"
                 width="100%"
-                height="130"
+                height="166"
                 frameborder="0"
             ></iframe>
         </p>
@@ -775,6 +774,13 @@
             </a>
             in Berlin.
         </p>
+        <audio controls>
+            <source
+                src="https://www.dissens.de/fileadmin/gerenep/redakteure/mp3/hechler-stuve-geschlechterreflektierte-paedagogik-gegen-rechts.mp3"
+                type="audio/mp3"
+            />
+            Your browser does not support the <code>audio</code> element.
+        </audio>
 
         <p>
             11/2005: Teilnahme an Podiumsdiskussion
@@ -800,6 +806,7 @@
         <h3>
             Interviews
         </h3>
+
         <p>
             Bongen, Robert / Schiele, Katharina (2019):
             <a
@@ -811,17 +818,18 @@
         </p>
         <p>
             <iframe
-                id="pp_panorama9050"
                 width="100%"
                 height="100%"
                 frameborder="0"
-                style="display: block; width: 100%; height: 261.563px;"
+                autoplay="0"
+                style="display: block; width: 100%; height: 250px;"
                 webkitallowfullscreen=""
                 mozallowfullscreen=""
                 allowfullscreen=""
                 src="https://mediandr-a.akamaihd.net/progressive/2019/1101/TV-20191101-0843-2000.hi.mp4"
             ></iframe>
         </p>
+
         <p>
             Hannah Engelmann (2019):
             <a
@@ -1299,6 +1307,29 @@ p {
 
 .jump-to-top {
     float: right;
+}
+
+audio {
+    width: 100%;
+    margin-top: -1%;
+}
+
+audio:active {
+    border: none;
+    border: 0;
+    border: hidden;
+    border-style: hidden;
+    border-width: 0;
+    border-style: none;
+}
+
+audio:focus {
+    border: none;
+    border: 0;
+    border: hidden;
+    border-style: hidden;
+    border-width: 0;
+    border-style: none;
 }
 
 /* ANIMATION */
