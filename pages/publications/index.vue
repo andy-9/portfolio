@@ -1235,22 +1235,22 @@
 
 <script>
 export default {
-    mounted() {
-        const hash = location.hash
-        if (hash) {
-            const currentElem = document.querySelector(hash)
-            if (currentElem) {
-                scrollToPlaces(currentElem)
-            }
-        }
-        function scrollToPlaces(elem) {
-            window.scrollTo({
-                behavior: 'smooth',
-                left: 0,
-                top: elem.offsetTop
-            })
-        }
-    },
+    // mounted() {
+    //     const hash = location.hash
+    //     if (hash) {
+    //         const currentElem = document.querySelector(hash)
+    //         if (currentElem) {
+    //             scrollToPlaces(currentElem)
+    //         }
+    //     }
+    //     function scrollToPlaces(elem) {
+    //         window.scrollTo({
+    //             behavior: 'smooth',
+    //             left: 0,
+    //             top: elem.offsetTop
+    //         })
+    //     }
+    // },
     head() {
         return {
             title: 'Publications Andreas Hechler',
