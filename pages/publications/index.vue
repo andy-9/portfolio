@@ -196,8 +196,15 @@
 
         <p>
             Hechler, Andreas (2019):
-            <b>"Missbildung" – Interdiskriminierung in der extremen Rechten</b>.
-            In: FIPU (Hg.):
+            <a
+                href="/files/Hechler - Interdiskriminierung in der extremen Rechten (2019).pdf"
+                target="_blank"
+            >
+                <b
+                    >"Missbildung" – Interdiskriminierung in der extremen
+                    Rechten</b
+                ></a
+            >. In: FIPU (Hg.):
             <a
                 href="https://www.mandelbaum.at/buch.php?id=891&menu=buecher"
                 target="_blank"
@@ -546,8 +553,13 @@
 
         <p>
             Krabel, Jens / Hechler, Andreas (2007):
-            <b>Jungenarbeit in der Kita</b>. In: Welt des Kindes, Nr. 1,
-            Januar/Februar 2007, 85. Jahrgang, S. 22-25.
+            <a
+                href="/files/Krabel_Hechler - Für Jungen (und Maedchen) geeignet (2007).pdf"
+                target="_blank"
+            >
+                <b>Jungenarbeit in der Kita</b></a
+            >. In: Welt des Kindes, Nr. 1, Januar/Februar 2007, 85. Jahrgang, S.
+            22-25.
         </p>
 
         <p>
