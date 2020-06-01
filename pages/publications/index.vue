@@ -821,7 +821,6 @@
                 width="100%"
                 height="100%"
                 frameborder="0"
-                autoplay="0"
                 style="display: block; width: 100%; height: 250px;"
                 webkitallowfullscreen=""
                 mozallowfullscreen=""
@@ -829,6 +828,7 @@
                 src="https://mediandr-a.akamaihd.net/progressive/2019/1101/TV-20191101-0843-2000.hi.mp4"
             ></iframe>
         </p>
+        <!-- autoplay="0" -->
 
         <p>
             Hannah Engelmann (2019):
