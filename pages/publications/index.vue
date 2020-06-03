@@ -622,15 +622,15 @@
                 href="https://www.facebook.com/events/269076727130862/"
                 target="_blank"
             >
-                'Antifeminismus im Netz'
-            </a>
+                'Antifeminismus im Netz'</a
+            >
             der
             <a
                 href="https://www.facebook.com/OnlineCivilCourageDE/"
                 target="_blank"
             >
-                Online Civil Courage Initiative in Berlin.
-            </a>
+                Online Civil Courage Initiative in Berlin</a
+            >.
         </p>
 
         <p>
@@ -653,8 +653,8 @@
                 href="https://www.nsberatung.de/index.php/de/arbeitsgruppen"
                 target="_blank"
             >
-                Arbeitsgruppen Folgegenerationen
-            </a>
+                Arbeitsgruppen Folgegenerationen</a
+            >
             des Bundesverband Information und Beratung für NS-Verfolgte in Köln.
         </p>
 
@@ -666,8 +666,8 @@
                 href="http://www.jungenarbeit-hessen.de/index.php/124-einladung-zur-fachtagung-macht-maennlichkeit-ohnmacht-2"
                 target="_blank"
             >
-                "Macht-Männlichkeit-Ohnmacht?!"
-            </a>
+                "Macht-Männlichkeit-Ohnmacht?!"</a
+            >
             in Frankfurt/M.
         </p>
 
@@ -816,19 +816,13 @@
             >. Panorama-Sendung vom 31.10.2019. Interviews mit Anne Helm, einer
             Gamerin und Andreas Hechler.
         </p>
-        <p>
-            <iframe
-                width="100%"
-                height="100%"
-                frameborder="0"
-                style="display: block; width: 100%; height: 250px;"
-                webkitallowfullscreen=""
-                mozallowfullscreen=""
-                allowfullscreen=""
+        <video controls width="250">
+            <source
                 src="https://mediandr-a.akamaihd.net/progressive/2019/1101/TV-20191101-0843-2000.hi.mp4"
-            ></iframe>
-        </p>
-        <!-- autoplay="0" -->
+                type="video/mp4"
+            />
+            Sorry, your browser doesn't support embedded videos.
+        </video>
 
         <p>
             Hannah Engelmann (2019):
@@ -854,7 +848,7 @@
             >
             @bermuda.funk (2019):
             <a
-                href="https://bermudafunk.org/fileadmin/mp3_uploads/2019-10-23_16.mp3"
+                href="https://www.dropbox.com/s/tfme9mejteh17bo/GlottalStop%20-%20%20Antifeminismus.2019-10.mp3?dl=0"
                 target="_blank"
                 ><b>Antifeminismus</b></a
             >.
@@ -903,6 +897,13 @@
             den 'Incels' und der antifeministischen Männerrechtsbewegung in
             Deutschlandfunk Kultur vom 26.05.2018.
         </p>
+        <audio controls>
+            <source
+                src="https://ondemand-mp3.dradio.de/file/dradio/2018/05/26/der_verletzte_mann_antifeminismus_im_netz_drk_20180526_1315_eb61b182.mp3"
+                type="audio/mp3"
+            />
+            Your browser does not support the <code>audio</code> element.
+        </audio>
 
         <p>
             Frick, Julia (2017):
@@ -1108,7 +1109,7 @@
                     >Beyond the Lecture: Anne Finger on Disability and the
                     Politics of Memory</b
                 ></a
-            >.
+            >. Conversation with Andreas Hechler visiting Berlin-Buch.
         </p>
         <!-- allow="autoplay" -->
 
@@ -1314,22 +1315,24 @@ audio {
     outline: none;
 }
 
-audio:active {
-    border: none;
-    border: 0;
-    border: hidden;
-    border-style: hidden;
-    border-width: 0;
-    border-style: none;
+audio:focus {
+    width: 100%;
+    margin-top: -1%;
+    outline: none;
 }
 
-audio:focus {
-    border: none;
-    border: 0;
-    border: hidden;
-    border-style: hidden;
-    border-width: 0;
-    border-style: none;
+video {
+    width: 100%;
+    height: 12em;
+    margin-top: -1%;
+    outline: none;
+}
+
+video:focus {
+    width: 100%;
+    height: 12em;
+    margin-top: -1%;
+    outline: none;
 }
 
 /* ANIMATION */
