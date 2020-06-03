@@ -1062,18 +1062,14 @@ details {
 details > summary {
     padding: 2px 6px;
     width: 15em;
-    /* background-color: #ddd; */
     border: none;
-    /* box-shadow: 3px 3px 2px black; */
     cursor: pointer;
 }
 
 details > p {
     font-size: 1em;
-    /* background-color: #ddd; */
     padding: 2px 6px;
     margin: 0;
-    /* box-shadow: 3px 3px 4px black; */
 }
 
 .small-project-container {

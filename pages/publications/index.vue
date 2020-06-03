@@ -283,323 +283,340 @@
             Begriff 'Widerfahrnis')
         </p>
 
-        <p>
-            Hechler, Andreas (2016):
-            <a
-                href="http://www.bpb.de/politik/extremismus/rechtsextremismus/232123/andreas-hechler-entscheidend-ist-der-kontext"
-                target="_blank"
-                ><b>Entscheidend ist der Kontext</b></a
-            >. In: Bundeszentrale für politische Bildung vom 3.08.2016. Debatte:
-            Soll man mit Neonazis reden?
-        </p>
+        <details>
+            <summary>Show more</summary>
 
-        <p>
-            Hechler, Andreas (2016):
-            <a
-                href="https://www.psychosozial-verlag.de/catalog/dispatch-free.php?id=6799"
-                target="_blank"
-                ><b
-                    >"Was ist es denn?" Intergeschlechtlichkeit in Bildung,
-                    Pädagogik und Sozialer Arbeit</b
-                ></a
-            >. In: Katzer, Michaela/Voß, Heinz-Jürgen (Hrsg.):
-            <a href="https://www.psychosozial-verlag.de/6799"
-                >Geschlechtliche, sexuelle und reproduktive Selbstbestimmung.
-                Praxisorientierte Zugänge</a
-            >. Psychosozial-Verlag, Gießen, S. 161-185.
-        </p>
-
-        <p>
-            Hechler, Andreas/Stuve, Olaf (Hrsg.) (2015):
-            <a
-                href="http://library.oapen.org/bitstream/handle/20.500.12657/25626/1004470.pdf?sequence=1&isAllowed=y"
-                target="_blank"
-            >
-                <b>Geschlechterreflektierte Pädagogik gegen Rechts</b></a
-            >. Verlag Barbara Budrich, Opladen/Berlin/Toronto.
-        </p>
-
-        <ul>
-            <li>
-                Dies.:
+            <p>
+                Hechler, Andreas (2016):
                 <a
-                    href="http://budrich.de/Zusatzmaterialien/9783847406952_Einleitung.pdf"
+                    href="http://www.bpb.de/politik/extremismus/rechtsextremismus/232123/andreas-hechler-entscheidend-ist-der-kontext"
                     target="_blank"
-                    ><b>Einleitung</b></a
-                >, S. 7-42.
-            </li>
+                    ><b>Entscheidend ist der Kontext</b></a
+                >. In: Bundeszentrale für politische Bildung vom 3.08.2016.
+                Debatte: Soll man mit Neonazis reden?
+            </p>
 
-            <li>
-                Dies.:
+            <p>
+                Hechler, Andreas (2016):
                 <a
-                    href="http://www.budrich.de/DDD/HechlerStuve.pdf"
+                    href="https://www.psychosozial-verlag.de/catalog/dispatch-free.php?id=6799"
                     target="_blank"
                     ><b
-                        >Weder 'normal' noch 'richtig': Geschlechterreflektierte
-                        Pädagogik als Grundlage einer Neonazismusprävention</b
+                        >"Was ist es denn?" Intergeschlechtlichkeit in Bildung,
+                        Pädagogik und Sozialer Arbeit</b
                     ></a
-                >, S. 44-72.
-            </li>
+                >. In: Katzer, Michaela/Voß, Heinz-Jürgen (Hrsg.):
+                <a href="https://www.psychosozial-verlag.de/6799"
+                    >Geschlechtliche, sexuelle und reproduktive
+                    Selbstbestimmung. Praxisorientierte Zugänge</a
+                >. Psychosozial-Verlag, Gießen, S. 161-185.
+            </p>
 
-            <li>
-                Könnecke, Bernard/Laumann, Vivien/Hechler, Andreas:
+            <p>
+                Hechler, Andreas/Stuve, Olaf (Hrsg.) (2015):
                 <a
-                    href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-praxissituationen-entgeschlechtlichen.pdf"
+                    href="http://library.oapen.org/bitstream/handle/20.500.12657/25626/1004470.pdf?sequence=1&isAllowed=y"
                     target="_blank"
-                    ><b>Methode: Praxissituationen entgeschlechtlichen</b></a
-                >, S. 73-78.
-            </li>
+                >
+                    <b>Geschlechterreflektierte Pädagogik gegen Rechts</b></a
+                >. Verlag Barbara Budrich, Opladen/Berlin/Toronto.
+            </p>
 
-            <li>
-                Debus, Katharina/Hechler, Andreas:
+            <ul>
+                <li>
+                    Dies.:
+                    <a
+                        href="http://budrich.de/Zusatzmaterialien/9783847406952_Einleitung.pdf"
+                        target="_blank"
+                        ><b>Einleitung</b></a
+                    >, S. 7-42.
+                </li>
+
+                <li>
+                    Dies.:
+                    <a
+                        href="http://www.budrich.de/DDD/HechlerStuve.pdf"
+                        target="_blank"
+                        ><b
+                            >Weder 'normal' noch 'richtig':
+                            Geschlechterreflektierte Pädagogik als Grundlage
+                            einer Neonazismusprävention</b
+                        ></a
+                    >, S. 44-72.
+                </li>
+
+                <li>
+                    Könnecke, Bernard/Laumann, Vivien/Hechler, Andreas:
+                    <a
+                        href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-praxissituationen-entgeschlechtlichen.pdf"
+                        target="_blank"
+                        ><b
+                            >Methode: Praxissituationen entgeschlechtlichen</b
+                        ></a
+                    >, S. 73-78.
+                </li>
+
+                <li>
+                    Debus, Katharina/Hechler, Andreas:
+                    <a
+                        href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-der-grosse-preis.pdf"
+                        target="_blank"
+                        ><b>Methode: Der große Preis</b></a
+                    >, S. 100-106.
+                </li>
+
+                <li>
+                    <b
+                        >Beharrliche Bilder. Bildsprache und
+                        geschlechterreflektierte Neonazismusprävention</b
+                    >, S. 223-237 (gekürzt und überarbeitet
+                    <a
+                        href="https://forschungsgruppefipu.wordpress.com/2017/11/07/beharrliche-bilder/"
+                        target="_blank"
+                        >hier</a
+                    >).
+                </li>
+            </ul>
+
+            <p>
+                Hechler, Andreas (2015):
                 <a
-                    href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-der-grosse-preis.pdf"
+                    href="/files/Hechler - Diagnosen von Gewicht (2015).pdf"
                     target="_blank"
-                    ><b>Methode: Der große Preis</b></a
-                >, S. 100-106.
-            </li>
-
-            <li>
-                <b
-                    >Beharrliche Bilder. Bildsprache und
-                    geschlechterreflektierte Neonazismusprävention</b
-                >, S. 223-237 (gekürzt und überarbeitet
+                    ><b
+                        >Diagnosen von Gewicht. Innerfamiliäre Folgen der
+                        Ermordung meiner als 'lebensunwert' diagnostizierten
+                        Urgroßmutter</b
+                    ></a
+                >. In: Cora Schmechel u.a. (Hrsg.):
                 <a
-                    href="https://forschungsgruppefipu.wordpress.com/2017/11/07/beharrliche-bilder/"
+                    href="http://www.edition-assemblage.de/gegendiagnose/"
                     target="_blank"
-                    >hier</a
-                >).
-            </li>
-        </ul>
+                    >Gegendiagnose. Beiträge zur radikalen Kritik an Psychologie
+                    und Psychiatrie</a
+                >. edition assemblage, Münster, S. 143-193.
+            </p>
 
-        <p>
-            Hechler, Andreas (2015):
-            <a
-                href="/files/Hechler - Diagnosen von Gewicht (2015).pdf"
-                target="_blank"
-                ><b
-                    >Diagnosen von Gewicht. Innerfamiliäre Folgen der Ermordung
-                    meiner als 'lebensunwert' diagnostizierten Urgroßmutter</b
-                ></a
-            >. In: Cora Schmechel u.a. (Hrsg.):
-            <a
-                href="http://www.edition-assemblage.de/gegendiagnose/"
-                target="_blank"
-                >Gegendiagnose. Beiträge zur radikalen Kritik an Psychologie und
-                Psychiatrie</a
-            >. edition assemblage, Münster, S. 143-193.
-        </p>
+            <p>
+                Hechler, Andreas (2015):
+                <a
+                    href="/files/Hechler - Intergeschlechtlichkeit in Bildung (2015).pdf"
+                    target="_blank"
+                    ><b
+                        >Intergeschlechtlichkeit in Bildung, Pädagogik und
+                        Sozialer Arbeit</b
+                    ></a
+                >. In: BMFSFJ (Hrsg.):
+                <a
+                    href="http://www.bmfsfj.de/RedaktionBMFSFJ/Broschuerenstelle/Pdf-Anlagen/Geschlechtliche-Vielfalt,property=pdf,bereich=bmfsfj,sprache=de,rwb=true.pdf"
+                    target="_blank"
+                    >Geschlechtliche Vielfalt. Begrifflichkeiten, Definitionen
+                    und disziplinäre Zugänge zu Trans- und
+                    Intergeschlechtlichkeiten. Begleitforschung zur
+                    Interministeriellen Arbeitsgruppe Inter- &
+                    Transsexualität</a
+                >. Berlin, S. 61-74.
+            </p>
 
-        <p>
-            Hechler, Andreas (2015):
-            <a
-                href="/files/Hechler - Intergeschlechtlichkeit in Bildung (2015).pdf"
-                target="_blank"
-                ><b
-                    >Intergeschlechtlichkeit in Bildung, Pädagogik und Sozialer
-                    Arbeit</b
-                ></a
-            >. In: BMFSFJ (Hrsg.):
-            <a
-                href="http://www.bmfsfj.de/RedaktionBMFSFJ/Broschuerenstelle/Pdf-Anlagen/Geschlechtliche-Vielfalt,property=pdf,bereich=bmfsfj,sprache=de,rwb=true.pdf"
-                target="_blank"
-                >Geschlechtliche Vielfalt. Begrifflichkeiten, Definitionen und
-                disziplinäre Zugänge zu Trans- und Intergeschlechtlichkeiten.
-                Begleitforschung zur Interministeriellen Arbeitsgruppe Inter- &
-                Transsexualität</a
-            >. Berlin, S. 61-74.
-        </p>
+            <p>
+                Stuve, Olaf / Hechler, Andreas (2015):
+                <a
+                    href="/files/Stuve_Hechler - Geschlechterreflektierende Neonazismusprävention (2015).pdf"
+                    target="_blank"
+                    ><b>Geschlechterreflektierende Neonazismusprävention</b></a
+                >. In: deutsche jugend, Nr. 4, 63. Jg., S. 166-175.
+            </p>
 
-        <p>
-            Stuve, Olaf / Hechler, Andreas (2015):
-            <a
-                href="/files/Stuve_Hechler - Geschlechterreflektierende Neonazismusprävention (2015).pdf"
-                target="_blank"
-                ><b>Geschlechterreflektierende Neonazismusprävention</b></a
-            >. In: deutsche jugend, Nr. 4, 63. Jg., S. 166-175.
-        </p>
+            <p>
+                Hechler, Andreas (2014):
+                <a
+                    href="/files/Hechler - Intergeschlechtlichkeit in Paedagogik (Sozialmagazin 2014).pdf"
+                    target="_blank"
+                    ><b
+                        >Intergeschlechtlichkeit als Thema in Pädagogik und
+                        Sozialer Arbeit</b
+                    ></a
+                >. In: Sozialmagazin, Nr. 3-4/2014, 39. Jg., S. 46-53.
+            </p>
 
-        <p>
-            Hechler, Andreas (2014):
-            <a
-                href="/files/Hechler - Intergeschlechtlichkeit in Paedagogik (Sozialmagazin 2014).pdf"
-                target="_blank"
-                ><b
-                    >Intergeschlechtlichkeit als Thema in Pädagogik und Sozialer
-                    Arbeit</b
-                ></a
-            >. In: Sozialmagazin, Nr. 3-4/2014, 39. Jg., S. 46-53.
-        </p>
+            <p>
+                Hechler, Andreas (2014):
+                <a
+                    href="/files/Hechler - Maennlichkeitskritische Neonazismusprävention (2014).pdf"
+                    target="_blank"
+                    ><b>Männlichkeitskritische Neonazismusprävention</b></a
+                >. In: Baer, Silke / Möller, Kurt / Wiechmann, Peer (Hrsg.):
+                <a
+                    href="https://shop.budrich-academic.de/produkt/verantwortlich-handeln-praxis-der-sozialen-arbeit-mit-rechtsextrem-orientierten-und-gefaehrdeten-jugendlichen/?v=3a52f3c22ed6"
+                    target="_blank"
+                    >Verantwortlich Handeln: Praxis der Sozialen Arbeit mit
+                    rechtsextrem orientierten und gefährdeten Jugendlichen</a
+                >. Opladen/Berlin/Toronto: Verlag Barbara Budrich, S. 103-113.
+            </p>
 
-        <p>
-            Hechler, Andreas (2014):
-            <a
-                href="/files/Hechler - Maennlichkeitskritische Neonazismusprävention (2014).pdf"
-                target="_blank"
-                ><b>Männlichkeitskritische Neonazismusprävention</b></a
-            >. In: Baer, Silke / Möller, Kurt / Wiechmann, Peer (Hrsg.):
-            <a
-                href="https://shop.budrich-academic.de/produkt/verantwortlich-handeln-praxis-der-sozialen-arbeit-mit-rechtsextrem-orientierten-und-gefaehrdeten-jugendlichen/?v=3a52f3c22ed6"
-                target="_blank"
-                >Verantwortlich Handeln: Praxis der Sozialen Arbeit mit
-                rechtsextrem orientierten und gefährdeten Jugendlichen</a
-            >. Opladen/Berlin/Toronto: Verlag Barbara Budrich, S. 103-113.
-        </p>
+            <p>
+                Hechler, Andreas (2014):
+                <a
+                    href="/files/Hechler - Diskussion zu Gender und Rechtsextremismus(-praevention) (2014).pdf"
+                    target="_blank"
+                    ><b
+                        >Diskussion zu Gender und
+                        Rechtsextremismus(-prävention)</b
+                    >
+                </a>
+                im Themenforum des BIKnetz vom 17.-23. Februar 2014.
+            </p>
 
-        <p>
-            Hechler, Andreas (2014):
-            <a
-                href="/files/Hechler - Diskussion zu Gender und Rechtsextremismus(-praevention) (2014).pdf"
-                target="_blank"
-                ><b>Diskussion zu Gender und Rechtsextremismus(-prävention)</b>
-            </a>
-            im Themenforum des BIKnetz vom 17.-23. Februar 2014.
-        </p>
+            <p>
+                Hechler, Andreas / Stuve, Olaf / Wielowiejski, Patrick (2013):
+                <a
+                    href="/files/Hechler_Stuve_Wielowiejski - Geschlechterreflektierende Neonazismuspraevention (2013).pdf"
+                    target="_blank"
+                >
+                    <b
+                        >Geschlechterreflektierende Neonazismusprävention.
+                        Mädchen- und Jungenbilder im Neonazismus – Fortbildung,
+                        Praxisprojekte und Beratungen für eine
+                        Präventionsarbeit</b
+                    ></a
+                >. In: Switchboard. Zeitschrift für Männer und Jungenarbeit, Nr.
+                204, Winter 2013, S. 30-34.
+            </p>
 
-        <p>
-            Hechler, Andreas / Stuve, Olaf / Wielowiejski, Patrick (2013):
-            <a
-                href="/files/Hechler_Stuve_Wielowiejski - Geschlechterreflektierende Neonazismuspraevention (2013).pdf"
-                target="_blank"
-            >
-                <b
-                    >Geschlechterreflektierende Neonazismusprävention. Mädchen-
-                    und Jungenbilder im Neonazismus – Fortbildung,
-                    Praxisprojekte und Beratungen für eine Präventionsarbeit</b
-                ></a
-            >. In: Switchboard. Zeitschrift für Männer und Jungenarbeit, Nr.
-            204, Winter 2013, S. 30-34.
-        </p>
+            <p>
+                Hechler, Andreas (2013):
+                <a
+                    href="http://www.kritisch-lesen.de/rezension/hermstories"
+                    target="_blank"
+                    ><b>Hermstories</b></a
+                >. Rezension des Buches "Inter – Erfahrungen
+                intergeschlechtlicher Menschen in der Welt der zwei
+                Geschlechter". In: kritisch lesen, Ausgabe 30 vom 1. Oktober
+                2013.
+            </p>
 
-        <p>
-            Hechler, Andreas (2013):
-            <a
-                href="http://www.kritisch-lesen.de/rezension/hermstories"
-                target="_blank"
-                ><b>Hermstories</b></a
-            >. Rezension des Buches "Inter – Erfahrungen intergeschlechtlicher
-            Menschen in der Welt der zwei Geschlechter". In: kritisch lesen,
-            Ausgabe 30 vom 1. Oktober 2013.
-        </p>
+            <p>
+                Hechler, Andreas (2012):
+                <a
+                    href="https://gerenep.dissens.de/geschlechterreflektierte-neonazismuspraevention/publikationen-von-dissens-mitarbeitenden-zum-thema/hechler-jungenarbeit-und-neonazismuspraevention"
+                    target="_blank"
+                    ><b
+                        >Männlichkeitskonstruktionen, Jungenarbeit und
+                        Neonazismus-Prävention</b
+                    ></a
+                >. In: Dissens e.V. & Debus, Katharina / Könnecke, Bernard /
+                Schwerma, Klaus / Stuve, Olaf (Hg.):
+                <a
+                    href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Geschlechterreflektierte_Arbeit_mit_Jungen_an_der_Schule_Dissens_e.V-3.pdf"
+                    target="_blank"
+                    >Geschlechterreflektierte Arbeit mit Jungen an der Schule.
+                    Texte zu Pädagogik und Fortbildung rund um Jungenarbeit,
+                    Geschlecht und Bildung</a
+                >. Berlin: Eigendruck, S. 73-91.
+            </p>
 
-        <p>
-            Hechler, Andreas (2012):
-            <a
-                href="https://gerenep.dissens.de/geschlechterreflektierte-neonazismuspraevention/publikationen-von-dissens-mitarbeitenden-zum-thema/hechler-jungenarbeit-und-neonazismuspraevention"
-                target="_blank"
-                ><b
-                    >Männlichkeitskonstruktionen, Jungenarbeit und
-                    Neonazismus-Prävention</b
-                ></a
-            >. In: Dissens e.V. & Debus, Katharina / Könnecke, Bernard /
-            Schwerma, Klaus / Stuve, Olaf (Hg.):
-            <a
-                href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Geschlechterreflektierte_Arbeit_mit_Jungen_an_der_Schule_Dissens_e.V-3.pdf"
-                target="_blank"
-                >Geschlechterreflektierte Arbeit mit Jungen an der Schule. Texte
-                zu Pädagogik und Fortbildung rund um Jungenarbeit, Geschlecht
-                und Bildung</a
-            >. Berlin: Eigendruck, S. 73-91.
-        </p>
-
-        <p>
-            Hechler, Andreas (2012):
-            <a
-                href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Hechler
+            <p>
+                Hechler, Andreas (2012):
+                <a
+                    href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Hechler
             - Intergeschlechtlichkeit.pdf"
-                target="_blank"
-                ><b
-                    >Intergeschlechtlichkeit als Thema
-                    geschlechterreflektierender Pädagogik</b
-                ></a
-            >. In: Dissens e.V. & Debus, Katharina / Könnecke, Bernard /
-            Schwerma, Klaus / Stuve, Olaf (Hg.):
-            <a
-                href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Geschlechterreflektierte_Arbeit_mit_Jungen_an_der_Schule_Dissens_e.V-3.pdf"
-                target="_blank"
-                >Geschlechterreflektierte Arbeit mit Jungen an der Schule. Texte
-                zu Pädagogik und Fortbildung rund um Jungenarbeit, Geschlecht
-                und Bildung</a
-            >. Berlin: Eigendruck, S. 125-135.
-        </p>
+                    target="_blank"
+                    ><b
+                        >Intergeschlechtlichkeit als Thema
+                        geschlechterreflektierender Pädagogik</b
+                    ></a
+                >. In: Dissens e.V. & Debus, Katharina / Könnecke, Bernard /
+                Schwerma, Klaus / Stuve, Olaf (Hg.):
+                <a
+                    href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Geschlechterreflektierte_Arbeit_mit_Jungen_an_der_Schule_Dissens_e.V-3.pdf"
+                    target="_blank"
+                    >Geschlechterreflektierte Arbeit mit Jungen an der Schule.
+                    Texte zu Pädagogik und Fortbildung rund um Jungenarbeit,
+                    Geschlecht und Bildung</a
+                >. Berlin: Eigendruck, S. 125-135.
+            </p>
 
-        <p>
-            Diewald, Heidi / Hechler, Andreas / Kröger, Fabian (2008):
-            <b>Intersexualität – Die alltägliche Folter in Deutschland</b>. In:
-            Intersexuelle Menschen e. V. / XY-Frauen:
-            <a
-                href="http://intersex.schattenbericht.org/public/Schattenbericht_CEDAW_2008-Intersexuelle_Menschen_e_V.pdf"
-                target="_blank"
-                >Schattenbericht zum 6. Staatenbericht der BRD zum Übereinkommen
-                der Vereinten Nationen zur Beseitigung jeder Form der
-                Diskriminierung der Frau (CEDAW)</a
-            >. Hamburg, S. 87-125.
-        </p>
+            <p>
+                Diewald, Heidi / Hechler, Andreas / Kröger, Fabian (2008):
+                <b>Intersexualität – Die alltägliche Folter in Deutschland</b>.
+                In: Intersexuelle Menschen e. V. / XY-Frauen:
+                <a
+                    href="http://intersex.schattenbericht.org/public/Schattenbericht_CEDAW_2008-Intersexuelle_Menschen_e_V.pdf"
+                    target="_blank"
+                    >Schattenbericht zum 6. Staatenbericht der BRD zum
+                    Übereinkommen der Vereinten Nationen zur Beseitigung jeder
+                    Form der Diskriminierung der Frau (CEDAW)</a
+                >. Hamburg, S. 87-125.
+            </p>
 
-        <p>
-            Hechler, Andreas (2008):
-            <a
-                href="/files/Hechler - Voids in Brandenburg (2008).pdf"
-                target="_blank"
-                ><b
-                    >Voids in Brandenburg – Folgen des deutschen
-                    Antisemitismus</b
-                ></a
-            >. In: JungdemokratInnen/Junge Linke Brandenburg: I remember,
-            remember the 9th of november – Die Erinnerung und das Gedenken an
-            die Novemberpogrome in Deutschland. Berlin-Brandenburg: Eigendruck,
-            S. 37-55.
-        </p>
+            <p>
+                Hechler, Andreas (2008):
+                <a
+                    href="/files/Hechler - Voids in Brandenburg (2008).pdf"
+                    target="_blank"
+                    ><b
+                        >Voids in Brandenburg – Folgen des deutschen
+                        Antisemitismus</b
+                    ></a
+                >. In: JungdemokratInnen/Junge Linke Brandenburg: I remember,
+                remember the 9th of november – Die Erinnerung und das Gedenken
+                an die Novemberpogrome in Deutschland. Berlin-Brandenburg:
+                Eigendruck, S. 37-55.
+            </p>
 
-        <p>
-            Krabel, Jens / Hechler, Andreas (2007):
-            <a
-                href="/files/Krabel_Hechler - Für Jungen (und Maedchen) geeignet (2007).pdf"
-                target="_blank"
-            >
-                <b>Jungenarbeit in der Kita</b></a
-            >. In: Welt des Kindes, Nr. 1, Januar/Februar 2007, 85. Jahrgang, S.
-            22-25.
-        </p>
+            <p>
+                Krabel, Jens / Hechler, Andreas (2007):
+                <a
+                    href="/files/Krabel_Hechler - Für Jungen (und Maedchen) geeignet (2007).pdf"
+                    target="_blank"
+                >
+                    <b>Jungenarbeit in der Kita</b></a
+                >. In: Welt des Kindes, Nr. 1, Januar/Februar 2007, 85.
+                Jahrgang, S. 22-25.
+            </p>
 
-        <p>
-            Hechler, Andreas (2007):
-            <a href="/files/Hechler - Wer fehlt (2007).pdf" target="_blank"
-                ><b>Wer fehlt? Voids in Reinhardtsdorf-Schöna</b></a
-            >. In: Blask, Falk (Hg.): Ein Dorf voller Narren. Karneval – Idylle
-            – Rechtsextremismus. Berliner Blätter, Sonderheft 43/2007.
-            Münster/Hamburg/Berlin/London: Lit Verlag, S. 171-196.
-        </p>
+            <p>
+                Hechler, Andreas (2007):
+                <a href="/files/Hechler - Wer fehlt (2007).pdf" target="_blank"
+                    ><b>Wer fehlt? Voids in Reinhardtsdorf-Schöna</b></a
+                >. In: Blask, Falk (Hg.): Ein Dorf voller Narren. Karneval –
+                Idylle – Rechtsextremismus. Berliner Blätter, Sonderheft
+                43/2007. Münster/Hamburg/Berlin/London: Lit Verlag, S. 171-196.
+            </p>
 
-        <p>
-            Hechler, Andreas (2006):
-            <a
-                href="/files/Hechler - Taeter_innenforschung aus privilegierter Position (2006).pdf"
-                target="_blank"
-                ><b
-                    >Täter_innenforschung aus privilegierter Position. Rassismus
-                    und Antisemitismus im Feld</b
-                ></a
-            >. In: feldnotizen, Ausgabe 1, S. 11-23.
-        </p>
+            <p>
+                Hechler, Andreas (2006):
+                <a
+                    href="/files/Hechler - Taeter_innenforschung aus privilegierter Position (2006).pdf"
+                    target="_blank"
+                    ><b
+                        >Täter_innenforschung aus privilegierter Position.
+                        Rassismus und Antisemitismus im Feld</b
+                    ></a
+                >. In: feldnotizen, Ausgabe 1, S. 11-23.
+            </p>
 
-        <p>
-            Hechler, Andreas (2004):
-            <a href="/files/Hechler - Der Kuhzaun (2004).pdf" target="_blank"
-                ><b>Der Kuhzaun – Jungenarbeit in Reinickendorf</b></a
-            >. In: Die Stadtteilzeitung, Ausgabe Mai 2004, S. 12-13.
-        </p>
+            <p>
+                Hechler, Andreas (2004):
+                <a
+                    href="/files/Hechler - Der Kuhzaun (2004).pdf"
+                    target="_blank"
+                    ><b>Der Kuhzaun – Jungenarbeit in Reinickendorf</b></a
+                >. In: Die Stadtteilzeitung, Ausgabe Mai 2004, S. 12-13.
+            </p>
 
-        <p>
-            Hechler, Andreas (2003):
-            <a
-                href="/files/Hechler - Projektwoche Liebe-Freundschaft-Sexualitaet (2003).pdf"
-                target="_blank"
-                ><b>Projektwoche "Liebe – Freundschaft – Sexualität"</b></a
-            >. In: "Znarelot – Toleranz". Projektarbeit in Marzahn-Hellersdorf
-            2002. Geschlechterdifferenzierte Arbeit mit Jungen und Mädchen im
-            Kinder- und Jugendfreizeitbereich. Dokumentation, S. 45-50.
-        </p>
+            <p>
+                Hechler, Andreas (2003):
+                <a
+                    href="/files/Hechler - Projektwoche Liebe-Freundschaft-Sexualitaet (2003).pdf"
+                    target="_blank"
+                    ><b>Projektwoche "Liebe – Freundschaft – Sexualität"</b></a
+                >. In: "Znarelot – Toleranz". Projektarbeit in
+                Marzahn-Hellersdorf 2002. Geschlechterdifferenzierte Arbeit mit
+                Jungen und Mädchen im Kinder- und Jugendfreizeitbereich.
+                Dokumentation, S. 45-50.
+            </p>
+        </details>
 
         <nuxt-link
             :to="{ path: 'publications', hash: '#navbar' }"
@@ -1307,6 +1324,19 @@ p {
 
 .jump-to-top {
     float: right;
+}
+
+details {
+}
+
+details > summary {
+    font-size: 1.2em;
+    width: 15em;
+    background-color: rgb(230, 228, 228);
+    padding: 2px 6px;
+    border: none;
+    margin-bottom: 1em;
+    cursor: pointer;
 }
 
 audio {
