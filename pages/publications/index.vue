@@ -996,7 +996,7 @@
         <p>
             Hechler, Andreas (2020): <b>Texts on intersex and pedagogy</b> on
             <a href="https://inter-nrw.de/en/home/" target="_blank"
-                >inter-nrw.de:</a
+                >inter-nrw.de</a
             >:
         </p>
         <ul>
@@ -1075,8 +1075,8 @@
                 target="_blank"
             >
                 "Sex Still Sells – Paradoxical Right Wing Sexual Politics in
-                Europe"
-            </a>
+                Europe"</a
+            >
             in Słubice (Polen)‎.
         </p>
 
@@ -1089,9 +1089,8 @@
                 <b
                     >"Intergenerational Dialogue on the Shoah in German Families
                     – A Personal Story as a Political Claim"</b
-                >
-            </a>
-            . Presentation with Lena Kahle on family biographies in National
+                ></a
+            >. Presentation with Lena Kahle on family biographies in National
             Socialism in Beit Lochamei Hagetaot/ Ghetto Fighter's Museum
             (Israel).
         </p>
@@ -1312,6 +1311,7 @@ p {
 audio {
     width: 100%;
     margin-top: -1%;
+    outline: none;
 }
 
 audio:active {

@@ -8,8 +8,14 @@
                 other icons by Ionicon icons. No changes were made.
             </p>
             <p>
-                Flower image from DarkWorkX. Typewriter image from Leah Kelley.
-                Imprint image from Elviss Railijs.
+                Portrait by
+                <a
+                    href="https://www.jankopetzky.de/"
+                    style="color: white"
+                    target="_blank"
+                    >Jan Kopetzky</a
+                >. Flower image from DarkWorkX. Typewriter image from Leah
+                Kelley. Imprint image from Elviss Railijs.
             </p>
             <p>
                 Inspirations and code-snippets found on CSS-tricks, codepen.io,
