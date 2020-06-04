@@ -19,259 +19,277 @@
             >Smaller projects</nuxt-link
         > -->
 
-        <!-- //////////// Social Network //////////// -->
-        <div class="grid-container-one">
-            <div class="image-container-one">
-                <a href="https://kite-inc.herokuapp.com/" target="_blank"
-                    ><img
-                        src="/images/kite.png"
-                        alt="screenshot of social Network Kite.Inc displaying some search results"
-                        title="Visit my Social Network"
-                /></a>
-            </div>
-
-            <div class="text-container-one flex-column">
+        <div class="grid-container">
+            <!-- //////////// Social Network //////////// -->
+            <div class="small-project-container">
                 <a
                     href="https://kite-inc.herokuapp.com/"
                     target="_blank"
                     title="Visit my Social Network"
                     ><h3 id="socialnetwork">Social Network</h3></a
                 >
-                <div class="flex-row">
-                    <img
-                        src="/icons/information-outline.svg"
-                        alt="icon for information"
-                        class="social-media-logo"
-                    />
-                    <p>
-                        <b>Facebook-inspired</b>
-                        single-page-application (SPA)
-                    </p>
+
+                <div class="image-container-small">
+                    <a href="https://kite-inc.herokuapp.com/" target="_blank"
+                        ><img
+                            src="/images/kite.png"
+                            alt="screenshot of social Network Kite.Inc displaying some search results"
+                            title="Visit my Social Network"
+                    /></a>
                 </div>
-                <div class="flex-row">
-                    <img
-                        src="/icons/code-slash.svg"
-                        alt="icon for code"
-                        class="social-media-logo"
-                    />
-                    <p>
-                        <b>Tech stack:</b> React & Redux, Express, Node,
-                        PostgreSQL, Socket.io, Amazon S3 and SES, CSS, HTML
-                    </p>
-                </div>
-                <div class="flex-row">
-                    <img
-                        src="/icons/checklist.svg"
-                        alt="icon for features"
-                        class="social-media-logo"
-                    />
-                    <p>
-                        <b>Features:</b> a personal profile with bio and image
-                        upload, sending, receiving and accepting friend
-                        requests, unfriend, having conversations in a chat room,
-                        display of last 3 registered users, searching for users
-                        by first and last name, showing friends of friends,
-                        logout
-                    </p>
-                </div>
-                <!-- Zum Ausklappen -->
-                <div>
-                    <details>
-                        <summary>More info</summary>
+
+                <div class="text-container-small flex-column">
+                    <div class="flex-row">
+                        <img
+                            src="/icons/information-outline.svg"
+                            alt="icon for information"
+                            class="social-media-logo"
+                        />
                         <p>
-                            Users can join a social network, in this case
-                            focusing on inclusive kitesurfing communities.
+                            <b>Facebook-inspired</b>
+                            single-page-application (SPA)
                         </p>
+                    </div>
+                    <div class="flex-row">
+                        <img
+                            src="/icons/code-slash.svg"
+                            alt="icon for code"
+                            class="social-media-logo"
+                        />
                         <p>
-                            A high priority is on conditional rendering,
-                            security issues (password hashing, protection
-                            against SQL-injection, CSRF- and XSS-attacks, reset
-                            code by mail) and a differentiated error handling
-                            (different error messages get displayed, e.g. if the
-                            email is not in the database, the retyped password
-                            does not match the first or password or the input
-                            fields are left empty) in the register, login, and
-                            reset password components.
+                            <b>Tech stack:</b> React & Redux, Express, Node,
+                            PostgreSQL, Socket.io, Amazon S3 and SES, CSS, HTML
                         </p>
-                    </details>
-                </div>
-                <!-- <button @click="toggleSocialNetwork">
+                    </div>
+                    <div class="flex-row">
+                        <img
+                            src="/icons/checklist.svg"
+                            alt="icon for features"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Features:</b> a personal profile with bio and
+                            image upload, sending, receiving and accepting
+                            friend requests, unfriend, having conversations in a
+                            chat room, display of last 3 registered users,
+                            searching for users by first and last name, showing
+                            friends of friends, logout
+                        </p>
+                    </div>
+                    <!-- Zum Ausklappen -->
+                    <div>
+                        <details>
+                            <summary>More info</summary>
+                            <p>
+                                Users can join a social network, in this case
+                                focusing on inclusive kitesurfing communities.
+                            </p>
+                            <p>
+                                A high priority is on conditional rendering,
+                                security issues (password hashing, protection
+                                against SQL-injection, CSRF- and XSS-attacks,
+                                reset code by mail) and a differentiated error
+                                handling (different error messages get
+                                displayed, e.g. if the email is not in the
+                                database, the retyped password does not match
+                                the first or password or the input fields are
+                                left empty) in the register, login, and reset
+                                password components.
+                            </p>
+                        </details>
+                    </div>
+                    <!-- <button @click="toggleSocialNetwork">
                     {{ button.text }}
                 </button>
                 <div v-if="infoSocialNetwork">
                 </div> -->
+                </div>
             </div>
-        </div>
 
-        <!-- //////////// Imageboard //////////// -->
+            <!-- //////////// Imageboard //////////// -->
 
-        <div class="grid-container">
-            <div class="image-container">
-                <a href="http://graf-streetart.herokuapp.com/" target="_blank"
-                    ><img
-                        src="/images/imageboard.png"
-                        alt="screenshot of imageboard graffiti and street art displaying landing page"
+            <div class="small-project-container">
+                <div class="text-container flex-column">
+                    <a
+                        href="http://graf-streetart.herokuapp.com/"
+                        target="_blank"
                         title="Visit my imageboard"
-                /></a>
-            </div>
+                        ><h3 id="imageboard">Imageboard</h3></a
+                    >
 
-            <div class="text-container flex-column">
-                <a
-                    href="http://graf-streetart.herokuapp.com/"
-                    target="_blank"
-                    title="Visit my imageboard"
-                    ><h3 id="imageboard">Imageboard</h3></a
-                >
-                <div class="flex-row">
-                    <img
-                        src="/icons/information-outline.svg"
-                        alt="icon for information"
-                        class="social-media-logo"
-                    />
-                    <p>
-                        <b>Instagram-inspired</b> single-page-application (SPA)
-                    </p>
-                </div>
-                <div class="flex-row">
-                    <img
-                        src="/icons/code-slash.svg"
-                        alt="icon for code"
-                        class="social-media-logo"
-                    />
-                    <p>
-                        <b>Tech stack:</b> Vue, Express, Node, PostgreSQL,
-                        Amazon S3, Jest, CSS, HTML
-                    </p>
-                </div>
-                <div class="flex-row">
-                    <img
-                        src="/icons/checklist.svg"
-                        alt="icon for features"
-                        class="social-media-logo"
-                    />
-                    <p>
-                        <b>Features:</b> upload of images with title,
-                        description and user-name, each image can be clicked and
-                        displayed in large with more info and the possibility to
-                        comment and also delete the image, more images can be
-                        loaded
-                    </p>
-                </div>
-                <!-- Zum Ausklappen -->
-                <div>
-                    <details>
-                        <summary>More info</summary>
-                        <p>
-                            Anyone can upload images of their choosing; the
-                            theme of this imageboard is graffiti and street art.
-                        </p>
-                        <p>
-                            I learned about Vue.js and working with state,
-                            un/mounting, dynamic routing, click handlers,
-                            event-emitters and watchers. The imageboard is
-                            protected against SQL-injection, clickjacking, XSS-
-                            and CSRF-attacks.
-                        </p>
-                    </details>
-                </div>
-                <!-- <button @click="toggleImageboard">
+                    <div class="image-container-small">
+                        <a
+                            href="http://graf-streetart.herokuapp.com/"
+                            target="_blank"
+                            ><img
+                                src="/images/imageboard.png"
+                                alt="screenshot of imageboard graffiti and street art displaying landing page"
+                                title="Visit my imageboard"
+                        /></a>
+                    </div>
+
+                    <div class="text-container-small flex-column">
+                        <div class="flex-row">
+                            <img
+                                src="/icons/information-outline.svg"
+                                alt="icon for information"
+                                class="social-media-logo"
+                            />
+                            <p>
+                                <b>Instagram-inspired</b>
+                                single-page-application (SPA)
+                            </p>
+                        </div>
+                        <div class="flex-row">
+                            <img
+                                src="/icons/code-slash.svg"
+                                alt="icon for code"
+                                class="social-media-logo"
+                            />
+                            <p>
+                                <b>Tech stack:</b> Vue, Express, Node,
+                                PostgreSQL, Amazon S3, Jest, CSS, HTML
+                            </p>
+                        </div>
+                        <div class="flex-row">
+                            <img
+                                src="/icons/checklist.svg"
+                                alt="icon for features"
+                                class="social-media-logo"
+                            />
+                            <p>
+                                <b>Features:</b> upload of images with title,
+                                description and user-name, each image can be
+                                clicked and displayed in large with more info
+                                and the possibility to comment and also delete
+                                the image, more images can be loaded
+                            </p>
+                        </div>
+                        <!-- Zum Ausklappen -->
+                        <div>
+                            <details>
+                                <summary>More info</summary>
+                                <p>
+                                    Anyone can upload images of their choosing;
+                                    the theme of this imageboard is graffiti and
+                                    street art.
+                                </p>
+                                <p>
+                                    I learned about Vue.js and working with
+                                    state, un/mounting, dynamic routing, click
+                                    handlers, event-emitters and watchers. The
+                                    imageboard is protected against
+                                    SQL-injection, clickjacking, XSS- and
+                                    CSRF-attacks.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                    <!-- <button @click="toggleImageboard">
                     {{ button.text }}
                 </button>
                 <div v-if="infoImageboard">
                 </div> -->
+                </div>
             </div>
         </div>
 
-        <!-- //////////// Petition //////////// -->
-
         <div class="grid-container">
-            <div class="image-container">
-                <a href="https://algobias.herokuapp.com/" target="_blank"
-                    ><img
-                        src="/images/algobias.png"
-                        alt="screenshot of petition against algorithmic bias displaying the register site"
+            <!-- //////////// Petition //////////// -->
+            <div class="small-project-container">
+                <div class="text-container flex-column">
+                    <a
+                        href="https://algobias.herokuapp.com/"
+                        target="_blank"
                         title="Visit my online petition"
-                /></a>
-            </div>
+                        ><h3 id="petition">Petition</h3></a
+                    >
 
-            <div class="text-container flex-column">
-                <a
-                    href="https://algobias.herokuapp.com/"
-                    target="_blank"
-                    title="Visit my online petition"
-                    ><h3 id="petition">Petition</h3></a
-                >
-                <div class="flex-row">
-                    <img
-                        src="/icons/information-outline.svg"
-                        alt="icon for information"
-                        class="social-media-logo"
-                    />
-                    <p><b>Online-Petition</b> against algorithmic bias</p>
-                </div>
-                <div class="flex-row">
-                    <img
-                        src="/icons/code-slash.svg"
-                        alt="icon for code"
-                        class="social-media-logo"
-                    />
-                    <p>
-                        <b>Tech stack:</b> Express handlebars, Node, PostgreSQL,
-                        jQuery, CSS, HTML
-                    </p>
-                </div>
-                <div class="flex-row">
-                    <img
-                        src="/icons/checklist.svg"
-                        alt="icon for features"
-                        class="social-media-logo"
-                    />
-                    <p>
-                        <b>Features:</b> supporters can register, login, update
-                        their profile information, sign, unsign, view fellow
-                        signees sorted by location, logout
-                    </p>
-                </div>
-                <!-- Zum Ausklappen -->
-                <div>
-                    <details>
-                        <summary>More info</summary>
-                        <p>
-                            This petition advocates for signing the Algo.Rules
-                            and against algorithmic bias. Depending on whether
-                            users register and sign, they get served different
-                            sites. If they sign, other signees, their homepages,
-                            age and city are displayed.
-                        </p>
-                        <p>
-                            I learned about dataflow, working with
-                            session-cookies, get- and post-routes and how to
-                            test them with supertest. I was also working with
-                            promises, password hashing and inserts, updates,
-                            upserts and deletes in the database. Getting the
-                            signature on a canvas and conditionally editing the
-                            profile I found particularly challenging.
-                        </p>
-                        <p>
-                            The site has a differentiated error-handling and is
-                            protected against SQL-injection, clickjacking, XSS-
-                            and CSRF-attacks.
-                        </p>
-                    </details>
-                </div>
-                <!-- <button @click="togglePetition">
+                    <div class="image-container-small">
+                        <a
+                            href="https://algobias.herokuapp.com/"
+                            target="_blank"
+                            ><img
+                                src="/images/algobias.png"
+                                alt="screenshot of petition against algorithmic bias displaying the register site"
+                                title="Visit my online petition"
+                        /></a>
+                    </div>
+
+                    <div class="text-container-small flex-column">
+                        <div class="flex-row">
+                            <img
+                                src="/icons/information-outline.svg"
+                                alt="icon for information"
+                                class="social-media-logo"
+                            />
+                            <p>
+                                <b>Online-Petition</b> against algorithmic bias
+                            </p>
+                        </div>
+                        <div class="flex-row">
+                            <img
+                                src="/icons/code-slash.svg"
+                                alt="icon for code"
+                                class="social-media-logo"
+                            />
+                            <p>
+                                <b>Tech stack:</b> Express handlebars, Node,
+                                PostgreSQL, jQuery, CSS, HTML
+                            </p>
+                        </div>
+                        <div class="flex-row">
+                            <img
+                                src="/icons/checklist.svg"
+                                alt="icon for features"
+                                class="social-media-logo"
+                            />
+                            <p>
+                                <b>Features:</b> supporters can register, login,
+                                update their profile information, sign, unsign,
+                                view fellow signees sorted by location, logout
+                            </p>
+                        </div>
+                        <!-- Zum Ausklappen -->
+                        <div>
+                            <details>
+                                <summary>More info</summary>
+                                <p>
+                                    This petition advocates for signing the
+                                    Algo.Rules and against algorithmic bias.
+                                    Depending on whether users register and
+                                    sign, they get served different sites. If
+                                    they sign, other signees, their homepages,
+                                    age and city are displayed.
+                                </p>
+                                <p>
+                                    I learned about dataflow, working with
+                                    session-cookies, get- and post-routes and
+                                    how to test them with supertest. I was also
+                                    working with promises, password hashing and
+                                    inserts, updates, upserts and deletes in the
+                                    database. Getting the signature on a canvas
+                                    and conditionally editing the profile I
+                                    found particularly challenging.
+                                </p>
+                                <p>
+                                    The site has a differentiated error-handling
+                                    and is protected against SQL-injection,
+                                    clickjacking, XSS- and CSRF-attacks.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                    <!-- <button @click="togglePetition">
                     {{ button.text }}
                 </button>
                 <div v-if="infoPetition">
                 </div> -->
+                </div>
             </div>
-        </div>
 
-        <!-- ///////////////////// SMALLER PROJECTS ///////////////////// -->
+            <!-- //////////// Kaleidoscope //////////// -->
 
-        <!-- <h2 id="smaller-projects">Smaller projects</h2> -->
-
-        <div class="grid-container-bigger">
             <div class="small-project-container">
                 <a
                     href="http://kaleidoscop.herokuapp.com/"
@@ -322,10 +340,13 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <!-- ///////////////////// SMALLER PROJECTS ///////////////////// -->
+
+        <div class="grid-container">
             <!-- //////////// Spotify Search //////////// -->
-
-            <div class="small-project-container-bigger">
+            <div class="small-project-container">
                 <a
                     href="http://kaleidoscop.herokuapp.com/spotify_search/"
                     target="_blank"
@@ -362,7 +383,7 @@
                     <div class="make-details-visible">
                         <details>
                             <summary>More info</summary>
-                            <p class="make-font-smaller">
+                            <p>
                                 Still not having a Spotify account myself,
                                 nonetheless I programmed a user interface to
                                 search via an API the spotify database. When you
@@ -390,11 +411,69 @@
                 </div> -->
                 </div>
             </div>
+
+            <!-- //////////// Incremental Search //////////// -->
+
+            <div class="small-project-container">
+                <div class="image-container-small">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/incremental_search/"
+                        target="_blank"
+                        title="Visit my incremental search project"
+                        ><h3 id="incremental">Incremental Search</h3></a
+                    >
+
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/incremental_search/"
+                        target="_blank"
+                        title="Visit my incremental search project"
+                        ><img
+                            src="/images/incremental_search.png"
+                            alt="screenshot of incremental search displaying search results for 'ca'"
+                    /></a>
+                </div>
+
+                <div class="text-container-small">
+                    <div class="flex-row">
+                        <img
+                            src="/icons/checklist.svg"
+                            alt="icon for features"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Features:</b> Search countries, use either mouse
+                            or keys
+                        </p>
+                    </div>
+                    <!-- Zum Ausklappen -->
+                    <div>
+                        <details>
+                            <summary>More info</summary>
+                            <p>
+                                I have used incremental searches many times in
+                                my life and did not even know this term until I
+                                had to build one... I never thought about all
+                                the different steps that need to be programmed.
+                                I learned how to work with mouseovers,
+                                mousedowns and key-commands and how to highlight
+                                my search result, all programmed with jQuery. I
+                                also used focus and blur when a user's attention
+                                blurs (pun intended 😉) and after all it was my
+                                first ajax 'GET'-request to search from an API
+                                serving over 200 countries.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <!-- <button @click="toggleIncremental">
+                {{ button.text }}
+            </button>
+            <div v-if="infoIncremental"></div> -->
+            </div>
         </div>
 
-        <!-- //////////// Resizable Panes //////////// -->
-
         <div class="grid-container">
+            <!-- //////////// Resizable Panes //////////// -->
             <div class="small-project-container">
                 <a
                     href="http://kaleidoscop.herokuapp.com/resizable_panes/"
@@ -491,7 +570,7 @@
                     <div>
                         <details>
                             <summary>More info</summary>
-                            <p class="make-font-smaller">
+                            <p>
                                 I loved playing Connect 4 as a child - and I
                                 still do today! I never thought I would build
                                 one as a computer game. The hardest part was
@@ -517,9 +596,8 @@
             </div>
         </div>
 
-        <!-- //////////// Kitty Carousel //////////// -->
-
         <div class="grid-container">
+            <!-- //////////// Kitty Carousel //////////// -->
             <div class="small-project-container">
                 <a
                     href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
@@ -633,9 +711,8 @@
             </div>
         </div>
 
-        <!-- //////////// Local Storage //////////// -->
-
         <div class="grid-container">
+            <!-- //////////// Local Storage //////////// -->
             <div class="small-project-container">
                 <a
                     href="http://kaleidoscop.herokuapp.com/local_storage/"
@@ -671,7 +748,7 @@
                     <div>
                         <details>
                             <summary>More info</summary>
-                            <p class="make-font-smaller">
+                            <p>
                                 Working with local storage was fun. If you write
                                 something in the text field and click the button
                                 'Keep it a secret!' the text disappears and the
@@ -753,9 +830,8 @@
             </div>
         </div>
 
-        <!-- //////////// Ticker //////////// -->
-
         <div class="grid-container">
+            <!-- //////////// Ticker //////////// -->
             <div class="small-project-container">
                 <a
                     href="http://kaleidoscop.herokuapp.com/ticker/"
@@ -815,65 +891,6 @@
             </button>
             <div v-if="infoTicker">
             </div> -->
-            </div>
-
-            <!-- //////////// Incremental Search //////////// -->
-
-            <div class="small-project-container">
-                <div class="image-container-small">
-                    <a
-                        href="http://kaleidoscop.herokuapp.com/incremental_search/"
-                        target="_blank"
-                        title="Visit my incremental search project"
-                        ><h3 id="incremental">Incremental Search</h3></a
-                    >
-
-                    <a
-                        href="http://kaleidoscop.herokuapp.com/incremental_search/"
-                        target="_blank"
-                        title="Visit my incremental search project"
-                        ><img
-                            src="/images/incremental_search.png"
-                            alt="screenshot of incremental search displaying search results for 'ca'"
-                    /></a>
-                </div>
-
-                <div class="text-container-small">
-                    <div class="flex-row">
-                        <img
-                            src="/icons/checklist.svg"
-                            alt="icon for features"
-                            class="social-media-logo"
-                        />
-                        <p>
-                            <b>Features:</b> Search countries, use either mouse
-                            or keys
-                        </p>
-                    </div>
-                    <!-- Zum Ausklappen -->
-                    <div>
-                        <details>
-                            <summary>More info</summary>
-                            <p>
-                                I have used incremental searches many times in
-                                my life and did not even know this term until I
-                                had to build one... I never thought about all
-                                the different steps that need to be programmed.
-                                I learned how to work with mouseovers,
-                                mousedowns and key-commands and how to highlight
-                                my search result, all programmed with jQuery. I
-                                also used focus and blur when a user's attention
-                                blurs (pun intended 😉) and after all it was my
-                                first ajax 'GET'-request to search from an API
-                                serving over 200 countries.
-                            </p>
-                        </details>
-                    </div>
-                </div>
-                <!-- <button @click="toggleIncremental">
-                {{ button.text }}
-            </button>
-            <div v-if="infoIncremental"></div> -->
             </div>
         </div>
     </div>
@@ -964,10 +981,6 @@ export default {
 </script>
 
 <style scoped>
-html {
-    scroll-snap-type: y mandatory;
-}
-
 #software-container {
     margin: 0 2em 2em 2em;
 }
@@ -986,6 +999,7 @@ h2 {
 
 h3 {
     font-size: 2.2em;
+    margin-top: 1em;
 }
 
 .software-explanation {
@@ -993,42 +1007,9 @@ h3 {
     margin: 0 15% 3% 15%;
 }
 
-/* .link-padding {
-    margin: 0 13.6% 0 0;
-} */
-
-.grid-container-one {
-    height: 72vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.image-container-one {
-    width: 100%;
-}
-
-.image-container-one img {
-    width: 100%;
-    height: 72vh;
-}
-
-.text-container-one {
-    width: 100%;
-    height: 78vh;
-    padding: 0 5%;
-    justify-content: flex-start;
-}
-
-.text-container-one > div {
-    margin-top: 2%;
-}
-
 .grid-container {
-    height: 95vh;
-    margin-top: 5vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    scroll-snap-align: end;
 }
 
 .image-container {
@@ -1037,7 +1018,6 @@ h3 {
 
 .image-container img {
     width: 100%;
-    height: 95vh;
 }
 
 .image-container:hover {
@@ -1046,7 +1026,6 @@ h3 {
 
 .text-container {
     width: 100%;
-    height: 95vh;
     padding: 5% 5% 0 5%;
     justify-content: flex-start;
 }
@@ -1074,21 +1053,11 @@ details > p {
 
 .small-project-container {
     width: 100%;
-    height: 95vh;
 }
 
-.grid-container-bigger {
-    height: 100vh;
-    margin-top: 5vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    scroll-snap-align: end;
-}
-.small-project-container-bigger {
-    width: 100%;
-    height: 100vh;
-}
-
+#socialnetwork,
+#imageboard,
+#petition,
 #kaleidoscope,
 #spotify,
 #panes,
@@ -1113,12 +1082,10 @@ details > p {
 
 .image-container-small img {
     width: 100%;
-    height: 50vh;
 }
 
 .text-container-small {
     width: 100%;
-    height: 45vh;
     padding: 2% 5% 0 10%;
 }
 
@@ -1128,16 +1095,11 @@ details > p {
 
 .small-project-container {
     width: 100%;
-    height: 100vh;
 }
 
 .make-details-visible {
     margin-top: 1% !important;
     margin-right: 2%;
-}
-
-.make-font-smaller {
-    font-size: 0.8em;
 }
 
 .social-media-logo {

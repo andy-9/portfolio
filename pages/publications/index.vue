@@ -741,7 +741,7 @@
         </p>
         <p>
             <iframe
-                src="https://hearthis.at/embed/938165/transparent/?hcolor=&amp;color=&amp;style=2&amp;block_size=2&amp;block_space=1&amp;background=0&amp;waveform=0&amp;cover=0&amp;autoplay=0&amp;css="
+                src="https://hearthis.at/embed/938165/transparent/?hcolor=&amp;color=&amp;style=2&amp;block_size=2&amp;block_space=1&amp;background=0&amp;waveform=0&amp;cover=0&amp;css="
                 scrolling="no"
                 width="100%"
                 height="166"
@@ -939,7 +939,7 @@
                 ><b>Gender und rechte Ideologien</b></a
             >. Podcast des Projekts "de:hate".
         </p>
-        <!-- allow="autoplay" -->
+
         <div>
             <iframe
                 width="100%"
@@ -1128,7 +1128,6 @@
                 ></a
             >. Conversation with Andreas Hechler visiting Berlin-Buch.
         </p>
-        <!-- allow="autoplay" -->
 
         <div>
             <iframe
@@ -1346,22 +1345,16 @@ audio {
 }
 
 audio:focus {
-    width: 100%;
-    margin-top: -1%;
     outline: none;
 }
 
 video {
     width: 100%;
     height: 12em;
-    margin-top: -1%;
     outline: none;
 }
 
 video:focus {
-    width: 100%;
-    height: 12em;
-    margin-top: -1%;
     outline: none;
 }
 
