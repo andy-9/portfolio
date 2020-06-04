@@ -103,8 +103,8 @@
         </div>
 
         <div class="footer nav-fixed-bottom text-center">
-            Pen by:<br />
-            Justin Tan | UI/UX Designer | Front End Developer
+            <!-- Pen by:<br /> -->
+            <!-- Justin Tan | UI/UX Designer | Front End Developer -->
         </div>
     </div>
 </template>
