@@ -29,7 +29,7 @@
                     ><h3 id="socialnetwork">Social Network</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a href="https://kite-inc.herokuapp.com/" target="_blank"
                         ><img
                             src="/images/kite.png"
@@ -38,7 +38,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small flex-column">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/information-outline.svg"
@@ -109,176 +109,167 @@
             <!-- //////////// Imageboard //////////// -->
 
             <div class="small-project-container">
-                <div class="text-container flex-column">
+                <a
+                    href="http://graf-streetart.herokuapp.com/"
+                    target="_blank"
+                    title="Visit my imageboard"
+                    ><h3 id="imageboard">Imageboard</h3></a
+                >
+
+                <div class="image-container">
                     <a
                         href="http://graf-streetart.herokuapp.com/"
                         target="_blank"
-                        title="Visit my imageboard"
-                        ><h3 id="imageboard">Imageboard</h3></a
-                    >
+                        ><img
+                            src="/images/imageboard.png"
+                            alt="screenshot of imageboard graffiti and street art displaying landing page"
+                            title="Visit my imageboard"
+                    /></a>
+                </div>
 
-                    <div class="image-container-small">
-                        <a
-                            href="http://graf-streetart.herokuapp.com/"
-                            target="_blank"
-                            ><img
-                                src="/images/imageboard.png"
-                                alt="screenshot of imageboard graffiti and street art displaying landing page"
-                                title="Visit my imageboard"
-                        /></a>
+                <div class="text-container">
+                    <div class="flex-row">
+                        <img
+                            src="/icons/information-outline.svg"
+                            alt="icon for information"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Instagram-inspired</b>
+                            single-page-application (SPA)
+                        </p>
                     </div>
-
-                    <div class="text-container-small flex-column">
-                        <div class="flex-row">
-                            <img
-                                src="/icons/information-outline.svg"
-                                alt="icon for information"
-                                class="social-media-logo"
-                            />
-                            <p>
-                                <b>Instagram-inspired</b>
-                                single-page-application (SPA)
-                            </p>
-                        </div>
-                        <div class="flex-row">
-                            <img
-                                src="/icons/code-slash.svg"
-                                alt="icon for code"
-                                class="social-media-logo"
-                            />
-                            <p>
-                                <b>Tech stack:</b> Vue, Express, Node,
-                                PostgreSQL, Amazon S3, Jest, CSS, HTML
-                            </p>
-                        </div>
-                        <div class="flex-row">
-                            <img
-                                src="/icons/checklist.svg"
-                                alt="icon for features"
-                                class="social-media-logo"
-                            />
-                            <p>
-                                <b>Features:</b> upload of images with title,
-                                description and user-name, each image can be
-                                clicked and displayed in large with more info
-                                and the possibility to comment and also delete
-                                the image, more images can be loaded
-                            </p>
-                        </div>
-                        <!-- Zum Ausklappen -->
-                        <div>
-                            <details>
-                                <summary>More info</summary>
-                                <p>
-                                    Anyone can upload images of their choosing;
-                                    the theme of this imageboard is graffiti and
-                                    street art.
-                                </p>
-                                <p>
-                                    I learned about Vue.js and working with
-                                    state, un/mounting, dynamic routing, click
-                                    handlers, event-emitters and watchers. The
-                                    imageboard is protected against
-                                    SQL-injection, clickjacking, XSS- and
-                                    CSRF-attacks.
-                                </p>
-                            </details>
-                        </div>
+                    <div class="flex-row">
+                        <img
+                            src="/icons/code-slash.svg"
+                            alt="icon for code"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Tech stack:</b> Vue, Express, Node, PostgreSQL,
+                            Amazon S3, Jest, CSS, HTML
+                        </p>
                     </div>
-                    <!-- <button @click="toggleImageboard">
+                    <div class="flex-row">
+                        <img
+                            src="/icons/checklist.svg"
+                            alt="icon for features"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Features:</b> upload of images with title,
+                            description and user-name, each image can be clicked
+                            and displayed in large with more info and the
+                            possibility to comment and also delete the image,
+                            more images can be loaded
+                        </p>
+                    </div>
+                    <!-- Zum Ausklappen -->
+                    <div>
+                        <details>
+                            <summary>More info</summary>
+                            <p>
+                                Anyone can upload images of their choosing; the
+                                theme of this imageboard is graffiti and street
+                                art.
+                            </p>
+                            <p>
+                                I learned about Vue.js and working with state,
+                                un/mounting, dynamic routing, click handlers,
+                                event-emitters and watchers. The imageboard is
+                                protected against SQL-injection, clickjacking,
+                                XSS- and CSRF-attacks.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <!-- <button @click="toggleImageboard">
                     {{ button.text }}
                 </button>
                 <div v-if="infoImageboard">
                 </div> -->
-                </div>
             </div>
         </div>
 
         <div class="grid-container">
             <!-- //////////// Petition //////////// -->
             <div class="small-project-container">
+                <a
+                    href="https://algobias.herokuapp.com/"
+                    target="_blank"
+                    title="Visit my online petition"
+                    ><h3 id="petition">Petition</h3></a
+                >
+
+                <div class="image-container">
+                    <a href="https://algobias.herokuapp.com/" target="_blank"
+                        ><img
+                            src="/images/algobias.png"
+                            alt="screenshot of petition against algorithmic bias displaying the register site"
+                            title="Visit my online petition"
+                    /></a>
+                </div>
+
                 <div class="text-container flex-column">
-                    <a
-                        href="https://algobias.herokuapp.com/"
-                        target="_blank"
-                        title="Visit my online petition"
-                        ><h3 id="petition">Petition</h3></a
-                    >
-
-                    <div class="image-container-small">
-                        <a
-                            href="https://algobias.herokuapp.com/"
-                            target="_blank"
-                            ><img
-                                src="/images/algobias.png"
-                                alt="screenshot of petition against algorithmic bias displaying the register site"
-                                title="Visit my online petition"
-                        /></a>
+                    <div class="flex-row">
+                        <img
+                            src="/icons/information-outline.svg"
+                            alt="icon for information"
+                            class="social-media-logo"
+                        />
+                        <p><b>Online-Petition</b> against algorithmic bias</p>
                     </div>
-
-                    <div class="text-container-small flex-column">
-                        <div class="flex-row">
-                            <img
-                                src="/icons/information-outline.svg"
-                                alt="icon for information"
-                                class="social-media-logo"
-                            />
+                    <div class="flex-row">
+                        <img
+                            src="/icons/code-slash.svg"
+                            alt="icon for code"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Tech stack:</b> Express handlebars, Node,
+                            PostgreSQL, jQuery, CSS, HTML
+                        </p>
+                    </div>
+                    <div class="flex-row">
+                        <img
+                            src="/icons/checklist.svg"
+                            alt="icon for features"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Features:</b> supporters can register, login,
+                            update their profile information, sign, unsign, view
+                            fellow signees sorted by location, logout
+                        </p>
+                    </div>
+                    <!-- Zum Ausklappen -->
+                    <div>
+                        <details>
+                            <summary>More info</summary>
                             <p>
-                                <b>Online-Petition</b> against algorithmic bias
+                                This petition advocates for signing the
+                                Algo.Rules and against algorithmic bias.
+                                Depending on whether users register and sign,
+                                they get served different sites. If they sign,
+                                other signees, their homepages, age and city are
+                                displayed.
                             </p>
-                        </div>
-                        <div class="flex-row">
-                            <img
-                                src="/icons/code-slash.svg"
-                                alt="icon for code"
-                                class="social-media-logo"
-                            />
                             <p>
-                                <b>Tech stack:</b> Express handlebars, Node,
-                                PostgreSQL, jQuery, CSS, HTML
+                                I learned about dataflow, working with
+                                session-cookies, get- and post-routes and how to
+                                test them with supertest. I was also working
+                                with promises, password hashing and inserts,
+                                updates, upserts and deletes in the database.
+                                Getting the signature on a canvas and
+                                conditionally editing the profile I found
+                                particularly challenging.
                             </p>
-                        </div>
-                        <div class="flex-row">
-                            <img
-                                src="/icons/checklist.svg"
-                                alt="icon for features"
-                                class="social-media-logo"
-                            />
                             <p>
-                                <b>Features:</b> supporters can register, login,
-                                update their profile information, sign, unsign,
-                                view fellow signees sorted by location, logout
+                                The site has a differentiated error-handling and
+                                is protected against SQL-injection,
+                                clickjacking, XSS- and CSRF-attacks.
                             </p>
-                        </div>
-                        <!-- Zum Ausklappen -->
-                        <div>
-                            <details>
-                                <summary>More info</summary>
-                                <p>
-                                    This petition advocates for signing the
-                                    Algo.Rules and against algorithmic bias.
-                                    Depending on whether users register and
-                                    sign, they get served different sites. If
-                                    they sign, other signees, their homepages,
-                                    age and city are displayed.
-                                </p>
-                                <p>
-                                    I learned about dataflow, working with
-                                    session-cookies, get- and post-routes and
-                                    how to test them with supertest. I was also
-                                    working with promises, password hashing and
-                                    inserts, updates, upserts and deletes in the
-                                    database. Getting the signature on a canvas
-                                    and conditionally editing the profile I
-                                    found particularly challenging.
-                                </p>
-                                <p>
-                                    The site has a differentiated error-handling
-                                    and is protected against SQL-injection,
-                                    clickjacking, XSS- and CSRF-attacks.
-                                </p>
-                            </details>
-                        </div>
+                        </details>
                     </div>
                     <!-- <button @click="togglePetition">
                     {{ button.text }}
@@ -298,7 +289,7 @@
                     ><h3 id="kaleidoscope">Kaleidoscope</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a href="http://kaleidoscop.herokuapp.com/" target="_blank"
                         ><img
                             src="/images/kaleidoscope.png"
@@ -307,7 +298,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small flex-column">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/information-outline.svg"
@@ -354,7 +345,7 @@
                     ><h3 id="spotify">Spotify Search</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/spotify_search/"
                         target="_blank"
@@ -365,7 +356,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
@@ -415,7 +406,7 @@
             <!-- //////////// Incremental Search //////////// -->
 
             <div class="small-project-container">
-                <div class="image-container-small">
+                <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/incremental_search/"
                         target="_blank"
@@ -433,7 +424,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
@@ -482,7 +473,7 @@
                     ><h3 id="panes">Resizable Panes</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                         target="_blank"
@@ -493,7 +484,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
@@ -541,7 +532,7 @@
                     ><h3 id="connectfour">Connect 4</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/connect4/"
                         target="_blank"
@@ -552,7 +543,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
@@ -606,7 +597,7 @@
                     ><h3 id="carousel">Kitty Carousel</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                         target="_blank"
@@ -617,7 +608,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
@@ -662,7 +653,7 @@
                     ><h3 id="spicedhomepage">Spiced Homepage</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
                         target="_blank"
@@ -673,7 +664,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
@@ -721,7 +712,7 @@
                     ><h3 id="localstorage">Local Storage</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/local_storage/"
                         target="_blank"
@@ -732,7 +723,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
@@ -781,7 +772,7 @@
                     ><h3 id="validator">JSON-validator</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/JSON_validator/"
                         target="_blank"
@@ -792,7 +783,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
@@ -840,7 +831,7 @@
                     ><h3 id="ticker">Ticker</h3></a
                 >
 
-                <div class="image-container-small">
+                <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/ticker/"
                         target="_blank"
@@ -851,7 +842,7 @@
                     /></a>
                 </div>
 
-                <div class="text-container-small">
+                <div class="text-container">
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
@@ -1012,8 +1003,13 @@ h3 {
     grid-template-columns: 1fr 1fr;
 }
 
-.image-container {
+.small-project-container {
     width: 100%;
+}
+
+.image-container {
+    width: 60%;
+    margin: 3% 0 0 20%;
 }
 
 .image-container img {
@@ -1027,7 +1023,7 @@ h3 {
 .text-container {
     width: 100%;
     padding: 5% 5% 0 5%;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
 }
 
 .text-container > div {
@@ -1051,10 +1047,6 @@ details > p {
     margin: 0;
 }
 
-.small-project-container {
-    width: 100%;
-}
-
 #socialnetwork,
 #imageboard,
 #petition,
@@ -1069,28 +1061,6 @@ details > p {
 #ticker,
 #incremental {
     text-align: center;
-}
-
-.image-container-small {
-    width: 60%;
-    margin: 3% 0 0 20%;
-}
-
-.image-container-small:hover {
-    filter: brightness(110%);
-}
-
-.image-container-small img {
-    width: 100%;
-}
-
-.text-container-small {
-    width: 100%;
-    padding: 2% 5% 0 10%;
-}
-
-.text-container-small > div {
-    margin-top: 2%;
 }
 
 .small-project-container {
