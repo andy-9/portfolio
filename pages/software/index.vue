@@ -1023,7 +1023,6 @@ h3 {
 .text-container {
     width: 100%;
     padding: 5% 5% 0 5%;
-    /* justify-content: flex-start; */
 }
 
 .text-container > div {

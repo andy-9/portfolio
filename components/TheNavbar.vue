@@ -1,52 +1,33 @@
 <template>
     <nav id="navbar">
-        <div class="">
-            <nuxt-link class="nav-link" :to="{ name: 'index' }">Home</nuxt-link>
-        </div>
+        <nuxt-link class="nav-link" :to="{ name: 'index' }">Home</nuxt-link>
 
-        <div class="">
-            <nuxt-link
-                class="nav-link"
-                :to="{ name: 'software' }"
-                title="Bigger and smaller projects I have built as a software engineer"
-                >Software</nuxt-link
-            >
-        </div>
+        <nuxt-link
+            class="nav-link"
+            :to="{ name: 'software' }"
+            title="Bigger and smaller projects I have built as a software engineer"
+            >Software</nuxt-link
+        >
 
-        <div class="">
-            <nuxt-link
-                class="nav-link"
-                :to="{ name: 'coaching' }"
-                title="Coaching, education, evaluation and other things I do"
-                >Coaching</nuxt-link
-            >
-        </div>
+        <nuxt-link
+            class="nav-link"
+            :to="{ name: 'publications' }"
+            title="Writing and speaking"
+            >Publications</nuxt-link
+        >
 
-        <div class="">
-            <nuxt-link
-                class="nav-link"
-                :to="{ name: 'publications' }"
-                title="Writing and speaking"
-                >Publications</nuxt-link
-            >
-        </div>
+        <nuxt-link class="nav-link" :to="{ name: 'about' }" title="About me"
+            >About</nuxt-link
+        >
 
-        <div class="">
-            <nuxt-link class="nav-link" :to="{ name: 'about' }" title="About me"
-                >About</nuxt-link
-            >
-        </div>
+        <nuxt-link
+            class="nav-link"
+            :to="{ name: 'contact' }"
+            title="Get in touch, imprint & credits"
+            >Contact</nuxt-link
+        >
 
-        <div class="">
-            <nuxt-link
-                class="nav-link"
-                :to="{ name: 'contact' }"
-                title="Get in touch, imprint & credits"
-                >Contact</nuxt-link
-            >
-        </div>
-
-        <div class="">
+        <div class="language-selector">
             <nuxt-link
                 class="nav-link-left"
                 :to="{ name: '' }"
@@ -54,7 +35,7 @@
             >
                 EN</nuxt-link
             >
-            |
+            <span class="language-separator">|</span>
             <nuxt-link
                 class=""
                 :to="{ name: '' }"
@@ -77,6 +58,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
+    mix-blend-mode: screen;
 }
 
 .nav-link {
@@ -85,5 +68,9 @@ nav {
 
 .nav-link-left {
     padding-left: 2em;
+}
+
+.language-separator {
+    color: rgb(85, 84, 84);
 }
 </style>
