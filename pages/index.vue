@@ -33,8 +33,8 @@
                 </p>
                 <p>
                     I am fascinated by what language can do - changing people's
-                    thoughts with words or the DOM with ‎code is the topic that
-                    keeps me busy now.‎
+                    thoughts and actions with words or what they see on screen
+                    with ‎code is the topic that keeps me busy now.‎
                 </p>
             </div>
 
