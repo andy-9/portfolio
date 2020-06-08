@@ -106,92 +106,6 @@
                 </div>
             </div>
 
-            <!-- //////////// Imageboard //////////// -->
-
-            <div class="small-project-container">
-                <a
-                    href="http://graf-streetart.herokuapp.com/"
-                    target="_blank"
-                    title="Visit my imageboard"
-                    ><h3 id="imageboard">Imageboard</h3></a
-                >
-
-                <div class="image-container">
-                    <a
-                        href="http://graf-streetart.herokuapp.com/"
-                        target="_blank"
-                        ><img
-                            src="/images/imageboard.png"
-                            alt="screenshot of imageboard graffiti and street art displaying landing page"
-                            title="Visit my imageboard"
-                    /></a>
-                </div>
-
-                <div class="text-container">
-                    <div class="flex-row">
-                        <img
-                            src="/icons/information-outline.svg"
-                            alt="icon for information"
-                            class="social-media-logo"
-                        />
-                        <p>
-                            <b>Instagram-inspired</b>
-                            single-page-application (SPA)
-                        </p>
-                    </div>
-                    <div class="flex-row">
-                        <img
-                            src="/icons/code-slash.svg"
-                            alt="icon for code"
-                            class="social-media-logo"
-                        />
-                        <p>
-                            <b>Tech stack:</b> Vue, Express, Node, PostgreSQL,
-                            Amazon S3, Jest, CSS, HTML
-                        </p>
-                    </div>
-                    <div class="flex-row">
-                        <img
-                            src="/icons/checklist.svg"
-                            alt="icon for features"
-                            class="social-media-logo"
-                        />
-                        <p>
-                            <b>Features:</b> upload of images with title,
-                            description and user-name, each image can be clicked
-                            and displayed in large with more info and the
-                            possibility to comment and also delete the image,
-                            more images can be loaded
-                        </p>
-                    </div>
-                    <!-- Zum Ausklappen -->
-                    <div>
-                        <details>
-                            <summary>More info</summary>
-                            <p>
-                                Anyone can upload images of their choosing; the
-                                theme of this imageboard is graffiti and street
-                                art.
-                            </p>
-                            <p>
-                                I learned about Vue.js and working with state,
-                                un/mounting, dynamic routing, click handlers,
-                                event-emitters and watchers. The imageboard is
-                                protected against SQL-injection, clickjacking,
-                                XSS- and CSRF-attacks.
-                            </p>
-                        </details>
-                    </div>
-                </div>
-                <!-- <button @click="toggleImageboard">
-                    {{ button.text }}
-                </button>
-                <div v-if="infoImageboard">
-                </div> -->
-            </div>
-        </div>
-
-        <div class="grid-container">
             <!-- //////////// Petition //////////// -->
             <div class="small-project-container">
                 <a
@@ -278,6 +192,92 @@
                 </div> -->
                 </div>
             </div>
+        </div>
+
+        <div class="grid-container">
+            <!-- //////////// Imageboard //////////// -->
+
+            <div class="small-project-container">
+                <a
+                    href="http://graf-streetart.herokuapp.com/"
+                    target="_blank"
+                    title="Visit my imageboard"
+                    ><h3 id="imageboard">Imageboard</h3></a
+                >
+
+                <div class="image-container">
+                    <a
+                        href="http://graf-streetart.herokuapp.com/"
+                        target="_blank"
+                        ><img
+                            src="/images/imageboard.png"
+                            alt="screenshot of imageboard graffiti and street art displaying landing page"
+                            title="Visit my imageboard"
+                    /></a>
+                </div>
+
+                <div class="text-container">
+                    <div class="flex-row">
+                        <img
+                            src="/icons/information-outline.svg"
+                            alt="icon for information"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Instagram-inspired</b>
+                            single-page-application (SPA)
+                        </p>
+                    </div>
+                    <div class="flex-row">
+                        <img
+                            src="/icons/code-slash.svg"
+                            alt="icon for code"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Tech stack:</b> Vue, Express, Node, PostgreSQL,
+                            Amazon S3, Jest, CSS, HTML
+                        </p>
+                    </div>
+                    <div class="flex-row">
+                        <img
+                            src="/icons/checklist.svg"
+                            alt="icon for features"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Features:</b> upload of images with title,
+                            description and user-name, each image can be clicked
+                            and displayed in large with more info and the
+                            possibility to comment and also delete the image,
+                            more images can be loaded
+                        </p>
+                    </div>
+                    <!-- Zum Ausklappen -->
+                    <div>
+                        <details>
+                            <summary>More info</summary>
+                            <p>
+                                Anyone can upload images of their choosing; the
+                                theme of this imageboard is graffiti and street
+                                art.
+                            </p>
+                            <p>
+                                I learned about Vue.js and working with state,
+                                un/mounting, dynamic routing, click handlers,
+                                event-emitters and watchers. The imageboard is
+                                protected against SQL-injection, clickjacking,
+                                XSS- and CSRF-attacks.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <!-- <button @click="toggleImageboard">
+                    {{ button.text }}
+                </button>
+                <div v-if="infoImageboard">
+                </div> -->
+            </div>
 
             <!-- //////////// Kaleidoscope //////////// -->
 
@@ -333,9 +333,74 @@
             </div>
         </div>
 
+        <nuxt-link
+            :to="{ path: 'software', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
+
         <!-- ///////////////////// SMALLER PROJECTS ///////////////////// -->
 
         <div class="grid-container">
+            <!-- //////////// Resizable Panes //////////// -->
+            <div class="small-project-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/resizable_panes/"
+                    target="_blank"
+                    title="Visit my resizable panes project"
+                    ><h3 id="panes">Resizable Panes</h3></a
+                >
+
+                <div class="image-container">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/resizable_panes/"
+                        target="_blank"
+                        title="Visit my resizable panes project"
+                        ><img
+                            src="/images/panes.png"
+                            alt="screenshot of resizable panes"
+                    /></a>
+                </div>
+
+                <div class="text-container">
+                    <div class="flex-row">
+                        <img
+                            src="/icons/checklist.svg"
+                            alt="icon for features"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Features:</b> Resize pane with slider, display
+                            one image or the other
+                        </p>
+                    </div>
+                    <!-- Zum Ausklappen -->
+                    <div>
+                        <details>
+                            <summary>More info</summary>
+                            <p>
+                                2 images blending into each other, usually used
+                                for before-after-images. I used it to
+                                commemorate my great-grandmother Emilie Rau. If
+                                you click on the white slider in the middle and
+                                slide it to the left you will see more of the
+                                image on the right-hand side and vice versa.
+                                Programming-wise I used mousedown, mousemove and
+                                mouseup events and offset().left became a good
+                                friend. It was difficult to end the sliding
+                                within the boundaries of the pane.
+                            </p>
+                        </details>
+                    </div>
+                    <!-- <button @click="togglePanes">
+                {{ button.text }}
+            </button>
+            <div v-if="infoPanes">
+            </div> -->
+                </div>
+            </div>
+
             <!-- //////////// Spotify Search //////////// -->
             <div class="small-project-container">
                 <a
@@ -402,190 +467,14 @@
                 </div> -->
                 </div>
             </div>
-
-            <!-- //////////// Incremental Search //////////// -->
-
-            <div class="small-project-container">
-                <div class="image-container">
-                    <a
-                        href="http://kaleidoscop.herokuapp.com/incremental_search/"
-                        target="_blank"
-                        title="Visit my incremental search project"
-                        ><h3 id="incremental">Incremental Search</h3></a
-                    >
-
-                    <a
-                        href="http://kaleidoscop.herokuapp.com/incremental_search/"
-                        target="_blank"
-                        title="Visit my incremental search project"
-                        ><img
-                            src="/images/incremental_search.png"
-                            alt="screenshot of incremental search displaying search results for 'ca'"
-                    /></a>
-                </div>
-
-                <div class="text-container">
-                    <div class="flex-row">
-                        <img
-                            src="/icons/checklist.svg"
-                            alt="icon for features"
-                            class="social-media-logo"
-                        />
-                        <p>
-                            <b>Features:</b> Search countries, use either mouse
-                            or keys
-                        </p>
-                    </div>
-                    <!-- Zum Ausklappen -->
-                    <div>
-                        <details>
-                            <summary>More info</summary>
-                            <p>
-                                I have used incremental searches many times in
-                                my life and did not even know this term until I
-                                had to build one... I never thought about all
-                                the different steps that need to be programmed.
-                                I learned how to work with mouseovers,
-                                mousedowns and key-commands and how to highlight
-                                my search result, all programmed with jQuery. I
-                                also used focus and blur when a user's attention
-                                blurs (pun intended 😉) and after all it was my
-                                first ajax 'GET'-request to search from an API
-                                serving over 200 countries.
-                            </p>
-                        </details>
-                    </div>
-                </div>
-                <!-- <button @click="toggleIncremental">
-                {{ button.text }}
-            </button>
-            <div v-if="infoIncremental"></div> -->
-            </div>
         </div>
 
-        <div class="grid-container">
-            <!-- //////////// Resizable Panes //////////// -->
-            <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/resizable_panes/"
-                    target="_blank"
-                    title="Visit my resizable panes project"
-                    ><h3 id="panes">Resizable Panes</h3></a
-                >
-
-                <div class="image-container">
-                    <a
-                        href="http://kaleidoscop.herokuapp.com/resizable_panes/"
-                        target="_blank"
-                        title="Visit my resizable panes project"
-                        ><img
-                            src="/images/panes.png"
-                            alt="screenshot of resizable panes"
-                    /></a>
-                </div>
-
-                <div class="text-container">
-                    <div class="flex-row">
-                        <img
-                            src="/icons/checklist.svg"
-                            alt="icon for features"
-                            class="social-media-logo"
-                        />
-                        <p>
-                            <b>Features:</b> Resize pane with slider, display
-                            one image or the other
-                        </p>
-                    </div>
-                    <!-- Zum Ausklappen -->
-                    <div>
-                        <details>
-                            <summary>More info</summary>
-                            <p>
-                                2 images blending into each other, usually used
-                                for before-after-images. I used it to
-                                commemorate my great-grandmother Emilie Rau. If
-                                you click on the white slider in the middle and
-                                slide it to the left you will see more of the
-                                image on the right-hand side and vice versa.
-                                Programming-wise I used mousedown, mousemove and
-                                mouseup events and offset().left became a good
-                                friend. It was difficult to end the sliding
-                                within the boundaries of the pane.
-                            </p>
-                        </details>
-                    </div>
-                    <!-- <button @click="togglePanes">
-                {{ button.text }}
-            </button>
-            <div v-if="infoPanes">
-            </div> -->
-                </div>
-            </div>
-
-            <!-- //////////// Connect 4 //////////// -->
-
-            <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/connect4/"
-                    target="_blank"
-                    title="Visit my Connect 4 project"
-                    ><h3 id="connectfour">Connect 4</h3></a
-                >
-
-                <div class="image-container">
-                    <a
-                        href="http://kaleidoscop.herokuapp.com/connect4/"
-                        target="_blank"
-                        ><img
-                            src="/images/connect4.png"
-                            alt="screenshot of connect four, both colors in the game"
-                            title="Visit my Connect 4 project"
-                    /></a>
-                </div>
-
-                <div class="text-container">
-                    <div class="flex-row">
-                        <img
-                            src="/icons/checklist.svg"
-                            alt="icon for features"
-                            class="social-media-logo"
-                        />
-                        <p>
-                            <b>Features:</b> 2 players can play against each
-                            other, horizontal, vertical or diagonal victories,
-                            animation when one player wins, winning color gets
-                            displayed, play again
-                        </p>
-                    </div>
-                    <!-- Zum Ausklappen -->
-                    <div>
-                        <details>
-                            <summary>More info</summary>
-                            <p>
-                                I loved playing Connect 4 as a child - and I
-                                still do today! I never thought I would build
-                                one as a computer game. The hardest part was
-                                figuring out and programming the diagonal
-                                victories. You can either pick dark-red or pink
-                                to play. Every move is accompanied by a sound.
-                                When one color wins, the whole board expands and
-                                the winning color fills the screen. This
-                                animation I did with jQuery. Additionally, there
-                                is a winning-message blinking - I programmed
-                                this in CSS with animations and keyframes. The
-                                'Play again' button restarts a new game - you
-                                should give it a shot!
-                            </p>
-                        </details>
-                    </div>
-                </div>
-                <!-- <button @click="toggleConnect">
-                {{ button.text }}
-            </button>
-            <div v-if="infoConnect">
-            </div> -->
-            </div>
-        </div>
+        <nuxt-link
+            :to="{ path: 'software', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
 
         <div class="grid-container">
             <!-- //////////// Kitty Carousel //////////// -->
@@ -643,24 +532,23 @@
             <div v-if="infoCarousel">
             </div> -->
 
-            <!-- //////////// Spiced Homepage //////////// -->
-
+            <!-- //////////// Ticker //////////// -->
             <div class="small-project-container">
                 <a
-                    href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
+                    href="http://kaleidoscop.herokuapp.com/ticker/"
                     target="_blank"
-                    title="Visit my Spiced homepage project"
-                    ><h3 id="spicedhomepage">Spiced Homepage</h3></a
+                    title="Visit my ticker project"
+                    ><h3 id="ticker">Ticker</h3></a
                 >
 
                 <div class="image-container">
                     <a
-                        href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
+                        href="http://kaleidoscop.herokuapp.com/ticker/"
                         target="_blank"
                         ><img
-                            src="/images/spiced.png"
-                            alt="screenshot of spiced homepage"
-                            title="Visit my Spiced homepage project"
+                            src="/images/ticker.png"
+                            alt="screenshot of ticker running"
+                            title="Visit my ticker project"
                     /></a>
                 </div>
 
@@ -672,35 +560,47 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Pop-up modal, hamburger menu with
-                            navigation sliding in from the right, also suited
-                            for smaller screens
+                            <b>Features:</b> Get the latest news displayed,
+                            click if you are interested
                         </p>
                     </div>
+                    <!-- Zum Ausklappen -->
                     <div>
                         <details>
                             <summary>More info</summary>
                             <p>
-                                An exercise in building a homepage for Spiced
-                                with HTML, CSS and JavaScript/jQuery without
-                                flexbox or grid - quite challenging! I worked on
-                                it several times, adding a pop-up modal and a
-                                menu that slides in from the right. It is also
-                                designed for a smaller screen with @media
-                                screen. I used animations, click handlers and
-                                (dis)played (with) in/visibility.
+                                Tickers are a bit outdated, but a good
+                                programming exercise. Mine runs from right to
+                                left, and if you mouseover on one of the titles
+                                the ticker stops running, the hyperlink becomes
+                                blue and underlined and if clicked the desired
+                                information opens in a new tab. The programming
+                                is in vanilla JavaScript with event listeners,
+                                mouseovers, mouseouts, offsetWidth and
+                                AnimationFrames among other things. If you wanna
+                                deep dive into my ticker you get to read all my
+                                texts that got translated into English... In a
+                                later exercise we added a backend and fetched
+                                live data from existing twitter-accounts through
+                                the twitter-API using tokens.
                             </p>
                         </details>
                     </div>
                 </div>
-                <!-- Zum Ausklappen -->
-                <!-- <button @click="toggleSpiced">
+                <!-- <button @click="toggleTicker">
                 {{ button.text }}
             </button>
-            <div v-if="infoSpiced">
+            <div v-if="infoTicker">
             </div> -->
             </div>
         </div>
+
+        <nuxt-link
+            :to="{ path: 'software', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
 
         <div class="grid-container">
             <!-- //////////// Local Storage //////////// -->
@@ -821,24 +721,31 @@
             </div>
         </div>
 
+        <nuxt-link
+            :to="{ path: 'software', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
+
         <div class="grid-container">
-            <!-- //////////// Ticker //////////// -->
+            <!-- //////////// Connect 4 //////////// -->
             <div class="small-project-container">
                 <a
-                    href="http://kaleidoscop.herokuapp.com/ticker/"
+                    href="http://kaleidoscop.herokuapp.com/connect4/"
                     target="_blank"
-                    title="Visit my ticker project"
-                    ><h3 id="ticker">Ticker</h3></a
+                    title="Visit my Connect 4 project"
+                    ><h3 id="connectfour">Connect 4</h3></a
                 >
 
                 <div class="image-container">
                     <a
-                        href="http://kaleidoscop.herokuapp.com/ticker/"
+                        href="http://kaleidoscop.herokuapp.com/connect4/"
                         target="_blank"
                         ><img
-                            src="/images/ticker.png"
-                            alt="screenshot of ticker running"
-                            title="Visit my ticker project"
+                            src="/images/connect4.png"
+                            alt="screenshot of connect four, both colors in the game"
+                            title="Visit my Connect 4 project"
                     /></a>
                 </div>
 
@@ -850,8 +757,10 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Get the latest news displayed,
-                            click if you are interested
+                            <b>Features:</b> 2 players can play against each
+                            other, horizontal, vertical or diagonal victories,
+                            animation when one player wins, winning color gets
+                            displayed, play again
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -859,31 +768,163 @@
                         <details>
                             <summary>More info</summary>
                             <p>
-                                Tickers are a bit outdated, but a good
-                                programming exercise. Mine runs from right to
-                                left, and if you mouseover on one of the titles
-                                the ticker stops running, the hyperlink becomes
-                                blue and underlined and if clicked the desired
-                                information opens in a new tab. The programming
-                                is in vanilla JavaScript with event listeners,
-                                mouseovers, mouseouts, offsetWidth and
-                                AnimationFrames among other things. If you wanna
-                                deep dive into my ticker you get to read all my
-                                texts that got translated into English... In a
-                                later exercise we added a backend and fetched
-                                live data from existing twitter-accounts through
-                                the twitter-API using tokens.
+                                I loved playing Connect 4 as a child - and I
+                                still do today! I never thought I would build
+                                one as a computer game. The hardest part was
+                                figuring out and programming the diagonal
+                                victories. You can either pick dark-red or pink
+                                to play. Every move is accompanied by a sound.
+                                When one color wins, the whole board expands and
+                                the winning color fills the screen. This
+                                animation I did with jQuery. Additionally, there
+                                is a winning-message blinking - I programmed
+                                this in CSS with animations and keyframes. The
+                                'Play again' button restarts a new game - you
+                                should give it a shot!
                             </p>
                         </details>
                     </div>
                 </div>
-                <!-- <button @click="toggleTicker">
+                <!-- <button @click="toggleConnect">
                 {{ button.text }}
             </button>
-            <div v-if="infoTicker">
+            <div v-if="infoConnect">
+            </div> -->
+            </div>
+
+            <!-- //////////// Spiced Homepage //////////// -->
+
+            <div class="small-project-container">
+                <a
+                    href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
+                    target="_blank"
+                    title="Visit my Spiced homepage project"
+                    ><h3 id="spicedhomepage">Spiced Homepage</h3></a
+                >
+
+                <div class="image-container">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
+                        target="_blank"
+                        ><img
+                            src="/images/spiced.png"
+                            alt="screenshot of spiced homepage"
+                            title="Visit my Spiced homepage project"
+                    /></a>
+                </div>
+
+                <div class="text-container">
+                    <div class="flex-row">
+                        <img
+                            src="/icons/checklist.svg"
+                            alt="icon for features"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Features:</b> Pop-up modal, hamburger menu with
+                            navigation sliding in from the right, also suited
+                            for smaller screens
+                        </p>
+                    </div>
+                    <div>
+                        <details>
+                            <summary>More info</summary>
+                            <p>
+                                An exercise in building a homepage for Spiced
+                                with HTML, CSS and JavaScript/jQuery without
+                                flexbox or grid - quite challenging! I worked on
+                                it several times, adding a pop-up modal and a
+                                menu that slides in from the right. It is also
+                                designed for a smaller screen with @media
+                                screen. I used animations, click handlers and
+                                (dis)played (with) in/visibility.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <!-- Zum Ausklappen -->
+                <!-- <button @click="toggleSpiced">
+                {{ button.text }}
+            </button>
+            <div v-if="infoSpiced">
             </div> -->
             </div>
         </div>
+
+        <nuxt-link
+            :to="{ path: 'software', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
+
+        <div class="grid-container">
+            <!-- //////////// Incremental Search //////////// -->
+
+            <div class="small-project-container">
+                <div class="image-container">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/incremental_search/"
+                        target="_blank"
+                        title="Visit my incremental search project"
+                        ><h3 id="incremental">Incremental Search</h3></a
+                    >
+
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/incremental_search/"
+                        target="_blank"
+                        title="Visit my incremental search project"
+                        ><img
+                            src="/images/incremental_search.png"
+                            alt="screenshot of incremental search displaying search results for 'ca'"
+                    /></a>
+                </div>
+
+                <div class="text-container">
+                    <div class="flex-row">
+                        <img
+                            src="/icons/checklist.svg"
+                            alt="icon for features"
+                            class="social-media-logo"
+                        />
+                        <p>
+                            <b>Features:</b> Search countries, use either mouse
+                            or keys
+                        </p>
+                    </div>
+                    <!-- Zum Ausklappen -->
+                    <div>
+                        <details>
+                            <summary>More info</summary>
+                            <p>
+                                I have used incremental searches many times in
+                                my life and did not even know this term until I
+                                had to build one... I never thought about all
+                                the different steps that need to be programmed.
+                                I learned how to work with mouseovers,
+                                mousedowns and key-commands and how to highlight
+                                my search result, all programmed with jQuery. I
+                                also used focus and blur when a user's attention
+                                blurs (pun intended 😉) and after all it was my
+                                first ajax 'GET'-request to search from an API
+                                serving over 200 countries.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <!-- <button @click="toggleIncremental">
+                    {{ button.text }}
+                </button>
+                <div v-if="infoIncremental"></div> -->
+            </div>
+        </div>
+
+        <nuxt-link
+            :to="{ path: 'software', hash: '#navbar' }"
+            class="jump-to-top"
+            title="Jump to top"
+            >⬆</nuxt-link
+        >
     </div>
 </template>
 
@@ -960,6 +1001,22 @@ export default {
     //     toggleIncremental() {
     //         this.infoIncremental = !this.infoIncremental
     //         this.button.text = this.infoIncremental ? 'Show less' : 'More info'
+    //     }
+    // },
+    // mounted() {
+    //     const hash = location.hash
+    //     if (hash) {
+    //         const currentElem = document.querySelector(hash)
+    //         if (currentElem) {
+    //             scrollToPlaces(currentElem)
+    //         }
+    //     }
+    //     function scrollToPlaces(elem) {
+    //         window.scrollTo({
+    //             behavior: 'smooth',
+    //             left: 0,
+    //             top: elem.offsetTop
+    //         })
     //     }
     // },
     head() {
@@ -1076,5 +1133,9 @@ details > p {
     width: 30px;
     font-size: 1.2em;
     margin-right: 0.5em;
+}
+
+.jump-to-top {
+    float: right;
 }
 </style>
