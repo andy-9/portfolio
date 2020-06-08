@@ -406,7 +406,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/spotify_search/"
                     target="_blank"
-                    title="Visit my Spotify search project"
+                    title="Visit my Spotify search"
                     ><h3 id="spotify">Spotify Search</h3></a
                 >
 
@@ -417,7 +417,7 @@
                         ><img
                             src="/images/spotify.png"
                             alt="screenshot of spotify search, displaying search results for 'monae'"
-                            title="Visit my Spotify search project"
+                            title="Visit my Spotify search"
                     /></a>
                 </div>
 
@@ -482,7 +482,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                     target="_blank"
-                    title="Visit my kitty carousel"
+                    title="Visit my kitty carousel project"
                     ><h3 id="carousel">Kitty Carousel</h3></a
                 >
 
@@ -490,7 +490,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                         target="_blank"
-                        title="Visit my kitty carousel"
+                        title="Visit my kitty carousel project"
                         ><img
                             src="/images/carousel.png"
                             alt="screenshot of kitty carousel displaying one kitty sliding to the left and one another coming in from the right"
