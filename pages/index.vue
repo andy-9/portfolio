@@ -228,7 +228,6 @@ export default {
     font-size: 2em;
     color: #526488;
     word-spacing: 5px;
-    /* position: absolute; */
     padding-bottom: 15px;
 }
 

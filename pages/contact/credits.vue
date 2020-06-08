@@ -1,6 +1,6 @@
 <template>
     <div id="credits-container">
-        <h1 id="credits-heading">Credits</h1>
+        <h1>Credits</h1>
 
         <div id="credit-paragraphs">
             <p>
@@ -63,8 +63,10 @@ body,
     padding: 5%;
 }
 
-#credits-heading {
+h1 {
+    font-family: 'Ubuntu-Light', sans-serif;
     font-size: 4em;
+    font-weight: 300;
     letter-spacing: 0.4em;
     color: white;
 }

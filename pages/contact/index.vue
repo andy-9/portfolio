@@ -91,14 +91,14 @@
                 <nuxt-link
                     class="white"
                     :to="{ name: 'contact-credits' }"
-                    title=""
+                    title="Credits and Props"
                     >Credits</nuxt-link
                 >
                 &
                 <nuxt-link
                     class="white"
                     :to="{ name: 'contact-imprint' }"
-                    title="legal notice"
+                    title="Imprint"
                     >Imprint</nuxt-link
                 >
             </p>
@@ -142,10 +142,11 @@ body > * {
 }
 
 h1 {
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Ubuntu-Light', sans-serif;
     font-size: 4em;
+    font-weight: 300;
     letter-spacing: 0.4em;
-    margin-left: 3%;
+    margin: 1% 0 2% 3%;
 }
 
 .content {
@@ -172,12 +173,6 @@ img.style-mail {
     filter: invert();
 }
 
-/* img.style-mail:hover {
-    width: 60%;
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
-        brightness(110%) contrast(100%);
-} */
-
 .social-media-logo {
     height: 30px;
     width: 30px;
@@ -191,9 +186,6 @@ img.style-mail {
 
 .social-media-logo:hover {
     filter: invert();
-    /* opacity: 0.3; */
-    /* filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
-        brightness(104%) contrast(97%); */
 }
 
 .bottom {

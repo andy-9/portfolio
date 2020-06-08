@@ -5,10 +5,6 @@
             rel="stylesheet"
         />
         <link
-            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-            rel="stylesheet"
-        />
-        <link
             href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
             rel="stylesheet"
         />
@@ -1282,15 +1278,17 @@ export default {
 }
 
 h1 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu-Light', sans-serif;
     font-size: 4em;
+    font-weight: 300;
     letter-spacing: 0.4em;
-    margin-bottom: 1%;
+    margin: 3% 0 1% 0;
 }
 
 h2 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu-Light', sans-serif;
     font-size: 2.8em;
+    font-weight: 300;
     letter-spacing: 0.2em;
     padding: 0 0 1% 0;
 }
@@ -1364,7 +1362,7 @@ video:focus {
     position: absolute;
     width: 180px;
     height: 180px;
-    top: 56%;
+    top: 60%;
     right: 15%;
     backface-visibility: hidden;
 }

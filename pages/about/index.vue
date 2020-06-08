@@ -536,14 +536,21 @@
                     </ul>
                 </div>
             </div>
+
+            <nuxt-link
+                :to="{ path: 'about', hash: '#navbar' }"
+                class="jump-to-top"
+                title="Jump to top"
+                >⬆</nuxt-link
+            >
         </div>
 
         <!-- //////////////// VOLUNTEER WORK //////////////// -->
 
         <div class="container-four">
             <div class="text-area-four">
-                <div id="circle"></div>
                 <h2>Volunteer work</h2>
+                <div id="circle"></div>
                 <p>
                     Member of the <b>advisory board</b> of the Organization
                     Intersex International (OII / IVIM) Germany
@@ -571,7 +578,6 @@ export default {
 
 <style scoped>
 /* //////////// Nr. 1 //////////// */
-
 .container-one {
     margin-top: -4vh;
     background-color: #292f3b;
@@ -594,16 +600,19 @@ export default {
 }
 
 .text-area-one h1 {
+    font-family: 'Ubuntu-Light', sans-serif;
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 0.2em;
     text-align: right;
     transform: translateY(0.5em);
 }
 
 .text-area-one h2 {
-    font-size: 2em;
-    /* font-weight: 600; */
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 2.4em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
     margin-top: 1em;
 }
 
@@ -620,19 +629,22 @@ export default {
 }
 
 .text-area-two h1 {
-    color: #333333;
+    font-family: 'Ubuntu-Light', sans-serif;
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 300;
+    color: #333333;
     letter-spacing: 0.2em;
     text-align: right;
     transform: translateY(1em);
 }
 
 .text-area-two h2 {
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 2.4em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
     color: #333333;
-    font-size: 2em;
-    /* font-weight: 600; */
-    margin-top: 2em;
+    margin: 3em 0 0.4em 0;
 }
 
 .text-area-two p {
@@ -660,6 +672,7 @@ export default {
 
 h3 {
     font-size: 1.5em;
+    font-variant: small-caps;
     padding-bottom: 0.5em;
     padding-top: 2em;
 }
@@ -689,11 +702,13 @@ details .indent-content-in-details {
     margin-left: 11.5em;
 }
 
-.footer {
-    padding: 140px 0 10px 0;
-    color: #ffffff;
-    background-color: #292f3b;
-    margin-top: -70px;
+.jump-to-top {
+    /* position: absolute; */
+    /* right: 18em; */
+    float: right;
+    color: white;
+    z-index: 10;
+    transform: translateY(-1em);
 }
 
 .container-four {
@@ -709,6 +724,15 @@ details .indent-content-in-details {
     -webkit-transform: skew(0deg, 6deg);
 }
 
+.text-area-four h2 {
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 2.4em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    color: #333333;
+    margin-bottom: 0.4em;
+}
+
 #circle {
     position: relative;
     float: right;
@@ -716,5 +740,12 @@ details .indent-content-in-details {
     width: 5em;
     border: 0.6em purple solid;
     border-radius: 50%;
+}
+
+.footer {
+    padding: 140px 0 10px 0;
+    color: #ffffff;
+    background-color: #292f3b;
+    margin-top: -70px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div id="imprint-container">
-        <h1 id="heading-imprint">Imprint</h1>
+        <h1>Imprint</h1>
         <div id="imprint-paragraphs">
             <!-- <p>Legal notice for imprint</p> -->
         </div>
@@ -47,9 +47,10 @@ body,
     grid-template-rows: 1fr auto;
 }
 
-#heading-imprint {
-    font-family: 'Baloo 2', cursive;
+h1 {
+    font-family: 'Ubuntu-Light', sans-serif;
     font-size: 4em;
+    font-weight: 300;
     letter-spacing: 0.4em;
     color: white;
 }

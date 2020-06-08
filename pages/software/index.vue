@@ -26,7 +26,7 @@
                     href="https://kite-inc.herokuapp.com/"
                     target="_blank"
                     title="Visit my Social Network"
-                    ><h3 id="socialnetwork">Social Network</h3></a
+                    ><h2 id="socialnetwork">Social Network</h2></a
                 >
 
                 <div class="image-container">
@@ -112,7 +112,7 @@
                     href="https://algobias.herokuapp.com/"
                     target="_blank"
                     title="Visit my online petition"
-                    ><h3 id="petition">Petition</h3></a
+                    ><h2 id="petition">Petition</h2></a
                 >
 
                 <div class="image-container">
@@ -202,7 +202,7 @@
                     href="http://graf-streetart.herokuapp.com/"
                     target="_blank"
                     title="Visit my imageboard"
-                    ><h3 id="imageboard">Imageboard</h3></a
+                    ><h2 id="imageboard">Imageboard</h2></a
                 >
 
                 <div class="image-container">
@@ -286,7 +286,7 @@
                     href="http://kaleidoscop.herokuapp.com/"
                     target="_blank"
                     title="Visit my online Kaleidoscope displaying all my medium-sized and smaller projects"
-                    ><h3 id="kaleidoscope">Kaleidoscope</h3></a
+                    ><h2 id="kaleidoscope">Kaleidoscope</h2></a
                 >
 
                 <div class="image-container">
@@ -349,7 +349,7 @@
                     href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                     target="_blank"
                     title="Visit my resizable panes project"
-                    ><h3 id="panes">Resizable Panes</h3></a
+                    ><h2 id="panes">Resizable Panes</h2></a
                 >
 
                 <div class="image-container">
@@ -407,7 +407,7 @@
                     href="http://kaleidoscop.herokuapp.com/spotify_search/"
                     target="_blank"
                     title="Visit my Spotify search"
-                    ><h3 id="spotify">Spotify Search</h3></a
+                    ><h2 id="spotify">Spotify Search</h2></a
                 >
 
                 <div class="image-container">
@@ -483,7 +483,7 @@
                     href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                     target="_blank"
                     title="Visit my kitty carousel project"
-                    ><h3 id="carousel">Kitty Carousel</h3></a
+                    ><h2 id="carousel">Kitty Carousel</h2></a
                 >
 
                 <div class="image-container">
@@ -538,7 +538,7 @@
                     href="http://kaleidoscop.herokuapp.com/ticker/"
                     target="_blank"
                     title="Visit my ticker project"
-                    ><h3 id="ticker">Ticker</h3></a
+                    ><h2 id="ticker">Ticker</h2></a
                 >
 
                 <div class="image-container">
@@ -609,7 +609,7 @@
                     href="http://kaleidoscop.herokuapp.com/local_storage/"
                     target="_blank"
                     title="Visit my local storage project"
-                    ><h3 id="localstorage">Local Storage</h3></a
+                    ><h2 id="localstorage">Local Storage</h2></a
                 >
 
                 <div class="image-container">
@@ -669,7 +669,7 @@
                     href="http://kaleidoscop.herokuapp.com/JSON_validator/"
                     target="_blank"
                     title="Visit my JSON-validator"
-                    ><h3 id="validator">JSON-validator</h3></a
+                    ><h2 id="validator">JSON-validator</h2></a
                 >
 
                 <div class="image-container">
@@ -735,7 +735,7 @@
                     href="http://kaleidoscop.herokuapp.com/connect4/"
                     target="_blank"
                     title="Visit my Connect 4 project"
-                    ><h3 id="connectfour">Connect 4</h3></a
+                    ><h2 id="connectfour">Connect 4</h2></a
                 >
 
                 <div class="image-container">
@@ -799,7 +799,7 @@
                     href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
                     target="_blank"
                     title="Visit my Spiced homepage project"
-                    ><h3 id="spicedhomepage">Spiced Homepage</h3></a
+                    ><h2 id="spicedhomepage">Spiced Homepage</h2></a
                 >
 
                 <div class="image-container">
@@ -867,7 +867,7 @@
                         href="http://kaleidoscop.herokuapp.com/incremental_search/"
                         target="_blank"
                         title="Visit my incremental search project"
-                        ><h3 id="incremental">Incremental Search</h3></a
+                        ><h2 id="incremental">Incremental Search</h2></a
                     >
 
                     <a
@@ -1034,20 +1034,20 @@ export default {
 }
 
 h1 {
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Ubuntu-Light', sans-serif;
     font-size: 4em;
+    font-weight: 300;
     letter-spacing: 0.4em;
     text-align: center;
+    margin: 2% 0 2% 0;
 }
 
 h2 {
-    font-size: 3em;
-    padding-bottom: 1em;
-}
-
-h3 {
-    font-size: 2.2em;
-    margin-top: 1em;
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 2.8em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding-top: 1em;
 }
 
 .software-explanation {
