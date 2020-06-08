@@ -542,8 +542,8 @@
 
         <div class="container-four">
             <div class="text-area-four">
+                <div id="circle"></div>
                 <h2>Volunteer work</h2>
-                <div id="heart"></div>
                 <p>
                     Member of the <b>advisory board</b> of the Organization
                     Intersex International (OII / IVIM) Germany
@@ -709,30 +709,12 @@ details .indent-content-in-details {
     -webkit-transform: skew(0deg, 6deg);
 }
 
-#heart {
+#circle {
     position: relative;
     float: right;
-    width: 100px;
-    height: 90px;
-}
-
-#heart:before,
-#heart:after {
-    position: absolute;
-    content: '';
-    left: 50px;
-    top: 0;
-    width: 50px;
-    height: 80px;
-    background: red;
-    border-radius: 50px 50px 0 0;
-    transform: rotate(-45deg);
-    transform-origin: 0 100%;
-}
-
-#heart:after {
-    left: 0;
-    transform: rotate(45deg);
-    transform-origin: 100% 100%;
+    height: 5em;
+    width: 5em;
+    border: 0.6em purple solid;
+    border-radius: 50%;
 }
 </style>
