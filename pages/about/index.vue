@@ -552,8 +552,11 @@
                 <h2>Volunteer work</h2>
                 <div id="circle"></div>
                 <p>
-                    Member of the <b>advisory board</b> of the Organization
-                    Intersex International (OII / IVIM) Germany
+                    Member of the <b>advisory board</b> of the
+                    <a href="https://oiigermany.org/" target="_blank"
+                        >Organization Intersex International (OII / IVIM)
+                        Germany</a
+                    >
                 </p>
             </div>
         </div>
