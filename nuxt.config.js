@@ -18,7 +18,7 @@ export default {
             }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/icons/favicon.jpg' }
+            { rel: 'icon', type: 'image/x-icon', href: '/icons/favicon.ico' }
         ]
     },
     pageTransition: {
