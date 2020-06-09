@@ -49,7 +49,7 @@
                 </a>
 
                 <a
-                    href="https://www.linkedin.com/in/andreas-hechler-810172192"
+                    href="https://www.linkedin.com/in/andreas-hechler/"
                     target="_blank"
                 >
                     <img
