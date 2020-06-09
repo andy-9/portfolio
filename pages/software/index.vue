@@ -10,15 +10,6 @@
 
         <!-- ///////////////////// BIGGER PROJECTS ///////////////////// -->
 
-        <!-- <nuxt-link :to="{ path: 'software', hash: '#big' }" class="link-padding"
-            >Bigger projects</nuxt-link
-        > -->
-        <!-- <nuxt-link
-            :to="{ path: 'software', hash: '#small' }"
-            class="link-padding"
-            >Smaller projects</nuxt-link
-        > -->
-
         <div class="grid-container">
             <!-- //////////// Social Network //////////// -->
             <div class="small-project-container">

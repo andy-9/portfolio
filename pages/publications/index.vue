@@ -1,14 +1,5 @@
 <template>
     <div class="publications-container">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
-            rel="stylesheet"
-        />
-
         <h1 id="top">Publications</h1>
 
         <nuxt-link
@@ -1273,10 +1264,19 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+    font-family: 'IndieFlower-Regular';
+    src: url('/fonts/IndieFlower-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoMono-Light';
+    src: url('/fonts/RobotoMono-Light.ttf') format('truetype');
+}
+
 .publications-container {
     margin: 0 20% 3% 15%;
 }
-
 h1 {
     font-family: 'Ubuntu-Light', sans-serif;
     font-size: 4em;
@@ -1284,7 +1284,6 @@ h1 {
     letter-spacing: 0.4em;
     margin: 3% 0 1% 0;
 }
-
 h2 {
     font-family: 'Ubuntu-Light', sans-serif;
     font-size: 2.8em;
@@ -1295,37 +1294,32 @@ h2 {
 
 h3 {
     letter-spacing: 0.2em;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'RobotoMono-Light', monospace;
+    font-weight: 300;
     font-size: 2em;
     padding-top: 2%;
 }
 
 h4 {
-    font-family: 'Indie Flower', cursive;
+    font-family: IndieFlower-Regular;
     font-size: 1.7em;
     text-align: center;
     color: white;
 }
-
 p {
     margin: 1em 0;
 }
-
 .link-padding {
     margin: 0 13.6% 0 0;
 }
-
 .margin-top {
     margin-top: 5%;
 }
-
 .jump-to-top {
     float: right;
 }
-
 details {
 }
-
 details > summary {
     font-size: 1.2em;
     width: 15em;
@@ -1335,29 +1329,23 @@ details > summary {
     margin-bottom: 1em;
     cursor: pointer;
 }
-
 audio {
     width: 100%;
     margin-top: -1%;
     outline: none;
 }
-
 audio:focus {
     outline: none;
 }
-
 video {
     width: 100%;
     height: 12em;
     outline: none;
 }
-
 video:focus {
     outline: none;
 }
-
 /* ANIMATION */
-
 #peeler {
     position: absolute;
     width: 180px;
@@ -1366,19 +1354,15 @@ video:focus {
     right: 15%;
     backface-visibility: hidden;
 }
-
 .peeler-transition {
     transition: all 750ms ease-in-out;
 }
-
 #peeler .sticky {
     transform: rotate(225deg);
 }
-
 #peeler:hover .sticky {
     transform: rotate(200deg);
 }
-
 #peeler .sticky {
     position: absolute;
     top: 0;
@@ -1386,23 +1370,19 @@ video:focus {
     width: 180px;
     height: 180px;
 }
-
 .circle {
-    font-family: 'Indie Flower', cursive;
+    font-family: IndieFlower-Regular;
     padding: 3%;
 }
-
 #peeler .reveal .circle {
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.15);
     text-align: center;
     padding-top: 40px;
     cursor: pointer;
 }
-
 #peeler .reveal .circle {
     background: #fafafa;
 }
-
 #peeler .circle_wrapper {
     position: absolute;
     width: 180px;
@@ -1411,7 +1391,6 @@ video:focus {
     top: 0px;
     overflow: hidden;
 }
-
 #peeler .circle {
     position: absolute;
     width: 140px;
@@ -1419,17 +1398,14 @@ video:focus {
     margin: 20px;
     border-radius: 50%;
 }
-
 #peeler .back {
     height: 10px;
     top: 30px;
 }
-
 #peeler:hover .back {
     height: 110px;
     top: 130px;
 }
-
 #peeler .back .circle {
     margin-top: -130px;
     background-color: red;
@@ -1439,23 +1415,19 @@ video:focus {
         rgba(255, 255, 255, 0.6)
     );
 }
-
 #peeler:hover .back .circle {
     margin-top: -50px;
 }
-
 #peeler .front {
     height: 150px;
     bottom: 0;
     top: auto;
     -webkit-box-shadow: 0 -140px 20px -140px rgba(0, 0, 0, 0.3);
 }
-
 #peeler:hover .front {
     height: 50px;
     -webkit-box-shadow: 0 -60px 10px -60px rgba(0, 0, 0, 0.1);
 }
-
 #peeler .front .circle {
     margin-top: -10px;
     background: red;
@@ -1475,7 +1447,6 @@ video:focus {
         rgb(160, 17, 17) 95%
     );
 }
-
 #peeler h4 {
     position: absolute;
     width: 180px;
@@ -1483,13 +1454,11 @@ video:focus {
     line-height: 170px;
     transition: opacity 50ms linear 400ms;
 }
-
 #peeler:hover h4 {
     opacity: 0;
     transition: opacity 50ms linear 300ms;
     /* transform: translateY(-2px); */
 }
-
 #peeler:hover .front .circle {
     margin-top: -90px;
     background-color: rgb(235, 26, 26);

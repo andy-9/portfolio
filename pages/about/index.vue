@@ -703,11 +703,8 @@ details .indent-content-in-details {
 }
 
 .jump-to-top {
-    /* position: absolute; */
-    /* right: 18em; */
     float: right;
     color: white;
-    z-index: 10;
     transform: translateY(-1em);
 }
 
