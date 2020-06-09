@@ -577,43 +577,95 @@ export default {
 </script>
 
 <style scoped>
-/* //////////// Nr. 1 //////////// */
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+    transform: skew(0deg, -6deg);
+    -webkit-transform: skew(0deg, -6deg);
+    padding: 0 15em 0 5em;
+}
+
 .container-one {
     margin-top: -4vh;
     background-color: #292f3b;
-    -webkit-transform: skew(0deg, -6deg);
-    transform: skew(0deg, -6deg);
-    padding: 0 15em 0 5em;
 }
 
 .container-two {
     background-color: #efefef;
-    -webkit-transform: skew(0deg, -6deg);
-    transform: skew(0deg, -6deg);
-    padding: 0 15em 0 5em;
 }
 
-.text-area-one {
-    color: white;
+.container-three {
+    margin-top: -7vh;
+    background-color: #292f3b;
+}
+
+.container-four {
+    margin-top: 1vh;
+    background-color: white;
+}
+
+.text-area-one,
+.text-area-two,
+.text-area-four {
     transform: skew(0deg, 6deg);
     -webkit-transform: skew(0deg, 6deg);
 }
 
-.text-area-one h1 {
+.text-area-one {
+    padding-bottom: 2em;
+}
+
+.text-area-two {
+    padding: 1em 0 5em 0;
+}
+
+.text-area-four {
+    padding: 5em 0 0;
+}
+
+.text-area-one h1,
+.text-area-two h1 {
     font-family: 'Ubuntu-Light', sans-serif;
     font-size: 3em;
     font-weight: 300;
     letter-spacing: 0.2em;
     text-align: right;
+}
+
+.text-area-one h1 {
+    color: white;
     transform: translateY(0.5em);
 }
 
-.text-area-one h2 {
+.text-area-two h1 {
+    color: #333333;
+    transform: translateY(1em);
+}
+
+.text-area-one h2,
+.text-area-two h2,
+.text-area-four h2 {
     font-family: 'Ubuntu-Light', sans-serif;
     font-size: 2.4em;
     font-weight: 300;
     letter-spacing: 0.2em;
+}
+
+.text-area-one h2 {
     margin-top: 1em;
+    color: #afadad;
+    mix-blend-mode: difference;
+}
+
+.text-area-two h2 {
+    color: #333333;
+    margin: 3em 0 0.4em 0;
+}
+
+.text-area-four h2 {
+    color: #333333;
+    margin-bottom: 0.4em;
 }
 
 .text-area-one p {
@@ -622,43 +674,10 @@ export default {
     /* font-weight: 350; */
 }
 
-.text-area-two {
-    padding: 1em 0 5em 0;
-    transform: skew(0deg, 6deg);
-    -webkit-transform: skew(0deg, 6deg);
-}
-
-.text-area-two h1 {
-    font-family: 'Ubuntu-Light', sans-serif;
-    font-size: 3em;
-    font-weight: 300;
-    color: #333333;
-    letter-spacing: 0.2em;
-    text-align: right;
-    transform: translateY(1em);
-}
-
-.text-area-two h2 {
-    font-family: 'Ubuntu-Light', sans-serif;
-    font-size: 2.4em;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    color: #333333;
-    margin: 3em 0 0.4em 0;
-}
-
 .text-area-two p {
     color: #333333;
-    /* font-weight: 350; */
     padding: 0.4em 0;
-}
-
-.container-three {
-    margin-top: -7vh;
-    background-color: #292f3b;
-    -webkit-transform: skew(0deg, -6deg);
-    transform: skew(0deg, -6deg);
-    padding: 0 15em 0 5em;
+    /* font-weight: 350; */
 }
 
 .less-margin-bottom {
@@ -673,6 +692,7 @@ export default {
 h3 {
     font-size: 1.5em;
     font-variant: small-caps;
+    color: white;
     padding-bottom: 0.5em;
     padding-top: 2em;
 }
@@ -689,6 +709,7 @@ li {
 }
 
 details {
+    color: white;
     padding-left: 1em;
     padding-bottom: 0.4em;
 }
@@ -706,28 +727,6 @@ details .indent-content-in-details {
     float: right;
     color: white;
     transform: translateY(-1em);
-}
-
-.container-four {
-    background-color: white;
-    -webkit-transform: skew(0deg, -6deg);
-    transform: skew(0deg, -6deg);
-    padding: 1em 15em 0 5em;
-}
-
-.text-area-four {
-    padding: 5em 0 0;
-    transform: skew(0deg, 6deg);
-    -webkit-transform: skew(0deg, 6deg);
-}
-
-.text-area-four h2 {
-    font-family: 'Ubuntu-Light', sans-serif;
-    font-size: 2.4em;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    color: #333333;
-    margin-bottom: 0.4em;
 }
 
 #circle {
