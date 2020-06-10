@@ -42,6 +42,7 @@ export default {
                 scrollToPlaces(currentElem)
             }
         }
+        // if not true do it, if true set to false, repeat
         function scrollToPlaces(elem) {
             window.scrollTo({
                 behavior: 'smooth',
