@@ -2,28 +2,28 @@
     <div id="about-container">
         <div class="container-one">
             <div class="text-area-one">
-                <h1 class="title">
-                    The short version
-                </h1>
-
-                <p>Hello,</p>
-                <p>I'm Andreas Hechler.</p>
-                <p>I'm a full stack web developer based in Berlin.</p>
+                <h1>Hello,</h1>
+                <h1>I'm Andreas Hechler.</h1>
                 <p>
-                    I'm interested in agility in general and Scrum in particular
-                    (I'm a certified PSM I and PSPO I).
-                </p>
-                <p>
-                    I use this site to make my work results, projects and
-                    research as accessible and available as possible.
+                    <b>
+                        I'm a full stack web developer based in Berlin.
+                        <!-- </p> -->
+                        <!-- <p> -->
+                        I'm interested in agility in general and Scrum in
+                        particular (I'm a certified PSM I and PSPO I).
+                        <!-- </p> -->
+                        <!-- <p> -->
+                        I use this site to make my work results, projects and
+                        research as accessible and available as possible.
+                    </b>
                 </p>
                 <p>
                     My background is in adult education, as a trainer, coach,
                     and I have even conducted evaluations. I'm also a published
                     author and as such am invited to give interviews and
                     lectures on my topics of expertise.
-                </p>
-                <p>
+                    <!-- </p> -->
+                    <!-- <p> -->
                     Over the past decades, antidiscrimination and the challenge
                     to create a society where people can be ‎different without
                     fear has been the focus of my work.
@@ -32,8 +32,8 @@
                     I am fascinated by what language can do - changing people's
                     thoughts and actions with words or what they see on screen
                     with ‎code is the topic that keeps me busy now.
-                </p>
-                <p>
+                    <!-- </p> -->
+                    <!-- <p> -->
                     I thrive working in a social environment where collaboration
                     and open communication are lived values. I value a workplace
                     where I can put my critical thinking skills to use, am
@@ -44,10 +44,6 @@
 
         <div class="container-two">
             <div class="text-area-two">
-                <h1 class="title">
-                    The long version
-                </h1>
-
                 <!-- //////////////// INFLUENCES //////////////// -->
 
                 <h2>Influences</h2>
@@ -539,11 +535,14 @@
 
             <nuxt-link
                 to="/about"
-                class="jump-to-top"
                 title="Jump to top"
                 @click.native="scrollToTop"
-                >⬆</nuxt-link
             >
+                <img
+                    src="/icons/triangle-sharp.svg"
+                    alt="icon for features"
+                    class="triangle-to-top"
+            /></nuxt-link>
         </div>
 
         <!-- //////////////// VOLUNTEER WORK //////////////// -->
@@ -551,7 +550,6 @@
         <div class="container-four">
             <div class="text-area-four">
                 <h2>Volunteer work</h2>
-                <div id="circle"></div>
                 <p>
                     Member of the <b>advisory board</b> of the
                     <a href="https://oiigermany.org/" target="_blank"
@@ -561,6 +559,8 @@
                 </p>
             </div>
         </div>
+
+        <div id="circle"></div>
 
         <!-- <div class="footer nav-fixed-bottom">
             Pen by:<br />
@@ -615,8 +615,8 @@ export default {
 }
 
 .container-three {
-    margin-top: -7vh;
     background-color: #292f3b;
+    mix-blend-mode: difference;
 }
 
 .container-four {
@@ -632,8 +632,8 @@ export default {
 }
 
 .text-area-one {
-    padding-bottom: 2em;
-    mix-blend-mode: difference;
+    padding-top: 6em;
+    padding-bottom: 5em;
 }
 
 .text-area-two {
@@ -648,19 +648,9 @@ export default {
 .text-area-two h1 {
     font-family: 'Ubuntu-Light', sans-serif;
     font-size: 3em;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    text-align: right;
-}
-
-.text-area-one h1 {
+    font-weight: 700;
     color: white;
-    transform: translateY(0.5em);
-}
-
-.text-area-two h1 {
-    color: #333333;
-    transform: translateY(1em);
+    line-height: 130%;
 }
 
 .text-area-one h2,
@@ -668,13 +658,12 @@ export default {
 .text-area-four h2 {
     font-family: 'Ubuntu-Light', sans-serif;
     font-size: 2.4em;
-    font-weight: 300;
-    letter-spacing: 0.2em;
+    font-weight: 700;
 }
 
 .text-area-one h2 {
     margin-top: 1em;
-    color: #afadad;
+    color: white;
     mix-blend-mode: difference;
 }
 
@@ -685,19 +674,21 @@ export default {
 
 .text-area-four h2 {
     color: #333333;
-    margin-bottom: 0.4em;
+    margin: 1em 0 0.4em 0;
 }
 
 .text-area-one p {
     color: white;
-    padding: 0.4em 0;
-    /* font-weight: 350; */
+    padding: 0.5em 0;
+    line-height: 150%;
+    font-weight: 400;
 }
 
 .text-area-two p {
     color: #333333;
-    padding: 0.4em 0;
-    /* font-weight: 350; */
+    padding: 0.5em 0;
+    line-height: 150%;
+    font-weight: 400;
 }
 
 .less-margin-bottom {
@@ -743,19 +734,20 @@ details .indent-content-in-details {
     margin-left: 11.5em;
 }
 
-.jump-to-top {
-    float: right;
-    color: white;
-    transform: translateY(-1em);
+.triangle-to-top {
+    filter: invert();
+    margin-left: 70vw;
+    height: 2em;
+    font-size: 2em;
+    transform: translateY(0.5em);
 }
 
 #circle {
-    position: relative;
-    float: right;
     height: 5em;
     width: 5em;
     border: 0.6em purple solid;
     border-radius: 50%;
+    margin: 5em auto;
 }
 
 .footer {

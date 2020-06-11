@@ -62,6 +62,10 @@ nav {
     mix-blend-mode: screen;
 }
 
+nav a {
+    color: rgb(85, 84, 84);
+}
+
 .nav-link {
     padding: 0 2em;
 }
