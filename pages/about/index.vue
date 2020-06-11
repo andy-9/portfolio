@@ -49,30 +49,6 @@
                 <h2>Influences</h2>
 
                 <p>
-                    <b>Contact improvisation</b> for joy, lightness,
-                    experimenting, negotiating, somatic experience, mindfulness
-                    and flow in the group.
-                </p>
-
-                <p>
-                    <b>Radical therapy and transactional analysis</b> for
-                    self-reflection and focusing on group processes,
-                    relationship, communication and support.
-                </p>
-
-                <p>
-                    <b>Communication Psychology and Nonviolent Communication</b>
-                    for clarification processes, distinguishing own parts and
-                    those of another person and the guidance to feelings.
-                </p>
-
-                <p>
-                    <b>Politics</b> and my interest in connecting the small with
-                    the very big questions, the individual and society, everyday
-                    life and domination, the psyche and power.
-                </p>
-
-                <p>
                     <b>Scholarship</b> for the ability to analyze and
                     understand; cultural anthropology for the ability to observe
                     and listen closely.
@@ -85,11 +61,35 @@
                 </p>
 
                 <p>
+                    <b>Politics</b> and my interest in connecting the small with
+                    the very big questions, the individual and society, everyday
+                    life and domination, the psyche and power.
+                </p>
+
+                <p>
                     <b
                         >Inclusion, diversity and sensitivity to
                         discrimination</b
                     >
                     as guidelines and anchors for a just and free society.
+                </p>
+
+                <p>
+                    <b>Communication Psychology and Nonviolent Communication</b>
+                    for clarification processes, distinguishing own parts and
+                    those of another person and the guidance to feelings.
+                </p>
+
+                <p>
+                    <b>Radical therapy and transactional analysis</b> for
+                    self-reflection and focusing on group processes,
+                    relationship, communication and support.
+                </p>
+
+                <p>
+                    <b>Contact improvisation</b> for joy, lightness,
+                    experimenting, negotiating, somatic experience, mindfulness
+                    and flow in the group.
                 </p>
             </div>
         </div>
@@ -535,7 +535,7 @@
 
             <nuxt-link
                 to="/about"
-                title="Jump to top"
+                title="Scroll to top"
                 @click.native="scrollToTop"
             >
                 <img
@@ -732,6 +732,17 @@ details p {
 
 details .indent-content-in-details {
     margin-left: 11.5em;
+}
+
+.triangle-to-top-one {
+    /* filter: invert(); */
+    /* filter: grayscale(70%); */
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
+        brightness(110%) contrast(100%);
+    margin-left: 75vw;
+    height: 2em;
+    font-size: 2em;
+    transform: translateY(0.32em);
 }
 
 .triangle-to-top {

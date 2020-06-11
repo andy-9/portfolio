@@ -185,6 +185,14 @@
             </div>
         </div>
 
+        <nuxt-link
+            to="/software"
+            class="jump-to-top"
+            title="Scroll to top"
+            @click.native="scrollToTop"
+            >⬆</nuxt-link
+        >
+
         <div class="grid-container">
             <!-- //////////// Imageboard //////////// -->
 
@@ -323,14 +331,6 @@
                 </div>
             </div>
         </div>
-
-        <nuxt-link
-            to="/software"
-            class="jump-to-top"
-            title="Jump to top"
-            @click.native="scrollToTop"
-            >⬆</nuxt-link
-        >
 
         <!-- ///////////////////// SMALLER PROJECTS ///////////////////// -->
 
@@ -580,14 +580,6 @@
             </div>
         </div>
 
-        <nuxt-link
-            to="/software"
-            class="jump-to-top"
-            title="Jump to top"
-            @click.native="scrollToTop"
-            >⬆</nuxt-link
-        >
-
         <div class="grid-container">
             <!-- //////////// Local Storage //////////// -->
             <div class="small-project-container">
@@ -830,14 +822,6 @@
             </div>
         </div>
 
-        <nuxt-link
-            to="/software"
-            class="jump-to-top"
-            title="Jump to top"
-            @click.native="scrollToTop"
-            >⬆</nuxt-link
-        >
-
         <div class="grid-container">
             <!-- //////////// Incremental Search //////////// -->
 
@@ -1052,6 +1036,16 @@ details > p {
 }
 
 .jump-to-top {
-    float: right;
+    position: sticky;
+    left: 100vw;
+    top: 90vh;
+    padding: 0.4em 0.7em;
+    background-color: rgb(85, 84, 84, 0.5);
+    color: white;
+    border-radius: 50%;
+}
+
+.jump-to-top:hover {
+    background-color: rgb(94, 44, 44);
 }
 </style>
