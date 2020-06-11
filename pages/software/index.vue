@@ -325,9 +325,10 @@
         </div>
 
         <nuxt-link
-            :to="{ path: 'software', hash: '#navbar' }"
+            to="/software"
             class="jump-to-top"
             title="Jump to top"
+            @click.native="scrollToTop"
             >⬆</nuxt-link
         >
 
@@ -460,13 +461,6 @@
             </div>
         </div>
 
-        <nuxt-link
-            :to="{ path: 'software', hash: '#navbar' }"
-            class="jump-to-top"
-            title="Jump to top"
-            >⬆</nuxt-link
-        >
-
         <div class="grid-container">
             <!-- //////////// Kitty Carousel //////////// -->
             <div class="small-project-container">
@@ -587,9 +581,10 @@
         </div>
 
         <nuxt-link
-            :to="{ path: 'software', hash: '#navbar' }"
+            to="/software"
             class="jump-to-top"
             title="Jump to top"
+            @click.native="scrollToTop"
             >⬆</nuxt-link
         >
 
@@ -711,13 +706,6 @@
             </div> -->
             </div>
         </div>
-
-        <nuxt-link
-            :to="{ path: 'software', hash: '#navbar' }"
-            class="jump-to-top"
-            title="Jump to top"
-            >⬆</nuxt-link
-        >
 
         <div class="grid-container">
             <!-- //////////// Connect 4 //////////// -->
@@ -843,9 +831,10 @@
         </div>
 
         <nuxt-link
-            :to="{ path: 'software', hash: '#navbar' }"
+            to="/software"
             class="jump-to-top"
             title="Jump to top"
+            @click.native="scrollToTop"
             >⬆</nuxt-link
         >
 
@@ -909,13 +898,6 @@
                 <div v-if="infoIncremental"></div> -->
             </div>
         </div>
-
-        <nuxt-link
-            :to="{ path: 'software', hash: '#navbar' }"
-            class="jump-to-top"
-            title="Jump to top"
-            >⬆</nuxt-link
-        >
     </div>
 </template>
 
@@ -927,17 +909,6 @@ export default {
     //             text: 'More info'
     //         },
     //         infoSocialNetwork: false,
-    //         infoImageboard: false,
-    //         infoPetition: false,
-    //         infoSpotify: false,
-    //         infoPanes: false,
-    //         infoConnect: false,
-    //         infoCarousel: false,
-    //         infoSpiced: false,
-    //         infoStorage: false,
-    //         infoJSON: false,
-    //         infoTicker: false,
-    //         infoIncremental: false
     //     }
     // },
     // methods: {
@@ -949,67 +920,21 @@ export default {
     //             ? 'Show less'
     //             : 'More info'
     //     },
-    //     toggleImageboard() {
-    //         this.infoImageboard = !this.infoImageboard
-    //         this.button.text = this.infoImageboard ? 'Show less' : 'More info'
-    //     },
-    //     togglePetition() {
-    //         this.infoPetition = !this.infoPetition
-    //         this.button.text = this.infoPetition ? 'Show less' : 'More info'
-    //     },
-    //     toggleSpotify() {
-    //         this.infoSpotify = !this.infoSpotify
-    //         this.button.text = this.infoSpotify ? 'Show less' : 'More info'
-    //     },
-    //     togglePanes() {
-    //         this.infoPanes = !this.infoPanes
-    //         this.button.text = this.infoPanes ? 'Show less' : 'More info'
-    //     },
-    //     toggleConnect() {
-    //         this.infoConnect = !this.infoConnect
-    //         this.button.text = this.infoConnect ? 'Show less' : 'More info'
-    //     },
-    //     toggleCarousel() {
-    //         this.infoCarousel = !this.infoCarousel
-    //         this.button.text = this.infoCarousel ? 'Show less' : 'More info'
-    //     },
-    //     toggleSpiced() {
-    //         this.infoSpiced = !this.infoSpiced
-    //         this.button.text = this.infoSpiced ? 'Show less' : 'More info'
-    //     },
-    //     toggleStorage() {
-    //         this.infoStorage = !this.infoStorage
-    //         this.button.text = this.infoStorage ? 'Show less' : 'More info'
-    //     },
-    //     toggleJSON() {
-    //         this.infoJSON = !this.infoJSON
-    //         this.button.text = this.infoJSON ? 'Show less' : 'More info'
-    //     },
-    //     toggleTicker() {
-    //         this.infoTicker = !this.infoTicker
-    //         this.button.text = this.infoTicker ? 'Show less' : 'More info'
-    //     },
-    //     toggleIncremental() {
-    //         this.infoIncremental = !this.infoIncremental
-    //         this.button.text = this.infoIncremental ? 'Show less' : 'More info'
-    //     }
-    // },
-    // mounted() {
-    //     const hash = location.hash
-    //     if (hash) {
-    //         const currentElem = document.querySelector(hash)
-    //         if (currentElem) {
-    //             scrollToPlaces(currentElem)
-    //         }
-    //     }
-    //     function scrollToPlaces(elem) {
-    //         window.scrollTo({
-    //             behavior: 'smooth',
-    //             left: 0,
-    //             top: elem.offsetTop
-    //         })
-    //     }
-    // },
+    _methods: {
+        scrollToTop() {
+            window.scrollTo({
+                behavior: 'smooth',
+                left: 0,
+                top: 0
+            })
+        }
+    },
+    get methods() {
+        return this._methods
+    },
+    set methods(value) {
+        this._methods = value
+    },
     head() {
         return {
             title: 'Software - Andreas Hechler',

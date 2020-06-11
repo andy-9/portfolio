@@ -38,7 +38,7 @@
             topics. You can find out more
             <nuxt-link
                 class=""
-                :to="{ name: 'about', hash: '#' }"
+                :to="{ name: 'about', hash: 'expertise#' }"
                 title="Topics I work on"
                 >here</nuxt-link
             >
@@ -606,9 +606,10 @@
         </details>
 
         <nuxt-link
-            :to="{ path: 'publications', hash: '#navbar' }"
+            to="/publications"
             class="jump-to-top"
             title="Jump to top"
+            @click.native="scrollToTop"
             >⬆</nuxt-link
         >
 
@@ -799,9 +800,10 @@
         </p>
 
         <nuxt-link
-            :to="{ path: 'publications', hash: '#navbar' }"
+            to="/publications"
             class="jump-to-top"
             title="Jump to top"
+            @click.native="scrollToTop"
             >⬆</nuxt-link
         >
 
@@ -986,9 +988,10 @@
         </p>
 
         <nuxt-link
-            :to="{ path: 'publications', hash: '#navbar' }"
+            to="/publications"
             class="jump-to-top"
             title="Jump to top"
+            @click.native="scrollToTop"
             >⬆</nuxt-link
         >
 
@@ -1147,9 +1150,10 @@
         </div>
 
         <nuxt-link
-            :to="{ path: 'publications', hash: '#navbar' }"
+            to="/publications"
             class="jump-to-top"
             title="Jump to top"
+            @click.native="scrollToTop"
             >⬆</nuxt-link
         >
 
@@ -1228,9 +1232,10 @@
         </p>
 
         <nuxt-link
-            :to="{ path: 'publications', hash: '#navbar' }"
+            to="/publications"
             class="jump-to-top"
             title="Jump to top"
+            @click.native="scrollToTop"
             >⬆</nuxt-link
         >
     </div>
@@ -1238,19 +1243,27 @@
 
 <script>
 export default {
-    // mounted() {
-    //     const hash = location.hash
-    //     if (hash) {
-    //         const currentElem = document.querySelector(hash)
-    //         if (currentElem) {
-    //             scrollToPlaces(currentElem)
-    //         }
-    //     }
-    //     function scrollToPlaces(elem) {
+    _methods: {
+        scrollToTop() {
+            window.scrollTo({
+                behavior: 'smooth',
+                left: 0,
+                top: 0
+            })
+        }
+    },
+    get methods() {
+        return this._methods
+    },
+    set methods(value) {
+        this._methods = value
+    },
+    // methods: {
+    //     scrollToTop() {
     //         window.scrollTo({
     //             behavior: 'smooth',
     //             left: 0,
-    //             top: elem.offsetTop
+    //             top: 0
     //         })
     //     }
     // },

@@ -34,6 +34,7 @@ export default {
     components: {
         TheNavbar
     },
+
     mounted() {
         const hash = location.hash
         if (hash) {
@@ -50,7 +51,31 @@ export default {
                 top: elem.offsetTop
             })
         }
+
+        // function scrollToTop() {
+        //     window.scrollTo({
+        //         behavior: 'smooth',
+        //         left: 0,
+        //         top: 0
+        //     })
+        // }
     }
+
+    // _methods: {
+    //     scrollToTop() {
+    //         window.scrollTo({
+    //             behavior: 'smooth',
+    //             left: 0,
+    //             top: 0
+    //         })
+    //     }
+    // },
+    // get methods() {
+    //     return this._methods
+    // },
+    // set methods(value) {
+    //     this._methods = value
+    // }
 }
 </script>
 

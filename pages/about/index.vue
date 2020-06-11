@@ -494,7 +494,7 @@
 
                     <!-- ////////// AREAS OF EXPERTISE ////////// -->
 
-                    <h3>Areas of expertise</h3>
+                    <h3 id="expertise">Areas of expertise</h3>
 
                     <p>Research, practice and theory on the topics:</p>
 
@@ -538,9 +538,10 @@
             </div>
 
             <nuxt-link
-                :to="{ path: 'about', hash: '#navbar' }"
+                to="/about"
                 class="jump-to-top"
                 title="Jump to top"
+                @click.native="scrollToTop"
                 >⬆</nuxt-link
             >
         </div>
@@ -570,6 +571,21 @@
 
 <script>
 export default {
+    _methods: {
+        scrollToTop() {
+            window.scrollTo({
+                behavior: 'smooth',
+                left: 0,
+                top: 0
+            })
+        }
+    },
+    get methods() {
+        return this._methods
+    },
+    set methods(value) {
+        this._methods = value
+    },
     head() {
         return {
             title: 'About Andreas Hechler',
@@ -617,6 +633,7 @@ export default {
 
 .text-area-one {
     padding-bottom: 2em;
+    mix-blend-mode: difference;
 }
 
 .text-area-two {
