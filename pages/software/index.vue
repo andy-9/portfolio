@@ -1039,7 +1039,7 @@ details > p {
     position: sticky;
     left: 100vw;
     top: 90vh;
-    padding: 0.4em 0.7em;
+    padding: 0.35em 0.7em;
     background-color: rgb(85, 84, 84, 0.5);
     color: white;
     border-radius: 50%;
@@ -1047,5 +1047,6 @@ details > p {
 
 .jump-to-top:hover {
     background-color: rgb(94, 44, 44);
+    text-decoration: none;
 }
 </style>

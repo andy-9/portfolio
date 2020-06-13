@@ -474,6 +474,8 @@
 
                     <p>2010: Further training as a Betzavta trainer</p>
 
+                    <p>2005–2006: One-year training in Shiatsu</p>
+
                     <p>2005: Training as youth group leader (JuLeiCa)</p>
 
                     <p>

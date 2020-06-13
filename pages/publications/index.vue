@@ -47,7 +47,7 @@
                 intersex-related topics. You can find out more
                 <nuxt-link
                     class=""
-                    :to="{ name: 'about', hash: 'expertise#' }"
+                    :to="{ name: 'about', hash: '#expertise' }"
                     title="Topics I work on"
                     >here</nuxt-link
                 >
@@ -136,6 +136,20 @@
 
             <h2 id="deutsch">Deutsch</h2>
             <!-- <a href="#deutsch"> -->
+
+            <p>
+                Hechler, Andreas / Baar, Robert (2020):
+                <b
+                    >Mehr als zwei. Intergeschlechtlichkeit in der
+                    (Grund-)Schule</b
+                >. In:
+                <a
+                    href="https://www.friedrich-verlag.de/shop/jenseits-der-norm-516321"
+                    target="_blank"
+                    >Die Grundschulzeitschrift</a
+                >, Nr. 321, Juni 2020, 34. Jg. Hannover: Friedrich Verlag, S.
+                40-43.
+            </p>
 
             <p>
                 Hechler, Andreas (2020): <b>Nicht nur, sondern auch</b>. In:
@@ -1358,7 +1372,7 @@ p {
     position: sticky;
     left: 90vw;
     top: 90vh;
-    padding: 0.4em 0.7em;
+    padding: 0.35em 0.7em;
     background-color: rgb(85, 84, 84, 0.5);
     color: white;
     border-radius: 50%;
@@ -1367,6 +1381,7 @@ p {
 
 .jump-to-top:hover {
     background-color: rgb(94, 44, 44);
+    text-decoration: none;
 }
 
 details > summary {
