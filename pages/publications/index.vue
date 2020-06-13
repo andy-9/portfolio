@@ -169,9 +169,15 @@
                 class="jump-to-top"
                 title="Scroll to top"
                 @click.native="scrollToTop"
-                >⬆</nuxt-link
             >
+                <img
+                    src="/icons/chevron-up.svg"
+                    alt="up-arrow to jump to the top of the page"
+                    class="up-arrow"
+            /></nuxt-link>
         </span>
+
+        <!-- title="Visit my Social Network" -->
 
         <div class="publications-container no-space">
             <p>
@@ -1368,15 +1374,19 @@ p {
     margin-top: 5%;
 }
 
+.up-arrow {
+    height: 1em;
+    filter: invert();
+}
+
 .jump-to-top {
     position: sticky;
     left: 90vw;
     top: 90vh;
-    padding: 0.35em 0.7em;
+    padding: 0.5em 0.5em;
     background-color: rgb(85, 84, 84, 0.5);
     color: white;
     border-radius: 50%;
-    /* transform: translate(10%, 20%); */
 }
 
 .jump-to-top:hover {

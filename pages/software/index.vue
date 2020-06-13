@@ -185,13 +185,19 @@
             </div>
         </div>
 
-        <nuxt-link
-            to="/software"
-            class="jump-to-top"
-            title="Scroll to top"
-            @click.native="scrollToTop"
-            >⬆</nuxt-link
-        >
+        <span>
+            <nuxt-link
+                to="/software"
+                class="jump-to-top"
+                title="Scroll to top"
+                @click.native="scrollToTop"
+            >
+                <img
+                    src="/icons/chevron-up.svg"
+                    alt="up-arrow to jump to the top of the page"
+                    class="up-arrow"
+            /></nuxt-link>
+        </span>
 
         <div class="grid-container">
             <!-- //////////// Imageboard //////////// -->
@@ -1035,11 +1041,16 @@ details > p {
     margin-right: 0.5em;
 }
 
+.up-arrow {
+    height: 1em;
+    filter: invert();
+}
+
 .jump-to-top {
     position: sticky;
-    left: 100vw;
+    left: 97vw;
     top: 90vh;
-    padding: 0.35em 0.7em;
+    padding: 0.5em 0.5em;
     background-color: rgb(85, 84, 84, 0.5);
     color: white;
     border-radius: 50%;
