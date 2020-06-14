@@ -87,19 +87,32 @@
                 </div>
             </div>
 
-            <p class="bottom">
-                <nuxt-link
+            <!-- <nuxt-link
                     class="white"
                     :to="{ name: 'contact-credits' }"
                     title="Credits and Props"
                     >Credits</nuxt-link
-                >
-                &
-                <nuxt-link
+                > -->
+            <!-- <nuxt-link
                     class="white"
                     :to="{ name: 'contact-imprint' }"
                     title="Imprint"
                     >Imprint</nuxt-link
+                > -->
+
+            <p class="bottom">
+                <nuxt-link
+                    class="white"
+                    :to="localePath('contact-credits')"
+                    title="Credits and Props"
+                    >{{ $t('Credits') }}</nuxt-link
+                >
+                &
+                <nuxt-link
+                    class="white"
+                    :to="localePath('contact-imprint')"
+                    title="Imprint"
+                    >{{ $t('Imprint') }}</nuxt-link
                 >
             </p>
         </div>

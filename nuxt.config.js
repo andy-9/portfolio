@@ -40,7 +40,10 @@ export default {
     /*
      ** Plugins to load before mounting the App
      */
-    plugins: [],
+    // plugins: ['~/plugins/i18n.js'],
+    // router: {
+    //     middleware: ['i18n']
+    // },
     /*
      ** Nuxt.js dev-modules
      */
@@ -56,7 +59,30 @@ export default {
             'nuxt-i18n',
             {
                 strategy: 'prefix_except_default',
+                // strategy: 'no_prefix',
                 defaultLocale: 'de',
+                vueI18n: {
+                    fallbackLocale: 'de'
+                },
+                locales: [
+                    {
+                        code: 'de',
+                        iso: 'de-DE',
+                        name: 'Deutsch',
+                        file: 'de.json'
+                        // langFile: 'de.json'
+                    },
+                    {
+                        code: 'en',
+                        iso: 'en-US',
+                        name: 'English',
+                        file: 'en.json'
+                        // langFile: 'en.json'
+                    }
+                ],
+                lazy: true,
+                loadLanguagesAsync: true,
+                langDir: 'locales/',
                 detectBrowserLanguage: {
                     useCookie: true,
                     alwaysRedirect: true
@@ -64,21 +90,17 @@ export default {
             }
         ]
     ],
-    i18n: {
-        locales: ['en', 'de'],
-        defaultLocale: 'de',
-        vueI18n: {
-            fallbackLocale: 'de',
-            messages: {
-                de: {
-                    welcome: 'Willkommen'
-                },
-                en: {
-                    welcome: 'Welcome'
-                }
-            }
-        }
-    },
+    // i18n: {
+    //     locales: ['en', 'de'],
+    //     defaultLocale: 'de',
+    //     vueI18n: {
+    //         fallbackLocale: 'de',
+    //         messages: {
+    // de: require('~/locales/de.json'),
+    // en: require('~/locales/en.json')
+    //         }
+    //     }
+    // },
     /*
      ** Build configuration
      */

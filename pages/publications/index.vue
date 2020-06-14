@@ -1,13 +1,5 @@
 <template>
     <div>
-        <!-- <nuxt-link
-            to="/publications"
-            class="jump-to-top"
-            title="Scroll to top"
-            @click.native="scrollToTop"
-            >⬆</nuxt-link
-        > -->
-
         <div class="publications-container">
             <h1 id="top">Publications</h1>
 
@@ -165,7 +157,7 @@
 
         <span>
             <nuxt-link
-                to="/publications"
+                :to="localePath('publications')"
                 class="jump-to-top"
                 title="Scroll to top"
                 @click.native="scrollToTop"

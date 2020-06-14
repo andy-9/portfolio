@@ -105,23 +105,6 @@
                 </a>
             </div>
         </div>
-
-        <!-- <div class="links">
-                <a
-                    href="https://nuxtjs.org/"
-                    target="_blank"
-                    class="button--green"
-                >
-                    Documentation
-                </a>
-                <a
-                    href="https://github.com/nuxt/nuxt.js"
-                    target="_blank"
-                    class="button--grey"
-                >
-                    GitHub
-                </a>
-            </div> -->
     </div>
 </template>
 
@@ -129,22 +112,6 @@
 // import Logo from '~/components/Logo.vue'
 
 export default {
-    //     components: {
-    //         Logo
-    //     }
-    // }
-    // let hash = location.hash,
-    // let currentElem = document.querySelector(hash),
-    // function scrollToPlaces(elem) {
-    //     window.scrollTo({
-    //         'behavior': 'smooth',
-    //         'left': 0,
-    //         'top': elem.offsetTop
-    //     });
-    // }
-    // if (currentElem) {
-    //     scrollToPlaces(currentElem)
-    // },
     head() {
         return {
             title: 'Andreas Hechler Portfolio',

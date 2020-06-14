@@ -536,7 +536,7 @@
             </div>
 
             <nuxt-link
-                to="/about"
+                :to="localePath('about')"
                 title="Scroll to top"
                 @click.native="scrollToTop"
             >

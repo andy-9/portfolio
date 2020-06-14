@@ -187,7 +187,7 @@
 
         <span>
             <nuxt-link
-                to="/software"
+                :to="localePath('software')"
                 class="jump-to-top"
                 title="Scroll to top"
                 @click.native="scrollToTop"

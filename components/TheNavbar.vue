@@ -1,75 +1,70 @@
 <template>
     <nav id="navbar">
-        <!-- <nuxt-link class="nav-link" :to="{ name: 'index' }">Home</nuxt-link> -->
-        <nuxt-link class="nav-link" :to="localePath('index')">{{
-            $t('Home')
-        }}</nuxt-link>
+        <nuxt-link class="nav-link" :to="localePath('index')">Home</nuxt-link>
 
-        <!-- <nuxt-link
-            class="nav-link"
-            :to="{ name: 'software' }"
-            title="Bigger and smaller projects I have built as a software engineer"
-            >Software</nuxt-link
-        > -->
         <nuxt-link
             class="nav-link"
             :to="localePath('software')"
             title="Bigger and smaller projects I have built as a software engineer"
-            >{{ $t('Software') }}</nuxt-link
+            >Software</nuxt-link
         >
 
-        <!-- <nuxt-link
-            class="nav-link"
-            :to="{ name: 'publications' }"
-            title="Writing and speaking"
-            >Publications</nuxt-link
-        > -->
         <nuxt-link
             class="nav-link"
             :to="localePath('publications')"
             title="Writing and speaking"
-            >{{ $t('Publications') }}</nuxt-link
+            >{{ $t('Veröffentlichungen') }}</nuxt-link
         >
 
-        <!-- <nuxt-link class="nav-link" :to="{ name: 'about' }" title="About me"
-            >About</nuxt-link
-        > -->
         <nuxt-link
             class="nav-link"
             :to="localePath('about')"
             title="About me"
-            >{{ $t('About') }}</nuxt-link
+            >{{ $t('Über mich') }}</nuxt-link
         >
 
-        <!-- <nuxt-link
-            class="nav-link"
-            :to="{ name: 'contact' }"
-            title="Get in touch, imprint & credits"
-            >Contact</nuxt-link
-        > -->
         <nuxt-link
             class="nav-link"
             :to="localePath('contact')"
             title="Get in touch, imprint & credits"
-            >{{ $t('Contact') }}</nuxt-link
+            >{{ $t('Kontakt') }}</nuxt-link
         >
 
-        <div class="language-selector">
+        <!-- <div class="language-selector">
             <nuxt-link
                 class="nav-link-left"
                 :to="{ name: '' }"
                 title="Not working yet"
             >
                 EN</nuxt-link
-            >
-            <span class="language-separator">|</span>
+            > -->
+
+        <div class="language-selector">
             <nuxt-link
+                class="nav-link-left"
+                :to="localePath('index', 'en')"
+                title="Switch to English"
+            >
+                EN</nuxt-link
+            >
+
+            <span class="language-separator">|</span>
+
+            <nuxt-link
+                class=""
+                :to="localePath('index', 'de')"
+                title="Seite auf Deutsch anzeigen"
+            >
+                DE</nuxt-link
+            >
+
+            <!-- <nuxt-link
                 class=""
                 :to="{ name: '' }"
                 title="Geht bisher noch nicht"
             >
                 DE
-            </nuxt-link>
+            </nuxt-link> -->
         </div>
     </nav>
 </template>

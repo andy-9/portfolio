@@ -3,5 +3,6 @@
         "andreas",
         "andreas hechler",
         "hechler"
-    ]
+    ],
+    "i18n-ally.localesPaths": "locales"
 }
