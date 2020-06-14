@@ -14,7 +14,8 @@
         "test": "jest"
     },
     "dependencies": {
-        "nuxt": "^2.0.0"
+        "nuxt": "^2.0.0",
+        "nuxt-i18n": "^6.12.2"
     },
     "devDependencies": {
         "@nuxtjs/eslint-config": "^2.0.0",

@@ -51,7 +51,34 @@ export default {
     /*
      ** Nuxt.js modules
      */
-    modules: [],
+    modules: [
+        [
+            'nuxt-i18n',
+            {
+                strategy: 'prefix_except_default',
+                defaultLocale: 'de',
+                detectBrowserLanguage: {
+                    useCookie: true,
+                    alwaysRedirect: true
+                }
+            }
+        ]
+    ],
+    i18n: {
+        locales: ['en', 'de'],
+        defaultLocale: 'de',
+        vueI18n: {
+            fallbackLocale: 'de',
+            messages: {
+                de: {
+                    welcome: 'Willkommen'
+                },
+                en: {
+                    welcome: 'Welcome'
+                }
+            }
+        }
+    },
     /*
      ** Build configuration
      */
