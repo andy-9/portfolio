@@ -188,7 +188,7 @@ export default {
 
 @media only screen and (max-width: 600px) {
     .home-container {
-        height: initial;
+        height: auto;
         padding: 20px;
         grid-template-columns: 100%;
     }
@@ -237,17 +237,21 @@ export default {
 
 #social-media {
     width: 50%;
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    margin: 1em 0 5em -1em;
+}
+
+#social-media a {
+    padding: 1em;
 }
 
 .social-media-logo {
-    height: 30px;
-    width: 30px;
+    height: 2em;
+    width: 2em;
 }
 
-.social-media-logo:hover {
+#social-media a:hover {
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
         brightness(110%) contrast(100%);
 }
