@@ -5,39 +5,31 @@
         <nuxt-link
             class="nav-link"
             :to="localePath('software')"
-            title="Bigger and smaller projects I have built as a software engineer"
+            :title="
+                $t(
+                    'Größere und kleinere Software-Projekte, die ich gebaut habe'
+                )
+            "
             >Software</nuxt-link
         >
 
         <nuxt-link
             class="nav-link"
             :to="localePath('publications')"
-            title="Writing and speaking"
+            :title="$t('Schreiben und Reden')"
             >{{ $t('Veröffentlichungen') }}</nuxt-link
         >
 
-        <nuxt-link
-            class="nav-link"
-            :to="localePath('about')"
-            title="About me"
-            >{{ $t('Über mich') }}</nuxt-link
-        >
+        <nuxt-link class="nav-link" :to="localePath('about')">{{
+            $t('Über mich')
+        }}</nuxt-link>
 
         <nuxt-link
             class="nav-link"
             :to="localePath('contact')"
-            title="Get in touch, imprint & credits"
+            :title="$t('Kontaktaufnahme, Dank & Impressum')"
             >{{ $t('Kontakt') }}</nuxt-link
         >
-
-        <!-- <div class="language-selector">
-            <nuxt-link
-                class="nav-link-left"
-                :to="{ name: '' }"
-                title="Not working yet"
-            >
-                EN</nuxt-link
-            > -->
 
         <div class="language-selector">
             <nuxt-link
@@ -57,14 +49,6 @@
             >
                 DE</nuxt-link
             >
-
-            <!-- <nuxt-link
-                class=""
-                :to="{ name: '' }"
-                title="Geht bisher noch nicht"
-            >
-                DE
-            </nuxt-link> -->
         </div>
     </nav>
 </template>

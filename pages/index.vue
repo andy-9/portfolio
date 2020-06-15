@@ -12,29 +12,37 @@
             </h1>
 
             <h2 id="subheading-home" class="subtitle">
-                Software | Agility | Coaching | Antidiscrimination
+                {{ $t('Software | Agilität | Coaching | Antidiskriminierung') }}
             </h2>
 
             <div id="short-bio">
                 <p>
-                    I'm a full stack web developer based in Berlin. I'm
-                    interested in agility in general and Scrum in particular.‎
+                    {{
+                        $t(
+                            'Ich bin Full Stack Web-Entwickler in Berlin. Ich interessiere mich für Agilität im Allgemeinen und für Scrum im Besonderen.'
+                        )
+                    }}
                 </p>
                 <p>
-                    My background is in adult education, as a trainer, coach,
-                    and I have even conducted evaluations. I am ‎also a
-                    published author and as such am invited to give interviews
-                    and lectures on my topics of expertise.‎
+                    {{
+                        $t(
+                            'Ich komme aus der (Erwachsenen-)Bildung und habe als Trainer, Berater und Evaluator gearbeitet. Ich habe auch viel publiziert, Vorträge gehalten und Interviews gegeben.'
+                        )
+                    }}
                 </p>
                 <p>
-                    Over the past decades, antidiscrimination and the challenge
-                    to create a society where people can be ‎different without
-                    fear has been the focus of my work.‎
+                    {{
+                        $t(
+                            'Schwerpunkt meiner Arbeit in den letzten Jahrzehnten war Antidiskriminierung und das Schaffen einer Gesellschaft, in der Menschen ohne Angst verschieden sein können.'
+                        )
+                    }}
                 </p>
                 <p>
-                    I am fascinated by what language can do - changing people's
-                    thoughts and actions with words or what they see on screen
-                    with ‎code is the topic that keeps me busy now.‎
+                    {{
+                        $t(
+                            'Ich bin fasziniert davon, was Sprache kann: die Gedanken und Handlungen von Menschen mit Wörtern verändern oder das, was sie auf dem Bildschirm sehen mit Code.'
+                        )
+                    }}
                 </p>
             </div>
 
@@ -43,7 +51,7 @@
                     <img
                         src="/icons/logo-github.svg"
                         alt="github logo"
-                        title="Visit my profile on GitHub"
+                        :title="$t('Mein Profil auf GitHub')"
                         class="social-media-logo"
                     />
                 </a>
@@ -55,7 +63,7 @@
                     <img
                         src="/icons/logo-linkedin.svg"
                         alt="linkedin-logo"
-                        title="Visit my profile on LinkedIn"
+                        :title="$t('Mein Profil auf LinkedIn')"
                         class="social-media-logo"
                     />
                 </a>
@@ -67,7 +75,7 @@
                     <img
                         src="/icons/logo-xing.svg"
                         alt="xing-logo"
-                        title="Visit my profile on XING"
+                        :title="$t('Mein Profil auf XING')"
                         class="social-media-logo"
                     />
                 </a>
@@ -76,7 +84,7 @@
                     <img
                         src="/icons/logo-twitter.svg"
                         alt="twitter-logo"
-                        title="Visit my profile on twitter"
+                        :title="$t('Mein Profil auf twitter')"
                         class="social-media-logo"
                     />
                 </a>
@@ -88,7 +96,7 @@
                     <img
                         src="/icons/academia.png"
                         alt="academia-logo"
-                        title="Visit my profile on Academia"
+                        :title="$t('Mein Profil auf Academia')"
                         class="social-media-logo"
                 /></a>
 
@@ -99,7 +107,7 @@
                     <img
                         src="/icons/researchgate-icon.svg"
                         alt="researchgate-logo"
-                        title="Visit my profile on Research Gate"
+                        :title="$t('Mein Profil auf Research Gate')"
                         class="social-media-logo"
                     />
                 </a>
@@ -150,7 +158,7 @@ export default {
 .home-container {
     height: 90vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 51%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -171,8 +179,6 @@ export default {
 }
 
 #img-container img {
-    /* max-height: 100%; */
-    /* width: auto; */
     width: 90%;
 }
 

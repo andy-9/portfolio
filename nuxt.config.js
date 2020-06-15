@@ -91,10 +91,7 @@ export default {
         ]
     ],
     // i18n: {
-    //     locales: ['en', 'de'],
-    //     defaultLocale: 'de',
     //     vueI18n: {
-    //         fallbackLocale: 'de',
     //         messages: {
     // de: require('~/locales/de.json'),
     // en: require('~/locales/en.json')
