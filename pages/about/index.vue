@@ -52,6 +52,16 @@
 
                 <h2>{{ $t('Was mich prägt') }}</h2>
 
+                <!-- <p>
+                    <span v-if="code === 'de'">Die</span>
+                    <strong> {{ $t('Wissenschaft') }} </strong>
+                    {{
+                        $t(
+                            'für die Fähigkeit, zu analysieren und zu verstehen; die Ethnologie für die Fähigkeit, genau zu beobachten und zuzuhören.'
+                        )
+                    }}
+                </p> -->
+
                 <p
                     v-html="
                         $t(
@@ -61,45 +71,58 @@
                 ></p>
 
                 <p>
-                    My own <strong>education</strong> (I am hungry for
-                    knowledge!) and the knowledge of learning processes in order
-                    to be able to accompany others.
+                    {{ $t('Die eigene') }} <strong>{{ $t('Bildung') }}</strong>
+                    {{
+                        $t(
+                            '(ich bin bildungshungrig!) und das Wissen um Lernprozesse, um andere begleiten zu können.'
+                        )
+                    }}
                 </p>
 
-                <p>
-                    <strong>Politics</strong> and my interest in connecting the
-                    small with the very big questions, the individual and
-                    society, everyday life and domination, the psyche and power.
-                </p>
+                <p
+                    v-html="
+                        $t(
+                            'Die <strong>Politik</strong> und mein Interesse an der Verbindung der kleinen mit den ganz großen Fragen, dem Individuum und der Gesellschaft, dem Alltag und der Herrschaft, der Psyche und der Macht.'
+                        )
+                    "
+                ></p>
 
                 <p>
-                    <strong
-                        >Inclusion, diversity and sensitivity to
-                        discrimination</strong
-                    >
-                    as guidelines and anchors for a just and free society.
+                    <strong>{{
+                        $t(
+                            'Inklusion, Diversität und Diskriminierungssensibilität'
+                        )
+                    }}</strong>
+                    {{
+                        $t(
+                            'als Leitlinien und Anker für eine gerechte und freie Gesellschaft.'
+                        )
+                    }}
                 </p>
 
-                <p>
-                    <strong
-                        >Communication Psychology and Nonviolent
-                        Communication</strong
-                    >
-                    for clarification processes, distinguishing own parts and
-                    those of another person and the guidance to feelings.
-                </p>
+                <p
+                    v-html="
+                        $t(
+                            'Die <strong>Kommunikationspsychologie und Gewaltfreie Kommunikation</strong> für Klärungsprozesse, das Auseinanderhalten von Eigenem und Fremdem und der Hinführung zu Gefühlen.'
+                        )
+                    "
+                ></p>
 
-                <p>
-                    <strong>Radical therapy and transactional analysis</strong>
-                    for self-reflection and focusing on group processes,
-                    relationship, communication and support.
-                </p>
+                <p
+                    v-html="
+                        $t(
+                            'Die <strong>Radikale Therapie und Transaktionsanalyse</strong> für die Selbstreflexion und die Fokussierung auf Gruppenprozesse, Beziehung, Kommunikation und Unterstützung.'
+                        )
+                    "
+                ></p>
 
-                <p>
-                    <strong>Contact improvisation</strong> for joy, lightness,
-                    experimenting, negotiating, somatic experience, mindfulness
-                    and flow in the group.
-                </p>
+                <p
+                    v-html="
+                        $t(
+                            'Die <strong>Kontaktimprovisation</strong> für Freude, Leichtigkeit, experimentieren, aushandeln, somatisches Erleben, Achtsamkeit und Flow in der Gruppe.'
+                        )
+                    "
+                ></p>
             </div>
         </div>
 
