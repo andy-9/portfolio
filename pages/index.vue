@@ -19,9 +19,9 @@
                 <p>
                     {{
                         $t(
-                            'Ich bin Full Stack Web-Entwickler in Berlin. Ich interessiere mich für Agilität im Allgemeinen und für Scrum im Besonderen.'
+                            'Ich bin Full Stack Web-Entwickler in Berlin. Ich interessiere mich für Agilität im Allgemeinen und für Scrum im Besonderen'
                         )
-                    }}
+                    }}.
                 </p>
                 <p>
                     {{

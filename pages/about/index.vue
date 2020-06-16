@@ -2,42 +2,46 @@
     <div id="about-container">
         <div class="container-one">
             <div class="text-area-one">
-                <h1>Hello,</h1>
-                <h1>I'm Andreas Hechler.</h1>
+                <h1>{{ $t('Hallo') }},</h1>
+                <h1>{{ $t('ich bin') }} Andreas Hechler.</h1>
                 <p>
-                    <b>
-                        I'm a full stack web developer based in Berlin.
-                        <!-- </p> -->
-                        <!-- <p> -->
-                        I'm interested in agility in general and Scrum in
-                        particular (I'm a certified PSM I and PSPO I).
-                        <!-- </p> -->
-                        <!-- <p> -->
-                        I use this site to make my work results, projects and
-                        research as accessible and available as possible.
-                    </b>
+                    <strong>
+                        {{
+                            $t(
+                                'Ich bin Full Stack Web-Entwickler in Berlin. Ich interessiere mich für Agilität im Allgemeinen und für Scrum im Besonderen'
+                            )
+                        }}
+                        ({{ $t('ich bin zertifizierter PSM I und PSPO I') }}).
+                        {{
+                            $t(
+                                'Ich nutze diese Seite auch, um meine Arbeitsergebnisse, Projekte und Forschung allen so zugänglich und verfügbar wie möglich zu machen'
+                            )
+                        }}.
+                    </strong>
                 </p>
                 <p>
-                    My background is in adult education, as a trainer, coach,
-                    and I have even conducted evaluations. I'm also a published
-                    author and as such am invited to give interviews and
-                    lectures on my topics of expertise.
-                    <!-- </p> -->
-                    <!-- <p> -->
-                    Over the past decades, antidiscrimination and the challenge
-                    to create a society where people can be ‎different without
-                    fear has been the focus of my work.
+                    {{
+                        $t(
+                            'Ich komme aus der (Erwachsenen-)Bildung und habe als Trainer, Berater und Evaluator gearbeitet. Ich habe auch viel publiziert, Vorträge gehalten und Interviews gegeben.'
+                        )
+                    }}
+                    {{
+                        $t(
+                            'Schwerpunkt meiner Arbeit in den letzten Jahrzehnten war Antidiskriminierung und das Schaffen einer Gesellschaft, in der Menschen ohne Angst verschieden sein können.'
+                        )
+                    }}
                 </p>
                 <p>
-                    I am fascinated by what language can do - changing people's
-                    thoughts and actions with words or what they see on screen
-                    with ‎code is the topic that keeps me busy now.
-                    <!-- </p> -->
-                    <!-- <p> -->
-                    I thrive working in a social environment where collaboration
-                    and open communication are lived values. I value a workplace
-                    where I can put my critical thinking skills to use, am
-                    challenged intellectually, and can grow professionally.
+                    {{
+                        $t(
+                            'Ich bin fasziniert davon, was Sprache kann: die Gedanken und Handlungen von Menschen mit Wörtern verändern oder das, was sie auf dem Bildschirm sehen mit Code.'
+                        )
+                    }}
+                    {{
+                        $t(
+                            'Ich arbeite gerne in einem sozialen Umfeld, in dem Zusammenarbeit und offene Kommunikation gelebt werden. Ich schätze einen Arbeitsplatz, an dem ich meine kritischen Gedanken sinnvoll einsetzen kann, intellektuell herausgefordert werde und beruflich wachse'
+                        )
+                    }}.
                 </p>
             </div>
         </div>
@@ -46,48 +50,53 @@
             <div class="text-area-two">
                 <!-- //////////////// INFLUENCES //////////////// -->
 
-                <h2>Influences</h2>
+                <h2>{{ $t('Was mich prägt') }}</h2>
+
+                <p
+                    v-html="
+                        $t(
+                            'Die <strong>Wissenschaft</strong> für die Fähigkeit, zu analysieren und zu verstehen; die Ethnologie für die Fähigkeit, genau zu beobachten und zuzuhören.'
+                        )
+                    "
+                ></p>
 
                 <p>
-                    <b>Scholarship</b> for the ability to analyze and
-                    understand; cultural anthropology for the ability to observe
-                    and listen closely.
+                    My own <strong>education</strong> (I am hungry for
+                    knowledge!) and the knowledge of learning processes in order
+                    to be able to accompany others.
                 </p>
 
                 <p>
-                    My own <b>education</b> (I am hungry for knowledge!) and the
-                    knowledge of learning processes in order to be able to
-                    accompany others.
+                    <strong>Politics</strong> and my interest in connecting the
+                    small with the very big questions, the individual and
+                    society, everyday life and domination, the psyche and power.
                 </p>
 
                 <p>
-                    <b>Politics</b> and my interest in connecting the small with
-                    the very big questions, the individual and society, everyday
-                    life and domination, the psyche and power.
-                </p>
-
-                <p>
-                    <b
+                    <strong
                         >Inclusion, diversity and sensitivity to
-                        discrimination</b
+                        discrimination</strong
                     >
                     as guidelines and anchors for a just and free society.
                 </p>
 
                 <p>
-                    <b>Communication Psychology and Nonviolent Communication</b>
+                    <strong
+                        >Communication Psychology and Nonviolent
+                        Communication</strong
+                    >
                     for clarification processes, distinguishing own parts and
                     those of another person and the guidance to feelings.
                 </p>
 
                 <p>
-                    <b>Radical therapy and transactional analysis</b> for
-                    self-reflection and focusing on group processes,
+                    <strong>Radical therapy and transactional analysis</strong>
+                    for self-reflection and focusing on group processes,
                     relationship, communication and support.
                 </p>
 
                 <p>
-                    <b>Contact improvisation</b> for joy, lightness,
+                    <strong>Contact improvisation</strong> for joy, lightness,
                     experimenting, negotiating, somatic experience, mindfulness
                     and flow in the group.
                 </p>
@@ -107,15 +116,19 @@
 
                     <ul>
                         <li>
-                            <b>Development of software in front- and backend</b>
+                            <strong
+                                >Development of software in front- and
+                                backend</strong
+                            >
                             (JavaScript, Node, Vue, React/Redux, Express,
                             Handlebars, jQuery, Socket.io, Jest, PostgreSQL,
                             GitHub, HTML, CSS)
                         </li>
 
                         <li>
-                            <b>Process support/facilitation</b> (coaching,
-                            counseling, evaluation, complaint management)
+                            <strong>Process support/facilitation</strong>
+                            (coaching, counseling, evaluation, complaint
+                            management)
                         </li>
 
                         <div>
@@ -124,13 +137,19 @@
 
                                 <p>
                                     2019: Cascade Information Systems:
-                                    <b>Location and product certification</b>
+                                    <strong
+                                        >Location and product
+                                        certification</strong
+                                    >
                                     according to Common Criteria
                                 </p>
 
                                 <p>
                                     2019: Westnetz GmbH / D-LABS GmbH:
-                                    <b>Analysis of the company homepage</b>
+                                    <strong
+                                        >Analysis of the company
+                                        homepage</strong
+                                    >
                                     under aspects of gender equality,
                                     suggestions for change
                                 </p>
@@ -150,9 +169,10 @@
                                 <p>
                                     2018: Against forgetting - For democracy:
                                     Extensive
-                                    <b>Evaluation</b> (non-participating
-                                    observations, interviews, material analysis,
-                                    interim and final report) of the
+                                    <strong>Evaluation</strong>
+                                    (non-participating observations, interviews,
+                                    material analysis, interim and final report)
+                                    of the
                                     <i
                                         >Argumentation training against
                                         right-wing slogans</i
@@ -161,26 +181,26 @@
 
                                 <p>
                                     2018: Free Software Foundation Europe:
-                                    <b>Consulting and training</b> for the
-                                    implementation of a code of conduct and
+                                    <strong>Consulting and training</strong> for
+                                    the implementation of a code of conduct and
                                     anti-discrimination measures
                                 </p>
 
                                 <p>
                                     2016-2018: KoFaS - Competence Group Fan
                                     Cultures & Sports:
-                                    <b>Support and Coaching</b> for the
-                                    implementation of gender-reflected measures
-                                    in football
+                                    <strong>Support and Coaching</strong> for
+                                    the implementation of gender-reflected
+                                    measures in football
                                 </p>
 
                                 <p>
                                     2017-2018: Bundesarbeitskreis Arbeit und
                                     Leben: Extensive
-                                    <b>Evaluation</b> (non-participating
-                                    observations, interviews, material analysis,
-                                    interim and final report) of the
-                                    qualification course
+                                    <strong>Evaluation</strong>
+                                    (non-participating observations, interviews,
+                                    material analysis, interim and final report)
+                                    of the qualification course
                                     <i
                                         >broadly positioned - training to
                                         prevent ideologies of inequality</i
@@ -189,14 +209,15 @@
 
                                 <p>
                                     2016-2017: ufuq.de:
-                                    <b>Team consulting and support</b> on
-                                    gender-reflected approaches, train the
+                                    <strong>Team consulting and support</strong>
+                                    on gender-reflected approaches, train the
                                     trainer
                                 </p>
 
                                 <p>
                                     2017: Anne Frank Center: Content
-                                    <b>proofreading</b> of educational materials
+                                    <strong>proofreading</strong> of educational
+                                    materials
                                 </p>
 
                                 <p>
@@ -204,19 +225,21 @@
                                     Counseling Services against Sexualized
                                     Violence in Childhood and Youth (BKSF):
                                     Research and development of proposals for a
-                                    <b>complaints management procedure</b>
+                                    <strong
+                                        >complaints management procedure</strong
+                                    >
                                 </p>
 
                                 <p>
                                     2016: Dissens - Institute for Education and
-                                    Research: <b>Coordination</b> of the
-                                    revision of an online presence
+                                    Research: <strong>Coordination</strong> of
+                                    the revision of an online presence
                                 </p>
                             </details>
                         </div>
 
                         <li>
-                            <b>Further education and training</b>,
+                            <strong>Further education and training</strong>,
                             train-the-trainer, workshops
                         </li>
                         <div>
@@ -262,7 +285,7 @@
                                     Berlin, Willi-Graf-High School Berlin
                                 </p>
 
-                                <p>2010–2019: <b>Workshops</b></p>
+                                <p>2010–2019: <strong>Workshops</strong></p>
 
                                 <p class="indent-content-in-details">
                                     <i>Institutions</i>: amongst others: Amadeu
@@ -274,8 +297,8 @@
                         </div>
 
                         <li>
-                            <b>Scientific practice research</b>,
-                            <b>lectures</b>, publications and editing
+                            <strong>Scientific practice research</strong>,
+                            <strong>lectures</strong>, publications and editing
                         </li>
 
                         <div>
@@ -332,7 +355,10 @@
                             </details>
                         </div>
 
-                        <li><b>Gender sensitive social work</b> (2002-2017)</li>
+                        <li>
+                            <strong>Gender sensitive social work</strong>
+                            (2002-2017)
+                        </li>
 
                         <div>
                             <details
@@ -401,19 +427,20 @@
                         </div>
 
                         <li>
-                            <b>Voluntary service</b> in Tel Aviv-Jaffa/Israel
-                            (2009)
+                            <strong>Voluntary service</strong> in Tel
+                            Aviv-Jaffa/Israel (2009)
                         </li>
 
                         <li>
                             Employment at the
-                            <b>News Agency Reuters</b> (2004-2008) (during
-                            studies)
+                            <strong>News Agency Reuters</strong> (2004-2008)
+                            (during studies)
                         </li>
 
                         <li>
-                            <b>Psychosocial support</b> at the Psychosozialer
-                            Verbund Treptow (2001-2006) (during studies)
+                            <strong>Psychosocial support</strong> at the
+                            Psychosozialer Verbund Treptow (2001-2006) (during
+                            studies)
                         </li>
                     </ul>
 
@@ -422,12 +449,12 @@
 
                     <p>
                         2020: Spiced Academy, on-site 3-months
-                        <b>full stack web development bootcamp</b> focused on
-                        JavaScript (Berlin)
+                        <strong>full stack web development bootcamp</strong>
+                        focused on JavaScript (Berlin)
                     </p>
 
                     <p>
-                        2019: 6-week <b>Scrum Master internship</b> at
+                        2019: 6-week <strong>Scrum Master internship</strong> at
                         SuccessYou GmbH (Berlin)
                     </p>
 
@@ -442,21 +469,23 @@
 
                     <p>
                         2004: 3-month
-                        <b>internship in the European Parliament</b> (Brussels)
+                        <strong>internship in the European Parliament</strong>
+                        (Brussels)
                     </p>
 
                     <p>
-                        1997-1998: <b>Voluntary Ecological Year</b> at
+                        1997-1998: <strong>Voluntary Ecological Year</strong> at
                         BUNDjugend (Berlin)
                     </p>
 
                     <p>
-                        1989-1997: <b>Abitur/Graduation</b> at
+                        1989-1997: <strong>Abitur/Graduation</strong> at
                         Sophie-Charlotte-High School (Berlin)
                     </p>
 
                     <p>
-                        1994-1995: <b>High School Graduation</b> (Tennessee/USA)
+                        1994-1995:
+                        <strong>High School Graduation</strong> (Tennessee/USA)
                     </p>
 
                     <!-- ////////// CERTIFICATES & TRAININGS ////////// -->
@@ -553,7 +582,7 @@
             <div class="text-area-four">
                 <h2>Volunteer work</h2>
                 <p>
-                    Member of the <b>advisory board</b> of the
+                    Member of the <strong>advisory board</strong> of the
                     <a href="https://oiigermany.org/" target="_blank"
                         >Organization Intersex International (OII / IVIM)
                         Germany</a
