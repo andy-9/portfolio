@@ -330,59 +330,60 @@
                         </div>
 
                         <li>
-                            <strong>Further education and training</strong>,
-                            train-the-trainer, workshops
+                            <strong>{{
+                                $t('Fort- und Weiterbildungen')
+                            }}</strong
+                            >, {{ $t('Train-the-Trainer, Workshops') }}
                         </li>
                         <div>
                             <details
                                 ><summary>{{ $t('Ausführlicher') }}</summary>
 
                                 <p>
-                                    2010-2020: 1-9-day
-                                    <b
-                                        >further education and train the trainer
-                                        courses</b
-                                    >
-                                    for teachers, social workers and political
-                                    educators throughout Germany
+                                    2010-2020: {{ $t('1-9-tägige') }}
+                                    <b>{{
+                                        $t(
+                                            'Fort- und Weiterbildungen und Train the Trainer-Schulungen'
+                                        )
+                                    }}</b>
+                                    {{
+                                        $t(
+                                            'für Lehrer\*innen, Sozialarbeiter\*innen und politische Bildner\*innen im gesamten Bundesgebiet'
+                                        )
+                                    }}
                                 </p>
 
                                 <p class="indent-content-in-details">
-                                    <i>Institutions</i>: Amt für Lehrerbildung
-                                    Hessen, Bildungsministerium
-                                    Mecklenburg-Vorpommern, German Children and
-                                    Youth Foundation, Dissens – Institute for
-                                    Education and Research, Institute for Youth
-                                    Work Gauting, Institut für
-                                    Qualitätsentwicklung an Schulen
-                                    Schleswig-Holstein, Landesinstitut für
-                                    Schule und Medien Berlin-Brandenburg,
-                                    Landesschulbehörde Niedersachsen,
-                                    Landessportbund Sachsen-Anhalt,
-                                    Landesverwaltungsamt Sachsen-Anhalt, RAA
-                                    Brandenburg, Pedagogical Institute Munich,
-                                    Paritätisches Bildungswerk Bundesverband,
-                                    Sozialpädagogisches Fortbildungsinstitut
-                                    Berlin-Brandenburg, Villa Fohrde
+                                    <em>{{ $t('Auftraggebende/Träger') }}</em
+                                    >:
+                                    {{
+                                        $t(
+                                            'Amt für Lehrerbildung Hessen, Bildungsministerium Mecklenburg-Vorpommern, Deutsche Kinder- und Jugendstiftung gGmbH, Dissens – Institut für Bildung und Forschung, Institut für Jugendarbeit Gauting, Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein, Landesinstitut für Schule und Medien Berlin-Brandenburg, Landesschulbehörde Niedersachsen, Landessportbund Sachsen-Anhalt, Landesverwaltungsamt Sachsen-Anhalt, RAA Brandenburg, Pädagogisches Institut München, Paritätisches Bildungswerk Bundesverband, Sozialpädagogisches Fortbildungsinstitut Berlin-Brandenburg, Villa Fohrde'
+                                        )
+                                    }}
                                 </p>
 
                                 <p class="indent-content-in-details">
-                                    <i>Individual schools and associations</i>:
-                                    Alfred Brehm Elementary School Berlin,
-                                    Dunant Elementary School Berlin,
-                                    Martin-Luther-High School Eisenach,
-                                    Miteinander e.V. (Saxony-Anhalt), Vielfalt
-                                    e.V. Berlin, Werbellin Elementary School
-                                    Berlin, Willi-Graf-High School Berlin
+                                    <em>{{
+                                        $t('Einzelne Schulen und Vereine')
+                                    }}</em
+                                    >:
+                                    {{
+                                        $t(
+                                            'Alfred Brehm Grundschule Berlin, Dunant Grundschule Berlin, Martin-Luther-Gymnasium Eisenach, Miteinander e.V. (Sachsen-Anhalt), Vielfalt e.V. Berlin, Werbellin Grundschule Berlin, Willi-Graf-Gymnasium Berlin'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>2010–2019: <strong>Workshops</strong></p>
-
                                 <p class="indent-content-in-details">
-                                    <i>Institutions</i>: amongst others: Amadeu
-                                    Antonio Foundation, Dissens – Institute for
-                                    Education and Research,
-                                    Rosa-Luxemburg-Foundation
+                                    <em>{{ $t('Auftraggebende/Träger') }}</em
+                                    >:
+                                    {{
+                                        $t(
+                                            'u.a. Amadeu Antonio Stiftung, Dissens – Institut für Bildung und Forschung, Rosa-Luxemburg-Stiftung'
+                                        )
+                                    }}
                                 </p>
                             </details>
                         </div>
