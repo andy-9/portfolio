@@ -52,23 +52,15 @@
 
                 <h2>{{ $t('Was mich prägt') }}</h2>
 
-                <!-- <p>
-                    <span v-if="code === 'de'">Die</span>
+                <p>
+                    {{ $t('Die') }}
                     <strong> {{ $t('Wissenschaft') }} </strong>
                     {{
                         $t(
                             'für die Fähigkeit, zu analysieren und zu verstehen; die Ethnologie für die Fähigkeit, genau zu beobachten und zuzuhören.'
                         )
                     }}
-                </p> -->
-
-                <p
-                    v-html="
-                        $t(
-                            'Die <strong>Wissenschaft</strong> für die Fähigkeit, zu analysieren und zu verstehen; die Ethnologie für die Fähigkeit, genau zu beobachten und zuzuhören.'
-                        )
-                    "
-                ></p>
+                </p>
 
                 <p>
                     {{ $t('Die eigene') }} <strong>{{ $t('Bildung') }}</strong>
@@ -79,13 +71,14 @@
                     }}
                 </p>
 
-                <p
-                    v-html="
+                <p>
+                    {{ $t('Die') }} <strong>{{ $t('Politik') }}</strong>
+                    {{
                         $t(
-                            'Die <strong>Politik</strong> und mein Interesse an der Verbindung der kleinen mit den ganz großen Fragen, dem Individuum und der Gesellschaft, dem Alltag und der Herrschaft, der Psyche und der Macht.'
+                            'und mein Interesse an der Verbindung der kleinen mit den ganz großen Fragen, dem Individuum und der Gesellschaft, dem Alltag und der Herrschaft, der Psyche und der Macht.'
                         )
-                    "
-                ></p>
+                    }}
+                </p>
 
                 <p>
                     <strong>{{
@@ -100,29 +93,41 @@
                     }}
                 </p>
 
-                <p
-                    v-html="
+                <p>
+                    {{ $t('Die') }}
+                    <strong>{{
                         $t(
-                            'Die <strong>Kommunikationspsychologie und Gewaltfreie Kommunikation</strong> für Klärungsprozesse, das Auseinanderhalten von Eigenem und Fremdem und der Hinführung zu Gefühlen.'
+                            'Kommunikationspsychologie und Gewaltfreie Kommunikation'
                         )
-                    "
-                ></p>
+                    }}</strong>
+                    {{
+                        $t(
+                            'für Klärungsprozesse, das Auseinanderhalten von Eigenem und Fremdem und der Hinführung zu Gefühlen.'
+                        )
+                    }}
+                </p>
 
-                <p
-                    v-html="
+                <p>
+                    {{ $t('Die') }}
+                    <strong>{{
+                        $t('Radikale Therapie und Transaktionsanalyse')
+                    }}</strong>
+                    {{
                         $t(
-                            'Die <strong>Radikale Therapie und Transaktionsanalyse</strong> für die Selbstreflexion und die Fokussierung auf Gruppenprozesse, Beziehung, Kommunikation und Unterstützung.'
+                            'für die Selbstreflexion und die Fokussierung auf Gruppenprozesse, Beziehung, Kommunikation und Unterstützung.'
                         )
-                    "
-                ></p>
+                    }}
+                </p>
 
-                <p
-                    v-html="
+                <p>
+                    {{ $t('Die') }}
+                    <strong>{{ $t('Kontaktimprovisation') }}</strong>
+                    {{
                         $t(
-                            'Die <strong>Kontaktimprovisation</strong> für Freude, Leichtigkeit, experimentieren, aushandeln, somatisches Erleben, Achtsamkeit und Flow in der Gruppe.'
+                            'für Freude, Leichtigkeit, experimentieren, aushandeln, somatisches Erleben, Achtsamkeit und Flow in der Gruppe.'
                         )
-                    "
-                ></p>
+                    }}
+                </p>
             </div>
         </div>
 
@@ -130,133 +135,196 @@
             <div class="text-area-one">
                 <!-- //////////////// PROFESSIONAL CAREER //////////////// -->
 
-                <h2 class="less-margin-bottom">Professional Career</h2>
+                <h2 class="less-margin-bottom">
+                    {{ $t('Beruflicher Werdegang') }}
+                </h2>
 
                 <!-- ////////// OCCUPATION ////////// -->
 
                 <div class="indent-after-heading-two">
-                    <h3>Occupation</h3>
+                    <h3>{{ $t('Tätigkeiten') }}</h3>
 
                     <ul>
                         <li>
-                            <strong
-                                >Development of software in front- and
-                                backend</strong
-                            >
+                            <strong>{{
+                                $t(
+                                    'Entwicklung von Software im Front- und Backend'
+                                )
+                            }}</strong>
                             (JavaScript, Node, Vue, React/Redux, Express,
                             Handlebars, jQuery, Socket.io, Jest, PostgreSQL,
                             GitHub, HTML, CSS)
                         </li>
 
                         <li>
-                            <strong>Process support/facilitation</strong>
-                            (coaching, counseling, evaluation, complaint
-                            management)
+                            <strong>{{ $t('Prozessbegleitung') }}</strong>
+                            ({{
+                                $t(
+                                    'Coaching, Beratung, Evaluation, Beschwerdemanagement'
+                                )
+                            }})
                         </li>
 
                         <div>
                             <details
-                                ><summary>Details</summary>
+                                ><summary>{{ $t('Ausführlicher') }}</summary>
 
                                 <p>
-                                    2019: Cascade Information Systems:
-                                    <strong
-                                        >Location and product
-                                        certification</strong
-                                    >
-                                    according to Common Criteria
+                                    2019:
+                                    {{
+                                        $t('Cascade Informationssysteme GmbH')
+                                    }}:
+                                    <strong>{{
+                                        $t(
+                                            'Standort- und Produktzertifizierung'
+                                        )
+                                    }}</strong>
+                                    {{ $t('nach Common Criteria') }}
                                 </p>
 
                                 <p>
                                     2019: Westnetz GmbH / D-LABS GmbH:
-                                    <strong
-                                        >Analysis of the company
-                                        homepage</strong
-                                    >
-                                    under aspects of gender equality,
-                                    suggestions for change
+                                    <strong>{{
+                                        $t('Analyse der Firmen-Homepage')
+                                    }}</strong>
+                                    {{
+                                        $t(
+                                            'unter Aspekten von Geschlechtergerechtigkeit, Vorschläge zur Veränderung'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
-                                    2018-2019: Anne Frank Center / German Red
-                                    Cross Thuringia:
-                                    <b
-                                        >Process support for measures against
-                                        discrimination and prevention of
-                                        right-wing extremism</b
-                                    >
-                                    for day-care center advisors of the German
-                                    Red Cross Thuringia
+                                    2018-2019:
+                                    {{
+                                        $t(
+                                            'Anne Frank Zentrum / Deutsches Rotes Kreuz Thüringen'
+                                        )
+                                    }}:
+                                    <strong>{{
+                                        $t(
+                                            'Prozessbegleitung zu Antidiskriminierung und Rechtsextremismusprävention'
+                                        )
+                                    }}</strong>
+                                    {{
+                                        $t(
+                                            'für Kita-Berater\*innen des DRK Thüringen'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
-                                    2018: Against forgetting - For democracy:
-                                    Extensive
+                                    2018:
+                                    {{
+                                        $t(
+                                            'Gegen Vergessen – Für Demokratie: Umfangreiche'
+                                        )
+                                    }}
                                     <strong>Evaluation</strong>
-                                    (non-participating observations, interviews,
-                                    material analysis, interim and final report)
-                                    of the
-                                    <i
-                                        >Argumentation training against
-                                        right-wing slogans</i
-                                    >
+                                    {{
+                                        $t(
+                                            '(nicht-teilnehmende Beobachtungen, Interviews, Materialauswertung, Zwischen- und Abschlussbericht) der'
+                                        )
+                                    }}
+
+                                    <em>{{
+                                        $t(
+                                            'Argumentationstrainings gegen rechte Parolen'
+                                        )
+                                    }}</em>
                                 </p>
 
                                 <p>
                                     2018: Free Software Foundation Europe:
-                                    <strong>Consulting and training</strong> for
-                                    the implementation of a code of conduct and
-                                    anti-discrimination measures
+                                    <strong>{{
+                                        $t('Beratung und Training')
+                                    }}</strong>
+                                    {{
+                                        $t(
+                                            'zur Implementierung eines Code of Conduct und Maßnahmen der Antidiskriminierung'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
-                                    2016-2018: KoFaS - Competence Group Fan
-                                    Cultures & Sports:
-                                    <strong>Support and Coaching</strong> for
-                                    the implementation of gender-reflected
-                                    measures in football
+                                    2016-2018:
+                                    {{
+                                        $t(
+                                            'KoFaS – Kompetenzgruppe Fankulturen & Sport'
+                                        )
+                                    }}:
+                                    <strong>{{
+                                        $t('Begleitung und Coaching')
+                                    }}</strong>
+                                    {{
+                                        $t(
+                                            'zur Implementierung geschlechterreflek­tierter Maßnahmen im Fußball'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
                                     2017-2018: Bundesarbeitskreis Arbeit und
-                                    Leben: Extensive
+                                    Leben: {{ $t('Umfangreiche') }}
                                     <strong>Evaluation</strong>
-                                    (non-participating observations, interviews,
-                                    material analysis, interim and final report)
-                                    of the qualification course
-                                    <i
-                                        >broadly positioned - training to
-                                        prevent ideologies of inequality</i
-                                    >
+                                    {{
+                                        $t(
+                                            '(nicht-teilnehmende Beobachtungen, Interviews, Materialauswertung, Zwischen- und Abschlussbericht) der Qualifizierungsreihe'
+                                        )
+                                    }}
+                                    <em>{{
+                                        $t(
+                                            'breit aufgestellt – Fortbildung zur Prävention von Ungleichwertigkeitsvorstellungen'
+                                        )
+                                    }}</em>
                                 </p>
 
                                 <p>
                                     2016-2017: ufuq.de:
-                                    <strong>Team consulting and support</strong>
-                                    on gender-reflected approaches, train the
-                                    trainer
+                                    <strong>{{
+                                        $t('Teamberatung und -begleitung')
+                                    }}</strong>
+                                    {{
+                                        $t(
+                                            'zu geschlechterreflektierten Ansätzen, Multiplikator\*innen-Schulung'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
-                                    2017: Anne Frank Center: Content
-                                    <strong>proofreading</strong> of educational
-                                    materials
+                                    2017:
+                                    {{ $t('Anne Frank Zentrum: Inhaltliches')
+                                    }}<strong> {{ $t('Lektorat') }} </strong>
+                                    {{ $t('von Bildungsmaterialien') }}
                                 </p>
 
                                 <p>
-                                    2017: Federal Coordination of Specialized
-                                    Counseling Services against Sexualized
-                                    Violence in Childhood and Youth (BKSF):
-                                    Research and development of proposals for a
+                                    2017:
+                                    {{
+                                        $t(
+                                            'Bundeskoordinierung Spezialisierter Fachberatung gegen sexualisierte Gewalt in Kindheit und Jugend (BKSF): Recherche und Entwicklung von Vorschlägen für ein'
+                                        )
+                                    }}
                                     <strong
-                                        >complaints management procedure</strong
-                                    >
+                                        >{{
+                                            $t('Beschwerdemanagementverfahren')
+                                        }}
+                                    </strong>
                                 </p>
 
                                 <p>
-                                    2016: Dissens - Institute for Education and
-                                    Research: <strong>Coordination</strong> of
-                                    the revision of an online presence
+                                    2016: Dissens -
+                                    {{
+                                        $t(
+                                            'Institut für Bildung und Forschung'
+                                        )
+                                    }}:
+                                    <strong>{{ $t('Koordination') }}</strong>
+                                    {{
+                                        $t(
+                                            'der Überarbeitung einer Online-Präsenz'
+                                        )
+                                    }}
                                 </p>
                             </details>
                         </div>
@@ -267,7 +335,7 @@
                         </li>
                         <div>
                             <details
-                                ><summary>Details</summary>
+                                ><summary>{{ $t('Ausführlicher') }}</summary>
 
                                 <p>
                                     2010-2020: 1-9-day
@@ -326,7 +394,7 @@
 
                         <div>
                             <details
-                                ><summary>Details</summary>
+                                ><summary>{{ $t('Ausführlicher') }}</summary>
 
                                 <p>
                                     2011–2018:
@@ -385,7 +453,7 @@
 
                         <div>
                             <details
-                                ><summary>Details</summary>
+                                ><summary>{{ $t('Ausführlicher') }}</summary>
 
                                 <p>
                                     2016–2017:

@@ -45,7 +45,11 @@
 
     "Was mich prägt": "Was mich prägt",
 
-    "Die <strong>Wissenschaft</strong> für die Fähigkeit, zu analysieren und zu verstehen; die Ethnologie für die Fähigkeit, genau zu beobachten und zuzuhören.": "Die <strong>Wissenschaft</strong> für die Fähigkeit, zu analysieren und zu verstehen; die Ethnologie für die Fähigkeit, genau zu beobachten und zuzuhören.",
+    "Die": "Die",
+
+    "Wissenschaft": "Wissenschaft",
+
+    "für die Fähigkeit, zu analysieren und zu verstehen; die Ethnologie für die Fähigkeit, genau zu beobachten und zuzuhören.": "für die Fähigkeit, zu analysieren und zu verstehen; die Ethnologie für die Fähigkeit, genau zu beobachten und zuzuhören.",
 
     "Die eigene": "Die eigene",
 
@@ -53,15 +57,93 @@
 
     "(ich bin bildungshungrig!) und das Wissen um Lernprozesse, um andere begleiten zu können.": "(ich bin bildungshungrig!) und das Wissen um Lernprozesse, um andere begleiten zu können.",
 
-    "Die <strong>Politik</strong> und mein Interesse an der Verbindung der kleinen mit den ganz großen Fragen, dem Individuum und der Gesellschaft, dem Alltag und der Herrschaft, der Psyche und der Macht.": "Die <strong>Politik</strong> und mein Interesse an der Verbindung der kleinen mit den ganz großen Fragen, dem Individuum und der Gesellschaft, dem Alltag und der Herrschaft, der Psyche und der Macht.",
+    "Politik": "Politik",
+
+    "und mein Interesse an der Verbindung der kleinen mit den ganz großen Fragen, dem Individuum und der Gesellschaft, dem Alltag und der Herrschaft, der Psyche und der Macht.": "und mein Interesse an der Verbindung der kleinen mit den ganz großen Fragen, dem Individuum und der Gesellschaft, dem Alltag und der Herrschaft, der Psyche und der Macht.",
 
     "Inklusion, Diversität und Diskriminierungssensibilität": "Inklusion, Diversität und Diskriminierungssensibilität",
 
     "als Leitlinien und Anker für eine gerechte und freie Gesellschaft.": "als Leitlinien und Anker für eine gerechte und freie Gesellschaft.",
 
-    "Die <strong>Kommunikationspsychologie und Gewaltfreie Kommunikation</strong> für Klärungsprozesse, das Auseinanderhalten von Eigenem und Fremdem und der Hinführung zu Gefühlen.": "Die <strong>Kommunikationspsychologie und Gewaltfreie Kommunikation</strong> für Klärungsprozesse, das Auseinanderhalten von Eigenem und Fremdem und der Hinführung zu Gefühlen.",
+    "Kommunikationspsychologie und Gewaltfreie Kommunikation": "Kommunikationspsychologie und Gewaltfreie Kommunikation",
 
-    "Die <strong>Radikale Therapie und Transaktionsanalyse</strong> für die Selbstreflexion und die Fokussierung auf Gruppenprozesse, Beziehung, Kommunikation und Unterstützung.": "Die <strong>Radikale Therapie und Transaktionsanalyse</strong> für die Selbstreflexion und die Fokussierung auf Gruppenprozesse, Beziehung, Kommunikation und Unterstützung.",
+    "für Klärungsprozesse, das Auseinanderhalten von Eigenem und Fremdem und der Hinführung zu Gefühlen.": "für Klärungsprozesse, das Auseinanderhalten von Eigenem und Fremdem und der Hinführung zu Gefühlen.",
 
-    "Die <strong>Kontaktimprovisation</strong> für Freude, Leichtigkeit, experimentieren, aushandeln, somatisches Erleben, Achtsamkeit und Flow in der Gruppe.": "Die <strong>Kontaktimprovisation</strong> für Freude, Leichtigkeit, experimentieren, aushandeln, somatisches Erleben, Achtsamkeit und Flow in der Gruppe."
+    "Radikale Therapie und Transaktionsanalyse": "Radikale Therapie und Transaktionsanalyse",
+
+    "für die Selbstreflexion und die Fokussierung auf Gruppenprozesse, Beziehung, Kommunikation und Unterstützung.": "für die Selbstreflexion und die Fokussierung auf Gruppenprozesse, Beziehung, Kommunikation und Unterstützung.",
+
+    "Kontaktimprovisation": "Kontaktimprovisation",
+
+    "für Freude, Leichtigkeit, experimentieren, aushandeln, somatisches Erleben, Achtsamkeit und Flow in der Gruppe.": "für Freude, Leichtigkeit, experimentieren, aushandeln, somatisches Erleben, Achtsamkeit und Flow in der Gruppe.",
+
+    "Beruflicher Werdegang": "Beruflicher Werdegang",
+
+    "Tätigkeiten": "Tätigkeiten",
+
+    "Entwicklung von Software im Front- und Backend": "Entwicklung von Software im Front- und Backend",
+
+    "Prozessbegleitung": "Prozessbegleitung",
+
+    "Coaching, Beratung, Evaluation, Beschwerdemanagement": "Coaching, Beratung, Evaluation, Beschwerdemanagement",
+
+    "Ausführlicher": "Ausführlicher",
+
+    "Cascade Informationssysteme GmbH": "Cascade Informationssysteme GmbH",
+
+    "Standort- und Produktzertifizierung": "Standort- und Produktzertifizierung",
+
+    "nach Common Criteria": "nach Common Criteria",
+
+    "Analyse der Firmen-Homepage": "Analyse der Firmen-Homepage",
+
+    "unter Aspekten von Geschlechtergerechtigkeit, Vorschläge zur Veränderung": "unter Aspekten von Geschlechtergerechtigkeit, Vorschläge zur Veränderung",
+
+    "Anne Frank Zentrum / Deutsches Rotes Kreuz Thüringen": "Anne Frank Zentrum / Deutsches Rotes Kreuz Thüringen",
+
+    "Prozessbegleitung zu Antidiskriminierung und Rechtsextremismusprävention": "Prozessbegleitung zu Antidiskriminierung und Rechtsextremismusprävention",
+
+    "für Kita-Berater*innen des DRK Thüringen": "für Kita-Berater*innen des DRK Thüringen",
+
+    "Gegen Vergessen – Für Demokratie: Umfangreiche": "Gegen Vergessen – Für Demokratie: Umfangreiche",
+
+    "(nicht-teilnehmende Beobachtungen, Interviews, Materialauswertung, Zwischen- und Abschlussbericht) der": "(nicht-teilnehmende Beobachtungen, Interviews, Materialauswertung, Zwischen- und Abschlussbericht) der",
+
+    "Argumentationstrainings gegen rechte Parolen": "Argumentationstrainings gegen rechte Parolen",
+
+    "Beratung und Training": "Beratung und Training",
+
+    "zur Implementierung eines Code of Conduct und Maßnahmen der Antidiskriminierung": "zur Implementierung eines Code of Conduct und Maßnahmen der Antidiskriminierung",
+
+    "KoFaS – Kompetenzgruppe Fankulturen & Sport": "KoFaS – Kompetenzgruppe Fankulturen & Sport",
+
+    "Begleitung und Coaching": "Begleitung und Coaching",
+
+    "zur Implementierung geschlechterreflek­tierter Maßnahmen im Fußball": "zur Implementierung geschlechterreflek­tierter Maßnahmen im Fußball",
+
+    "Umfangreiche": "Umfangreiche",
+
+    "(nicht-teilnehmende Beobachtungen, Interviews, Materialauswertung, Zwischen- und Abschlussbericht) der Qualifizierungsreihe": "(nicht-teilnehmende Beobachtungen, Interviews, Materialauswertung, Zwischen- und Abschlussbericht) der Qualifizierungsreihe",
+
+    "breit aufgestellt – Fortbildung zur Prävention von Ungleichwertigkeitsvorstellungen": "breit aufgestellt – Fortbildung zur Prävention von Ungleichwertigkeitsvorstellungen",
+
+    "Teamberatung und -begleitung": "Teamberatung und -begleitung",
+
+    "zu geschlechterreflektierten Ansätzen, Multiplikator*innen-Schulung": "zu geschlechterreflektierten Ansätzen, Multiplikator*innen-Schulung",
+
+    "Anne Frank Zentrum: Inhaltliches": "Anne Frank Zentrum: Inhaltliches",
+
+    "Lektorat": "Lektorat",
+
+    "von Bildungsmaterialien": "von Bildungsmaterialien",
+
+    "Bundeskoordinierung Spezialisierter Fachberatung gegen sexualisierte Gewalt in Kindheit und Jugend (BKSF): Recherche und Entwicklung von Vorschlägen für ein": "Bundeskoordinierung Spezialisierter Fachberatung gegen sexualisierte Gewalt in Kindheit und Jugend (BKSF): Recherche und Entwicklung von Vorschlägen für ein",
+
+    "Beschwerdemanagementverfahren": "Beschwerdemanagementverfahren",
+
+    "Institut für Bildung und Forschung": "Institut für Bildung und Forschung",
+
+    "Koordination": "Koordination",
+
+    "der Überarbeitung einer Online-Präsenz": "der Überarbeitung einer Online-Präsenz"
 }
