@@ -576,47 +576,64 @@
                     </ul>
 
                     <!-- ////////// EDUCATION ////////// -->
-                    <h3>Education</h3>
+                    <h3>{{ $t('Ausbildung') }}</h3>
 
                     <p>
-                        2020: Spiced Academy, on-site 3-months
-                        <strong>full stack web development bootcamp</strong>
-                        focused on JavaScript (Berlin)
+                        2020:
+                        {{
+                            $t(
+                                'Spiced Academy, 3-monatige Vollzeit-Ausbildung vor Ort als'
+                            )
+                        }}
+                        <strong>{{ $t('Full Stack Web-Entwickler') }}</strong>
+                        {{ $t('mit einem JavaScript-Schwerpunkt') }}
+                        (Berlin)
                     </p>
 
                     <p>
-                        2019: 6-week <strong>Scrum Master internship</strong> at
-                        SuccessYou GmbH (Berlin)
+                        2019: {{ $t('6-wöchiges') }}
+                        <strong>{{ $t('Scrum-Master-Praktikum') }}</strong>
+                        {{ $t('bei SuccessYou GmbH') }} (Berlin)
                     </p>
 
                     <p>
                         1998-2008:
-                        <b
-                            >Studies in Cultural Anthropology and Gender
-                            Studies</b
-                        >
-                        at Humboldt University of Berlin
+                        <strong
+                            >{{
+                                $t(
+                                    'Studium der Europäischen Ethnologie und Gender Studies'
+                                )
+                            }}
+                        </strong>
+                        {{ $t('an der Humboldt-Universität zu Berlin') }}
                     </p>
 
                     <p>
-                        2004: 3-month
-                        <strong>internship in the European Parliament</strong>
-                        (Brussels)
+                        2004: {{ $t('3-monatiges') }}
+                        <strong>{{
+                            $t('Praktikum im Europäischen Parlament')
+                        }}</strong>
+                        ({{ $t('Brüssel') }})
                     </p>
 
                     <p>
-                        1997-1998: <strong>Voluntary Ecological Year</strong> at
+                        1997-1998:
+                        <strong
+                            >{{ $t('Freiwilliges Ökologisches Jahr') }}
+                        </strong>
+                        {{ $t('bei der') }}
                         BUNDjugend (Berlin)
                     </p>
 
                     <p>
-                        1989-1997: <strong>Abitur/Graduation</strong> at
-                        Sophie-Charlotte-High School (Berlin)
+                        1989-1997: <strong>{{ $t('Abitur') }}</strong>
+                        {{ $t('an der Sophie-Charlotte-Oberschule') }} (Berlin)
                     </p>
 
                     <p>
                         1994-1995:
-                        <strong>High School Graduation</strong> (Tennessee/USA)
+                        <strong>{{ $t('Abschluss (Graduation)') }}</strong> Dyer
+                        County High School (Tennessee/USA)
                     </p>
 
                     <!-- ////////// CERTIFICATES & TRAININGS ////////// -->
