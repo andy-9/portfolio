@@ -638,33 +638,34 @@
 
                     <!-- ////////// CERTIFICATES & TRAININGS ////////// -->
 
-                    <h3>Certificates, further education and training</h3>
+                    <h3>{{ $t('Zertifikate, Fort- & Weiterbildungen') }}</h3>
 
                     <p>
-                        2020: Professional Scrum Master (PSM I) and Professional
-                        Scrum Product Owner (PSPO I)
+                        2020: Professional Scrum Master (PSM I)
+                        {{ $t('und') }} Professional Scrum Product Owner (PSPO
+                        I)
                     </p>
 
                     <p>
-                        2012-2013: Further education to become a child attorney
+                        2012-2013:
+                        {{ $t('Weiterbildung zum Verfahrensbeistand') }}
                     </p>
 
-                    <p>2010: Further training as a Betzavta trainer</p>
+                    <p>2010: {{ $t('Weiterbildung zum Betzavta-Trainer') }}</p>
 
-                    <p>2005–2006: One-year training in Shiatsu</p>
-
-                    <p>2005: Training as youth group leader (JuLeiCa)</p>
+                    <p>2005–2006: {{ $t('1-jährige Shiatsu-Ausbildung') }}</p>
 
                     <p>
-                        Agility, project management, moderation, argumentation-,
-                        communication and discussion trainings, visualization,
-                        fundraising, press and public relations, social media,
-                        blended learning, OER, hate & counter-speech,
-                        interviewing, anti-discrimination pedagogy, social
-                        justice, intersectional violence prevention, sexualized
-                        violence against boys, neo-Nazism/right-wing extremism,
-                        critical whiteness, action against everyday racism,
-                        anti-Semitism and many more
+                        2005:
+                        {{ $t('Ausbildung zum Jugendgruppenleiter') }} (JuLeiCa)
+                    </p>
+
+                    <p>
+                        {{
+                            $t(
+                                'Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate & Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, [Intersektionale Gewaltprävention](https://www.dissens.de/isgp/fortbildung.php), Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr'
+                            )
+                        }}
                     </p>
 
                     <!-- ////////// AREAS OF EXPERTISE ////////// -->
