@@ -753,12 +753,12 @@
 
             <nuxt-link
                 :to="localePath('about')"
-                title="Scroll to top"
+                :title="$t('zum Seitenanfang')"
                 @click.native="scrollToTop"
             >
                 <img
                     src="/icons/triangle-sharp.svg"
-                    alt="icon for features"
+                    :alt="$t('Dreiecks-Icon')"
                     class="triangle-to-top"
             /></nuxt-link>
         </div>
@@ -767,23 +767,23 @@
 
         <div class="container-four">
             <div class="text-area-four">
-                <h2>Volunteer work</h2>
+                <h2>{{ $t('Ehrenamtliches Engagement') }}</h2>
                 <p>
-                    Member of the <strong>advisory board</strong> of the
-                    <a href="https://oiigermany.org/" target="_blank"
-                        >Organization Intersex International (OII / IVIM)
-                        Germany</a
-                    >
+                    {{ $t('Mitglied des') }}
+                    <strong> {{ $t('Beirat') }}</strong>
+                    {{ $t('der') }}
+                    <a href="https://oiigermany.org/" target="_blank">{{
+                        $t(
+                            'Internationalen Vereinigung Intergeschlechtlicher Menschen (IVIM / OII Germany)'
+                        )
+                    }}</a>
                 </p>
             </div>
         </div>
 
         <div id="circle"></div>
 
-        <!-- <div class="footer nav-fixed-bottom">
-            Pen by:<br />
-            Justin Tan | UI/UX Designer | Front End Developer
-        </div> -->
+        <!-- <div class="footer nav-fixed-bottom"></div> -->
     </div>
 </template>
 
@@ -806,8 +806,15 @@ export default {
     },
     head() {
         return {
-            title: 'About Andreas Hechler',
+            title: this.$t('Mehr über Andreas Hechler'),
             meta: []
+            // meta: [
+            //     {
+            //         hid: 'description',
+            //         name: 'description',
+            //         content: this.$i18n.t('Mehr über Andreas Hechler')
+            //     }
+            // ]
         }
     }
 }
@@ -933,7 +940,6 @@ ul {
 li {
     color: white;
     font-size: 1.2em;
-    /* font-weight: 350; */
     padding: 0.4em 0;
 }
 
@@ -953,8 +959,6 @@ details .indent-content-in-details {
 }
 
 .triangle-to-top-one {
-    /* filter: invert(); */
-    /* filter: grayscale(70%); */
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
         brightness(110%) contrast(100%);
     margin-left: 75vw;
