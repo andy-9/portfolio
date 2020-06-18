@@ -389,8 +389,12 @@
                         </div>
 
                         <li>
-                            <strong>Scientific practice research</strong>,
-                            <strong>lectures</strong>, publications and editing
+                            <strong>{{
+                                $t(
+                                    'Wissenschaftliche Praxisforschung, Vorträge'
+                                )
+                            }}</strong
+                            >, {{ $t('Fachbeiträge und Lektorat') }}
                         </li>
 
                         <div>
@@ -399,50 +403,62 @@
 
                                 <p>
                                     2011–2018:
-                                    <b
-                                        >Teaching positions and lectures at
-                                        universities</b
-                                    >: Alice Salomon College Berlin, European
-                                    University Viadrina Frankfurt (Oder),
-                                    European Solidarity Centre Gdańsk,
-                                    Evangelische Hochschule Berlin, University
-                                    of Applied Sciences Kiel, Hochschule
-                                    Hannover, Katholische Hochschule für
-                                    Sozialwesen Berlin, University Göttingen,
-                                    University Kiel, University of Central
-                                    Lancashire Preston
+                                    <strong>{{
+                                        $t(
+                                            'Lehraufträge und Vorträge an Hochschulen'
+                                        )
+                                    }}</strong
+                                    >:
+                                    {{
+                                        $t(
+                                            'Alice Salomon Hochschule Berlin, Europa Universität Viadrina Frankfurt (Oder), European Solidarity Centre Gdańsk, Evangelische Hochschule Berlin, Fachhochschule Kiel, Hochschule Hannover, Katholische Hochschule für Sozialwesen Berlin, Universität Göttingen, Universität Kiel, University of Central Lancashire Preston'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
                                     2013–2015:
-                                    <b
-                                        >Research and further education project
-                                        on gender-reflected neo-Nazi prevention
-                                        at Dissens - Institute for Education and
-                                        Research</b
-                                    >: Project management, conception and
-                                    planning; nationwide professional and train
-                                    the trainer trainings (up to 9 days);
-                                    consulting and supervision of practical
-                                    projects; inputs; teaching of methods;
-                                    lectures; preparation of scientific
-                                    findings; conference organization and
-                                    implementation; financial applications and
-                                    contact with funding agencies; supervision
-                                    of interns and honorary team
+                                    <a
+                                        href="https://gerenep.dissens.de/"
+                                        target="_blank"
+                                        style="color: lightgrey"
+                                    >
+                                        <strong>{{
+                                            $t(
+                                                'Forschungs- und Fortbildungsprojekt zu geschlechterreflektierter Neonazismusprävention bei Dissens – Institut für Bildung und Forschung'
+                                            )
+                                        }}</strong></a
+                                    >:
+                                    {{
+                                        $t(
+                                            'Projektmanagement, -konzeption und -planung; bundesweite Multiplikator\*innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber\*innen; Praktikant\*innen- und Honorarteambetreuung'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
                                     2010–2012:
-                                    <b
-                                        >Nationwide advanced trainings in the
-                                        further education project
-                                        <i>Boys' work and school</i> of Dissens
-                                        e. V.</b
-                                    >: 8-day teacher training courses on the
-                                    topic of working with boys; train the
-                                    trainer trainings; inputs, teaching of
-                                    methods, consulting
+                                    <strong
+                                        >{{
+                                            $t(
+                                                'Bundesweite Fortbildungstätigkeit beim Fortbildungsprojekt'
+                                            )
+                                        }}
+                                        <a
+                                            href="http://www.jungenarbeit-und-schule.de/"
+                                            target="_blank"
+                                            style="color: lightgrey"
+                                        >
+                                            <em>{{
+                                                $t('Jungenarbeit und Schule')
+                                            }}</em></a
+                                        ></strong
+                                    >:
+                                    {{
+                                        $t(
+                                            '8-tägige Lehrer*innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung'
+                                        )
+                                    }}
                                 </p>
                             </details>
                         </div>
