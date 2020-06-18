@@ -670,45 +670,83 @@
 
                     <!-- ////////// AREAS OF EXPERTISE ////////// -->
 
-                    <h3 id="expertise">Areas of expertise</h3>
+                    <h3 id="expertise">{{ $t('Arbeitsschwerpunkte') }}</h3>
 
-                    <p>Research, practice and theory on the topics:</p>
+                    <p>
+                        {{ $t('Forschung, Praxis und Theorie zu den Themen') }}:
+                    </p>
 
                     <ul>
-                        <li>Multidimensional Discrimination/Privilege</li>
-
-                        <li>Gender Reflective Pedagogy</li>
-
-                        <li>Boys' work</li>
-
                         <li>
-                            Gender and neo-Nazism (among others interphobia,
-                            manosphere, incels)
+                            {{
+                                $t(
+                                    'Mehrdimensionale Diskriminierung/-privilegierung'
+                                )
+                            }}
                         </li>
 
-                        <li>Intersex in education and pedagogy</li>
+                        <li>{{ $t('Geschlechterreflektierte Pädagogik') }}</li>
 
-                        <li>Queer theory and masculinity</li>
-
-                        <li>(sexualized) violence</li>
-
-                        <li>Antisemitism, racism, critical whiteness</li>
+                        <li>{{ $t('Jungen\*arbeit') }}</li>
 
                         <li>
-                            National Socialism, politics of memory and family
-                            biographies
+                            {{
+                                $t(
+                                    'Geschlecht und Neonazismus (u.a. Interdiskriminierung, manosphere, Incels)'
+                                )
+                            }}
                         </li>
 
                         <li>
-                            Disability Studies, Eugenics and NS-'euthanasia'
+                            {{
+                                $t(
+                                    'Intergeschlechtlichkeit in Bildung und Pädagogik'
+                                )
+                            }}
                         </li>
 
                         <li>
-                            Digitalization, social media, hate speech,
-                            algorithmic discrimination
+                            {{
+                                $t(
+                                    'Queer Theory und Theorien zu Geschlecht und Männlichkeit'
+                                )
+                            }}
                         </li>
 
-                        <li>Agility, Scrum</li>
+                        <li>
+                            {{ $t('(Sexualisierte) Gewalt') }}
+                        </li>
+
+                        <li>
+                            {{
+                                $t(
+                                    'Antisemitismus, Rassismus, Critical Whiteness'
+                                )
+                            }}
+                        </li>
+
+                        <li>
+                            {{
+                                $t(
+                                    'Nationalsozialismus, Erinnerungspolitik und Familienbiografien'
+                                )
+                            }}
+                        </li>
+
+                        <li>
+                            Disability Studies,
+                            {{ $t('Eugenik und NS-‚Euthanasie‘') }}
+                        </li>
+
+                        <li>
+                            {{
+                                $t(
+                                    'Digitalisierung, Social Media, Hate Speech, algorithmische Diskriminierung'
+                                )
+                            }}
+                        </li>
+
+                        <li>{{ $t('Agilität') }}, Scrum</li>
                     </ul>
                 </div>
             </div>
