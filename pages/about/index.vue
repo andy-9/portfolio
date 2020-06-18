@@ -464,7 +464,8 @@
                         </div>
 
                         <li>
-                            <strong>Gender sensitive social work</strong>
+                            <strong>{{ $t('Jungenarbeit') }}</strong>
+                            {{ $t('und Hilfen zur Erziehung') }}
                             (2002-2017)
                         </li>
 
@@ -474,62 +475,80 @@
 
                                 <p>
                                     2016–2017:
-                                    <b
-                                        >2-day workshops for primary and
-                                        secondary school classes</b
-                                    >
-                                    in different cities (Berlin, Hesse,
-                                    Schleswig-Holstein): Gender-reflective
-                                    pedagogy, gender and sexual diversity
+                                    <strong
+                                        >{{
+                                            $t(
+                                                '2-Tages-Workshops für Schulklassen an Grund- und Oberschulen'
+                                            )
+                                        }}
+                                    </strong>
+                                    {{
+                                        $t(
+                                            'in verschiedenen Städten (Berlin, Hessen, Schleswig-Holstein): Geschlechterreflektierte Pädagogik, geschlechtliche und sexuelle Vielfalt'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
                                     2009–2012:
-                                    <b
-                                        >Hilfen zur Erziehung (social group work
-                                        and individual case help) at Dissens e.
-                                        V.</b
-                                    >: Social group work (§ 29 SGB VIII) and
-                                    educational assistance (§ 30 SGB VIII);
-                                    gender-related social work with a boys'
-                                    group; conducting one-on-one interviews,
-                                    discussion rounds, leisure activities and
-                                    sports
+                                    <strong>{{
+                                        $t(
+                                            'Hilfen zur Erziehung (Soziale Gruppenarbeit und Einzelfallhilfe) bei Dissens e. V.:'
+                                        )
+                                    }}</strong>
+                                    {{
+                                        $t(
+                                            'Soziale Gruppenarbeit (§ 29 SGB VIII) und Erziehungsbeistand (§ 30 SGB VIII); geschlechtsbezogene Betreuung einer Jungengruppe; Durchführung von Einzelgesprächen, Gesprächsrunden, Freizeitgestaltung und Sportangeboten'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
                                     2009–2010:
-                                    <b
-                                        >Boys' work at the
-                                        <i>Alte Molkerei Frille</i></b
-                                    >: gender-sensitive pedagogy, prevention of
-                                    violence, promotion of social competence and
-                                    development of conflict resolution with boys
+                                    <strong
+                                        >{{ $t('Jungenarbeit in der') }}
+                                        <em>{{
+                                            $t(
+                                                'Heimvolkshochschule Alte Molkerei Frille:'
+                                            )
+                                        }}</em></strong
+                                    >
+                                    {{
+                                        $t(
+                                            'geschlechtsbezogene Pädagogik, Gewaltprävention, Förderung von sozialer Kompetenz und Erarbeitung von Konfliktlösungen mit Jungen'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
                                     2009–2010:
-                                    <b
-                                        >Hilfen zur Erziehung at the Björn
-                                        Schulz Foundation</b
-                                    >: Educational assistance (§ 30 SGB VIII)
-                                    and social work with families (§ 31 SGB
-                                    VIII); support for families with a severely
-                                    disabled child; work with non-disabled male
-                                    siblings and their specific problems;
-                                    counseling for parents in educational
-                                    questions and conflicts
+                                    <strong
+                                        >{{
+                                            $t(
+                                                'Hilfen zur Erziehung bei der Björn-Schulz-Stiftung:'
+                                            )
+                                        }} </strong
+                                    >{{
+                                        $t(
+                                            'Erziehungsbeistand (§ 30 SGB VIII) und Sozialpädagogische Familienhilfe (§ 31 SGB VIII); Unterstützung von Familien mit einem schwerbehinderten Kind; Arbeit mit nichtbehinderten männlichen Geschwisterkindern und deren spezifischen Problemlagen; Beratung von Eltern in Erziehungsfragen und bei Konflikten'
+                                        )
+                                    }}
                                 </p>
 
                                 <p>
                                     2002–2006:
-                                    <b
-                                        >Boys' work at Dissens e. V. and Pat-Ex
-                                        e. V.</b
-                                    >: Preparation, implementation and follow-up
-                                    of project days and weeks for boys on the
-                                    conflict resolution, sexuality, career
-                                    choice and male socialization
+                                    <strong
+                                        >{{
+                                            $t(
+                                                'Jungenarbeit bei Dissens e. V. und Pat-Ex e. V.:'
+                                            )
+                                        }}
+                                    </strong>
+                                    {{
+                                        $t(
+                                            'Vorbereitung, Durchführung und Nachbereitung von Projekttagen und -wochen für Jungen zu Streitkultur, Sexualität, Berufswahl und männlicher Sozialisation; Betreuung der Besucher des Jungentreffs im offenen Bereich: Durchführung von Einzelgesprächen, Gesprächsrunden, Freizeitgestaltung und Sportangeboten'
+                                        )
+                                    }}
                                 </p>
                             </details>
                         </div>
