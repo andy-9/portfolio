@@ -31,7 +31,7 @@
 export default {
     head() {
         return {
-            title: 'Credits',
+            title: this.$t('Dank von Andreas Hechler'),
             meta: []
         }
     }

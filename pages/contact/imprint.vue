@@ -14,7 +14,7 @@
 export default {
     head() {
         return {
-            title: 'Imprint Andreas Hechler',
+            title: this.$t('Impressum Andreas Hechler'),
             meta: []
         }
     }

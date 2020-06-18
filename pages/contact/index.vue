@@ -123,7 +123,8 @@
 export default {
     head() {
         return {
-            title: 'Contact Andreas Hechler',
+            title: this.$t('Kontakt zu Andreas Hechler'),
+            // title: 'Contact Andreas Hechler',
             meta: []
         }
     }

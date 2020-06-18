@@ -1297,7 +1297,7 @@ export default {
     // },
     head() {
         return {
-            title: 'Publications Andreas Hechler',
+            title: this.$t('Veröffentlichungen Andreas Hechler'),
             meta: []
         }
     }
