@@ -554,20 +554,24 @@
                         </div>
 
                         <li>
-                            <strong>Voluntary service</strong> in Tel
-                            Aviv-Jaffa/Israel (2009)
+                            <strong>{{ $t('Freiwilligendienst') }}</strong> in
+                            Tel Aviv-Jaffa/Israel (2009)
                         </li>
 
                         <li>
-                            Employment at the
-                            <strong>News Agency Reuters</strong> (2004-2008)
-                            (during studies)
+                            {{ $t('Anstellung bei der') }}
+                            <strong>{{
+                                $t('Nachrichtenagentur Reuters')
+                            }}</strong>
+                            (2004-2008) ({{ $t('studienbegleitend') }})
                         </li>
 
                         <li>
-                            <strong>Psychosocial support</strong> at the
-                            Psychosozialer Verbund Treptow (2001-2006) (during
-                            studies)
+                            <strong>{{ $t('Psychosoziale Betreuung') }}</strong>
+                            {{ $t('beim Psychosozialen') }}
+                            Verbund Treptow (2001-2006) ({{
+                                $t('studienbegleitend')
+                            }})
                         </li>
                     </ul>
 
