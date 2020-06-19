@@ -1,17 +1,20 @@
 <template>
     <div id="contact-container">
-        <h1>Contact</h1>
+        <h1>{{ $t('Kontakt') }}</h1>
 
         <div class="content">
             <div class="flex-column info-left">
                 <p class="white">
-                    I'll be happy to receive an email or meet you on my social
-                    media profiles.
+                    {{
+                        $t(
+                            'Ich freue mich über eine E-Mail oder eine anderweitige Kontaktaufnahme über meine Social Media Profile.'
+                        )
+                    }}
                 </p>
                 <div>
                     <img
                         src="/images/email.png"
-                        alt="Email-address Andreas Hechler"
+                        :alt="$t('E-Mail-Addresse Andreas Hechler')"
                         class="style-mail"
                     />
                 </div>
@@ -21,7 +24,7 @@
                         <img
                             src="/icons/logo-github.svg"
                             alt="github logo"
-                            title="Visit my profile on GitHub"
+                            :title="$t('Mein Profil auf GitHub')"
                             class="social-media-logo"
                         />
                     </a>
@@ -33,7 +36,7 @@
                         <img
                             src="/icons/logo-linkedin.svg"
                             alt="linkedin-logo"
-                            title="Visit my profile on LinkedIn"
+                            :title="$t('Mein Profil auf LinkedIn')"
                             class="social-media-logo"
                         />
                     </a>
@@ -45,7 +48,7 @@
                         <img
                             src="/icons/logo-xing.svg"
                             alt="xing-logo"
-                            title="Visit my profile on XING"
+                            :title="$t('Mein Profil auf XING')"
                             class="social-media-logo"
                         />
                     </a>
@@ -57,7 +60,7 @@
                         <img
                             src="/icons/logo-twitter.svg"
                             alt="twitter-logo"
-                            title="Visit my profile on twitter"
+                            :title="$t('Mein Profil auf twitter')"
                             class="social-media-logo"
                         />
                     </a>
@@ -69,7 +72,7 @@
                         <img
                             src="/icons/academia.png"
                             alt="academia-logo"
-                            title="Visit my profile on Academia"
+                            :title="$t('Mein Profil auf Academia')"
                             class="social-media-logo"
                     /></a>
 
@@ -80,39 +83,26 @@
                         <img
                             src="/icons/researchgate-icon.svg"
                             alt="researchgate-logo"
-                            title="Visit my profile on ResearchGate"
+                            :title="$t('Mein Profil auf Research Gate')"
                             class="social-media-logo"
                         />
                     </a>
                 </div>
             </div>
 
-            <!-- <nuxt-link
-                    class="white"
-                    :to="{ name: 'contact-credits' }"
-                    title="Credits and Props"
-                    >Credits</nuxt-link
-                > -->
-            <!-- <nuxt-link
-                    class="white"
-                    :to="{ name: 'contact-imprint' }"
-                    title="Imprint"
-                    >Imprint</nuxt-link
-                > -->
-
             <p class="bottom">
                 <nuxt-link
                     class="white"
                     :to="localePath('contact-credits')"
-                    title="Credits and Props"
-                    >{{ $t('Credits') }}</nuxt-link
+                    :title="$t('Dank und Anerkennung')"
+                    >{{ $t('Dank') }}</nuxt-link
                 >
                 &
                 <nuxt-link
                     class="white"
                     :to="localePath('contact-imprint')"
-                    title="Imprint"
-                    >{{ $t('Imprint') }}</nuxt-link
+                    :title="$t('Impressum')"
+                    >{{ $t('Impressum') }}</nuxt-link
                 >
             </p>
         </div>
