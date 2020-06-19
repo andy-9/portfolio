@@ -4,25 +4,49 @@
 
         <div id="credit-paragraphs">
             <p>
-                Checklist icon from Seekicon. Academia icon from Pinclipart. All
-                other icons by Ionicon icons. No changes were made.
+                {{
+                    $t(
+                        'Icon Checkliste von Seekicon. Icon Academia von Pinclipart. Alle anderen icons von Ionicon icons. Es wurden keine Veränderungen vorgenommen.'
+                    )
+                }}
             </p>
             <p>
-                Portrait by
+                Portrait {{ $t('von') }}
                 <a
                     href="https://www.jankopetzky.de/"
                     style="color: white"
                     target="_blank"
+                    title="Portfolio Jan Kopetzky"
                     >Jan Kopetzky</a
-                >. Flower image from DarkWorkX. Typewriter image from Leah
-                Kelley. Imprint image from Elviss Railijs.
+                >.
+                {{
+                    $t(
+                        'Blumenbild von DarkWorkX. Schreibmaschinenbild von Leah Kelley. Bild Fußabdruck im Sand von Elviss Railijs.'
+                    )
+                }}
             </p>
             <p>
-                Inspirations and code-snippets found on CSS-tricks, codepen.io,
-                and stack overflow.
+                {{
+                    $t(
+                        'CSS-tricks, codepen.io und stack overflow für Inspirationen und Code-Schnipsel.'
+                    )
+                }}
             </p>
-            <p>...and probably way more resources I forgot 🙃</p>
-            <p>A special thanks to Spiced Academy, MSG, Jan, Gino & Andy.</p>
+            <p>
+                {{
+                    $t(
+                        '...und vermutlich viele weitere Ressourcen, die ich vergessen habe'
+                    )
+                }}
+                🙃
+            </p>
+            <p>
+                {{
+                    $t(
+                        'Ein ganz besonderer Dank an Spiced Academy, MSG, Jan, Gino & Andy'
+                    )
+                }}.
+            </p>
         </div>
     </div>
 </template>
