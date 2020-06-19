@@ -1,6 +1,6 @@
 <template>
     <div id="imprint-container">
-        <h1>Imprint</h1>
+        <h1>{{ $t('Impressum') }}</h1>
         <div id="imprint-paragraphs">
             <!-- <p>Legal notice for imprint</p> -->
         </div>
