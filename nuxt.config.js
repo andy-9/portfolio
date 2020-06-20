@@ -41,9 +41,19 @@ export default {
      ** Plugins to load before mounting the App
      */
     // plugins: ['~/plugins/i18n.js'],
-    // router: {
-    //     middleware: ['i18n']
-    // },
+    router: {
+        //     middleware: ['i18n']
+        scrollBehavior(to) {
+            if (to.hash) {
+                return window.scrollTo({
+                    top: document.querySelector(to.hash).offsetTop,
+                    //  + window.innerHeight,
+                    behavior: 'smooth'
+                })
+            }
+            return window.scrollTo({ top: 0, behavior: 'smooth' })
+        }
+    },
     /*
      ** Nuxt.js dev-modules
      */
@@ -59,25 +69,22 @@ export default {
             'nuxt-i18n',
             {
                 strategy: 'prefix_except_default',
-                // strategy: 'no_prefix',
                 defaultLocale: 'de',
                 vueI18n: {
                     fallbackLocale: 'de'
                 },
                 locales: [
                     {
-                        code: 'de',
-                        iso: 'de-DE',
-                        name: 'Deutsch',
-                        file: 'de.json'
-                        // langFile: 'de.json'
-                    },
-                    {
                         code: 'en',
                         iso: 'en-US',
                         name: 'English',
                         file: 'en.json'
-                        // langFile: 'en.json'
+                    },
+                    {
+                        code: 'de',
+                        iso: 'de-DE',
+                        name: 'Deutsch',
+                        file: 'de.json'
                     }
                 ],
                 lazy: true,
@@ -90,14 +97,6 @@ export default {
             }
         ]
     ],
-    // i18n: {
-    //     vueI18n: {
-    //         messages: {
-    // de: require('~/locales/de.json'),
-    // en: require('~/locales/en.json')
-    //         }
-    //     }
-    // },
     /*
      ** Build configuration
      */

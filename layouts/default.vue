@@ -18,6 +18,7 @@
             href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+
         <TheNavbar />
 
         <!-- <transition name="fade" mode="out-in">
@@ -51,7 +52,6 @@ export default {
                 top: elem.offsetTop
             })
         }
-
         // function scrollToTop() {
         //     window.scrollTo({
         //         behavior: 'smooth',

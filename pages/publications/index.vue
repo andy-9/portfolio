@@ -1,103 +1,126 @@
 <template>
     <div>
         <div class="publications-container">
-            <h1 id="top">Publications</h1>
+            <h1 id="top">{{ $t('Veröffentlichungen') }}</h1>
 
             <nuxt-link
                 :to="{ path: 'publications', hash: '#deutsch' }"
                 class="link-padding"
-                title="Publikationen, Texte und Interviews auf Deutsch"
+                :title="
+                    $t('Publikationen, Vorträge und Interviews auf Deutsch')
+                "
                 >deutsch</nuxt-link
             >
-            <nuxt-link
+
+            <!-- :to="localePath('publications') + #english"
+                :to="localePath('publications') + '#english'"
                 :to="{ path: 'publications', hash: '#english' }"
+                 -->
+            <!-- <nuxt-link
+                :to="localePath({ name: 'publications', hash: '#english' })"
+                alt="english"
                 class="link-padding"
-                title="Jump to texts, talks and interviews in English"
+                :title="
+                    $t('Publikationen, Vorträge und Interviews auf Englisch')
+                "
+                >english</nuxt-link
+            > -->
+            <nuxt-link
+                :to="{ localePath: 'publications', hash: '#english' }"
+                class="link-padding"
+                :title="
+                    $t('Publikationen, Vorträge und Interviews auf Englisch')
+                "
                 >english</nuxt-link
             >
             <nuxt-link
-                :to="{ path: 'publications', hash: '#turkce' }"
+                :to="{ localePath: 'publications', hash: '#turkce' }"
                 class="link-padding"
-                title="Jump to texts in Turkish"
+                :title="$t('Publikationen auf Türkisch')"
                 >türkçe</nuxt-link
             >
             <nuxt-link
-                :to="{ path: 'publications', hash: '#francais' }"
+                :to="{ localePath: 'publications', hash: '#francais' }"
                 class="link-padding"
-                title="Textes en français"
+                :title="$t('Publikationen auf Französisch')"
                 >français</nuxt-link
             >
 
-            <p class="margin-top">I do not only write code.</p>
+            <p class="margin-top">{{ $t('Ich schreibe nicht nur Code') }}.</p>
             <p>
-                I have written a number of articles in the past years, ranging
-                from scientific articles to blogposts.
+                {{
+                    $t(
+                        'Ich habe in den vergangenen Jahren eine Reihe von Artikeln geschrieben - von wissenschaftlichen Fachartikeln bis hin zu Blogposts'
+                    )
+                }}.
             </p>
             <p>
-                Topics I deal with range from National Socialist 'euthanasia'
-                and right-wing extremism, masculinity and sexism to
-                intersex-related topics. You can find out more
+                {{
+                    $t(
+                        "Die Themen, mit denen ich mich beschäftige, reichen von NS-'Euthanasie' über Neonazismus, Männlichkeit und Sexismus bis hin zu Intergeschlechtlichkeit. Mehr zu meinen Themenschwerpunkten"
+                    )
+                }}
                 <nuxt-link
-                    class=""
-                    :to="{ name: 'about', hash: '#expertise' }"
-                    title="Topics I work on"
-                    >here</nuxt-link
+                    :to="{ path: 'about', hash: '#expertise' }"
+                    :title="$t('Themenschwerpunkte von mir')"
+                    >{{ $t('hier.') }}</nuxt-link
                 >
-                about the topics I work on. Most of my texts are also on
+                {{ $t('Die meisten meiner Texte sind auch auf') }}
                 <a
                     href="https://dissens.academia.edu/AndreasHechler"
                     target="_blank"
                     >Academia</a
                 >
-                and
+                {{ $t('und') }}
                 <a
                     href="https://www.researchgate.net/profile/Andreas_Hechler"
                     target="_blank"
                     >ResearchGate</a
-                >. Many of them are in
+                >{{ $t(' zu finden. Viele von ihnen sind auf') }}
                 <nuxt-link
-                    class=""
-                    :to="{ name: 'publications', hash: '#deutsch' }"
-                    title="Publikationen, Texte und Interviews auf Deutsch"
-                    >German</nuxt-link
-                >, some got translated into
+                    :to="{ path: 'publications', hash: '#deutsch' }"
+                    :title="
+                        $t('Publikationen, Vorträge und Interviews auf Deutsch')
+                    "
+                    >{{ $t('Deutsch') }}</nuxt-link
+                >, {{ $t('einige wurden aber auch ins') }}
                 <nuxt-link
-                    class=""
-                    :to="{ name: 'publications', hash: '#english' }"
-                    title="Jump to texts, talks and interviews in English"
-                    >English</nuxt-link
+                    :to="{ localePath: 'publications', hash: '#english' }"
+                    :title="
+                        $t(
+                            'Publikationen, Vorträge und Interviews auf Englisch'
+                        )
+                    "
+                    >{{ $t('Englische') }}</nuxt-link
                 >
-                though and a few even into
+                {{ $t('und einige sogar ins') }}
                 <nuxt-link
-                    class=""
-                    :to="{ name: 'publications', hash: '#turkce' }"
-                    title="Jump to texts in Turkish"
-                    >Turkish</nuxt-link
+                    :to="{ localePath: 'publications', hash: '#turkce' }"
+                    :title="$t('Publikationen auf Türkisch')"
+                    >{{ $t('Türkische') }}</nuxt-link
                 >
-                and
+                {{ $t('und') }}
+
                 <nuxt-link
-                    class=""
-                    :to="{ name: 'publications', hash: '#francais' }"
-                    title="Textes en français"
-                    >French</nuxt-link
-                >.
+                    :to="{ localePath: 'publications', hash: '#francais' }"
+                    :title="$t('Publikationen auf Französisch')"
+                    >{{ $t('Französische') }}</nuxt-link
+                >
+                {{ $t('übersetzt') }}.
             </p>
             <p>
-                Below you'll also find a selection of
+                {{ $t('Unten findet sich auch eine Auswahl von') }}
                 <nuxt-link
-                    class=""
-                    :to="{ name: 'publications', hash: '#talks_en' }"
-                    title="Jump to talks"
-                    >talks</nuxt-link
+                    :to="{ localePath: 'publications', hash: '#talks_de' }"
+                    :title="$t('Vorträge')"
+                    >{{ $t('Vorträgen') }}</nuxt-link
                 >
                 and
                 <nuxt-link
-                    class=""
-                    :to="{ name: 'publications', hash: '#interviews_en' }"
-                    title="Jump to interviews"
-                    >interviews</nuxt-link
-                >
-                I have given.
+                    :to="{ localePath: 'publications', hash: '#interviews_de' }"
+                    :title="$t('Interviews')"
+                    >{{ $t('Interviews') }}</nuxt-link
+                >{{ $t(', die ich gegeben habe') }}.
             </p>
 
             <hr class="margin-top-bottom-five-percent" />
@@ -106,7 +129,9 @@
 
             <div id="peeler" class="peeler-transition">
                 <div class="reveal circle_wrapper">
-                    <p class="circle">...but better read this stuff! 📚</p>
+                    <p class="circle">
+                        ...{{ $t("und lies' den ganzen Kram") }}! 📚
+                    </p>
                 </div>
 
                 <div class="sticky peeler-transition">
@@ -115,7 +140,7 @@
                     </div>
                 </div>
 
-                <h4>Peel me!</h4>
+                <h4>{{ $t("Schäl' mich") }}!</h4>
 
                 <div class="sticky peeler-transition">
                     <div class="back circle_wrapper peeler-transition">
@@ -127,7 +152,6 @@
             <!-- ///////////////////// DEUTSCH ///////////////////// -->
 
             <h2 id="deutsch">Deutsch</h2>
-            <!-- <a href="#deutsch"> -->
 
             <p>
                 Hechler, Andreas / Baar, Robert (2020):
@@ -159,17 +183,15 @@
             <nuxt-link
                 :to="localePath('publications')"
                 class="jump-to-top"
-                title="Scroll to top"
+                :title="$t('zum Seitenanfang')"
                 @click.native="scrollToTop"
             >
                 <img
                     src="/icons/chevron-up.svg"
-                    alt="up-arrow to jump to the top of the page"
+                    :alt="$t('Pfeil nach oben, um zum Seitenanfang zu kommen')"
                     class="up-arrow"
             /></nuxt-link>
         </span>
-
-        <!-- title="Visit my Social Network" -->
 
         <div class="publications-container no-space">
             <p>
@@ -311,7 +333,7 @@
             </p>
 
             <details>
-                <summary>Show more</summary>
+                <summary>{{ $t('Mehr') }}</summary>
 
                 <p>
                     Hechler, Andreas (2016):
@@ -662,7 +684,7 @@
 
             <!-- ///////////////////////////////////// VORTRÄGE ///////////////////////////////////// -->
 
-            <h3>
+            <h3 id="talks_de">
                 Vorträge (Auswahl)
             </h3>
 
@@ -852,7 +874,7 @@
 
             <!-- ///////////////////////////////////// INTERVIEWS ///////////////////////////////////// -->
 
-            <h3>
+            <h3 id="interviews_de">
                 Interviews
             </h3>
 
