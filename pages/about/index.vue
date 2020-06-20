@@ -250,7 +250,7 @@
                                     2016-2018:
                                     {{
                                         $t(
-                                            'KoFaS – Kompetenzgruppe Fankulturen & Sport'
+                                            'KoFaS – Kompetenzgruppe Fankulturen &amp; Sport'
                                         )
                                     }}:
                                     <strong>{{
@@ -636,9 +636,11 @@
                         County High School (Tennessee/USA)
                     </p>
 
-                    <!-- ////////// CERTIFICATES & TRAININGS ////////// -->
+                    <!-- ////////// CERTIFICATES &amp; TRAININGS ////////// -->
 
-                    <h3>{{ $t('Zertifikate, Fort- & Weiterbildungen') }}</h3>
+                    <h3>
+                        {{ $t('Zertifikate, Fort- &amp; Weiterbildungen') }}
+                    </h3>
 
                     <p>
                         2020: Professional Scrum Master (PSM I)
@@ -663,7 +665,7 @@
                     <p>
                         {{
                             $t(
-                                'Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate & Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, [Intersektionale Gewaltprävention](https://www.dissens.de/isgp/fortbildung.php), Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr'
+                                'Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate &amp; Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, [Intersektionale Gewaltprävention](https://www.dissens.de/isgp/fortbildung.php), Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr'
                             )
                         }}
                     </p>

@@ -27,7 +27,7 @@
         <nuxt-link
             class="nav-link"
             :to="localePath('contact')"
-            :title="$t('Kontaktaufnahme, Dank & Impressum')"
+            :title="$t('Kontaktaufnahme, Dank &amp; Impressum')"
             >{{ $t('Kontakt') }}</nuxt-link
         >
 

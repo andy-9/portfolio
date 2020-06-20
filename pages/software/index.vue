@@ -48,9 +48,9 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Tech stack:</strong> React & Redux, Express,
-                            Node, PostgreSQL, Socket.io, Amazon S3 and SES, CSS,
-                            HTML
+                            <strong>Tech stack:</strong> React &amp; Redux,
+                            Express, Node, PostgreSQL, Socket.io, Amazon S3 and
+                            SES, CSS, HTML
                         </p>
                     </div>
                     <div class="flex-row">

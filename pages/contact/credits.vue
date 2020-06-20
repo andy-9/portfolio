@@ -43,7 +43,7 @@
             <p>
                 {{
                     $t(
-                        'Ein ganz besonderer Dank an Spiced Academy, MSG, Jan, Gino & Andy'
+                        'Ein ganz besonderer Dank an Spiced Academy, MSG, Jan, Gino &amp; Andy'
                     )
                 }}.
             </p>

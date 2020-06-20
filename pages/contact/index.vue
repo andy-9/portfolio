@@ -97,7 +97,7 @@
                     :title="$t('Dank und Anerkennung')"
                     >{{ $t('Dank') }}</nuxt-link
                 >
-                &
+                &amp;
                 <nuxt-link
                     class="white"
                     :to="localePath('contact-imprint')"

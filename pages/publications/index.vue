@@ -227,8 +227,8 @@
                         target="_blank"
                     >
                         <b
-                            >Dos & Don'ts für Pädagog*innen – Tipps für einen
-                            guten Umgang</b
+                            >Dos &amp; Don'ts für Pädagog*innen – Tipps für
+                            einen guten Umgang</b
                         >
                     </a>
                 </li>
@@ -260,7 +260,8 @@
                 >
                     Rechtsextremismus, Band 3: Geschlechterreflektierte
                     Perspektiven</a
-                >. Wien/Berlin: mandelbaum Verlag kritik & utopie, S. 88–122.
+                >. Wien/Berlin: mandelbaum Verlag kritik &amp; utopie, S.
+                88–122.
             </p>
 
             <p>
@@ -466,7 +467,7 @@
                         >Geschlechtliche Vielfalt. Begrifflichkeiten,
                         Definitionen und disziplinäre Zugänge zu Trans- und
                         Intergeschlechtlichkeiten. Begleitforschung zur
-                        Interministeriellen Arbeitsgruppe Inter- &
+                        Interministeriellen Arbeitsgruppe Inter- &amp;
                         Transsexualität</a
                     >. Berlin, S. 61-74.
                 </p>
@@ -565,8 +566,8 @@
                             >Männlichkeitskonstruktionen, Jungenarbeit und
                             Neonazismus-Prävention</b
                         ></a
-                    >. In: Dissens e.V. & Debus, Katharina / Könnecke, Bernard /
-                    Schwerma, Klaus / Stuve, Olaf (Hg.):
+                    >. In: Dissens e.V. &amp; Debus, Katharina / Könnecke,
+                    Bernard / Schwerma, Klaus / Stuve, Olaf (Hg.):
                     <a
                         href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Geschlechterreflektierte_Arbeit_mit_Jungen_an_der_Schule_Dissens_e.V-3.pdf"
                         target="_blank"
@@ -586,8 +587,8 @@
                             >Intergeschlechtlichkeit als Thema
                             geschlechterreflektierender Pädagogik</b
                         ></a
-                    >. In: Dissens e.V. & Debus, Katharina / Könnecke, Bernard /
-                    Schwerma, Klaus / Stuve, Olaf (Hg.):
+                    >. In: Dissens e.V. &amp; Debus, Katharina / Könnecke,
+                    Bernard / Schwerma, Klaus / Stuve, Olaf (Hg.):
                     <a
                         href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Geschlechterreflektierte_Arbeit_mit_Jungen_an_der_Schule_Dissens_e.V-3.pdf"
                         target="_blank"
@@ -1109,7 +1110,7 @@
                         target="_blank"
                     >
                         <strong
-                            >Dos & don'ts for educators – communication
+                            >Dos &amp; don'ts for educators – communication
                             tips</strong
                         >
                     </a>
