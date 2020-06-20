@@ -835,7 +835,7 @@
             <p>
                 03/2016:
                 <b
-                    >"'Was, du bist <i>nur ein</i> Geschlecht?!'
+                    >"'Was, du bist <em>nur ein</em> Geschlecht?!'
                     Geschlechterreflektiertes Handeln gegen Pegida"</b
                 >. Vortrag auf dem Fachforum "'Mach Dich mal grade!' Pegida und
                 Geschlecht" in Dresden.
