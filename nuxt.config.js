@@ -43,16 +43,16 @@ export default {
     // plugins: ['~/plugins/i18n.js'],
     router: {
         //     middleware: ['i18n']
-        scrollBehavior(to) {
-            if (to.hash) {
-                return window.scrollTo({
-                    top: document.querySelector(to.hash).offsetTop,
-                    //  + window.innerHeight,
-                    behavior: 'smooth'
-                })
-            }
-            return window.scrollTo({ top: 0, behavior: 'smooth' })
-        }
+        // scrollBehavior(to) {
+        //     if (to.hash) {
+        //         return window.scrollTo({
+        //             top: document.querySelector(to.hash).offsetTop,
+        //             //  + window.innerHeight,
+        //             behavior: 'smooth'
+        //         })
+        //     }
+        //     return window.scrollTo({ top: 0, behavior: 'smooth' })
+        // }
     },
     /*
      ** Nuxt.js dev-modules

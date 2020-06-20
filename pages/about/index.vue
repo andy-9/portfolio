@@ -341,11 +341,11 @@
 
                                 <p>
                                     2010-2020: {{ $t('1-9-tägige') }}
-                                    <b>{{
+                                    <strong>{{
                                         $t(
                                             'Fort- und Weiterbildungen und Train the Trainer-Schulungen'
                                         )
-                                    }}</b>
+                                    }}</strong>
                                     {{
                                         $t(
                                             'für Lehrer\*innen, Sozialarbeiter\*innen und politische Bildner\*innen im gesamten Bundesgebiet'

@@ -37,7 +37,7 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Facebook-inspired</b>
+                            <strong>Facebook-inspired</strong>
                             single-page-application (SPA)
                         </p>
                     </div>
@@ -48,8 +48,9 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Tech stack:</b> React & Redux, Express, Node,
-                            PostgreSQL, Socket.io, Amazon S3 and SES, CSS, HTML
+                            <strong>Tech stack:</strong> React & Redux, Express,
+                            Node, PostgreSQL, Socket.io, Amazon S3 and SES, CSS,
+                            HTML
                         </p>
                     </div>
                     <div class="flex-row">
@@ -59,12 +60,12 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> a personal profile with bio and
-                            image upload, sending, receiving and accepting
-                            friend requests, unfriend, having conversations in a
-                            chat room, display of last 3 registered users,
-                            searching for users by first and last name, showing
-                            friends of friends, logout
+                            <strong>Features:</strong> a personal profile with
+                            bio and image upload, sending, receiving and
+                            accepting friend requests, unfriend, having
+                            conversations in a chat room, display of last 3
+                            registered users, searching for users by first and
+                            last name, showing friends of friends, logout
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -122,7 +123,10 @@
                             alt="icon for information"
                             class="social-media-logo"
                         />
-                        <p><b>Online-Petition</b> against algorithmic bias</p>
+                        <p>
+                            <strong>Online-Petition</strong> against algorithmic
+                            bias
+                        </p>
                     </div>
                     <div class="flex-row">
                         <img
@@ -131,8 +135,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Tech stack:</b> Express handlebars, Node,
-                            PostgreSQL, jQuery, CSS, HTML
+                            <strong>Tech stack:</strong> Express handlebars,
+                            Node, PostgreSQL, jQuery, CSS, HTML
                         </p>
                     </div>
                     <div class="flex-row">
@@ -142,9 +146,10 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> supporters can register, login,
-                            update their profile information, sign, unsign, view
-                            fellow signees sorted by location, logout
+                            <strong>Features:</strong> supporters can register,
+                            login, update their profile information, sign,
+                            unsign, view fellow signees sorted by location,
+                            logout
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -229,7 +234,7 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Instagram-inspired</b>
+                            <strong>Instagram-inspired</strong>
                             single-page-application (SPA)
                         </p>
                     </div>
@@ -240,8 +245,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Tech stack:</b> Vue, Express, Node, PostgreSQL,
-                            Amazon S3, Jest, CSS, HTML
+                            <strong>Tech stack:</strong> Vue, Express, Node,
+                            PostgreSQL, Amazon S3, Jest, CSS, HTML
                         </p>
                     </div>
                     <div class="flex-row">
@@ -251,11 +256,11 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> upload of images with title,
-                            description and user-name, each image can be clicked
-                            and displayed in large with more info and the
-                            possibility to comment and also delete the image,
-                            more images can be loaded
+                            <strong>Features:</strong> upload of images with
+                            title, description and user-name, each image can be
+                            clicked and displayed in large with more info and
+                            the possibility to comment and also delete the
+                            image, more images can be loaded
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -311,7 +316,7 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>My smaller</b>
+                            <strong>My smaller</strong>
                             and medium-sized projects
                         </p>
                     </div>
@@ -321,7 +326,10 @@
                             alt="icon for code"
                             class="social-media-logo"
                         />
-                        <p><b>Tech stack:</b> Express handlebars, CSS, HTML</p>
+                        <p>
+                            <strong>Tech stack:</strong> Express handlebars,
+                            CSS, HTML
+                        </p>
                     </div>
                     <div class="flex-row">
                         <img
@@ -330,7 +338,7 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Display of all projects,
+                            <strong>Features:</strong> Display of all projects,
                             description-site for each project
                         </p>
                     </div>
@@ -369,8 +377,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Resize pane with slider, display
-                            one image or the other
+                            <strong>Features:</strong> Resize pane with slider,
+                            display one image or the other
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -427,10 +435,10 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Search Spotify database through
-                            API, display album/artist with hyperlinked cover and
-                            name, load more through button click or infinite
-                            scroll
+                            <strong>Features:</strong> Search Spotify database
+                            through API, display album/artist with hyperlinked
+                            cover and name, load more through button click or
+                            infinite scroll
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -496,8 +504,9 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Watch kitties carouseling, pick a
-                            specific image to be displayed again
+                            <strong>Features:</strong> Watch kitties
+                            carouseling, pick a specific image to be displayed
+                            again
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -551,8 +560,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Get the latest news displayed,
-                            click if you are interested
+                            <strong>Features:</strong> Get the latest news
+                            displayed, click if you are interested
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -615,8 +624,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Write a message and save it in
-                            local storage, display and/or delete message
+                            <strong>Features:</strong> Write a message and save
+                            it in local storage, display and/or delete message
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -674,7 +683,10 @@
                             alt="icon for features"
                             class="social-media-logo"
                         />
-                        <p><b>Features:</b> Test if data is JSON or not</p>
+                        <p>
+                            <strong>Features:</strong> Test if data is JSON or
+                            not
+                        </p>
                     </div>
 
                     <!-- Zum Ausklappen -->
@@ -734,10 +746,10 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> 2 players can play against each
-                            other, horizontal, vertical or diagonal victories,
-                            animation when one player wins, winning color gets
-                            displayed, play again
+                            <strong>Features:</strong> 2 players can play
+                            against each other, horizontal, vertical or diagonal
+                            victories, animation when one player wins, winning
+                            color gets displayed, play again
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -798,9 +810,9 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Pop-up modal, hamburger menu with
-                            navigation sliding in from the right, also suited
-                            for smaller screens
+                            <strong>Features:</strong> Pop-up modal, hamburger
+                            menu with navigation sliding in from the right, also
+                            suited for smaller screens
                         </p>
                     </div>
                     <div>
@@ -858,8 +870,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <b>Features:</b> Search countries, use either mouse
-                            or keys
+                            <strong>Features:</strong> Search countries, use
+                            either mouse or keys
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->

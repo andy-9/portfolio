@@ -26,7 +26,7 @@
                 >english</nuxt-link
             > -->
             <nuxt-link
-                :to="{ localePath: 'publications', hash: '#english' }"
+                :to="{ path: 'publications', hash: '#english' }"
                 class="link-padding"
                 :title="
                     $t('Publikationen, Vorträge und Interviews auf Englisch')
@@ -34,13 +34,13 @@
                 >english</nuxt-link
             >
             <nuxt-link
-                :to="{ localePath: 'publications', hash: '#turkce' }"
+                :to="{ path: 'publications', hash: '#turkce' }"
                 class="link-padding"
                 :title="$t('Publikationen auf Türkisch')"
                 >türkçe</nuxt-link
             >
             <nuxt-link
-                :to="{ localePath: 'publications', hash: '#francais' }"
+                :to="{ path: 'publications', hash: '#francais' }"
                 class="link-padding"
                 :title="$t('Publikationen auf Französisch')"
                 >français</nuxt-link
@@ -85,7 +85,7 @@
                     >{{ $t('Deutsch') }}</nuxt-link
                 >, {{ $t('einige wurden aber auch ins') }}
                 <nuxt-link
-                    :to="{ localePath: 'publications', hash: '#english' }"
+                    :to="{ path: 'publications', hash: '#english' }"
                     :title="
                         $t(
                             'Publikationen, Vorträge und Interviews auf Englisch'
@@ -95,14 +95,14 @@
                 >
                 {{ $t('und einige sogar ins') }}
                 <nuxt-link
-                    :to="{ localePath: 'publications', hash: '#turkce' }"
+                    :to="{ path: 'publications', hash: '#turkce' }"
                     :title="$t('Publikationen auf Türkisch')"
                     >{{ $t('Türkische') }}</nuxt-link
                 >
                 {{ $t('und') }}
 
                 <nuxt-link
-                    :to="{ localePath: 'publications', hash: '#francais' }"
+                    :to="{ path: 'publications', hash: '#francais' }"
                     :title="$t('Publikationen auf Französisch')"
                     >{{ $t('Französische') }}</nuxt-link
                 >
@@ -111,13 +111,13 @@
             <p>
                 {{ $t('Unten findet sich auch eine Auswahl von') }}
                 <nuxt-link
-                    :to="{ localePath: 'publications', hash: '#talks_de' }"
+                    :to="{ path: 'publications', hash: '#talks_de' }"
                     :title="$t('Vorträge')"
                     >{{ $t('Vorträgen') }}</nuxt-link
                 >
                 and
                 <nuxt-link
-                    :to="{ localePath: 'publications', hash: '#interviews_de' }"
+                    :to="{ path: 'publications', hash: '#interviews_de' }"
                     :title="$t('Interviews')"
                     >{{ $t('Interviews') }}</nuxt-link
                 >{{ $t(', die ich gegeben habe') }}.
@@ -168,8 +168,9 @@
             </p>
 
             <p>
-                Hechler, Andreas (2020): <b>Nicht nur, sondern auch</b>. In:
-                Bundesarbeitskreis Arbeit und Leben DGB/VHS:
+                Hechler, Andreas (2020):
+                <strong>Nicht nur, sondern auch</strong>. In: Bundesarbeitskreis
+                Arbeit und Leben DGB/VHS:
                 <a
                     href="https://www.arbeitundleben.de/images/download/ARBEIT-UND-LEBEN_Jahrbuch_2019-2020.pdf"
                     target="_blank"
@@ -196,7 +197,7 @@
         <div class="publications-container no-space">
             <p>
                 Hechler, Andreas (2020): Texte zu
-                <b>Intergeschlechtlichkeit und Pädagogik</b> auf
+                <strong>Intergeschlechtlichkeit und Pädagogik</strong> auf
                 <a href="https://inter-nrw.de/" target="_blank"
                     >inter-nrw.de:</a
                 >
@@ -207,7 +208,7 @@
                         href="https://inter-nrw.de/hinweise-zu-fuer-paedagoginnen/"
                         target="_blank"
                     >
-                        <b>Hinweise für Pädagog*innen</b>
+                        <strong>Hinweise für Pädagog*innen</strong>
                     </a>
                 </li>
 
@@ -216,7 +217,7 @@
                         href="https://inter-nrw.de/inter-in-bildung-und-lehre-integrieren/"
                         target="_blank"
                     >
-                        <b>Inter* in Bildung und Lehre integrieren</b>
+                        <strong>Inter* in Bildung und Lehre integrieren</strong>
                     </a>
                 </li>
 
@@ -237,7 +238,7 @@
                         href="https://inter-nrw.de/arbeitsmaterial/"
                         target="_blank"
                     >
-                        <b>Arbeitsmaterial</b>
+                        <strong>Arbeitsmaterial</strong>
                     </a>
                 </li>
             </ul>
@@ -327,7 +328,7 @@
                 <a
                     href="http://blog.feministische-studien.de/2017/08/aus-der-bahn-geworfen/"
                     target="_blank"
-                    ><b>Aus der Bahn geworfen</b></a
+                    ><strong>Aus der Bahn geworfen</strong></a
                 >. In: Blog der feministischen studien vom 16. August 2017. (Zum
                 Begriff 'Widerfahrnis')
             </p>
@@ -340,7 +341,7 @@
                     <a
                         href="http://www.bpb.de/politik/extremismus/rechtsextremismus/232123/andreas-hechler-entscheidend-ist-der-kontext"
                         target="_blank"
-                        ><b>Entscheidend ist der Kontext</b></a
+                        ><strong>Entscheidend ist der Kontext</strong></a
                     >. In: Bundeszentrale für politische Bildung vom 3.08.2016.
                     Debatte: Soll man mit Neonazis reden?
                 </p>
@@ -379,7 +380,7 @@
                         <a
                             href="http://budrich.de/Zusatzmaterialien/9783847406952_Einleitung.pdf"
                             target="_blank"
-                            ><b>Einleitung</b></a
+                            ><strong>Einleitung</strong></a
                         >, S. 7-42.
                     </li>
 
@@ -413,7 +414,7 @@
                         <a
                             href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-der-grosse-preis.pdf"
                             target="_blank"
-                            ><b>Methode: Der große Preis</b></a
+                            ><strong>Methode: Der große Preis</strong></a
                         >, S. 100-106.
                     </li>
 
@@ -498,7 +499,10 @@
                     <a
                         href="/files/Hechler - Maennlichkeitskritische Neonazismusprävention (2014).pdf"
                         target="_blank"
-                        ><b>Männlichkeitskritische Neonazismusprävention</b></a
+                        ><strong
+                            >Männlichkeitskritische
+                            Neonazismusprävention</strong
+                        ></a
                     >. In: Baer, Silke / Möller, Kurt / Wiechmann, Peer (Hrsg.):
                     <a
                         href="https://shop.budrich-academic.de/produkt/verantwortlich-handeln-praxis-der-sozialen-arbeit-mit-rechtsextrem-orientierten-und-gefaehrdeten-jugendlichen/?v=3a52f3c22ed6"
@@ -545,7 +549,7 @@
                     <a
                         href="http://www.kritisch-lesen.de/rezension/hermstories"
                         target="_blank"
-                        ><b>Hermstories</b></a
+                        ><strong>Hermstories</strong></a
                     >. Rezension des Buches "Inter – Erfahrungen
                     intergeschlechtlicher Menschen in der Welt der zwei
                     Geschlechter". In: kritisch lesen, Ausgabe 30 vom 1. Oktober
@@ -629,7 +633,7 @@
                         href="/files/Krabel_Hechler - Für Jungen (und Maedchen) geeignet (2007).pdf"
                         target="_blank"
                     >
-                        <b>Jungenarbeit in der Kita</b></a
+                        <strong>Jungenarbeit in der Kita</strong></a
                     >. In: Welt des Kindes, Nr. 1, Januar/Februar 2007, 85.
                     Jahrgang, S. 22-25.
                 </p>
@@ -639,7 +643,9 @@
                     <a
                         href="/files/Hechler - Wer fehlt (2007).pdf"
                         target="_blank"
-                        ><b>Wer fehlt? Voids in Reinhardtsdorf-Schöna</b></a
+                        ><strong
+                            >Wer fehlt? Voids in Reinhardtsdorf-Schöna</strong
+                        ></a
                     >. In: Blask, Falk (Hg.): Ein Dorf voller Narren. Karneval –
                     Idylle – Rechtsextremismus. Berliner Blätter, Sonderheft
                     43/2007. Münster/Hamburg/Berlin/London: Lit Verlag, S.
@@ -663,7 +669,9 @@
                     <a
                         href="/files/Hechler - Der Kuhzaun (2004).pdf"
                         target="_blank"
-                        ><b>Der Kuhzaun – Jungenarbeit in Reinickendorf</b></a
+                        ><strong
+                            >Der Kuhzaun – Jungenarbeit in Reinickendorf</strong
+                        ></a
                     >. In: Die Stadtteilzeitung, Ausgabe Mai 2004, S. 12-13.
                 </p>
 
@@ -737,8 +745,8 @@
 
             <p>
                 11/2017:
-                <b>"Von der Freiheit, kein Junge sein zu müssen"</b>. Vortrag
-                beim Fachtag zur Jungenarbeit in Hessen
+                <strong>"Von der Freiheit, kein Junge sein zu müssen"</strong>.
+                Vortrag beim Fachtag zur Jungenarbeit in Hessen
                 <a
                     href="http://www.jungenarbeit-hessen.de/index.php/124-einladung-zur-fachtagung-macht-maennlichkeit-ohnmacht-2"
                     target="_blank"
@@ -883,7 +891,7 @@
                 <a
                     href="https://daserste.ndr.de/panorama/archiv/2019/Rechte-Terroristen-Hass-auf-Frauen,frauenhass100.html"
                     target="_blank"
-                    ><b>Rechte Terroristen: Hass auf Frauen</b></a
+                    ><strong>Rechte Terroristen: Hass auf Frauen</strong></a
                 >. Panorama-Sendung vom 31.10.2019. Interviews mit Anne Helm,
                 einer Gamerin und Andreas Hechler.
             </p>
@@ -922,7 +930,7 @@
                 <a
                     href="https://www.dropbox.com/s/tfme9mejteh17bo/GlottalStop%20-%20%20Antifeminismus.2019-10.mp3?dl=0"
                     target="_blank"
-                    ><b>Antifeminismus</b></a
+                    ><strong>Antifeminismus</strong></a
                 >.
                 <a
                     href="https://www.facebook.com/events/2461735190601267/"
@@ -954,7 +962,7 @@
                 <a
                     href="http://www.schattenblick.de/infopool/d-brille/report/dbri0092.html"
                     target="_blank"
-                    ><b>Befangenheit und Verzicht</b></a
+                    ><strong>Befangenheit und Verzicht</strong></a
                 >. Interview mit Andreas Hechler zu Medizinkritik,
                 'Sterbehilfe', extreme Rechte, Feminismus, Trans- und
                 Intergeschlechtlichkeit vom 29.06.2018.
@@ -965,7 +973,7 @@
                 <a
                     href="http://www.deutschlandfunkkultur.de/antifeministische-maennerrechtsbewegungen-der-verletzte-mann.1264.de.html?dram:article_id=418775"
                     target="_blank"
-                    ><b>Der Hass der Zukurzgekommenen</b></a
+                    ><strong>Der Hass der Zukurzgekommenen</strong></a
                 >. Interview mit Andreas Hechler, Rolf Pohl und Ingrid Brodnig
                 zu den 'Incels' und der antifeministischen Männerrechtsbewegung
                 in Deutschlandfunk Kultur vom 26.05.2018.
@@ -983,7 +991,9 @@
                 <a
                     href="https://www.gedenkort-t4.eu/de/blog/die-ursache-des-schweigens-ist-nicht-scham"
                     target="_blank"
-                    ><b>"Die Ursache des Schweigens ist nicht Scham"</b></a
+                    ><strong
+                        >"Die Ursache des Schweigens ist nicht Scham"</strong
+                    ></a
                 >. Interview mit Andreas Hechler in Gedenkort-T4 vom 18.09.2017.
             </p>
 
@@ -992,7 +1002,7 @@
                 <a
                     href="https://soundcloud.com/dehatepodcast/04-gender-und-rechte-ideologien"
                     target="_blank"
-                    ><b>Gender und rechte Ideologien</b></a
+                    ><strong>Gender und rechte Ideologien</strong></a
                 >. Podcast des Projekts "de:hate".
             </p>
 
@@ -1042,7 +1052,7 @@
                 <a
                     href="https://www.progress-online.at/artikel/die-volksgemeinschaft%E2%80%98%E2%80%98-br%C3%B6ckelt"
                     target="_blank"
-                    ><b>Die "Volksgemeinschaft" bröckelt</b></a
+                    ><strong>Die "Volksgemeinschaft" bröckelt</strong></a
                 >
                 . Interview mit Andreas Hechler in progress, Nr. 5, S. 26-27.
             </p>
@@ -1052,7 +1062,9 @@
                 <a
                     href="/files/NWfJ - Interview Stuve_Hechler (2015).pdf"
                     target="_blank"
-                    ><b>Geschlechterreflektierte Pädagogik gegen Rechts</b></a
+                    ><strong
+                        >Geschlechterreflektierte Pädagogik gegen Rechts</strong
+                    ></a
                 >. Interview mit Olaf Stuve und Andreas Hechler vom 30.11.2015.
             </p>
 
@@ -1064,7 +1076,7 @@
 
             <p>
                 Hechler, Andreas (2020):
-                <b>Texts on intersex and pedagogy</b> on
+                <strong>Texts on intersex and pedagogy</strong> on
                 <a href="https://inter-nrw.de/en/home/" target="_blank"
                     >inter-nrw.de</a
                 >:
@@ -1075,7 +1087,7 @@
                         href="https://inter-nrw.de/en/information-for-educators/"
                         target="_blank"
                     >
-                        <b>Information for educators</b>
+                        <strong>Information for educators</strong>
                     </a>
                 </li>
 
@@ -1084,7 +1096,10 @@
                         href="https://inter-nrw.de/en/integrating-inter-into-education-and-teaching/"
                         target="_blank"
                     >
-                        <b>Integrating inter* into education and teaching</b>
+                        <strong
+                            >Integrating inter* into education and
+                            teaching</strong
+                        >
                     </a>
                 </li>
 
@@ -1093,7 +1108,10 @@
                         href="https://inter-nrw.de/en/dos-donts-for-educators-communication-tips/"
                         target="_blank"
                     >
-                        <b>Dos & don'ts for educators – communication tips</b>
+                        <strong
+                            >Dos & don'ts for educators – communication
+                            tips</strong
+                        >
                     </a>
                 </li>
 
@@ -1102,7 +1120,7 @@
                         href="https://inter-nrw.de/en/learning-materials/"
                         target="_blank"
                     >
-                        <b>Learning materials</b>
+                        <strong>Learning materials</strong>
                     </a>
                 </li>
             </ul>
@@ -1125,7 +1143,9 @@
                 <a
                     href="http://www.contactfestival.de/english/archiv/textdocu/other/owsites/07AHechler.htm"
                     target="_blank"
-                    ><b>Heteronormativity in Contact Improvisation</b></a
+                    ><strong
+                        >Heteronormativity in Contact Improvisation</strong
+                    ></a
                 >.<br />
                 En français:
                 <a
@@ -1231,7 +1251,7 @@
                         href="https://inter-nrw.de/tr/pedagoglar-icin-bilgiler/"
                         target="_blank"
                     >
-                        <b>Pedagoglar için bilgiler</b>
+                        <strong>Pedagoglar için bilgiler</strong>
                     </a>
                 </li>
 
@@ -1263,7 +1283,7 @@
                     <a
                         href="https://inter-nrw.de/tr/calisma-malzemesi/"
                         target="_blank"
-                        ><b>Çalışma malzemesi</b></a
+                        ><strong>Çalışma malzemesi</strong></a
                     >
                 </li>
             </ul>
@@ -1278,7 +1298,9 @@
                 <a
                     href="https://www.researchgate.net/profile/Andreas_Hechler/publication/329880071_Heteronormativite_en_Contact_Improvisation/links/5c1f8fdf92851c22a340e05c/Heteronormativite-en-Contact-Improvisation.pdf?origin=publication_detail"
                     target="_blank"
-                    ><b>Hétéronormativité en Contact Improvisation</b></a
+                    ><strong
+                        >Hétéronormativité en Contact Improvisation</strong
+                    ></a
                 >.<br />
                 In English:
                 <a
