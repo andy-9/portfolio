@@ -44,6 +44,7 @@ export default {
     router: {
         //     middleware: ['i18n']
         // scrollBehavior(to) {
+        //     console.log('nuxt.config.js to:', to)
         //     if (to.hash) {
         //         return window.scrollTo({
         //             top: document.querySelector(to.hash).offsetTop,

@@ -9,7 +9,7 @@
 
     "Schreiben und Reden": "Schreiben und Reden",
 
-    "Kontaktaufnahme, Dank &amp; Impressum": "Kontaktaufnahme, Dank &amp; Impressum",
+    "Kontaktaufnahme, Dank & Impressum": "Kontaktaufnahme, Dank & Impressum",
 
     "Software | Agilität | Coaching | Antidiskriminierung": "Software | Agilität | Coaching | Antidiskriminierung",
 
@@ -32,6 +32,38 @@
     "Mein Profil auf Academia": "Mein Profil auf Academia",
 
     "Mein Profil auf Research Gate": "Mein Profil auf Research Gate",
+
+    "Hier finden sich Softwareprojekte, die ich während meiner Ausbildung zum Full-Stack-Web-Entwickler erstellt habe.": "Hier finden sich Softwareprojekte, die ich während meiner Ausbildung zum Full-Stack-Web-Entwickler erstellt habe.",
+
+    "Weiter oben befinden sich die größeren Projekte, gefolgt von mittleren und kleineren Projekten.": "Weiter oben befinden sich die größeren Projekte, gefolgt von mittleren und kleineren Projekten.",
+
+    "Zu meinem Sozialen Netzwerk Kite.Inc": "Zu meinem Sozialen Netzwerk Kite.Inc",
+
+    "Soziales Netzwerk": "Soziales Netzwerk",
+
+    "Screenshot von Suchergebnissen des Sozialen Netzwerks Kite.Inc": "Screenshot von Suchergebnissen des Sozialen Netzwerks Kite.Inc",
+
+    "Informations-Icon": "Informations-Icon",
+
+    "inspirierte": "inspirierte",
+
+    "Single-Page-Application": "Single-Page-Application",
+
+    "Icon für Code": "Icon für Code",
+
+    "Technologien": "Technologien",
+
+    "Icon für Funktionalität": "Icon für Funktionen",
+
+    "Funktionalität": "Funktionalität",
+
+    "Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer*innen, Suche nach Benutzer*innen mit Vor- und Nachnamen, Anzeigen von Freund*innen von Freund*innen, Abmelden": "Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer*innen, Suche nach Benutzer*innen mit Vor- und Nachnamen, Anzeigen von Freund*innen von Freund*innen, Abmelden",
+
+    "Mehr Informationen": "Mehr Informationen",
+
+    "Benutzer*innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.": "Benutzer*innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.",
+
+    "Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.": "Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.",
 
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publikationen, Vorträge und Interviews auf Deutsch",
 
@@ -173,7 +205,7 @@
 
     "zur Implementierung eines Code of Conduct und Maßnahmen der Antidiskriminierung": "zur Implementierung eines Code of Conduct und Maßnahmen der Antidiskriminierung",
 
-    "KoFaS – Kompetenzgruppe Fankulturen &amp; Sport": "KoFaS – Kompetenzgruppe Fankulturen &amp; Sport",
+    "KoFaS – Kompetenzgruppe Fankulturen & Sport": "KoFaS – Kompetenzgruppe Fankulturen & Sport",
 
     "Begleitung und Coaching": "Begleitung und Coaching",
 
@@ -317,7 +349,7 @@
 
     "Abschluss (Graduation)": "Abschluss (Graduation)",
 
-    "Zertifikate, Fort- &amp; Weiterbildungen": "Zertifikate, Fort- &amp; Weiterbildungen",
+    "Zertifikate, Fort- & Weiterbildungen": "Zertifikate, Fort- & Weiterbildungen",
 
     "und": "und",
 
@@ -329,7 +361,7 @@
 
     "Ausbildung zum Jugendgruppenleiter": "Ausbildung zum Jugendgruppenleiter",
 
-    "Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate &amp; Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, [Intersektionale Gewaltprävention](https://www.dissens.de/isgp/fortbildung.php), Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr": "Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate &amp; Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, [Intersektionale Gewaltprävention](https://www.dissens.de/isgp/fortbildung.php), Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr",
+    "Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate & Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, [Intersektionale Gewaltprävention](https://www.dissens.de/isgp/fortbildung.php), Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr": "Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate & Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, [Intersektionale Gewaltprävention](https://www.dissens.de/isgp/fortbildung.php), Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr",
 
     "Arbeitsschwerpunkte": "Arbeitsschwerpunkte",
 
@@ -400,7 +432,7 @@
 
     "...und vermutlich viele weitere Ressourcen, die ich vergessen habe": "...und vermutlich viele weitere Ressourcen, die ich vergessen habe",
 
-    "Ein ganz besonderer Dank an Spiced Academy, MSG, Jan, Gino &amp; Andy": "Ein ganz besonderer Dank an Spiced Academy, MSG, Jan, Gino &amp; Andy",
+    "Ein ganz besonderer Dank an Spiced Academy, MSG, Jan, Gino & Andy": "Ein ganz besonderer Dank an Spiced Academy, MSG, Jan, Gino & Andy",
 
     "Impressum Andreas Hechler": "Impressum Andreas Hechler"
 }

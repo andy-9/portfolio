@@ -9,7 +9,7 @@
 
     "Schreiben und Reden": "Writing and Speaking",
 
-    "Kontaktaufnahme, Dank &amp; Impressum": "Get in touch, credits &amp; imprint",
+    "Kontaktaufnahme, Dank & Impressum": "Get in touch, credits & imprint",
 
     "Software | Agilität | Coaching | Antidiskriminierung": "Software | Agility | Coaching | Antidiscrimination",
 
@@ -32,6 +32,38 @@
     "Mein Profil auf Academia": "Visit my profile on Academia",
 
     "Mein Profil auf Research Gate": "Visit my profile on Research Gate",
+
+    "Hier finden sich Softwareprojekte, die ich während meiner Ausbildung zum Full-Stack-Web-Entwickler erstellt habe.": "The following displays software projects I have built when being trained to become a full stack web developer.",
+
+    "Weiter oben befinden sich die größeren Projekte, gefolgt von mittleren und kleineren Projekten.": "On top are the bigger projects followed by medium-sized and smaller projects.",
+
+    "Zu meinem Sozialen Netzwerk Kite.Inc": "Visit my Social Network Kite.Inc",
+
+    "Soziales Netzwerk": "Social Network",
+
+    "Screenshot von Suchergebnissen des Sozialen Netzwerks Kite.Inc": "screenshot of social Network Kite.Inc displaying some search results",
+
+    "Informations-Icon": "icon for information",
+
+    "inspirierte": "inspired",
+
+    "Single-Page-Application": "single-page-application",
+
+    "Icon für Code": "icon for code",
+
+    "Technologien": "Tech stack",
+
+    "Icon für Funktionalität": "icon for features",
+
+    "Funktionalität": "Features",
+
+    "Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer*innen, Suche nach Benutzer*innen mit Vor- und Nachnamen, Anzeigen von Freund*innen von Freund*innen, Abmelden": "registration, login, a personal profile with bio and image upload, sending, receiving and accepting friend requests, unfriend, having conversations in a chat room, display of last 3 registered users, searching for users by first and last name, showing friends of friends, logout",
+
+    "Mehr Informationen": "More info",
+
+    "Benutzer*innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.": "Users can join a social network, in this case focusing on inclusive kitesurfing communities.",
+
+    "Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.": "A high priority is on conditional rendering, security issues (password hashing, protection against SQL-injection, CSRF- and XSS-attacks, reset code by email) and a differentiated error handling (different error messages get displayed, e.g. if the email is not in the database, the retyped password does not match the first password or the input fields are left empty) in the register, login, and reset password components.",
 
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publications, talks and interviews in German",
 
@@ -173,7 +205,7 @@
 
     "zur Implementierung eines Code of Conduct und Maßnahmen der Antidiskriminierung": "the implementation of a code of conduct and anti-discrimination measures",
 
-    "KoFaS – Kompetenzgruppe Fankulturen &amp; Sport": "KoFaS - Competence Group Fan Cultures &amp; Sports",
+    "KoFaS – Kompetenzgruppe Fankulturen & Sport": "KoFaS - Competence Group Fan Cultures & Sports",
 
     "Begleitung und Coaching": "Support and Coaching",
 
@@ -317,7 +349,7 @@
 
     "Abschluss (Graduation)": "Graduation",
 
-    "Zertifikate, Fort- &amp; Weiterbildungen": "Certificates, further education and training",
+    "Zertifikate, Fort- & Weiterbildungen": "Certificates, further education and training",
 
     "und": "and",
 
@@ -329,7 +361,7 @@
 
     "Ausbildung zum Jugendgruppenleiter": "Training as youth group leader",
 
-    "Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate &amp; Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, [Intersektionale Gewaltprävention](https://www.dissens.de/isgp/fortbildung.php), Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr": "Agility, project management, moderation, argumentation-, communication and discussion trainings, visualization, fundraising, press and public relations, social media, blended learning, OER, hate &amp; counter-speech, interviewing, anti-discrimination pedagogy, social justice, intersectional violence prevention, sexualized violence against boys, neo-Nazism/right-wing extremism, critical whiteness, action against everyday racism, anti-Semitism and many more",
+    "Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate & Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, [Intersektionale Gewaltprävention](https://www.dissens.de/isgp/fortbildung.php), Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr": "Agility, project management, moderation, argumentation-, communication and discussion trainings, visualization, fundraising, press and public relations, social media, blended learning, OER, hate & counter-speech, interviewing, anti-discrimination pedagogy, social justice, intersectional violence prevention, sexualized violence against boys, neo-Nazism/right-wing extremism, critical whiteness, action against everyday racism, anti-Semitism and many more",
 
     "Arbeitsschwerpunkte": "Areas of expertise",
 
@@ -400,7 +432,7 @@
 
     "...und vermutlich viele weitere Ressourcen, die ich vergessen habe": "...and probably way more resources I forgot",
 
-    "Ein ganz besonderer Dank an Spiced Academy, MSG, Jan, Gino &amp; Andy": "A special thanks to Spiced Academy, MSG, Jan, Gino &amp; Andy",
+    "Ein ganz besonderer Dank an Spiced Academy, MSG, Jan, Gino & Andy": "A special thanks to Spiced Academy, MSG, Jan, Gino & Andy",
 
     "Impressum Andreas Hechler": "Imprint Andreas Hechler"
 }

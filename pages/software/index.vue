@@ -3,9 +3,17 @@
         <h1>Software</h1>
 
         <p class="software-explanation">
-            The following displays software projects I have built when being
-            trained to become a full stack web developer.<br />On top are the
-            bigger projects followed by medium-sized and smaller projects.
+            {{
+                $t(
+                    'Hier finden sich Softwareprojekte, die ich während meiner Ausbildung zum Full-Stack-Web-Entwickler erstellt habe.'
+                )
+            }}
+            <br />
+            {{
+                $t(
+                    'Weiter oben befinden sich die größeren Projekte, gefolgt von mittleren und kleineren Projekten.'
+                )
+            }}
         </p>
 
         <!-- ///////////////////// BIGGER PROJECTS ///////////////////// -->
@@ -16,16 +24,22 @@
                 <a
                     href="https://kite-inc.herokuapp.com/"
                     target="_blank"
-                    title="Visit my Social Network"
-                    ><h2 id="socialnetwork">Social Network</h2></a
+                    :title="$t('Zu meinem Sozialen Netzwerk Kite.Inc')"
+                    ><h2 id="socialnetwork">
+                        {{ $t('Soziales Netzwerk') }}
+                    </h2></a
                 >
 
                 <div class="image-container">
                     <a href="https://kite-inc.herokuapp.com/" target="_blank"
                         ><img
                             src="/images/kite.png"
-                            alt="screenshot of social Network Kite.Inc displaying some search results"
-                            title="Visit my Social Network"
+                            :alt="
+                                $t(
+                                    'Screenshot von Suchergebnissen des Sozialen Netzwerks Kite.Inc'
+                                )
+                            "
+                            :title="$t('Zu meinem Sozialen Netzwerk Kite.Inc')"
                     /></a>
                 </div>
 
@@ -33,60 +47,59 @@
                     <div class="flex-row">
                         <img
                             src="/icons/information-outline.svg"
-                            alt="icon for information"
+                            :alt="$t('Informations-Icon')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Facebook-inspired</strong>
-                            single-page-application (SPA)
+                            <strong>Facebook-{{ $t('inspirierte') }}</strong>
+                            {{ $t('Single-Page-Application') }}
+                            (SPA)
                         </p>
                     </div>
                     <div class="flex-row">
                         <img
                             src="/icons/code-slash.svg"
-                            alt="icon for code"
+                            :alt="$t('Icon für Code')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Tech stack:</strong> React &amp; Redux,
-                            Express, Node, PostgreSQL, Socket.io, Amazon S3 and
-                            SES, CSS, HTML
+                            <strong>{{ $t('Technologien') }}:</strong> React
+                            &amp; Redux, Express, Node, PostgreSQL, Socket.io,
+                            Amazon S3 and SES, CSS, HTML
                         </p>
                     </div>
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> a personal profile with
-                            bio and image upload, sending, receiving and
-                            accepting friend requests, unfriend, having
-                            conversations in a chat room, display of last 3
-                            registered users, searching for users by first and
-                            last name, showing friends of friends, logout
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    'Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer\*innen, Suche nach Benutzer\*innen mit Vor- und Nachnamen, Anzeigen von Freund\*innen von Freund\*innen, Abmelden'
+                                )
+                            }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                Users can join a social network, in this case
-                                focusing on inclusive kitesurfing communities.
+                                {{
+                                    $t(
+                                        'Benutzer\*innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.'
+                                    )
+                                }}
                             </p>
                             <p>
-                                A high priority is on conditional rendering,
-                                security issues (password hashing, protection
-                                against SQL-injection, CSRF- and XSS-attacks,
-                                reset code by mail) and a differentiated error
-                                handling (different error messages get
-                                displayed, e.g. if the email is not in the
-                                database, the retyped password does not match
-                                the first or password or the input fields are
-                                left empty) in the register, login, and reset
-                                password components.
+                                {{
+                                    $t(
+                                        'Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.'
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>
@@ -120,7 +133,7 @@
                     <div class="flex-row">
                         <img
                             src="/icons/information-outline.svg"
-                            alt="icon for information"
+                            :alt="$t('Informations-Icon')"
                             class="social-media-logo"
                         />
                         <p>
@@ -131,25 +144,25 @@
                     <div class="flex-row">
                         <img
                             src="/icons/code-slash.svg"
-                            alt="icon for code"
+                            :alt="$t('Icon für Code')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Tech stack:</strong> Express handlebars,
-                            Node, PostgreSQL, jQuery, CSS, HTML
+                            <strong>{{ $t('Technologien') }}:</strong> Express
+                            handlebars, Node, PostgreSQL, jQuery, CSS, HTML
                         </p>
                     </div>
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> supporters can register,
-                            login, update their profile information, sign,
-                            unsign, view fellow signees sorted by location,
-                            logout
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            supporters can register, login, update their profile
+                            information, sign, unsign, view fellow signees
+                            sorted by location, logout
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -194,7 +207,7 @@
             <nuxt-link
                 :to="localePath('software')"
                 class="jump-to-top"
-                title="Scroll to top"
+                :title="$t('zum Seitenanfang')"
                 @click.native="scrollToTop"
             >
                 <img
@@ -230,7 +243,7 @@
                     <div class="flex-row">
                         <img
                             src="/icons/information-outline.svg"
-                            alt="icon for information"
+                            :alt="$t('Informations-Icon')"
                             class="social-media-logo"
                         />
                         <p>
@@ -241,26 +254,27 @@
                     <div class="flex-row">
                         <img
                             src="/icons/code-slash.svg"
-                            alt="icon for code"
+                            :alt="$t('Icon für Code')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Tech stack:</strong> Vue, Express, Node,
-                            PostgreSQL, Amazon S3, Jest, CSS, HTML
+                            <strong>{{ $t('Technologien') }}:</strong> Vue,
+                            Express, Node, PostgreSQL, Amazon S3, Jest, CSS,
+                            HTML
                         </p>
                     </div>
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> upload of images with
-                            title, description and user-name, each image can be
-                            clicked and displayed in large with more info and
-                            the possibility to comment and also delete the
-                            image, more images can be loaded
+                            <strong>{{ $t('Funktionalität') }}:</strong> upload
+                            of images with title, description and user-name,
+                            each image can be clicked and displayed in large
+                            with more info and the possibility to comment and
+                            also delete the image, more images can be loaded
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -312,7 +326,7 @@
                     <div class="flex-row">
                         <img
                             src="/icons/information-outline.svg"
-                            alt="icon for information"
+                            :alt="$t('Informations-Icon')"
                             class="social-media-logo"
                         />
                         <p>
@@ -323,23 +337,23 @@
                     <div class="flex-row">
                         <img
                             src="/icons/code-slash.svg"
-                            alt="icon for code"
+                            :alt="$t('Icon für Code')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Tech stack:</strong> Express handlebars,
-                            CSS, HTML
+                            <strong>{{ $t('Technologien') }}:</strong> Express
+                            handlebars, CSS, HTML
                         </p>
                     </div>
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> Display of all projects,
-                            description-site for each project
+                            <strong>{{ $t('Funktionalität') }}:</strong> Display
+                            of all projects, description-site for each project
                         </p>
                     </div>
                 </div>
@@ -373,12 +387,12 @@
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> Resize pane with slider,
-                            display one image or the other
+                            <strong>{{ $t('Funktionalität') }}:</strong> Resize
+                            pane with slider, display one image or the other
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -431,14 +445,14 @@
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> Search Spotify database
-                            through API, display album/artist with hyperlinked
-                            cover and name, load more through button click or
-                            infinite scroll
+                            <strong>{{ $t('Funktionalität') }}:</strong> Search
+                            Spotify database through API, display album/artist
+                            with hyperlinked cover and name, load more through
+                            button click or infinite scroll
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -500,13 +514,13 @@
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> Watch kitties
-                            carouseling, pick a specific image to be displayed
-                            again
+                            <strong>{{ $t('Funktionalität') }}:</strong> Watch
+                            kitties carouseling, pick a specific image to be
+                            displayed again
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -556,12 +570,12 @@
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> Get the latest news
-                            displayed, click if you are interested
+                            <strong>{{ $t('Funktionalität') }}:</strong> Get the
+                            latest news displayed, click if you are interested
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -620,12 +634,13 @@
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> Write a message and save
-                            it in local storage, display and/or delete message
+                            <strong>{{ $t('Funktionalität') }}:</strong> Write a
+                            message and save it in local storage, display and/or
+                            delete message
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -680,12 +695,12 @@
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> Test if data is JSON or
-                            not
+                            <strong>{{ $t('Funktionalität') }}:</strong> Test if
+                            data is JSON or not
                         </p>
                     </div>
 
@@ -742,14 +757,15 @@
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> 2 players can play
-                            against each other, horizontal, vertical or diagonal
-                            victories, animation when one player wins, winning
-                            color gets displayed, play again
+                            <strong>{{ $t('Funktionalität') }}:</strong> 2
+                            players can play against each other, horizontal,
+                            vertical or diagonal victories, animation when one
+                            player wins, winning color gets displayed, play
+                            again
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -806,13 +822,13 @@
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> Pop-up modal, hamburger
-                            menu with navigation sliding in from the right, also
-                            suited for smaller screens
+                            <strong>{{ $t('Funktionalität') }}:</strong> Pop-up
+                            modal, hamburger menu with navigation sliding in
+                            from the right, also suited for smaller screens
                         </p>
                     </div>
                     <div>
@@ -866,12 +882,12 @@
                     <div class="flex-row">
                         <img
                             src="/icons/checklist.svg"
-                            alt="icon for features"
+                            :alt="$t('Icon für Funktionalität')"
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Features:</strong> Search countries, use
-                            either mouse or keys
+                            <strong>{{ $t('Funktionalität') }}:</strong> Search
+                            countries, use either mouse or keys
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -924,6 +940,7 @@ export default {
     //     },
     _methods: {
         scrollToTop() {
+            console.log('software-page, scrollToTop running')
             window.scrollTo({
                 behavior: 'smooth',
                 left: 0,

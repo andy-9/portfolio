@@ -33,12 +33,14 @@
                 "
                 >english</nuxt-link
             >
+
             <nuxt-link
                 :to="{ path: 'publications', hash: '#turkce' }"
                 class="link-padding"
                 :title="$t('Publikationen auf Türkisch')"
                 >türkçe</nuxt-link
             >
+
             <nuxt-link
                 :to="{ path: 'publications', hash: '#francais' }"
                 class="link-padding"
@@ -815,6 +817,7 @@
                     scrolling="no"
                     width="100%"
                     height="166"
+                    SameSite="Lax"
                     frameborder="0"
                 ></iframe>
             </p>
@@ -1013,7 +1016,7 @@
                     height="166"
                     scrolling="no"
                     frameborder="no"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323381707&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323381707&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&SameSite=Lax"
                 >
                 </iframe>
                 <div
@@ -1023,6 +1026,7 @@
                         href="https://soundcloud.com/dehatepodcast"
                         title="de:hate"
                         target="_blank"
+                        SameSite="Lax"
                         style="color: #cccccc; text-decoration: none;"
                         >de:hate</a
                     >
@@ -1031,6 +1035,7 @@
                         href="https://soundcloud.com/dehatepodcast/04-gender-und-rechte-ideologien"
                         title="#04  Gender und rechte Ideologien"
                         target="_blank"
+                        SameSite="Lax"
                         style="color: #cccccc; text-decoration: none;"
                         >#04 Gender und rechte Ideologien
                     </a>
@@ -1211,7 +1216,7 @@
                     height="166"
                     scrolling="no"
                     frameborder="no"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606279804&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606279804&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&SameSite=Lax"
                 ></iframe>
                 <div
                     style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
@@ -1220,6 +1225,7 @@
                         href="https://soundcloud.com/american-academy-berlin"
                         title="Beyond the Lecture"
                         target="_blank"
+                        SameSite="Lax"
                         style="color: #cccccc; text-decoration: none;"
                         >Beyond the Lecture</a
                     >
@@ -1228,6 +1234,7 @@
                         href="https://soundcloud.com/american-academy-berlin/beyond-the-lecture-anne-finger"
                         title="Beyond the Lecture: Anne Finger on Disability and the Politics of Memory"
                         target="_blank"
+                        SameSite="Lax"
                         style="color: #cccccc; text-decoration: none;"
                         >Beyond the Lecture: Anne Finger on Disability and the
                         Politics of Memory</a
@@ -1316,6 +1323,28 @@
 
 <script>
 export default {
+    mounted() {
+        const hash = location.hash
+        if (hash) {
+            console.log('publications.vue, 1st if-statement running')
+            const currentElem = document.querySelector(hash)
+            if (currentElem) {
+                console.log('publications.vue, 2nd if-statement running')
+                scrollToPlaces(currentElem)
+            }
+        }
+        // if not true do it, if true set to false, repeat
+        function scrollToPlaces(elem) {
+            console.log('publications.vue elem', elem)
+            console.log('publications.vue elem.offsetTop', elem.offsetTop)
+            window.scrollTo({
+                behavior: 'smooth',
+                left: 0,
+                top: elem.offsetTop
+                // top: null
+            })
+        }
+    },
     _methods: {
         scrollToTop() {
             window.scrollTo({
@@ -1324,6 +1353,18 @@ export default {
                 top: 0
             })
         }
+        // scrollBehavior(to) {
+        //     console.log('publications.js to:', to)
+        //     if (to.hash) {
+        //         return window.scrollTo({
+        //             top: document.querySelector(to.hash).offsetTop,
+        //             //  + window.innerHeight,
+        //             behavior: 'smooth',
+        //             left: 0
+        //         })
+        //     }
+        //     return window.scrollTo({ top: 0, behavior: 'smooth' })
+        // }
     },
     get methods() {
         return this._methods
