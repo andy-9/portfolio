@@ -157,9 +157,9 @@
 
             <p>
                 Hechler, Andreas / Baar, Robert (2020):
-                <b
+                <strong
                     >Mehr als zwei. Intergeschlechtlichkeit in der
-                    (Grund-)Schule</b
+                    (Grund-)Schule</strong
                 >. In:
                 <a
                     href="https://www.friedrich-verlag.de/shop/jenseits-der-norm-516321"
@@ -182,7 +182,7 @@
             </p>
         </div>
 
-        <span>
+        <!-- <span>
             <nuxt-link
                 :to="localePath('publications')"
                 class="jump-to-top"
@@ -194,7 +194,7 @@
                     :alt="$t('Pfeil nach oben, um zum Seitenanfang zu kommen')"
                     class="up-arrow"
             /></nuxt-link>
-        </span>
+        </span> -->
 
         <div class="publications-container no-space">
             <p>
@@ -228,9 +228,9 @@
                         href="https://inter-nrw.de/dos-donts-fuer-paedagoginnen-tipps-fuer-einen-guten-umgang/"
                         target="_blank"
                     >
-                        <b
+                        <strong
                             >Dos &amp; Don'ts für Pädagog*innen – Tipps für
-                            einen guten Umgang</b
+                            einen guten Umgang</strong
                         >
                     </a>
                 </li>
@@ -251,9 +251,9 @@
                     href="/files/Hechler - Interdiskriminierung in der extremen Rechten (2019).pdf"
                     target="_blank"
                 >
-                    <b
+                    <strong
                         >"Missbildung" – Interdiskriminierung in der extremen
-                        Rechten</b
+                        Rechten</strong
                     ></a
                 >. In: FIPU (Hg.):
                 <a
@@ -272,9 +272,9 @@
                 <a
                     href="/files/Hechler - Alles fuer alle (2019).pdf"
                     target="_blank"
-                    ><b
+                    ><strong
                         >Alles für alle! Geschlechterreflektierte Pädagogik
-                        gegen Rechts</b
+                        gegen Rechts</strong
                     ></a
                 >. In:
                 <a href="https://www.bjr.de/service/juna.html" target="_blank"
@@ -287,9 +287,9 @@
                 <a
                     href="https://ficko-magazin.de/den-zweifel-naehren/"
                     target="_blank"
-                    ><b
+                    ><strong
                         >Den Zweifel nähren. Meine kritische Auseinandersetzung
-                        mit Männlichkeit</b
+                        mit Männlichkeit</strong
                     ></a
                 >. In: FICKO-Magazin vom 12.02.2019.
             </p>
@@ -299,9 +299,9 @@
                 <a
                     href="https://www.queer.de/detail.php?article_id=32783"
                     target="_blank"
-                    ><b
+                    ><strong
                         >Wie berichte ich über die "Dritte Option"? Eine
-                        polemische Anleitung für Journalist*innen</b
+                        polemische Anleitung für Journalist*innen</strong
                     ></a
                 >. In: queer.de vom 19.01.2019.
             </p>
@@ -311,10 +311,10 @@
                 <a
                     href="/files/Hechler - Diagnosen von Gewicht 2 (2018).pdf"
                     target="_blank"
-                    ><b
+                    ><strong
                         >Diagnosen von Gewicht. Innerfamiliäre Folgen der
                         Ermordung meiner als "lebensunwert" diagnostizierten
-                        Urgroßmutter</b
+                        Urgroßmutter</strong
                     ></a
                 >. In: Rotzoll, Maike u.a. (Hrsg.):
                 <a
@@ -354,9 +354,9 @@
                     <a
                         href="https://www.psychosozial-verlag.de/catalog/dispatch-free.php?id=6799"
                         target="_blank"
-                        ><b
+                        ><strong
                             >"Was ist es denn?" Intergeschlechtlichkeit in
-                            Bildung, Pädagogik und Sozialer Arbeit</b
+                            Bildung, Pädagogik und Sozialer Arbeit</strong
                         ></a
                     >. In: Katzer, Michaela/Voß, Heinz-Jürgen (Hrsg.):
                     <a href="https://www.psychosozial-verlag.de/6799"
@@ -371,8 +371,9 @@
                         href="http://library.oapen.org/bitstream/handle/20.500.12657/25626/1004470.pdf?sequence=1&isAllowed=y"
                         target="_blank"
                     >
-                        <b
-                            >Geschlechterreflektierte Pädagogik gegen Rechts</b
+                        <strong
+                            >Geschlechterreflektierte Pädagogik gegen
+                            Rechts</strong
                         ></a
                     >. Verlag Barbara Budrich, Opladen/Berlin/Toronto.
                 </p>
@@ -392,10 +393,10 @@
                         <a
                             href="http://www.budrich.de/DDD/HechlerStuve.pdf"
                             target="_blank"
-                            ><b
+                            ><strong
                                 >Weder 'normal' noch 'richtig':
                                 Geschlechterreflektierte Pädagogik als Grundlage
-                                einer Neonazismusprävention</b
+                                einer Neonazismusprävention</strong
                             ></a
                         >, S. 44-72.
                     </li>
@@ -405,9 +406,9 @@
                         <a
                             href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-praxissituationen-entgeschlechtlichen.pdf"
                             target="_blank"
-                            ><b
+                            ><strong
                                 >Methode: Praxissituationen
-                                entgeschlechtlichen</b
+                                entgeschlechtlichen</strong
                             ></a
                         >, S. 73-78.
                     </li>
@@ -422,9 +423,10 @@
                     </li>
 
                     <li>
-                        <b
+                        <strong
                             >Beharrliche Bilder. Bildsprache und
-                            geschlechterreflektierte Neonazismusprävention</b
+                            geschlechterreflektierte
+                            Neonazismusprävention</strong
                         >, S. 223-237 (gekürzt und überarbeitet
                         <a
                             href="https://forschungsgruppefipu.wordpress.com/2017/11/07/beharrliche-bilder/"
@@ -439,10 +441,10 @@
                     <a
                         href="/files/Hechler - Diagnosen von Gewicht (2015).pdf"
                         target="_blank"
-                        ><b
+                        ><strong
                             >Diagnosen von Gewicht. Innerfamiliäre Folgen der
                             Ermordung meiner als 'lebensunwert' diagnostizierten
-                            Urgroßmutter</b
+                            Urgroßmutter</strong
                         ></a
                     >. In: Cora Schmechel u.a. (Hrsg.):
                     <a
@@ -458,9 +460,9 @@
                     <a
                         href="/files/Hechler - Intergeschlechtlichkeit in Bildung (2015).pdf"
                         target="_blank"
-                        ><b
+                        ><strong
                             >Intergeschlechtlichkeit in Bildung, Pädagogik und
-                            Sozialer Arbeit</b
+                            Sozialer Arbeit</strong
                         ></a
                     >. In: BMFSFJ (Hrsg.):
                     <a
@@ -479,8 +481,9 @@
                     <a
                         href="/files/Stuve_Hechler - Geschlechterreflektierende Neonazismusprävention (2015).pdf"
                         target="_blank"
-                        ><b
-                            >Geschlechterreflektierende Neonazismusprävention</b
+                        ><strong
+                            >Geschlechterreflektierende
+                            Neonazismusprävention</strong
                         ></a
                     >. In: deutsche jugend, Nr. 4, 63. Jg., S. 166-175.
                 </p>
@@ -490,9 +493,9 @@
                     <a
                         href="/files/Hechler - Intergeschlechtlichkeit in Paedagogik (Sozialmagazin 2014).pdf"
                         target="_blank"
-                        ><b
+                        ><strong
                             >Intergeschlechtlichkeit als Thema in Pädagogik und
-                            Sozialer Arbeit</b
+                            Sozialer Arbeit</strong
                         ></a
                     >. In: Sozialmagazin, Nr. 3-4/2014, 39. Jg., S. 46-53.
                 </p>
@@ -522,9 +525,9 @@
                     <a
                         href="/files/Hechler - Diskussion zu Gender und Rechtsextremismus(-praevention) (2014).pdf"
                         target="_blank"
-                        ><b
+                        ><strong
                             >Diskussion zu Gender und
-                            Rechtsextremismus(-prävention)</b
+                            Rechtsextremismus(-prävention)</strong
                         >
                     </a>
                     im Themenforum des BIKnetz vom 17.-23. Februar 2014.
@@ -537,11 +540,11 @@
                         href="/files/Hechler_Stuve_Wielowiejski - Geschlechterreflektierende Neonazismuspraevention (2013).pdf"
                         target="_blank"
                     >
-                        <b
+                        <strong
                             >Geschlechterreflektierende Neonazismusprävention.
                             Mädchen- und Jungenbilder im Neonazismus –
                             Fortbildung, Praxisprojekte und Beratungen für eine
-                            Präventionsarbeit</b
+                            Präventionsarbeit</strong
                         ></a
                     >. In: Switchboard. Zeitschrift für Männer und Jungenarbeit,
                     Nr. 204, Winter 2013, S. 30-34.
@@ -564,9 +567,9 @@
                     <a
                         href="https://gerenep.dissens.de/geschlechterreflektierte-neonazismuspraevention/publikationen-von-dissens-mitarbeitenden-zum-thema/hechler-jungenarbeit-und-neonazismuspraevention"
                         target="_blank"
-                        ><b
+                        ><strong
                             >Männlichkeitskonstruktionen, Jungenarbeit und
-                            Neonazismus-Prävention</b
+                            Neonazismus-Prävention</strong
                         ></a
                     >. In: Dissens e.V. &amp; Debus, Katharina / Könnecke,
                     Bernard / Schwerma, Klaus / Stuve, Olaf (Hg.):
@@ -585,9 +588,9 @@
                         href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Hechler
             - Intergeschlechtlichkeit.pdf"
                         target="_blank"
-                        ><b
+                        ><strong
                             >Intergeschlechtlichkeit als Thema
-                            geschlechterreflektierender Pädagogik</b
+                            geschlechterreflektierender Pädagogik</strong
                         ></a
                     >. In: Dissens e.V. &amp; Debus, Katharina / Könnecke,
                     Bernard / Schwerma, Klaus / Stuve, Olaf (Hg.):
@@ -602,9 +605,9 @@
 
                 <p>
                     Diewald, Heidi / Hechler, Andreas / Kröger, Fabian (2008):
-                    <b
+                    <strong
                         >Intersexualität – Die alltägliche Folter in
-                        Deutschland</b
+                        Deutschland</strong
                     >. In: Intersexuelle Menschen e. V. / XY-Frauen:
                     <a
                         href="http://intersex.schattenbericht.org/public/Schattenbericht_CEDAW_2008-Intersexuelle_Menschen_e_V.pdf"
@@ -620,9 +623,9 @@
                     <a
                         href="/files/Hechler - Voids in Brandenburg (2008).pdf"
                         target="_blank"
-                        ><b
+                        ><strong
                             >Voids in Brandenburg – Folgen des deutschen
-                            Antisemitismus</b
+                            Antisemitismus</strong
                         ></a
                     >. In: JungdemokratInnen/Junge Linke Brandenburg: I
                     remember, remember the 9th of november – Die Erinnerung und
@@ -660,9 +663,9 @@
                     <a
                         href="/files/Hechler - Taeter_innenforschung aus privilegierter Position (2006).pdf"
                         target="_blank"
-                        ><b
+                        ><strong
                             >Täter_innenforschung aus privilegierter Position.
-                            Rassismus und Antisemitismus im Feld</b
+                            Rassismus und Antisemitismus im Feld</strong
                         ></a
                     >. In: feldnotizen, Ausgabe 1, S. 11-23.
                 </p>
@@ -683,8 +686,9 @@
                     <a
                         href="/files/Hechler - Projektwoche Liebe-Freundschaft-Sexualitaet (2003).pdf"
                         target="_blank"
-                        ><b
-                            >Projektwoche "Liebe – Freundschaft – Sexualität"</b
+                        ><strong
+                            >Projektwoche "Liebe – Freundschaft –
+                            Sexualität"</strong
                         ></a
                     >. In: "Znarelot – Toleranz". Projektarbeit in
                     Marzahn-Hellersdorf 2002. Geschlechterdifferenzierte Arbeit
@@ -701,9 +705,9 @@
 
             <p>
                 12/2018:
-                <b
+                <strong
                     >"Frauenhasser sucht Frau – Paradoxien und Effekte der
-                    Incels"</b
+                    Incels"</strong
                 >. Vortrag auf dem Symposium
                 <a
                     href="https://www.facebook.com/events/269076727130862/"
@@ -722,19 +726,19 @@
 
             <p>
                 10/2018:
-                <b
+                <strong
                     >"Unsäglich – unsagbar? NS-'Euthanasie' und innerfamiliäre
-                    Aufarbeitung"</b
+                    Aufarbeitung"</strong
                 >. Gespräch mit Barbara Stellbrink-Kesy auf der
                 NS-'Euthanasie'-Angehörigentagung in der Gedenkstätte Hadamar.
             </p>
 
             <p>
                 06/2018:
-                <b
+                <strong
                     >"Wer, mit wem und warum? Überlegungen zu einer
                     folgegenerationeninklusiven historisch-politischen
-                    Bildungsarbeit zum Nationalsozialismus"</b
+                    Bildungsarbeit zum Nationalsozialismus"</strong
                 >. Vortrag zusammen mit Vivien Laumann bei den
                 <a
                     href="https://www.nsberatung.de/index.php/de/arbeitsgruppen"
@@ -765,9 +769,9 @@
                     href="http://www.kofas-ggmbh.de/news/2017/8/14/prsentation-der-handreichung-alles-mnnlich-praxistipps-fr-eine-geschlechterreflektierende-fanarbeit"
                     target="_blank"
                 >
-                    <b
+                    <strong
                         >"Alles männlich?! Praxistipps für eine
-                        geschlechterreflektierende Fanarbeit"</b
+                        geschlechterreflektierende Fanarbeit"</strong
                     >
                 </a>
                 in der Friedrich-Ebert-Stiftung Berlin.
@@ -775,9 +779,9 @@
 
             <p>
                 03/2017:
-                <b
+                <strong
                     >"'Zwischendinger' - Cissexismus und Interdiskriminierung
-                    von Rechts"</b
+                    von Rechts"</strong
                 >. Vortrag auf der Tagung
                 <a
                     href="https://intertranswissenschaft.net/tagung-2017/"
@@ -792,10 +796,10 @@
 
             <p>
                 11/2016:
-                <b
+                <strong
                     >"Diagnosen von Gewicht – Innerfamiliäre Folgen der
                     Ermordung meiner als 'lebensunwert' diagnostizierten
-                    Urgroßmutter"</b
+                    Urgroßmutter"</strong
                 >. Vortrag auf der Herbsttagung
                 <a
                     href="http://www.ak-ns-euthanasie.de/wp-content/uploads/2016/02/Herbst_2016.pdf"
@@ -823,9 +827,9 @@
             </p>
             <p>
                 11/2016:
-                <b
+                <strong
                     >"Männlichkeit und Neonazismus-(prävention) –
-                    Geschlechterreflektierte Pädagogik mit Jungen"</b
+                    Geschlechterreflektierte Pädagogik mit Jungen"</strong
                 >. Vortrag auf der Tagung
                 <a
                     href="http://www.bag-jungenarbeit.de/termin/hamburg2016"
@@ -838,9 +842,9 @@
 
             <p>
                 03/2016:
-                <b
+                <strong
                     >"'Was, du bist <em>nur ein</em> Geschlecht?!'
-                    Geschlechterreflektiertes Handeln gegen Pegida"</b
+                    Geschlechterreflektiertes Handeln gegen Pegida"</strong
                 >. Vortrag auf dem Fachforum "'Mach Dich mal grade!' Pegida und
                 Geschlecht" in Dresden.
             </p>
@@ -851,9 +855,10 @@
                     href="https://www.dissens.de/fileadmin/gerenep/redakteure/mp3/hechler-stuve-geschlechterreflektierte-paedagogik-gegen-rechts.mp3"
                     target="_blank"
                 >
-                    <b
+                    <strong
                         >"Geschlechterreflektierte Pädagogik gegen Rechts –
-                        Präsentation der Projektergebnisse und -erfahrungen"</b
+                        Präsentation der Projektergebnisse und
+                        -erfahrungen"</strong
                     ></a
                 >. Vortrag zusammen mit Olaf Stuve auf der gleichnamigen
                 <a
@@ -875,9 +880,10 @@
             <p>
                 11/2005: Teilnahme an Podiumsdiskussion
                 <a href="https://idw-online.de/en/event15188" target="_blank">
-                    <b
+                    <strong
                         >"Tradierungen – Aufhebungen – (Neu)Konstruktionen.
-                        Rasse im heutigen deutschen Wissenschaftsbetrieb"</b
+                        Rasse im heutigen deutschen
+                        Wissenschaftsbetrieb"</strong
                     ></a
                 >
                 für die "AG gegen Rassismus" am Zentrum für Literaturforschung
@@ -889,6 +895,27 @@
             <h3 id="interviews_de">
                 Interviews
             </h3>
+
+            <p>
+                Bundeszentrale für politische Bildung (2020):
+                <a
+                    href="https://www.bpb.de/veranstaltungen/dokumentation/311298/girls-i-will-destroy-you-frauenhass-im-internet-"
+                    target="_blank"
+                    ><strong
+                        >"Girls, I will destroy you!" – Frauenhass im
+                        Internet</strong
+                    ></a
+                >. Podcast im Rahmen der Reihe "Rechtsextreme Rückzugsräume".
+                Carina Huppertz im Gespräch mit Andreas Hechler und Franziska
+                Schutzbach.
+            </p>
+            <audio controls>
+                <source
+                    src="https://film.bpb.de/system/files/audios/original/12_Huppertz_Frauenhass%20im%20Internet.mp3"
+                    type="audio/mp3"
+                />
+                Your browser does not support the <code>audio</code> element.
+            </audio>
 
             <p>
                 Bongen, Robert / Schiele, Katharina (2019):
@@ -912,10 +939,10 @@
                 <a
                     href="https://www.unrast-verlag.de/neuerscheinungen/antiqueere-ideologie-detail"
                     target="_blank"
-                    ><b
+                    ><strong
                         >Antiqueere Ideologie. Die Suche nach identitärer
                         Sicherheit – und was politische Bildung dagegen
-                        ausrichten kann</b
+                        ausrichten kann</strong
                     ></a
                 >. U.a. Expert*inneninterviews mit Andreas Hechler
                 (geschlechterreflektierte Rechtsextremismusprävention), Mutlu
@@ -950,9 +977,9 @@
                 <a
                     href="/files/Offen - Interview Hechler (JpB_3_18).pdf"
                     target="_blank"
-                    ><b
+                    ><strong
                         >Komplexe Verhältnisse – Bildungsprozesse zwischen
-                        Theorie und Praxis</b
+                        Theorie und Praxis</strong
                     ></a
                 >. Wirkungen politischer Bildung am Beispiel der
                 Fortbildungsreihe "breit aufgestellt". Perspektiven aus der
@@ -1047,8 +1074,9 @@
                 <a
                     href="https://rebecca-maskos.net/2016/12/16/der-mord-an-der-uroma-hat-unsere-"
                     target="_blank"
-                    ><b
-                        >"Der Mord an der Uroma hat unsere Familie geprägt"</b
+                    ><strong
+                        >"Der Mord an der Uroma hat unsere Familie
+                        geprägt"</strong
                     ></a
                 >. Interview mit Andreas Hechler in Menschen – Das Magazin.
             </p>
@@ -1136,10 +1164,10 @@
                 <a
                     href="http://dsq-sds.org/article/view/5573/4651"
                     target="_blank"
-                    ><b
+                    ><strong
                         >Diagnoses That Matter: My Great-Grandmother's Murder as
                         One Deemed 'Unworthy of Living' and Its Impact on Our
-                        Family</b
+                        Family</strong
                     ></a
                 >. In: Disability Studies Quarterly, Vol 37, No 2.
             </p>
@@ -1165,9 +1193,9 @@
 
             <p>
                 10/2016:
-                <b
+                <strong
                     >"'In-Between-Things' – Cissexism and Interphobia within the
-                    (Extreme) Right in Germany"</b
+                    (Extreme) Right in Germany"</strong
                 >. Lecture at the international conference
                 <a
                     href="https://www.kuwi.europa-uni.de/de/lehrstuhl/lw/depolitbez/projekte/sexstillsells/index.html"
@@ -1185,9 +1213,10 @@
                     href="/files/Kahle_Hechler - Intergenerational dialogue on the Shoah in German families (2009).pdf"
                     target="_blank"
                 >
-                    <b
+                    <strong
                         >"Intergenerational Dialogue on the Shoah in German
-                        Families – A Personal Story as a Political Claim"</b
+                        Families – A Personal Story as a Political
+                        Claim"</strong
                     ></a
                 >. Presentation with Lena Kahle on family biographies in
                 National Socialism in Beit Lochamei Hagetaot/ Ghetto Fighter's
@@ -1203,9 +1232,9 @@
                 <a
                     href="https://soundcloud.com/american-academy-berlin/beyond-the-lecture-anne-finger"
                     target="_blank"
-                    ><b
+                    ><strong
                         >Beyond the Lecture: Anne Finger on Disability and the
-                        Politics of Memory</b
+                        Politics of Memory</strong
                     ></a
                 >. Conversation with Andreas Hechler visiting Berlin-Buch.
             </p>
@@ -1268,9 +1297,9 @@
                         href="https://inter-nrw.de/tr/interseks-bireylerin-egitim-ve-oegrenime-entegre-edilmeleri/"
                         target="_blank"
                     >
-                        <b
+                        <strong
                             >İnterseks bireylerin eğitim ve öğrenime entegre
-                            edilmeleri</b
+                            edilmeleri</strong
                         >
                     </a>
                 </li>
@@ -1280,9 +1309,10 @@
                         href="https://inter-nrw.de/tr/pedagoglar-acisindan-yapilmasi-ve-yapilmamasi-gerekenler-iyi-bir-iletisim-icin-tavsiyeler/"
                         target="_blank"
                     >
-                        <b
+                        <strong
                             >Pedagoglar açısından yapılması ve yapılmaması
-                            gerekenler – İyi bir iletişim için tavsiyeler</b
+                            gerekenler – İyi bir iletişim için
+                            tavsiyeler</strong
                         >
                     </a>
                 </li>
@@ -1323,55 +1353,55 @@
 
 <script>
 export default {
-    mounted() {
-        const hash = location.hash
-        if (hash) {
-            console.log('publications.vue, 1st if-statement running')
-            const currentElem = document.querySelector(hash)
-            if (currentElem) {
-                console.log('publications.vue, 2nd if-statement running')
-                scrollToPlaces(currentElem)
-            }
-        }
-        // if not true do it, if true set to false, repeat
-        function scrollToPlaces(elem) {
-            console.log('publications.vue elem', elem)
-            console.log('publications.vue elem.offsetTop', elem.offsetTop)
-            window.scrollTo({
-                behavior: 'smooth',
-                left: 0,
-                top: elem.offsetTop
-                // top: null
-            })
-        }
-    },
-    _methods: {
-        scrollToTop() {
-            window.scrollTo({
-                behavior: 'smooth',
-                left: 0,
-                top: 0
-            })
-        }
-        // scrollBehavior(to) {
-        //     console.log('publications.js to:', to)
-        //     if (to.hash) {
-        //         return window.scrollTo({
-        //             top: document.querySelector(to.hash).offsetTop,
-        //             //  + window.innerHeight,
-        //             behavior: 'smooth',
-        //             left: 0
-        //         })
-        //     }
-        //     return window.scrollTo({ top: 0, behavior: 'smooth' })
-        // }
-    },
-    get methods() {
-        return this._methods
-    },
-    set methods(value) {
-        this._methods = value
-    },
+    // mounted() {
+    //     const hash = location.hash
+    //     if (hash) {
+    //         console.log('publications.vue, 1st if-statement running')
+    //         const currentElem = document.querySelector(hash)
+    //         if (currentElem) {
+    //             console.log('publications.vue, 2nd if-statement running')
+    //             scrollToPlaces(currentElem)
+    //         }
+    //     }
+    //     // if not true do it, if true set to false, repeat
+    //     function scrollToPlaces(elem) {
+    //         console.log('publications.vue elem', elem)
+    //         console.log('publications.vue elem.offsetTop', elem.offsetTop)
+    //         window.scrollTo({
+    //             behavior: 'smooth',
+    //             left: 0,
+    //             top: elem.offsetTop
+    //             // top: null
+    //         })
+    //     }
+    // },
+    // _methods: {
+    //     scrollToTop() {
+    //         window.scrollTo({
+    //             behavior: 'smooth',
+    //             left: 0,
+    //             top: 0
+    //         })
+    //     }
+    // scrollBehavior(to) {
+    //     console.log('publications.js to:', to)
+    //     if (to.hash) {
+    //         return window.scrollTo({
+    //             top: document.querySelector(to.hash).offsetTop,
+    //             //  + window.innerHeight,
+    //             behavior: 'smooth',
+    //             left: 0
+    //         })
+    //     }
+    //     return window.scrollTo({ top: 0, behavior: 'smooth' })
+    // }
+    // },
+    // get methods() {
+    //     return this._methods
+    // },
+    // set methods(value) {
+    //     this._methods = value
+    // },
     // methods: {
     //     scrollToTop() {
     //         window.scrollTo({
@@ -1441,7 +1471,8 @@ p {
 }
 
 .no-space {
-    margin-top: -4.2em;
+    margin-top: -1.8em;
+    /* margin-top: -4.2em; */
 }
 
 .link-padding {
