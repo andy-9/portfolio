@@ -56,6 +56,7 @@
                             (SPA)
                         </p>
                     </div>
+
                     <div class="flex-row">
                         <img
                             src="/icons/code-slash.svg"
@@ -83,6 +84,16 @@
                             }}
                         </p>
                     </div>
+                    <p class="code-margin">
+                        <strong>
+                            <a
+                                href="https://github.com/andy-9/socialnetwork"
+                                target="_blank"
+                            >
+                                {{ $t('Der Code auf GitHub') }}
+                            </a>
+                        </strong>
+                    </p>
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
@@ -171,6 +182,17 @@
                             }}
                         </p>
                     </div>
+
+                    <p class="code-margin">
+                        <strong>
+                            <a
+                                href="https://github.com/andy-9/petition"
+                                target="_blank"
+                            >
+                                {{ $t('Der Code auf GitHub') }}
+                            </a>
+                        </strong>
+                    </p>
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
@@ -287,6 +309,16 @@
                             }}
                         </p>
                     </div>
+                    <p class="code-margin">
+                        <strong>
+                            <a
+                                href="https://github.com/andy-9/imageboard"
+                                target="_blank"
+                            >
+                                {{ $t('Der Code auf GitHub') }}
+                            </a>
+                        </strong>
+                    </p>
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
@@ -384,6 +416,17 @@
                             }}
                         </p>
                     </div>
+
+                    <p class="code-margin">
+                        <strong>
+                            <a
+                                href="https://github.com/andy-9/kaleidoscope"
+                                target="_blank"
+                            >
+                                {{ $t('Der Code auf GitHub') }}
+                            </a>
+                        </strong>
+                    </p>
                 </div>
             </div>
         </div>
@@ -1049,12 +1092,17 @@ h2 {
     margin-top: 2%;
 }
 
+.code-margin {
+    margin-top: 2%;
+    margin-left: 2em;
+}
+
 details {
     font-size: 1.2em;
 }
 
 details > summary {
-    padding: 2px 6px;
+    padding: 2px 6px 2px 0.7em;
     width: 15em;
     border: none;
     cursor: pointer;

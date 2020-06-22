@@ -65,6 +65,8 @@
 
     "Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.": "A high priority is on conditional rendering, security issues (password hashing, protection against SQL-injection, CSRF- and XSS-attacks, reset code by email) and a differentiated error handling (different error messages get displayed, e.g. if the email is not in the database, the retyped password does not match the first password or the input fields are left empty) in the register, login, and reset password components.",
 
+    "Der Code auf GitHub": "The code on GitHub",
+
     "Zu meiner Online-Petition": "Visit my online petition",
 
     "Screenshot der Registrierungs-Seite der Online-Petition gegen algorithmische Diskriminierung": "screenshot of petition against algorithmic bias displaying the register site",
