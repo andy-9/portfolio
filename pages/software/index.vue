@@ -207,7 +207,7 @@
             </div>
         </div>
 
-        <span>
+        <!-- <span>
             <nuxt-link
                 :to="localePath('software')"
                 class="jump-to-top"
@@ -219,7 +219,7 @@
                     :alt="$t('Pfeil nach oben zum Anfang der Seite')"
                     class="up-arrow"
             /></nuxt-link>
-        </span>
+        </span> -->
 
         <div class="grid-container">
             <!-- //////////// Imageboard //////////// -->

@@ -112,6 +112,7 @@
             </p>
             <p>
                 {{ $t('Unten findet sich auch eine Auswahl von') }}
+
                 <nuxt-link
                     :to="{ path: 'publications', hash: '#talks_de' }"
                     :title="$t('Vorträge')"
@@ -1375,42 +1376,43 @@ export default {
     //         })
     //     }
     // },
-    // _methods: {
-    //     scrollToTop() {
-    //         window.scrollTo({
-    //             behavior: 'smooth',
-    //             left: 0,
-    //             top: 0
-    //         })
-    //     }
-    // scrollBehavior(to) {
-    //     console.log('publications.js to:', to)
-    //     if (to.hash) {
-    //         return window.scrollTo({
-    //             top: document.querySelector(to.hash).offsetTop,
-    //             //  + window.innerHeight,
-    //             behavior: 'smooth',
-    //             left: 0
-    //         })
-    //     }
-    //     return window.scrollTo({ top: 0, behavior: 'smooth' })
-    // }
-    // },
-    // get methods() {
-    //     return this._methods
-    // },
-    // set methods(value) {
-    //     this._methods = value
-    // },
-    // methods: {
-    //     scrollToTop() {
-    //         window.scrollTo({
-    //             behavior: 'smooth',
-    //             left: 0,
-    //             top: 0
-    //         })
-    //     }
-    // },
+    _methods: {
+        scrollToTop() {
+            window.scrollTo({
+                behavior: 'smooth',
+                left: 0,
+                top: 0
+            })
+        },
+        //     scrollBehavior(to) {
+        //         console.log('publications.js to:', to)
+        //         if (to.hash) {
+        //             return window.scrollTo({
+        //                 top:
+        //                     document.querySelector(to.hash).offsetTop +
+        //                     window.innerHeight,
+        //                 behavior: 'smooth',
+        //                 left: 0
+        //             })
+        //         }
+        //         return window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+        //     }
+        // },
+        get methods() {
+            return this._methods
+        },
+        set methods(value) {
+            this._methods = value
+        }
+        // methods: {
+        //     scrollToTop() {
+        //         window.scrollTo({
+        //             behavior: 'smooth',
+        //             left: 0,
+        //             top: 0
+        //         })
+        //     }
+    },
     head() {
         return {
             title: this.$t('Veröffentlichungen Andreas Hechler'),
