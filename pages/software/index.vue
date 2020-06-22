@@ -216,7 +216,7 @@
             >
                 <img
                     src="/icons/chevron-up.svg"
-                    alt="up-arrow to jump to the top of the page"
+                    :alt="$t('Pfeil nach oben zum Anfang der Seite')"
                     class="up-arrow"
             /></nuxt-link>
         </span>
@@ -228,7 +228,7 @@
                 <a
                     href="http://graf-streetart.herokuapp.com/"
                     target="_blank"
-                    title="Visit my imageboard"
+                    :title="$t('Zu meinem Imageboard')"
                     ><h2 id="imageboard">Imageboard</h2></a
                 >
 
@@ -238,8 +238,12 @@
                         target="_blank"
                         ><img
                             src="/images/imageboard.png"
-                            alt="screenshot of imageboard graffiti and street art displaying landing page"
-                            title="Visit my imageboard"
+                            :alt="
+                                $t(
+                                    'Screenshot der Startseite des Imageboards für Graffiti und Street Art'
+                                )
+                            "
+                            :title="$t('Zu meinem Imageboard')"
                     /></a>
                 </div>
 
@@ -251,8 +255,9 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Instagram-inspired</strong>
-                            single-page-application (SPA)
+                            <strong>Instagram-{{ $t('inspirierte') }}</strong>
+                            {{ $t('Single-Page-Application') }}
+                            (SPA)
                         </p>
                     </div>
                     <div class="flex-row">
@@ -274,11 +279,12 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> upload
-                            of images with title, description and user-name,
-                            each image can be clicked and displayed in large
-                            with more info and the possibility to comment and
-                            also delete the image, more images can be loaded
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    'Hochladen von Bildern mit Titel, Beschreibung und Benutzernamen, jedes Bild kann angeklickt und groß angezeigt werden mit mehr Informationen und der Möglichkeit, das Bild zu kommentieren und auch zu löschen, weitere Bilder können geladen werden'
+                                )
+                            }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -286,16 +292,18 @@
                         <details>
                             <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                Anyone can upload images of their choosing; the
-                                theme of this imageboard is graffiti and street
-                                art.
+                                {{
+                                    $t(
+                                        'Jede*r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.'
+                                    )
+                                }}
                             </p>
                             <p>
-                                I learned about Vue.js and working with state,
-                                un/mounting, dynamic routing, click handlers,
-                                event-emitters and watchers. The imageboard is
-                                protected against SQL-injection, clickjacking,
-                                XSS- and CSRF-attacks.
+                                {{
+                                    $t(
+                                        'Ich habe viel über Vue.js und die Arbeit mit state, un-/mounting, dynamischem Routing, Click-Handlern, Event-Emittern und Wächtern (watchers) gelernt. Das Imageboard ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.'
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>

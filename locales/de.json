@@ -81,6 +81,18 @@
 
     "Die Seite verfügt über eine differenzierte Fehlerbehandlung und ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.": "Die Seite verfügt über eine differenzierte Fehlerbehandlung und ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.",
 
+    "Pfeil nach oben zum Anfang der Seite": "Pfeil nach oben zum Anfang der Seite",
+
+    "Zu meinem Imageboard": "Zu meinem Imageboard",
+
+    "Screenshot der Startseite des Imageboards für Graffiti und Street Art": "Screenshot der Startseite des Imageboards für Graffiti und Street Art",
+
+    "Ich habe viel über Vue.js und die Arbeit mit state, un-/mounting, dynamischem Routing, Click-Handlern, Event-Emittern und Wächtern (watchers) gelernt. Das Imageboard ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.": "Ich habe viel über Vue.js und die Arbeit mit state, un-/mounting, dynamischem Routing, Click-Handlern, Event-Emittern und Wächtern (watchers) gelernt. Das Imageboard ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.",
+
+    "Hochladen von Bildern mit Titel, Beschreibung und Benutzernamen, jedes Bild kann angeklickt und groß angezeigt werden mit mehr Informationen und der Möglichkeit, das Bild zu kommentieren und auch zu löschen, weitere Bilder können geladen werden": "Hochladen von Bildern mit Titel, Beschreibung und Benutzernamen, jedes Bild kann angeklickt und groß angezeigt werden mit mehr Informationen und der Möglichkeit, das Bild zu kommentieren und auch zu löschen, weitere Bilder können geladen werden",
+
+    "Jede*r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.": "Jede*r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publikationen, Vorträge und Interviews auf Deutsch",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publikationen, Vorträge und Interviews auf Englisch",

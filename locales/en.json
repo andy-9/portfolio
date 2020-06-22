@@ -81,6 +81,18 @@
 
     "Die Seite verfügt über eine differenzierte Fehlerbehandlung und ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.": "The site has a differentiated error-handling and is protected against SQL-injection, clickjacking, XSS- and CSRF-attacks.",
 
+    "Pfeil nach oben zum Anfang der Seite": "up-arrow to jump to the top of the page",
+
+    "Zu meinem Imageboard": "Visit my imageboard",
+
+    "Screenshot der Startseite des Imageboards für Graffiti und Street Art": "screenshot of imageboard graffiti and street art displaying landing page",
+
+    "Hochladen von Bildern mit Titel, Beschreibung und Benutzernamen, jedes Bild kann angeklickt und groß angezeigt werden mit mehr Informationen und der Möglichkeit, das Bild zu kommentieren und auch zu löschen, weitere Bilder können geladen werden": " upload of images with title, description and user-name, each image can be clicked and displayed in large with more info and the possibility to comment and also delete the image, more images can be loaded",
+
+    "Jede*r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.": "Anyone can upload images of their choosing; the theme of this imageboard is graffiti and street art.",
+
+    "Ich habe viel über Vue.js und die Arbeit mit state, un-/mounting, dynamischem Routing, Click-Handlern, Event-Emittern und Wächtern (watchers) gelernt. Das Imageboard ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.": "I learned about Vue.js and working with state, un/mounting, dynamic routing, click handlers, event-emitters and watchers. The imageboard is protected against SQL-injection, clickjacking, XSS- and CSRF-attacks.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publications, talks and interviews in German",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publications, talks and interviews in English",
