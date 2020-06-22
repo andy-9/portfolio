@@ -65,6 +65,22 @@
 
     "Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.": "A high priority is on conditional rendering, security issues (password hashing, protection against SQL-injection, CSRF- and XSS-attacks, reset code by email) and a differentiated error handling (different error messages get displayed, e.g. if the email is not in the database, the retyped password does not match the first password or the input fields are left empty) in the register, login, and reset password components.",
 
+    "Zu meiner Online-Petition": "Visit my online petition",
+
+    "Screenshot der Registrierungs-Seite der Online-Petition gegen algorithmische Diskriminierung": "screenshot of petition against algorithmic bias displaying the register site",
+
+    "Petition": "petition",
+
+    "gegen algorithmische Diskriminierung": "against algorithmic bias",
+
+    "Unterstützer*innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden": "supporters can register, login, update their profile information, sign, unsign, view fellow signees sorted by location, logout",
+
+    "Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer*innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.": "This petition advocates for signing the Algo.Rules and against algorithmic bias. Depending on whether users register and sign, they get served different sites. If they sign, other signees, their homepages, age and city are displayed.",
+
+    "Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzerinnen-Profils.": "I learned about dataflow, working with session-cookies, get- and post-routes and how to test them with supertest. I was also working with promises, password hashing and inserts, updates, upserts and deletes in the database. Getting the signature on a canvas and conditionally editing the profile I found particularly challenging.",
+
+    "Die Seite verfügt über eine differenzierte Fehlerbehandlung und ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.": "The site has a differentiated error-handling and is protected against SQL-injection, clickjacking, XSS- and CSRF-attacks.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publications, talks and interviews in German",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publications, talks and interviews in English",

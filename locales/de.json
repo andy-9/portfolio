@@ -65,6 +65,22 @@
 
     "Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.": "Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.",
 
+    "Zu meiner Online-Petition": "Zu meiner Online-Petition",
+
+    "Screenshot der Registrierungs-Seite der Online-Petition gegen algorithmische Diskriminierung": "Screenshot der Registrierungs-Seite der Online-Petition gegen algorithmische Diskriminierung",
+
+    "Petition": "Petition",
+
+    "gegen algorithmische Diskriminierung": "gegen algorithmische Diskriminierung",
+
+    "Unterstützer*innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden": "Unterstützer*innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden",
+
+    "Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer*innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.": "Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer*innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.",
+
+    "Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzerinnen-Profils.": "Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzerinnen-Profils.",
+
+    "Die Seite verfügt über eine differenzierte Fehlerbehandlung und ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.": "Die Seite verfügt über eine differenzierte Fehlerbehandlung und ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publikationen, Vorträge und Interviews auf Deutsch",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publikationen, Vorträge und Interviews auf Englisch",

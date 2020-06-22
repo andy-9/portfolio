@@ -116,7 +116,7 @@
                 <a
                     href="https://algobias.herokuapp.com/"
                     target="_blank"
-                    title="Visit my online petition"
+                    :title="$t('Zu meiner Online-Petition')"
                     ><h2 id="petition">Petition</h2></a
                 >
 
@@ -124,8 +124,12 @@
                     <a href="https://algobias.herokuapp.com/" target="_blank"
                         ><img
                             src="/images/algobias.png"
-                            alt="screenshot of petition against algorithmic bias displaying the register site"
-                            title="Visit my online petition"
+                            :alt="
+                                $t(
+                                    'Screenshot der Registrierungs-Seite der Online-Petition gegen algorithmische Diskriminierung'
+                                )
+                            "
+                            :title="$t('Zu meiner Online-Petition')"
                     /></a>
                 </div>
 
@@ -137,8 +141,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>Online-Petition</strong> against algorithmic
-                            bias
+                            <strong>Online-{{ $t('Petition') }}</strong>
+                            {{ $t('gegen algorithmische Diskriminierung') }}
                         </p>
                     </div>
                     <div class="flex-row">
@@ -160,37 +164,37 @@
                         />
                         <p>
                             <strong>{{ $t('Funktionalität') }}:</strong>
-                            supporters can register, login, update their profile
-                            information, sign, unsign, view fellow signees
-                            sorted by location, logout
+                            {{
+                                $t(
+                                    'Unterstützer\*innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden'
+                                )
+                            }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                This petition advocates for signing the
-                                Algo.Rules and against algorithmic bias.
-                                Depending on whether users register and sign,
-                                they get served different sites. If they sign,
-                                other signees, their homepages, age and city are
-                                displayed.
+                                {{
+                                    $t(
+                                        'Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer\*innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.'
+                                    )
+                                }}
                             </p>
                             <p>
-                                I learned about dataflow, working with
-                                session-cookies, get- and post-routes and how to
-                                test them with supertest. I was also working
-                                with promises, password hashing and inserts,
-                                updates, upserts and deletes in the database.
-                                Getting the signature on a canvas and
-                                conditionally editing the profile I found
-                                particularly challenging.
+                                {{
+                                    $t(
+                                        'Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzer\innen-Profils.'
+                                    )
+                                }}
                             </p>
                             <p>
-                                The site has a differentiated error-handling and
-                                is protected against SQL-injection,
-                                clickjacking, XSS- and CSRF-attacks.
+                                {{
+                                    $t(
+                                        'Die Seite verfügt über eine differenzierte Fehlerbehandlung und ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.'
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>
@@ -280,7 +284,7 @@
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
                                 Anyone can upload images of their choosing; the
                                 theme of this imageboard is graffiti and street
@@ -398,7 +402,7 @@
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
                                 2 images blending into each other, usually used
                                 for before-after-images. I used it to
@@ -458,7 +462,7 @@
                     <!-- Zum Ausklappen -->
                     <div class="make-details-visible">
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
                                 Still not having a Spotify account myself,
                                 nonetheless I programmed a user interface to
@@ -525,7 +529,7 @@
                     </div>
                     <!-- Zum Ausklappen -->
                     <details>
-                        <summary>More info</summary>
+                        <summary>{{ $t('Mehr Informationen') }}</summary>
                         <p>
                             4 kitty-images move from right to left in an endless
                             loop, one image per second. You can also pick a
@@ -581,7 +585,7 @@
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
                                 Tickers are a bit outdated, but a good
                                 programming exercise. Mine runs from right to
@@ -646,7 +650,7 @@
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
                                 Working with local storage was fun. If you write
                                 something in the text field and click the button
@@ -707,7 +711,7 @@
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
                                 This simple validation test tells you if you
                                 have JSON or not. Simply copy-paste in the
@@ -771,7 +775,7 @@
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
                                 I loved playing Connect 4 as a child - and I
                                 still do today! I never thought I would build
@@ -833,7 +837,7 @@
                     </div>
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
                                 An exercise in building a homepage for Spiced
                                 with HTML, CSS and JavaScript/jQuery without
@@ -893,7 +897,7 @@
                     <!-- Zum Ausklappen -->
                     <div>
                         <details>
-                            <summary>More info</summary>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
                                 I have used incremental searches many times in
                                 my life and did not even know this term until I
