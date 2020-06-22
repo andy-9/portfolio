@@ -93,6 +93,18 @@
 
     "Ich habe viel über Vue.js und die Arbeit mit state, un-/mounting, dynamischem Routing, Click-Handlern, Event-Emittern und Wächtern (watchers) gelernt. Das Imageboard ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.": "I learned about Vue.js and working with state, un/mounting, dynamic routing, click handlers, event-emitters and watchers. The imageboard is protected against SQL-injection, clickjacking, XSS- and CSRF-attacks.",
 
+    "Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt": "Visit my online Kaleidoscope displaying all my medium-sized and smaller projects",
+
+    "Kaleidoskop": "Kaleidoscope",
+
+    "Screenshot der Startseite des Kaleidoskops mit allen Projekten": "screenshot of Kaleidoscope displaying the landing page with all the projects",
+
+    "Meine kleineren": "My smaller",
+
+    "und mittelgroßen Projekte": "and medium-sized projects",
+
+    "Alle Projekte werden mit Überschrift und Bild angezeigt und für jedes Projekt gibt es eine eigene Seite mit ausführlicher Beschreibung": "Display of all projects, description-site for each project",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publications, talks and interviews in German",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publications, talks and interviews in English",

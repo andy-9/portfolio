@@ -321,16 +321,28 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/"
                     target="_blank"
-                    title="Visit my online Kaleidoscope displaying all my medium-sized and smaller projects"
-                    ><h2 id="kaleidoscope">Kaleidoscope</h2></a
+                    :title="
+                        $t(
+                            'Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt'
+                        )
+                    "
+                    ><h2 id="kaleidoscope">{{ $t('Kaleidoskop') }}</h2></a
                 >
 
                 <div class="image-container">
                     <a href="http://kaleidoscop.herokuapp.com/" target="_blank"
                         ><img
                             src="/images/kaleidoscope.png"
-                            alt="screenshot of Kaleidoscope displaying the landing page with all the projects"
-                            title="Visit my online Kaleidoscope displaying all my medium-sized and smaller projects"
+                            :alt="
+                                $t(
+                                    'Screenshot der Startseite des Kaleidoskops mit allen Projekten'
+                                )
+                            "
+                            :title="
+                                $t(
+                                    'Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt'
+                                )
+                            "
                     /></a>
                 </div>
 
@@ -342,8 +354,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>My smaller</strong>
-                            and medium-sized projects
+                            <strong>{{ $t('Meine kleineren') }}</strong>
+                            {{ $t('und mittelgroßen Projekte') }}
                         </p>
                     </div>
                     <div class="flex-row">
@@ -364,8 +376,12 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> Display
-                            of all projects, description-site for each project
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    'Alle Projekte werden mit Überschrift und Bild angezeigt und für jedes Projekt gibt es eine eigene Seite mit ausführlicher Beschreibung'
+                                )
+                            }}
                         </p>
                     </div>
                 </div>
