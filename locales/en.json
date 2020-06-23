@@ -127,6 +127,16 @@
 
     "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...": "Still not having a Spotify account myself, nonetheless I programmed a user interface to search via an API the spotify database. When you search for an artist or album the first 20 search items are displayed with an image of the album and the name of the artist. If you've reached the bottom, you can click 'More' to load the next 20 items. I also added infinite scroll. I used jQuery, clickhandlers, several ajax 'GET'-requests, CSS flexbox and played with pseudo-selectors - fun! I found it quite difficult to figure out the order when to call which function and that they don't interfere with each other. In the end I managed and if you click on the link below you have an unlimited supply of search results - hopefully YOU have a spotify account...",
 
+    "Kätzchen-Karussell": "Kitty Carousel",
+
+    "zu meinem Kätzchen-Karussell": "Visit my kitty carousel project",
+
+    "Screenshot des Kätzchen-Karussells, ein Kätzchen kommt von rechts rein, während das andere nach links gleitet": "screenshot of kitty carousel displaying one kitty sliding to the left and one another coming in from the right",
+
+    "Die Kätzchen kommen von rechts und wandern der Reihe nach nach links, ein bestimmtes Bild kann gezielt angezeigt werden": "Watch kitties carouseling, pick a specific image to be displayed again",
+
+    "4 Bilder von Kätzchen bewegen sich in einer Endlosschleife von rechts nach links, ein Bild pro Sekunde. Es kann auch ein bestimmtes Bild ausgewählt werden, indem auf den entsprechenden weißen Punkt geklickt wird. Bei der Programmierung waren timing und Raum wichtig, einschließlich des Hinzufügens und Entfernens von QuerySelectors, eventListeners und clickHandlers. Es war das erste Mal, dass ich mit CSS-transitions gearbeitet habe. Niedlich, nicht wahr? Klick auf den Link, um das Kätzchen-Karussell zu sehen...": "4 kitty-images move from right to left in an endless loop, one image per second. You can also pick a specific image by clicking on the corresponding white dot. Timing and space was important to program the carousel, including the addition and removal of querySelectors, eventListeners and clickHandlers. It was the first time I worked with CSS-transitions. It's cute, ain't it? Click on the link to watch the kitties carouseling...",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publications, talks and interviews in German",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publications, talks and interviews in English",

@@ -559,18 +559,22 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                     target="_blank"
-                    title="Visit my kitty carousel project"
-                    ><h2 id="carousel">Kitty Carousel</h2></a
+                    :title="$t('zu meinem Kätzchen-Karussell')"
+                    ><h2 id="carousel">{{ $t('Kätzchen-Karussell') }}</h2></a
                 >
 
                 <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                         target="_blank"
-                        title="Visit my kitty carousel project"
+                        :title="$t('zu meinem Kätzchen-Karussell')"
                         ><img
                             src="/images/carousel.png"
-                            alt="screenshot of kitty carousel displaying one kitty sliding to the left and one another coming in from the right"
+                            :alt="
+                                $t(
+                                    'Screenshot des Kätzchen-Karussells, ein Kätzchen kommt von rechts rein, während das andere nach links gleitet'
+                                )
+                            "
                     /></a>
                 </div>
 
@@ -582,24 +586,23 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> Watch
-                            kitties carouseling, pick a specific image to be
-                            displayed again
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    'Die Kätzchen kommen von rechts und wandern der Reihe nach nach links, ein bestimmtes Bild kann gezielt angezeigt werden'
+                                )
+                            }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
                     <details>
                         <summary>{{ $t('Mehr Informationen') }}</summary>
                         <p>
-                            4 kitty-images move from right to left in an endless
-                            loop, one image per second. You can also pick a
-                            specific image by clicking on the corresponding
-                            white dot. Timing and space was important to program
-                            the carousel, including the addition and removal of
-                            querySelectors, eventListeners and clickHandlers. It
-                            was also the first time I worked with
-                            CSS-transitions. It's cute, ain't it? Click on the
-                            link to watch the kitties carouseling...
+                            {{
+                                $t(
+                                    '4 Bilder von Kätzchen bewegen sich in einer Endlosschleife von rechts nach links, ein Bild pro Sekunde. Es kann auch ein bestimmtes Bild ausgewählt werden, indem auf den entsprechenden weißen Punkt geklickt wird. Bei der Programmierung waren timing und Raum wichtig, einschließlich des Hinzufügens und Entfernens von QuerySelectors, eventListeners und clickHandlers. Es war das erste Mal, dass ich mit CSS-transitions gearbeitet habe. Niedlich, nicht wahr? Klick auf den Link, um das Kätzchen-Karussell zu sehen...'
+                                )
+                            }}
                         </p>
                     </details>
                 </div>
