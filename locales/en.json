@@ -137,6 +137,14 @@
 
     "4 Bilder von Kätzchen bewegen sich in einer Endlosschleife von rechts nach links, ein Bild pro Sekunde. Es kann auch ein bestimmtes Bild ausgewählt werden, indem auf den entsprechenden weißen Punkt geklickt wird. Bei der Programmierung waren timing und Raum wichtig, einschließlich des Hinzufügens und Entfernens von QuerySelectors, eventListeners und clickHandlers. Es war das erste Mal, dass ich mit CSS-transitions gearbeitet habe. Niedlich, nicht wahr? Klick auf den Link, um das Kätzchen-Karussell zu sehen...": "4 kitty-images move from right to left in an endless loop, one image per second. You can also pick a specific image by clicking on the corresponding white dot. Timing and space was important to program the carousel, including the addition and removal of querySelectors, eventListeners and clickHandlers. It was the first time I worked with CSS-transitions. It's cute, ain't it? Click on the link to watch the kitties carouseling...",
 
+    "zu meinem Ticker-Projekt": "Visit my ticker project",
+
+    "Screenshot des Tickers": "screenshot of ticker running",
+
+    "Die neuesten Nachrichten werden angezeigt und können bei Interesse angeklickt werden": "Get the latest news displayed, click if you are interested",
+
+    "Ticker sind etwas veraltet, aber eine gute Programmierübung. Meiner läuft von rechts nach links, und wird mit der Maus über einen der Titel gefahren, hört der Ticker auf zu laufen, der Hyperlink wird blau und unterstrichen, und wenn er angeklickt wird, öffnet sich die gewünschte Information in einem neuen Tab. Die Programmierung ist in Vanilla-JavaScript u.a. mit Event Listener, Mouseovers, Mouseoutss, OffsetWidth und AnimationFrames. Wer tiefer in meinen Ticker eintauchen will, findet alle meine Texte, die ins Englische übersetzt wurden... In einer späteren Übung haben wir ein Backend hinzugefügt und Live-Tweets von bestehenden Twitter-Accounts über die twitter-API mittels Token abgerufen.": "Tickers are a bit outdated, but a good programming exercise. Mine runs from right to left, and if you mouseover on one of the titles the ticker stops running, the hyperlink becomes blue and underlined and if clicked the desired information opens in a new tab. The programming is in vanilla JavaScript with event listeners, mouseovers, mouseouts, offsetWidth and AnimationFrames among other things. If you wanna deep dive into my ticker you get to read all my texts that got translated into English... In a later exercise we added a backend and fetched live data from existing twitter-accounts through the twitter-API using tokens.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publications, talks and interviews in German",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publications, talks and interviews in English",

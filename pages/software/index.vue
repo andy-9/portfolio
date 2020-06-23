@@ -618,7 +618,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/ticker/"
                     target="_blank"
-                    title="Visit my ticker project"
+                    :title="$t('zu meinem Ticker-Projekt')"
                     ><h2 id="ticker">Ticker</h2></a
                 >
 
@@ -628,8 +628,8 @@
                         target="_blank"
                         ><img
                             src="/images/ticker.png"
-                            alt="screenshot of ticker running"
-                            title="Visit my ticker project"
+                            :alt="$t('Screenshot des Tickers')"
+                            :title="$t('zu meinem Ticker-Projekt')"
                     /></a>
                 </div>
 
@@ -641,8 +641,12 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> Get the
-                            latest news displayed, click if you are interested
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    'Die neuesten Nachrichten werden angezeigt und können bei Interesse angeklickt werden'
+                                )
+                            }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -650,20 +654,11 @@
                         <details>
                             <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                Tickers are a bit outdated, but a good
-                                programming exercise. Mine runs from right to
-                                left, and if you mouseover on one of the titles
-                                the ticker stops running, the hyperlink becomes
-                                blue and underlined and if clicked the desired
-                                information opens in a new tab. The programming
-                                is in vanilla JavaScript with event listeners,
-                                mouseovers, mouseouts, offsetWidth and
-                                AnimationFrames among other things. If you wanna
-                                deep dive into my ticker you get to read all my
-                                texts that got translated into English... In a
-                                later exercise we added a backend and fetched
-                                live data from existing twitter-accounts through
-                                the twitter-API using tokens.
+                                {{
+                                    $t(
+                                        'Ticker sind etwas veraltet, aber eine gute Programmierübung. Meiner läuft von rechts nach links, und wird mit der Maus über einen der Titel gefahren, hört der Ticker auf zu laufen, der Hyperlink wird blau und unterstrichen, und wenn er angeklickt wird, öffnet sich die gewünschte Information in einem neuen Tab. Die Programmierung ist in Vanilla-JavaScript u.a. mit Event Listener, Mouseovers, Mouseoutss, OffsetWidth und AnimationFrames. Wer tiefer in meinen Ticker eintauchen will, findet alle meine Texte, die ins Englische übersetzt wurden... In einer späteren Übung haben wir ein Backend hinzugefügt und Live-Tweets von bestehenden Twitter-Accounts über die twitter-API mittels Token abgerufen.'
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>
