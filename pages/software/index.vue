@@ -918,17 +918,23 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/incremental_search/"
                         target="_blank"
-                        title="Visit my incremental search project"
-                        ><h2 id="incremental">Incremental Search</h2></a
+                        :title="$t('zu meiner inkrementellen Suche')"
+                        ><h2 id="incremental">
+                            {{ $t('Inkrementelle Suche') }}
+                        </h2></a
                     >
 
                     <a
                         href="http://kaleidoscop.herokuapp.com/incremental_search/"
                         target="_blank"
-                        title="Visit my incremental search project"
+                        :title="$t('zu meiner inkrementellen Suche')"
                         ><img
                             src="/images/incremental_search.png"
-                            alt="screenshot of incremental search displaying search results for 'ca'"
+                            :alt="
+                                $t(
+                                    'Screenshot inkrementelle Suche für Suchergebnis \'ca\''
+                                )
+                            "
                     /></a>
                 </div>
 
@@ -940,8 +946,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> Search
-                            countries, use either mouse or keys
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{ $t('Ländersuche, geht mit Maus oder Tasten') }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -949,17 +955,11 @@
                         <details>
                             <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                I have used incremental searches many times in
-                                my life and did not even know this term until I
-                                had to build one... I never thought about all
-                                the different steps that need to be programmed.
-                                I learned how to work with mouseovers,
-                                mousedowns and key-commands and how to highlight
-                                my search result, all programmed with jQuery. I
-                                also used focus and blur when a user's attention
-                                blurs (pun intended 😉) and after all it was my
-                                first ajax 'GET'-request to search from an API
-                                serving over 200 countries.
+                                {{
+                                    $t(
+                                        "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzer\*in schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können."
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>

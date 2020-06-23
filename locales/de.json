@@ -183,6 +183,16 @@
 
     "Eine Übung zur Erstellung einer Homepage für Spiced mit HTML, CSS und JavaScript/jQuery ohne Flexbox oder Grid - recht anspruchsvoll! Ich habe eine Pop-up-Anzeige und ein von rechts hereingleitendes Menü hinzugefügt. Es ist auch für einen kleineren Bildschirm mit @media screen ausgelegt. Ich habe Animationen und Click-Handler verwendet und mit Un/Sichtbarkeit gespielt.": "Eine Übung zur Erstellung einer Homepage für Spiced mit HTML, CSS und JavaScript/jQuery ohne Flexbox oder Grid - recht anspruchsvoll! Ich habe eine Pop-up-Anzeige und ein von rechts hereingleitendes Menü hinzugefügt. Es ist auch für einen kleineren Bildschirm mit @media screen ausgelegt. Ich habe Animationen und Click-Handler verwendet und mit Un/Sichtbarkeit gespielt.",
 
+    "zu meiner inkrementellen Suche": "zu meiner inkrementellen Suche",
+
+    "Inkrementelle Suche": "Inkrementelle Suche",
+
+    "Screenshot inkrementelle Suche für Suchergebnis 'ca'": "Screenshot inkrementelle Suche für Suchergebnis 'ca'",
+
+    "Ländersuche, geht mit Maus oder Tasten": "Ländersuche, geht mit Maus oder Tasten",
+
+    "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzer*in schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können.": "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzer*in schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publikationen, Vorträge und Interviews auf Deutsch",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publikationen, Vorträge und Interviews auf Englisch",

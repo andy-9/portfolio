@@ -183,6 +183,16 @@
 
     "Eine Übung zur Erstellung einer Homepage für Spiced mit HTML, CSS und JavaScript/jQuery ohne Flexbox oder Grid - recht anspruchsvoll! Ich habe eine Pop-up-Anzeige und ein von rechts hereingleitendes Menü hinzugefügt. Es ist auch für einen kleineren Bildschirm mit @media screen ausgelegt. Ich habe Animationen und Click-Handler verwendet und mit Un/Sichtbarkeit gespielt.": "An exercise in building a homepage for Spiced with HTML, CSS and JavaScript/jQuery without flexbox or grid - quite challenging! I added a pop-up modal and a menu that slides in from the right. It is also designed for a smaller screen with @media screen. I used animations, click handlers and (dis)played (with) in/visibility.",
 
+    "zu meiner inkrementellen Suche": "Visit my incremental search project",
+
+    "Inkrementelle Suche": "Incremental Search",
+
+    "Screenshot inkrementelle Suche für Suchergebnis 'ca'": "screenshot of incremental search displaying search results for 'ca'",
+
+    "Ländersuche, geht mit Maus oder Tasten": "Search countries, use either mouse or keys",
+
+    "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzer*in schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können.": "I have used incremental searches many times in my life and did not even know this term until I had to build one... I never thought about all the different steps that need to be programmed. I learned how to work with mouseovers, mousedowns and key-commands and how to highlight a search result, all programmed with jQuery. I also used focus and blur when a user's attention blurs (pun intended 😉) and after all it was my first ajax 'GET'-request to search from an API serving over 200 countries.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publications, talks and interviews in German",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publications, talks and interviews in English",
