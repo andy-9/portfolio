@@ -107,6 +107,26 @@
 
     "Alle Projekte werden mit Überschrift und Bild angezeigt und für jedes Projekt gibt es eine eigene Seite mit ausführlicher Beschreibung": "Alle Projekte werden mit Überschrift und Bild angezeigt und für jedes Projekt gibt es eine eigene Seite mit ausführlicher Beschreibung",
 
+    "zu meinem Skalierte Bilder-Projekt": "zu meinem Skalierte Bilder-Projekt",
+
+    "Skalierte Bilder": "Skalierte Bilder",
+
+    "Screenshot Skalierte Bilder": "Screenshot Skalierte Bilder",
+
+    "Schieberegler für Skalierung der Bildgröße, Anzeige des einen oder des anderen Bildes": "Schieberegler für Skalierung der Bildgröße, Anzeige des einen oder des anderen Bildes",
+
+    "2 übereinander gelegte Bilder, die normalerweise für Vorher-Nachher-Situationen verwendet werden. Ich benutze es zum Gedenken an meine Urgroßmutter Emilie Rau. Wird der weiße Schieberegler nach links geschoben, ist mehr vom Bild auf der rechten Seite zu sehen und umgekehrt. Auf der Programmiere-Ebene habe ich Mousedown, Mousemove und Mouseup-Ereignisse verwendet und offset().left wurde zu einem guten Freund. Schwierig fand ich, das Gleiten des Schiebereglers innerhalb der Grenzen des Bildes zu beenden.": "2 übereinander gelegte Bilder, die normalerweise für Vorher-Nachher-Situationen verwendet werden. Ich benutze es zum Gedenken an meine Urgroßmutter Emilie Rau. Wird der weiße Schieberegler nach links geschoben, ist mehr vom Bild auf der rechten Seite zu sehen und umgekehrt. Auf der Programmiere-Ebene habe ich Mousedown, Mousemove und Mouseup-Ereignisse verwendet und offset().left wurde zu einem guten Freund. Schwierig fand ich, das Gleiten des Schiebereglers innerhalb der Grenzen des Bildes zu beenden.",
+
+    "zu meiner Spotify-Suche": "zu meiner Spotify-Suche",
+
+    "Spotify-Suche": "Spotify-Suche",
+
+    "Screenshot Spotify-Suche, Suchergebnisse für 'monae'": "Screenshot Spotify-Suche, Suchergebnisse für 'monae'",
+
+    "Spotify-Datenbank über API durchsuchen, Album/Künstler*in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden": "Spotify-Datenbank über API durchsuchen, Album/Künstler*in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden",
+
+    "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...": "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publikationen, Vorträge und Interviews auf Deutsch",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publikationen, Vorträge und Interviews auf Englisch",

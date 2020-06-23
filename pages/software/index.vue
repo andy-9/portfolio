@@ -439,18 +439,18 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                     target="_blank"
-                    title="Visit my resizable panes project"
-                    ><h2 id="panes">Resizable Panes</h2></a
+                    :title="$t('zu meinem Skalierte Bilder-Projekt')"
+                    ><h2 id="panes">{{ $t('Skalierte Bilder') }}</h2></a
                 >
 
                 <div class="image-container">
                     <a
                         href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                         target="_blank"
-                        title="Visit my resizable panes project"
+                        :title="$t('zu meinem Skalierte Bilder-Projekt')"
                         ><img
                             src="/images/panes.png"
-                            alt="screenshot of resizable panes"
+                            :alt="$t('Screenshot Skalierte Bilder')"
                     /></a>
                 </div>
 
@@ -462,8 +462,12 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> Resize
-                            pane with slider, display one image or the other
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    'Schieberegler für Skalierung der Bildgröße, Anzeige des einen oder des anderen Bildes'
+                                )
+                            }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -471,16 +475,11 @@
                         <details>
                             <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                2 images blending into each other, usually used
-                                for before-after-images. I used it to
-                                commemorate my great-grandmother Emilie Rau. If
-                                you click on the white slider in the middle and
-                                slide it to the left you will see more of the
-                                image on the right-hand side and vice versa.
-                                Programming-wise I used mousedown, mousemove and
-                                mouseup events and offset().left became a good
-                                friend. It was difficult to end the sliding
-                                within the boundaries of the pane.
+                                {{
+                                    $t(
+                                        '2 übereinander gelegte Bilder, die normalerweise für Vorher-Nachher-Situationen verwendet werden. Ich benutze es zum Gedenken an meine Urgroßmutter Emilie Rau. Wird der weiße Schieberegler nach links geschoben, ist mehr vom Bild auf der rechten Seite zu sehen und umgekehrt. Auf der Programmiere-Ebene habe ich Mousedown, Mousemove und Mouseup-Ereignisse verwendet und offset().left wurde zu einem guten Freund. Schwierig fand ich, das Gleiten des Schiebereglers innerhalb der Grenzen des Bildes zu beenden.'
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>
@@ -497,8 +496,8 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/spotify_search/"
                     target="_blank"
-                    title="Visit my Spotify search"
-                    ><h2 id="spotify">Spotify Search</h2></a
+                    :title="$t('zu meiner Spotify-Suche')"
+                    ><h2 id="spotify">{{ $t('Spotify-Suche') }}</h2></a
                 >
 
                 <div class="image-container">
@@ -507,8 +506,12 @@
                         target="_blank"
                         ><img
                             src="/images/spotify.png"
-                            alt="screenshot of spotify search, displaying search results for 'monae'"
-                            title="Visit my Spotify search"
+                            :alt="
+                                $t(
+                                    'Screenshot Spotify-Suche, Suchergebnisse für \'monae\''
+                                )
+                            "
+                            :title="$t('zu meiner Spotify-Suche')"
                     /></a>
                 </div>
 
@@ -520,10 +523,12 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> Search
-                            Spotify database through API, display album/artist
-                            with hyperlinked cover and name, load more through
-                            button click or infinite scroll
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    'Spotify-Datenbank über API durchsuchen, Album/Künstler\*in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden'
+                                )
+                            }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -531,23 +536,11 @@
                         <details>
                             <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                Still not having a Spotify account myself,
-                                nonetheless I programmed a user interface to
-                                search via an API the spotify database. When you
-                                search for an artist or album the first 20
-                                search items are displayed with an image of the
-                                album and the name of the artist. If you've
-                                reached the bottom, you can click 'More' to load
-                                the next 20 items. I also added infinite scroll.
-                                I used jQuery, clickhandlers, several ajax
-                                'GET'-requests, CSS flexbox and all kinds of
-                                animations with pseudo-selectors - fun! I found
-                                it quite difficult to figure out the order when
-                                to call which function and that they don't
-                                interfere with each other. In the end I managed
-                                and if you click on the link below you have an
-                                unlimited supply of search results - hopefully
-                                YOU have a spotify account...
+                                {{
+                                    $t(
+                                        "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler\*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler\*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto..."
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>
