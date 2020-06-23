@@ -145,6 +145,16 @@
 
     "Ticker sind etwas veraltet, aber eine gute Programmierübung. Meiner läuft von rechts nach links, und wird mit der Maus über einen der Titel gefahren, hört der Ticker auf zu laufen, der Hyperlink wird blau und unterstrichen, und wenn er angeklickt wird, öffnet sich die gewünschte Information in einem neuen Tab. Die Programmierung ist in Vanilla-JavaScript u.a. mit Event Listener, Mouseovers, Mouseoutss, OffsetWidth und AnimationFrames. Wer tiefer in meinen Ticker eintauchen will, findet alle meine Texte, die ins Englische übersetzt wurden... In einer späteren Übung haben wir ein Backend hinzugefügt und Live-Tweets von bestehenden Twitter-Accounts über die twitter-API mittels Token abgerufen.": "Ticker sind etwas veraltet, aber eine gute Programmierübung. Meiner läuft von rechts nach links, und wird mit der Maus über einen der Titel gefahren, hört der Ticker auf zu laufen, der Hyperlink wird blau und unterstrichen, und wenn er angeklickt wird, öffnet sich die gewünschte Information in einem neuen Tab. Die Programmierung ist in Vanilla-JavaScript u.a. mit Event Listener, Mouseovers, Mouseoutss, OffsetWidth und AnimationFrames. Wer tiefer in meinen Ticker eintauchen will, findet alle meine Texte, die ins Englische übersetzt wurden... In einer späteren Übung haben wir ein Backend hinzugefügt und Live-Tweets von bestehenden Twitter-Accounts über die twitter-API mittels Token abgerufen.",
 
+    "zu meinem Lokaler Speicher-Projekte": "zu meinem Lokaler Speicher-Projekte",
+
+    "Lokaler Speicher": "Lokaler Speicher",
+
+    "Screenshot Lokaler Speicher-Projekt": "Screenshot Lokaler Speicher-Projekt",
+
+    "Nachricht schreiben und im lokalen Speicher speichern, Nachricht anzeigen und/oder löschen": "Nachricht schreiben und im lokalen Speicher speichern, Nachricht anzeigen und/oder löschen",
+
+    "Die Arbeit mit dem lokalen Speicher hat Spaß gemacht. Wenn man etwas in das Textfeld schreibt und auf die Schaltfläche 'Keep it a secret!' klickt, verschwindet der Text und die Schaltfläche kann nicht mehr angeklickt werden (um das, was im lokalen Speicher gespeichert wurde, zu behalten). Die Schaltfläche links daneben ('Tell me the secret!') zeigt an, was gespeichert wurde, auch nachdem der Browser geschlossen wurde. Die letzte Schaltfläche ('I don't trust you anymore - forget my secret!') löscht den lokalen Speicher und die Konsole. Ich habe mit jQuery unter Verwendung von Click-Handlern und Try-Catch-Fehlerbehandlung gearbeitet.": "Die Arbeit mit dem lokalen Speicher hat Spaß gemacht. Wenn man etwas in das Textfeld schreibt und auf die Schaltfläche 'Keep it a secret!' klickt, verschwindet der Text und die Schaltfläche kann nicht mehr angeklickt werden (um das, was im lokalen Speicher gespeichert wurde, zu behalten). Die Schaltfläche links daneben ('Tell me the secret!') zeigt an, was gespeichert wurde, auch nachdem der Browser geschlossen wurde. Die letzte Schaltfläche ('I don't trust you anymore - forget my secret!') löscht den lokalen Speicher und die Konsole. Ich habe mit jQuery unter Verwendung von Click-Handlern und Try-Catch-Fehlerbehandlung gearbeitet.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publikationen, Vorträge und Interviews auf Deutsch",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publikationen, Vorträge und Interviews auf Englisch",

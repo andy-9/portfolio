@@ -677,8 +677,8 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/local_storage/"
                     target="_blank"
-                    title="Visit my local storage project"
-                    ><h2 id="localstorage">Local Storage</h2></a
+                    :title="$t('zu meinem Lokaler Speicher-Projekte')"
+                    ><h2 id="localstorage">{{ $t('Lokaler Speicher') }}</h2></a
                 >
 
                 <div class="image-container">
@@ -687,8 +687,8 @@
                         target="_blank"
                         ><img
                             src="/images/localstorage.png"
-                            alt="screenshot of local storage project"
-                            title="Visit my local storage project"
+                            :alt="$t('Screenshot Lokaler Speicher-Projekt')"
+                            :title="$t('zu meinem Lokaler Speicher-Projekte')"
                     /></a>
                 </div>
 
@@ -700,9 +700,12 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> Write a
-                            message and save it in local storage, display and/or
-                            delete message
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    'Nachricht schreiben und im lokalen Speicher speichern, Nachricht anzeigen und/oder löschen'
+                                )
+                            }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -710,17 +713,11 @@
                         <details>
                             <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                Working with local storage was fun. If you write
-                                something in the text field and click the button
-                                'Keep it a secret!' the text disappears and the
-                                button cannot be clicked again (to keep what was
-                                saved to local storage). The button left to this
-                                ('Tell me the secret!') reveals what was saved,
-                                even after the browser was closed. The last
-                                button ('I don't trust you anymore - forget my
-                                secret!') clears the local storage and the
-                                console. I worked with jQuery using click
-                                handlers and try-catch error-handling.
+                                {{
+                                    $t(
+                                        "Die Arbeit mit dem lokalen Speicher hat Spaß gemacht. Wenn man etwas in das Textfeld schreibt und auf die Schaltfläche 'Keep it a secret!' klickt, verschwindet der Text und die Schaltfläche kann nicht mehr angeklickt werden (um das, was im lokalen Speicher gespeichert wurde, zu behalten). Die Schaltfläche links daneben ('Tell me the secret!') zeigt an, was gespeichert wurde, auch nachdem der Browser geschlossen wurde. Die letzte Schaltfläche ('I don't trust you anymore - forget my secret!') löscht den lokalen Speicher und die Konsole. Ich habe mit jQuery unter Verwendung von Click-Handlern und Try-Catch-Fehlerbehandlung gearbeitet."
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>
