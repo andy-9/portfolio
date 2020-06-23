@@ -735,8 +735,8 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/JSON_validator/"
                     target="_blank"
-                    title="Visit my JSON-validator"
-                    ><h2 id="validator">JSON-validator</h2></a
+                    :title="$t('zu meinem JSON-Validator')"
+                    ><h2 id="validator">{{ $t('JSON-Validator') }}</h2></a
                 >
 
                 <div class="image-container">
@@ -745,8 +745,12 @@
                         target="_blank"
                         ><img
                             src="/images/JSON.png"
-                            alt="screenshot of JSON-validator displaying vald JSON in green"
-                            title="Visit my JSON-validator"
+                            :alt="
+                                $t(
+                                    'Screenshot JSON-Validator, der in grün valides JSON anzeigt'
+                                )
+                            "
+                            :title="$t('zu meinem JSON-Validator')"
                     /></a>
                 </div>
 
@@ -758,8 +762,8 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> Test if
-                            data is JSON or not
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{ $t('Test, ob Daten JSON sind oder nicht') }}
                         </p>
                     </div>
 
@@ -768,17 +772,11 @@
                         <details>
                             <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                This simple validation test tells you if you
-                                have JSON or not. Simply copy-paste in the
-                                textfield and hit the 'Validate JSON' button. If
-                                you have JSON, the border of the textfield turns
-                                into green and a 'Valid JSON!' text blinks at
-                                the bottom of the textfield. If you don't have
-                                valid JSON, the border turns red and it will let
-                                you know that you do not have valid JSON. 'Clear
-                                textarea' to test some more... Done with jQuery
-                                with the parse()-method and flexbox and
-                                keyframes in CSS.
+                                {{
+                                    $t(
+                                        "Dieser einfache Validierungstest prüft, ob JSON vorliegt oder nicht. Einfach per Copy-Paste in das Textfeld kopieren und auf die Schaltfläche 'Validate JSON' anklicken. Wenn JSON vorliegt, färbt sich der Rand des Textfelds grün und unten im Textfeld blinkt der Text 'Valid JSON!'. Handelt es sich nicht um JSON, färbt sich der Rand des Textfelds rot und es erfolgt ein entsprechender Hinweis. Für den nächste Überprüfung einfach 'Clear textarea' klicken... Programmiert mit jQuery mit der parse()-Methode und Flexbox und Keyframes in CSS."
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>
@@ -797,8 +795,8 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/connect4/"
                     target="_blank"
-                    title="Visit my Connect 4 project"
-                    ><h2 id="connectfour">Connect 4</h2></a
+                    :title="$t('zu meinem 4 Gewinnt')"
+                    ><h2 id="connectfour">{{ $t('4 Gewinnt') }}</h2></a
                 >
 
                 <div class="image-container">
@@ -807,8 +805,12 @@
                         target="_blank"
                         ><img
                             src="/images/connect4.png"
-                            alt="screenshot of connect four, both colors in the game"
-                            title="Visit my Connect 4 project"
+                            :alt="
+                                $t(
+                                    'Screenshot 4 Gewinnt, beide Farben im Spiel'
+                                )
+                            "
+                            :title="$t('zu meinem 4 Gewinnt')"
                     /></a>
                 </div>
 
@@ -820,11 +822,12 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> 2
-                            players can play against each other, horizontal,
-                            vertical or diagonal victories, animation when one
-                            player wins, winning color gets displayed, play
-                            again
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    '2 Spieler\*innen können gegeneinander spielen, horizontale, vertikale oder diagonale Siege, Animation, wenn ein\*e Spieler\*in gewinnt, die Farbe des Gewinners wird angezeigt, erneut spielen'
+                                )
+                            }}
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
@@ -832,19 +835,11 @@
                         <details>
                             <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                I loved playing Connect 4 as a child - and I
-                                still do today! I never thought I would build
-                                one as a computer game. The hardest part was
-                                figuring out and programming the diagonal
-                                victories. You can either pick dark-red or pink
-                                to play. Every move is accompanied by a sound.
-                                When one color wins, the whole board expands and
-                                the winning color fills the screen. This
-                                animation I did with jQuery. Additionally, there
-                                is a winning-message blinking - I programmed
-                                this in CSS with animations and keyframes. The
-                                'Play again' button restarts a new game - you
-                                should give it a shot!
+                                {{
+                                    $t(
+                                        "Schon als Kind habe ich gerne 4 gewinnt gespielt - und tue es bis heute! Ich hätte nie gedacht, dass ich das mal als Computerspiel programmieren würde. Das Schwierigste war das Herausfinden und Programmieren der Diagonalsiege. Man kann entweder dunkelrot oder pink zum Spielen auswählen. Jeder Spielzug wird von einem Klick-Geräusch begleitet. Wenn eine Farbe gewinnt, dehnt sich das ganze Brett aus und die Gewinner-Farbe füllt den ganzen Bildschirm. Diese Animation habe ich mit jQuery erstellt. Zusätzlich gibt es eine Gewinnerinnen-Meldung, die blinkt - diese habe ich mit CSS-Animationen und Keyframes erstellt. Der 'Play again'-Knopf startet ein neues Spiel - Viel Spaß dabei!"
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>

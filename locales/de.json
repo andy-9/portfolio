@@ -155,6 +155,26 @@
 
     "Die Arbeit mit dem lokalen Speicher hat Spaß gemacht. Wenn man etwas in das Textfeld schreibt und auf die Schaltfläche 'Keep it a secret!' klickt, verschwindet der Text und die Schaltfläche kann nicht mehr angeklickt werden (um das, was im lokalen Speicher gespeichert wurde, zu behalten). Die Schaltfläche links daneben ('Tell me the secret!') zeigt an, was gespeichert wurde, auch nachdem der Browser geschlossen wurde. Die letzte Schaltfläche ('I don't trust you anymore - forget my secret!') löscht den lokalen Speicher und die Konsole. Ich habe mit jQuery unter Verwendung von Click-Handlern und Try-Catch-Fehlerbehandlung gearbeitet.": "Die Arbeit mit dem lokalen Speicher hat Spaß gemacht. Wenn man etwas in das Textfeld schreibt und auf die Schaltfläche 'Keep it a secret!' klickt, verschwindet der Text und die Schaltfläche kann nicht mehr angeklickt werden (um das, was im lokalen Speicher gespeichert wurde, zu behalten). Die Schaltfläche links daneben ('Tell me the secret!') zeigt an, was gespeichert wurde, auch nachdem der Browser geschlossen wurde. Die letzte Schaltfläche ('I don't trust you anymore - forget my secret!') löscht den lokalen Speicher und die Konsole. Ich habe mit jQuery unter Verwendung von Click-Handlern und Try-Catch-Fehlerbehandlung gearbeitet.",
 
+    "zu meinem JSON-Validator": "zu meinem JSON-Validator",
+
+    "JSON-Validator": "JSON-Validator",
+
+    "Screenshot JSON-Validator, der in grün valides JSON anzeigt": "Screenshot JSON-Validator, der in grün valides JSON anzeigt",
+
+    "Test, ob Daten JSON sind oder nicht": "Test, ob Daten JSON sind oder nicht",
+
+    "Dieser einfache Validierungstest prüft, ob JSON vorliegt oder nicht. Einfach per Copy-Paste in das Textfeld kopieren und auf die Schaltfläche 'Validate JSON' anklicken. Wenn JSON vorliegt, färbt sich der Rand des Textfelds grün und unten im Textfeld blinkt der Text 'Valid JSON!'. Handelt es sich nicht um JSON, färbt sich der Rand des Textfelds rot und es erfolgt ein entsprechender Hinweis. Für den nächste Überprüfung einfach 'Clear textarea' klicken... Programmiert mit jQuery mit der parse()-Methode und Flexbox und Keyframes in CSS.": "Dieser einfache Validierungstest prüft, ob JSON vorliegt oder nicht. Einfach per Copy-Paste in das Textfeld kopieren und auf die Schaltfläche 'Validate JSON' anklicken. Wenn JSON vorliegt, färbt sich der Rand des Textfelds grün und unten im Textfeld blinkt der Text 'Valid JSON!'. Handelt es sich nicht um JSON, färbt sich der Rand des Textfelds rot und es erfolgt ein entsprechender Hinweis. Für den nächste Überprüfung einfach 'Clear textarea' klicken... Programmiert mit jQuery mit der parse()-Methode und Flexbox und Keyframes in CSS.",
+
+    "zu meinem 4 Gewinnt": "zu meinem 4 Gewinnt",
+
+    "4 Gewinnt": "4 Gewinnt",
+
+    "Screenshot 4 Gewinnt, beide Farben im Spiel": "Screenshot 4 Gewinnt, beide Farben im Spiel",
+
+    "2 Spieler*innen können gegeneinander spielen, horizontale, vertikale oder diagonale Siege, Animation, wenn ein*e Spieler*in gewinnt, die Farbe des Gewinners wird angezeigt, erneut spielen": "2 Spieler*innen können gegeneinander spielen, horizontale, vertikale oder diagonale Siege, Animation, wenn ein*e Spieler*in gewinnt, die Farbe des Gewinners wird angezeigt, erneut spielen",
+
+    "Schon als Kind habe ich gerne 4 gewinnt gespielt - und tue es bis heute! Ich hätte nie gedacht, dass ich das mal als Computerspiel programmieren würde. Das Schwierigste war das Herausfinden und Programmieren der Diagonalsiege. Man kann entweder dunkelrot oder pink zum Spielen auswählen. Jeder Spielzug wird von einem Klick-Geräusch begleitet. Wenn eine Farbe gewinnt, dehnt sich das ganze Brett aus und die Gewinner-Farbe füllt den ganzen Bildschirm. Diese Animation habe ich mit jQuery erstellt. Zusätzlich gibt es eine Gewinnerinnen-Meldung, die blinkt - diese habe ich mit CSS-Animationen und Keyframes erstellt. Der 'Play again'-Knopf startet ein neues Spiel - Viel Spaß dabei!": "Schon als Kind habe ich gerne 4 gewinnt gespielt - und tue es bis heute! Ich hätte nie gedacht, dass ich das mal als Computerspiel programmieren würde. Das Schwierigste war das Herausfinden und Programmieren der Diagonalsiege. Man kann entweder dunkelrot oder pink zum Spielen auswählen. Jeder Spielzug wird von einem Klick-Geräusch begleitet. Wenn eine Farbe gewinnt, dehnt sich das ganze Brett aus und die Gewinner-Farbe füllt den ganzen Bildschirm. Diese Animation habe ich mit jQuery erstellt. Zusätzlich gibt es eine Gewinnerinnen-Meldung, die blinkt - diese habe ich mit CSS-Animationen und Keyframes erstellt. Der 'Play again'-Knopf startet ein neues Spiel - Viel Spaß dabei!",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publikationen, Vorträge und Interviews auf Deutsch",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publikationen, Vorträge und Interviews auf Englisch",
