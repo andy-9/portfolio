@@ -857,7 +857,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
                     target="_blank"
-                    title="Visit my Spiced homepage project"
+                    :title="$t('zu meinem Spiced Homepage-Projekt')"
                     ><h2 id="spicedhomepage">Spiced Homepage</h2></a
                 >
 
@@ -867,8 +867,8 @@
                         target="_blank"
                         ><img
                             src="/images/spiced.png"
-                            alt="screenshot of spiced homepage"
-                            title="Visit my Spiced homepage project"
+                            :alt="$t('Screenshot Spiced Homepage')"
+                            :title="$t('zu meinem Spiced Homepage-Projekt')"
                     /></a>
                 </div>
 
@@ -880,23 +880,23 @@
                             class="social-media-logo"
                         />
                         <p>
-                            <strong>{{ $t('Funktionalität') }}:</strong> Pop-up
-                            modal, hamburger menu with navigation sliding in
-                            from the right, also suited for smaller screens
+                            <strong>{{ $t('Funktionalität') }}:</strong>
+                            {{
+                                $t(
+                                    'Pop-up Anzeige, Hamburger-Menü, von rechts hereingleitende Navigation, auch für kleinere Bildschirme geeignet'
+                                )
+                            }}
                         </p>
                     </div>
                     <div>
                         <details>
                             <summary>{{ $t('Mehr Informationen') }}</summary>
                             <p>
-                                An exercise in building a homepage for Spiced
-                                with HTML, CSS and JavaScript/jQuery without
-                                flexbox or grid - quite challenging! I worked on
-                                it several times, adding a pop-up modal and a
-                                menu that slides in from the right. It is also
-                                designed for a smaller screen with @media
-                                screen. I used animations, click handlers and
-                                (dis)played (with) in/visibility.
+                                {{
+                                    $t(
+                                        'Eine Übung zur Erstellung einer Homepage für Spiced mit HTML, CSS und JavaScript/jQuery ohne Flexbox oder Grid - recht anspruchsvoll! Ich habe eine Pop-up-Anzeige und ein von rechts hereingleitendes Menü hinzugefügt. Es ist auch für einen kleineren Bildschirm mit @media screen ausgelegt. Ich habe Animationen und Click-Handler verwendet und mit Un/Sichtbarkeit gespielt.'
+                                    )
+                                }}
                             </p>
                         </details>
                     </div>

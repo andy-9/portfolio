@@ -175,6 +175,14 @@
 
     "Schon als Kind habe ich gerne 4 gewinnt gespielt - und tue es bis heute! Ich hätte nie gedacht, dass ich das mal als Computerspiel programmieren würde. Das Schwierigste war das Herausfinden und Programmieren der Diagonalsiege. Man kann entweder dunkelrot oder pink zum Spielen auswählen. Jeder Spielzug wird von einem Klick-Geräusch begleitet. Wenn eine Farbe gewinnt, dehnt sich das ganze Brett aus und die Gewinner-Farbe füllt den ganzen Bildschirm. Diese Animation habe ich mit jQuery erstellt. Zusätzlich gibt es eine Gewinnerinnen-Meldung, die blinkt - diese habe ich mit CSS-Animationen und Keyframes erstellt. Der 'Play again'-Knopf startet ein neues Spiel - Viel Spaß dabei!": "I loved playing Connect 4 as a child - and I still do today! I never thought I would build one as a computer game. The hardest part was figuring out and programming the diagonal victories. You can either pick dark-red or pink to play. Every move is accompanied by a sound. When one color wins, the whole board expands and the winning color fills the screen. This animation I did with jQuery. Additionally, there is a winning-message blinking - I programmed this in CSS with animations and keyframes. The 'Play again' button restarts a new game - you should give it a shot!",
 
+    "zu meinem Spiced Homepage-Projekt": "Visit my Spiced homepage project",
+
+    "Screenshot Spiced Homepage": "screenshot of spiced homepage",
+
+    "Pop-up Anzeige, Hamburger-Menü, von rechts hereingleitende Navigation, auch für kleinere Bildschirme geeignet": "Pop-up modal, hamburger menu with navigation sliding in from the right, also suited for smaller screens",
+
+    "Eine Übung zur Erstellung einer Homepage für Spiced mit HTML, CSS und JavaScript/jQuery ohne Flexbox oder Grid - recht anspruchsvoll! Ich habe eine Pop-up-Anzeige und ein von rechts hereingleitendes Menü hinzugefügt. Es ist auch für einen kleineren Bildschirm mit @media screen ausgelegt. Ich habe Animationen und Click-Handler verwendet und mit Un/Sichtbarkeit gespielt.": "An exercise in building a homepage for Spiced with HTML, CSS and JavaScript/jQuery without flexbox or grid - quite challenging! I added a pop-up modal and a menu that slides in from the right. It is also designed for a smaller screen with @media screen. I used animations, click handlers and (dis)played (with) in/visibility.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publications, talks and interviews in German",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publications, talks and interviews in English",

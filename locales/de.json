@@ -175,6 +175,14 @@
 
     "Schon als Kind habe ich gerne 4 gewinnt gespielt - und tue es bis heute! Ich hätte nie gedacht, dass ich das mal als Computerspiel programmieren würde. Das Schwierigste war das Herausfinden und Programmieren der Diagonalsiege. Man kann entweder dunkelrot oder pink zum Spielen auswählen. Jeder Spielzug wird von einem Klick-Geräusch begleitet. Wenn eine Farbe gewinnt, dehnt sich das ganze Brett aus und die Gewinner-Farbe füllt den ganzen Bildschirm. Diese Animation habe ich mit jQuery erstellt. Zusätzlich gibt es eine Gewinnerinnen-Meldung, die blinkt - diese habe ich mit CSS-Animationen und Keyframes erstellt. Der 'Play again'-Knopf startet ein neues Spiel - Viel Spaß dabei!": "Schon als Kind habe ich gerne 4 gewinnt gespielt - und tue es bis heute! Ich hätte nie gedacht, dass ich das mal als Computerspiel programmieren würde. Das Schwierigste war das Herausfinden und Programmieren der Diagonalsiege. Man kann entweder dunkelrot oder pink zum Spielen auswählen. Jeder Spielzug wird von einem Klick-Geräusch begleitet. Wenn eine Farbe gewinnt, dehnt sich das ganze Brett aus und die Gewinner-Farbe füllt den ganzen Bildschirm. Diese Animation habe ich mit jQuery erstellt. Zusätzlich gibt es eine Gewinnerinnen-Meldung, die blinkt - diese habe ich mit CSS-Animationen und Keyframes erstellt. Der 'Play again'-Knopf startet ein neues Spiel - Viel Spaß dabei!",
 
+    "zu meinem Spiced Homepage-Projekt": "zu meinem Spiced Homepage-Projekt",
+
+    "Screenshot Spiced Homepage": "Screenshot Spiced Homepage",
+
+    "Pop-up Anzeige, Hamburger-Menü, von rechts hereingleitende Navigation, auch für kleinere Bildschirme geeignet": "Pop-up Anzeige, Hamburger-Menü, von rechts hereingleitende Navigation, auch für kleinere Bildschirme geeignet",
+
+    "Eine Übung zur Erstellung einer Homepage für Spiced mit HTML, CSS und JavaScript/jQuery ohne Flexbox oder Grid - recht anspruchsvoll! Ich habe eine Pop-up-Anzeige und ein von rechts hereingleitendes Menü hinzugefügt. Es ist auch für einen kleineren Bildschirm mit @media screen ausgelegt. Ich habe Animationen und Click-Handler verwendet und mit Un/Sichtbarkeit gespielt.": "Eine Übung zur Erstellung einer Homepage für Spiced mit HTML, CSS und JavaScript/jQuery ohne Flexbox oder Grid - recht anspruchsvoll! Ich habe eine Pop-up-Anzeige und ein von rechts hereingleitendes Menü hinzugefügt. Es ist auch für einen kleineren Bildschirm mit @media screen ausgelegt. Ich habe Animationen und Click-Handler verwendet und mit Un/Sichtbarkeit gespielt.",
+
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publikationen, Vorträge und Interviews auf Deutsch",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publikationen, Vorträge und Interviews auf Englisch",
