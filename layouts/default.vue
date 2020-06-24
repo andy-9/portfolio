@@ -39,22 +39,21 @@ export default {
     mounted() {
         const hash = location.hash
         if (hash) {
-            console.log('default.vue, 1st if-statement running')
+            // console.log('default.vue, 1st if-statement running')
             const currentElem = document.querySelector(hash)
             if (currentElem) {
-                console.log('default.vue, 2nd if-statement running')
+                // console.log('default.vue, 2nd if-statement running')
                 scrollToPlaces(currentElem)
             }
         }
         // if not true do it, if true set to false, repeat
         function scrollToPlaces(elem) {
-            console.log('default.vue elem', elem)
-            console.log('default.vue elem.offsetTop', elem.offsetTop)
+            // console.log('default.vue elem', elem)
+            // console.log('default.vue elem.offsetTop', elem.offsetTop)
             window.scrollTo({
                 behavior: 'smooth',
                 left: 0,
                 top: elem.offsetTop
-                // top: null
             })
         }
         // function scrollToTop() {

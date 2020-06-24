@@ -31,29 +31,28 @@
             >{{ $t('Kontakt') }}</nuxt-link
         >
 
-        <div class="language-selector">
-            <nuxt-link
-                class="nav-link-left"
-                :to="localePath('index', 'en')"
-                title="Switch to English"
-            >
-                EN</nuxt-link
-            >
-
-            <span class="language-separator">|</span>
-
-            <nuxt-link
-                class=""
-                :to="localePath('index', 'de')"
-                title="Seite auf Deutsch anzeigen"
-            >
-                DE</nuxt-link
-            >
-        </div>
+        <nuxt-link
+            v-for="locale in availableLocales"
+            :key="locale.code"
+            class="nav-link"
+            :to="switchLocalePath(locale.code)"
+            :title="$t('Switch to English')"
+            >{{ locale.abbr }}</nuxt-link
+        >
     </nav>
 </template>
 
-<script></script>
+<script>
+export default {
+    computed: {
+        availableLocales() {
+            return this.$i18n.locales.filter(
+                (i) => i.code !== this.$i18n.locale
+            )
+        }
+    }
+}
+</script>
 
 <style scoped>
 nav {
@@ -74,13 +73,5 @@ nav a {
 
 .nav-link {
     padding: 0 2em;
-}
-
-.nav-link-left {
-    padding-left: 2em;
-}
-
-.language-separator {
-    color: rgb(85, 84, 84);
 }
 </style>

@@ -229,8 +229,8 @@
             </div>
         </div>
 
-        <!-- <span>
-            <nuxt-link
+        <span>
+            <!-- <nuxt-link
                 :to="localePath('software')"
                 class="jump-to-top"
                 :title="$t('zum Seitenanfang')"
@@ -240,8 +240,17 @@
                     src="/icons/chevron-up.svg"
                     :alt="$t('Pfeil nach oben zum Anfang der Seite')"
                     class="up-arrow"
-            /></nuxt-link>
-        </span> -->
+            /></nuxt-link> -->
+            <!-- <nuxt-link
+                :to="{ localePath: 'software' }"
+                class="jump-to-top"
+                :title="$t('zum Seitenanfang')"
+                ><img
+                    src="/icons/chevron-up.svg"
+                    :alt="$t('Pfeil nach oben zum Anfang der Seite')"
+                    class="up-arrow"
+            /></nuxt-link> -->
+        </span>
 
         <div class="grid-container">
             <!-- //////////// Imageboard //////////// -->
@@ -994,7 +1003,7 @@ export default {
     //     },
     _methods: {
         scrollToTop() {
-            console.log('software-page, scrollToTop running')
+            // console.log('software-page, scrollToTop running')
             window.scrollTo({
                 behavior: 'smooth',
                 left: 0,

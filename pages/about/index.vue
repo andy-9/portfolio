@@ -793,7 +793,7 @@
 export default {
     _methods: {
         scrollToTop() {
-            console.log('about page, scrollToTop running')
+            // console.log('about page, scrollToTop running')
             window.scrollTo({
                 behavior: 'smooth',
                 left: 0,

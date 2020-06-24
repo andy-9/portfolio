@@ -960,18 +960,20 @@
                 >
                 @bermuda.funk (2019):
                 <a
-                    href="https://www.dropbox.com/s/tfme9mejteh17bo/GlottalStop%20-%20%20Antifeminismus.2019-10.mp3?dl=0"
-                    target="_blank"
-                    ><strong>Antifeminismus</strong></a
-                >.
-                <a
                     href="https://www.facebook.com/events/2461735190601267/"
                     target="_blank"
-                    >Sendung vom 06.10.2019</a
+                    ><strong>Antifeminismus</strong> - Sendung vom 06.10.2019</a
                 >. Interviews mit Eve Massacre (Manosphere), Veronika Kracher
                 (Incels), Tine (Kollegah/Felix Blume) und Andreas Hechler (Rolle
                 von Männern).
             </p>
+            <audio controls>
+                <source
+                    src="https://dl.dropboxusercontent.com/s/tfme9mejteh17bo/GlottalStop -  Antifeminismus.2019-10.mp3?dl=0"
+                    type="audio/mp3"
+                />
+                Your browser does not support the <code>audio</code> element.
+            </audio>
 
             <p>
                 Offen, Susanne (2018):

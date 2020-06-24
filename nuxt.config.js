@@ -79,12 +79,14 @@ export default {
                         code: 'en',
                         iso: 'en-US',
                         name: 'English',
+                        abbr: 'EN',
                         file: 'en.json'
                     },
                     {
                         code: 'de',
                         iso: 'de-DE',
                         name: 'Deutsch',
+                        abbr: 'DE',
                         file: 'de.json'
                     }
                 ],

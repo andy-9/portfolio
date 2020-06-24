@@ -122,7 +122,7 @@
 export default {
     head() {
         return {
-            title: 'Andreas Hechler Portfolio',
+            title: 'Andreas Hechler',
             meta: []
         }
     }
