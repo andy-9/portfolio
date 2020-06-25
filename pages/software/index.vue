@@ -114,11 +114,6 @@
                             </p>
                         </details>
                     </div>
-                    <!-- <button @click="toggleSocialNetwork">
-                    {{ button.text }}
-                </button>
-                <div v-if="infoSocialNetwork">
-                </div> -->
                 </div>
             </div>
 
@@ -220,18 +215,14 @@
                             </p>
                         </details>
                     </div>
-                    <!-- <button @click="togglePetition">
-                    {{ button.text }}
-                </button>
-                <div v-if="infoPetition">
-                </div> -->
                 </div>
             </div>
         </div>
 
         <span>
-            <!-- <nuxt-link
-                :to="localePath('software')"
+            <!-- :to="localePath('software')" -->
+            <nuxt-link
+                :to="{ localePath: 'software' }"
                 class="jump-to-top"
                 :title="$t('zum Seitenanfang')"
                 @click.native="scrollToTop"
@@ -240,16 +231,7 @@
                     src="/icons/chevron-up.svg"
                     :alt="$t('Pfeil nach oben zum Anfang der Seite')"
                     class="up-arrow"
-            /></nuxt-link> -->
-            <!-- <nuxt-link
-                :to="{ localePath: 'software' }"
-                class="jump-to-top"
-                :title="$t('zum Seitenanfang')"
-                ><img
-                    src="/icons/chevron-up.svg"
-                    :alt="$t('Pfeil nach oben zum Anfang der Seite')"
-                    class="up-arrow"
-            /></nuxt-link> -->
+            /></nuxt-link>
         </span>
 
         <div class="grid-container">
@@ -349,11 +331,6 @@
                         </details>
                     </div>
                 </div>
-                <!-- <button @click="toggleImageboard">
-                    {{ button.text }}
-                </button>
-                <div v-if="infoImageboard">
-                </div> -->
             </div>
 
             <!-- //////////// Kaleidoscope //////////// -->
@@ -492,11 +469,6 @@
                             </p>
                         </details>
                     </div>
-                    <!-- <button @click="togglePanes">
-                {{ button.text }}
-            </button>
-            <div v-if="infoPanes">
-            </div> -->
                 </div>
             </div>
 
@@ -553,11 +525,6 @@
                             </p>
                         </details>
                     </div>
-                    <!-- <button @click="toggleSpotify">
-                    {{ button.text }}
-                </button>
-                <div v-if="infoSpotify">
-                </div> -->
                 </div>
             </div>
         </div>
@@ -616,11 +583,6 @@
                     </details>
                 </div>
             </div>
-            <!-- <button @click="toggleCarousel">
-                {{ button.text }}
-            </button>
-            <div v-if="infoCarousel">
-            </div> -->
 
             <!-- //////////// Ticker //////////// -->
             <div class="small-project-container">
@@ -672,11 +634,6 @@
                         </details>
                     </div>
                 </div>
-                <!-- <button @click="toggleTicker">
-                {{ button.text }}
-            </button>
-            <div v-if="infoTicker">
-            </div> -->
             </div>
         </div>
 
@@ -731,11 +688,6 @@
                         </details>
                     </div>
                 </div>
-                <!-- <button @click="toggleStorage">
-                {{ button.text }}
-            </button>
-            <div v-if="infoStorage">
-            </div> -->
             </div>
 
             <!-- //////////// JSON-validator //////////// -->
@@ -790,11 +742,6 @@
                         </details>
                     </div>
                 </div>
-                <!-- <button @click="toggleJSON">
-                {{ button.text }}
-            </button>
-            <div v-if="infoJSON">
-            </div> -->
             </div>
         </div>
 
@@ -853,11 +800,6 @@
                         </details>
                     </div>
                 </div>
-                <!-- <button @click="toggleConnect">
-                {{ button.text }}
-            </button>
-            <div v-if="infoConnect">
-            </div> -->
             </div>
 
             <!-- //////////// Spiced Homepage //////////// -->
@@ -910,12 +852,6 @@
                         </details>
                     </div>
                 </div>
-                <!-- Zum Ausklappen -->
-                <!-- <button @click="toggleSpiced">
-                {{ button.text }}
-            </button>
-            <div v-if="infoSpiced">
-            </div> -->
             </div>
         </div>
 
@@ -973,10 +909,6 @@
                         </details>
                     </div>
                 </div>
-                <!-- <button @click="toggleIncremental">
-                    {{ button.text }}
-                </button>
-                <div v-if="infoIncremental"></div> -->
             </div>
         </div>
     </div>
@@ -984,23 +916,6 @@
 
 <script>
 export default {
-    // data() {
-    //     return {
-    //         button: {
-    //             text: 'More info'
-    //         },
-    //         infoSocialNetwork: false,
-    //     }
-    // },
-    // methods: {
-    //     toggleSocialNetwork(e) {
-    //         // e.stopPropagation()
-    //         // e.preventDefault()
-    //         this.infoSocialNetwork = !this.infoSocialNetwork
-    //         this.button.text = this.infoSocialNetwork
-    //             ? 'Show less'
-    //             : 'More info'
-    //     },
     _methods: {
         scrollToTop() {
             // console.log('software-page, scrollToTop running')
@@ -1144,8 +1059,9 @@ details > p {
 }
 
 .jump-to-top {
-    position: sticky;
-    left: 97vw;
+    /* position: sticky; */
+    position: fixed;
+    left: 95vw;
     top: 90vh;
     padding: 0.5em 0.5em;
     background-color: rgb(85, 84, 84, 0.5);

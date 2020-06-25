@@ -12,19 +12,6 @@
                 >deutsch</nuxt-link
             >
 
-            <!-- :to="localePath('publications') + #english"
-                :to="localePath('publications') + '#english'"
-                :to="{ path: 'publications', hash: '#english' }"
-                 -->
-            <!-- <nuxt-link
-                :to="localePath({ name: 'publications', hash: '#english' })"
-                alt="english"
-                class="link-padding"
-                :title="
-                    $t('Publikationen, Vorträge und Interviews auf Englisch')
-                "
-                >english</nuxt-link
-            > -->
             <nuxt-link
                 :to="{ path: 'publications', hash: '#english' }"
                 class="link-padding"
@@ -126,6 +113,23 @@
                 >{{ $t(', die ich gegeben habe') }}.
             </p>
 
+            <span>
+                <!-- :to="localePath('publications')" -->
+                <nuxt-link
+                    :to="{ localePath: 'publications' }"
+                    class="jump-to-top"
+                    :title="$t('zum Seitenanfang')"
+                    @click.native="scrollToTop"
+                >
+                    <img
+                        src="/icons/chevron-up.svg"
+                        :alt="
+                            $t('Pfeil nach oben, um zum Seitenanfang zu kommen')
+                        "
+                        class="up-arrow"
+                /></nuxt-link>
+            </span>
+
             <hr class="margin-top-bottom-five-percent" />
 
             <!-- ///////////////////// ANIMATION ///////////////////// -->
@@ -182,20 +186,6 @@
                 >. Jahrbuch 2019/2020. Wuppertal: Eigendruck, S. 47-48.
             </p>
         </div>
-
-        <!-- <span>
-            <nuxt-link
-                :to="localePath('publications')"
-                class="jump-to-top"
-                :title="$t('zum Seitenanfang')"
-                @click.native="scrollToTop"
-            >
-                <img
-                    src="/icons/chevron-up.svg"
-                    :alt="$t('Pfeil nach oben, um zum Seitenanfang zu kommen')"
-                    class="up-arrow"
-            /></nuxt-link>
-        </span> -->
 
         <div class="publications-container no-space">
             <p>
@@ -1380,41 +1370,42 @@ export default {
     // },
     _methods: {
         scrollToTop() {
+            // console.log('publications-page, scrollToTop running')
             window.scrollTo({
                 behavior: 'smooth',
                 left: 0,
                 top: 0
             })
-        },
-        //     scrollBehavior(to) {
-        //         console.log('publications.js to:', to)
-        //         if (to.hash) {
-        //             return window.scrollTo({
-        //                 top:
-        //                     document.querySelector(to.hash).offsetTop +
-        //                     window.innerHeight,
-        //                 behavior: 'smooth',
-        //                 left: 0
-        //             })
-        //         }
-        //         return window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-        //     }
-        // },
-        get methods() {
-            return this._methods
-        },
-        set methods(value) {
-            this._methods = value
         }
-        // methods: {
-        //     scrollToTop() {
-        //         window.scrollTo({
-        //             behavior: 'smooth',
-        //             left: 0,
-        //             top: 0
-        //         })
-        //     }
     },
+    get methods() {
+        return this._methods
+    },
+    set methods(value) {
+        this._methods = value
+    },
+    //     scrollBehavior(to) {
+    //         console.log('publications.js to:', to)
+    //         if (to.hash) {
+    //             return window.scrollTo({
+    //                 top:
+    //                     document.querySelector(to.hash).offsetTop +
+    //                     window.innerHeight,
+    //                 behavior: 'smooth',
+    //                 left: 0
+    //             })
+    //         }
+    //         return window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+    //     }
+    // },
+    // methods: {
+    //     scrollToTop() {
+    //         window.scrollTo({
+    //             behavior: 'smooth',
+    //             left: 0,
+    //             top: 0
+    //         })
+    //     }
     head() {
         return {
             title: this.$t('Veröffentlichungen Andreas Hechler'),
@@ -1493,7 +1484,8 @@ p {
 }
 
 .jump-to-top {
-    position: sticky;
+    /* position: sticky; */
+    position: fixed;
     left: 90vw;
     top: 90vh;
     padding: 0.5em 0.5em;
