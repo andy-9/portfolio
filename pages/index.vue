@@ -29,8 +29,6 @@
                             'Ich komme aus der (Erwachsenen-)Bildung und habe als Trainer, Berater und Evaluator gearbeitet. Ich habe auch viel publiziert, Vorträge gehalten und Interviews gegeben.'
                         )
                     }}
-                </p>
-                <p>
                     {{
                         $t(
                             'Schwerpunkt meiner Arbeit in den letzten Jahrzehnten war Antidiskriminierung und das Schaffen einer Gesellschaft, in der Menschen ohne Angst verschieden sein können.'
@@ -129,48 +127,11 @@ export default {
 }
 </script>
 
-<style>
-.title {
-    /* font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
-        BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-        sans-serif;
-    font-size: 100px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    color: #35495e; */
-    /* position: absolute; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
-    /* display: block; */
-}
-
-.subtitle {
-    /* font-weight: 300;
-    font-size: 42px;
-    color: #526488;
-    word-spacing: 5px;
-    position: absolute; */
-    /* padding-bottom: 15px; */
-}
-</style>
-
 <style scoped>
 .home-container {
     height: 90vh;
     display: grid;
     grid-template-columns: 49% 51%;
-}
-
-@media only screen and (max-width: 600px) {
-    .home-container {
-        height: auto;
-        padding: 20px;
-        grid-template-columns: 100%;
-    }
-
-    #img-container img {
-        width: 100%;
-    }
 }
 
 #img-container {
@@ -229,32 +190,34 @@ export default {
         brightness(110%) contrast(100%);
 }
 
-.button--green {
-    display: inline-block;
-    border-radius: 4px;
-    border: 1px solid #3b8070;
-    color: #3b8070;
-    text-decoration: none;
-    padding: 10px 30px;
-}
+@media only screen and (max-width: 768px) {
+    .home-container {
+        height: auto;
+        padding: 1em;
+        grid-template-columns: 100%;
+    }
 
-.button--green:hover {
-    color: #fff;
-    background-color: #3b8070;
-}
+    #img-container {
+        margin: 0 auto;
+        display: block;
+    }
 
-.button--grey {
-    display: inline-block;
-    border-radius: 4px;
-    border: 1px solid #35495e;
-    color: #35495e;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-left: 15px;
-}
+    #img-container img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
 
-.button--grey:hover {
-    color: #fff;
-    background-color: #35495e;
+    #text-container {
+        margin-right: 0%;
+    }
+
+    #heading-home {
+        font-size: 5em;
+    }
+
+    #subheading-home {
+        font-size: 1.5em;
+    }
 }
 </style>
