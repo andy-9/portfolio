@@ -68,10 +68,22 @@ nav {
 }
 
 nav a {
-    color: rgb(85, 84, 84);
+    /* color: rgb(85, 84, 84); */
 }
 
 .nav-link {
     padding: 0 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        font-size: 1em;
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
 }
 </style>

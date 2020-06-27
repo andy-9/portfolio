@@ -1073,4 +1073,10 @@ details > p {
     background-color: rgb(94, 44, 44);
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
 </style>
