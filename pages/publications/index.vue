@@ -185,9 +185,7 @@
                     Rassismus</a
                 >. Jahrbuch 2019/2020. Wuppertal: Eigendruck, S. 47-48.
             </p>
-        </div>
 
-        <div class="publications-container no-space">
             <p>
                 Hechler, Andreas (2020): Texte zu
                 <strong>Intergeschlechtlichkeit und Pädagogik</strong> auf
@@ -1349,17 +1347,17 @@ export default {
     // mounted() {
     //     const hash = location.hash
     //     if (hash) {
-    //         console.log('publications.vue, 1st if-statement running')
+    //         // console.log('publications.vue, 1st if-statement running')
     //         const currentElem = document.querySelector(hash)
     //         if (currentElem) {
-    //             console.log('publications.vue, 2nd if-statement running')
+    //             // console.log('publications.vue, 2nd if-statement running')
     //             scrollToPlaces(currentElem)
     //         }
     //     }
     //     // if not true do it, if true set to false, repeat
     //     function scrollToPlaces(elem) {
-    //         console.log('publications.vue elem', elem)
-    //         console.log('publications.vue elem.offsetTop', elem.offsetTop)
+    //         // console.log('publications.vue elem', elem)
+    //         // console.log('publications.vue elem.offsetTop', elem.offsetTop)
     //         window.scrollTo({
     //             behavior: 'smooth',
     //             left: 0,
@@ -1384,28 +1382,20 @@ export default {
     set methods(value) {
         this._methods = value
     },
-    //     scrollBehavior(to) {
-    //         console.log('publications.js to:', to)
-    //         if (to.hash) {
-    //             return window.scrollTo({
-    //                 top:
-    //                     document.querySelector(to.hash).offsetTop +
-    //                     window.innerHeight,
-    //                 behavior: 'smooth',
-    //                 left: 0
-    //             })
-    //         }
-    //         return window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-    //     }
-    // },
-    // methods: {
-    //     scrollToTop() {
-    //         window.scrollTo({
+    // scrollBehavior(to) {
+    //     // console.log('publications.js to:', to)
+    //     if (to.hash) {
+    //         return window.scrollTo({
+    //             top:
+    //                 document.querySelector(to.hash).offsetTop +
+    //                 window.innerHeight,
     //             behavior: 'smooth',
-    //             left: 0,
-    //             top: 0
+    //             left: 0
     //         })
     //     }
+    //     return window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+    //     // }
+    // },
     head() {
         return {
             title: this.$t('Veröffentlichungen Andreas Hechler'),
@@ -1463,11 +1453,6 @@ h4 {
 
 p {
     margin: 1em 0;
-}
-
-.no-space {
-    margin-top: -1.8em;
-    /* margin-top: -4.2em; */
 }
 
 .link-padding {
@@ -1534,7 +1519,7 @@ video:focus {
     position: absolute;
     width: 180px;
     height: 180px;
-    top: 60%;
+    top: 65%;
     right: 15%;
     backface-visibility: hidden;
 }
@@ -1666,5 +1651,50 @@ video:focus {
     margin-top: -90px;
     background-color: rgb(235, 26, 26);
     background-position: 0 100px;
+}
+
+@media only screen and (max-width: 1050px) {
+    #peeler,
+    #peeler .sticky,
+    #peeler .circle_wrapper,
+    #peeler .circle,
+    #peeler h4 {
+        width: 0;
+    }
+
+    #peeler .front,
+    #peeler .back {
+        height: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .publications-container {
+        margin: 0 2% 2% 2%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    details > summary {
+        font-size: 1em;
+    }
 }
 </style>
