@@ -68,7 +68,7 @@ nav {
 }
 
 nav a {
-    /* color: rgb(85, 84, 84); */
+    color: rgb(85, 84, 84);
 }
 
 .nav-link {

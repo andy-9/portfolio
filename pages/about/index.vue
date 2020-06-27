@@ -954,23 +954,16 @@ details {
 
 details p {
     margin-left: 6.2em;
-    text-indent: -5.3em;
+    /* text-indent: -5.3em; */
 }
 
 details .indent-content-in-details {
     margin-left: 11.5em;
 }
 
-.triangle-to-top-one {
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
-        brightness(110%) contrast(100%);
-    margin-left: 75vw;
-    height: 2em;
-    font-size: 2em;
-    transform: translateY(0.32em);
-}
-
 .triangle-to-top {
+    /* filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
+        brightness(110%) contrast(100%); */
     filter: invert();
     margin-left: 70vw;
     height: 2em;
@@ -991,5 +984,33 @@ details .indent-content-in-details {
     color: #ffffff;
     background-color: #292f3b;
     margin-top: -70px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-one,
+    .container-two,
+    .container-three,
+    .container-four {
+        transform: skew(0deg, -6deg);
+        -webkit-transform: skew(0deg, -6deg);
+        padding: 0 1em 0 1em;
+    }
+
+    .text-area-two {
+        padding: 1em 0 1em 0;
+    }
+
+    .indent-after-heading-two {
+        padding-left: 1.2em;
+    }
+
+    details p {
+        margin-left: 1.5em;
+        /* text-indent: -5.3em; */
+    }
+
+    details .indent-content-in-details {
+        margin-left: 2em;
+    }
 }
 </style>
