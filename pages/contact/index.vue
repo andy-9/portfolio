@@ -165,13 +165,13 @@ h1 {
 
 .info-left {
     width: 25%;
-    /* height: 20%; */
     justify-content: flex-start;
     flex: 1 0 auto;
 }
 
 img.style-mail {
     width: 60%;
+    /* width: calc(45vw - 10vw); */
     margin: 15% 0;
     filter: invert();
 }
@@ -194,5 +194,11 @@ img.style-mail {
 .bottom {
     /* bottom: 0; */
     flex-shrink: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    img.style-mail {
+        /* width: 60%; */
+    }
 }
 </style>
