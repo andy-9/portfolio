@@ -1,20 +1,26 @@
 <template>
     <div id="error-container">
         <img
-            src="images/error.png"
-            alt="space-man with space-dog, space-shuttle on the right"
+            src="/images/error.png"
+            :alt="$t('Astronaut mit Hund, Rakete im rechten Hintergrund')"
             class="error-image"
         />
         <div class="text-container">
-            <p>...wir haben überall gesucht und sind sogar ins All geflogen.</p>
-            <p>Aber es bestätigt sich die traurige Wahrheit:</p>
+            <p>
+                {{
+                    $t(
+                        '...wir haben überall gesucht und sind sogar ins All geflogen'
+                    )
+                }}.
+            </p>
+            <p>{{ $t('Aber es bestätigt sich die traurige Wahrheit') }}:</p>
             <h1 v-if="error.statusCode === 404">
-                Diese Seite existiert nicht
+                {{ $t('Diese Seite existiert nicht') }}
             </h1>
-            <h1 v-else>An error occurred</h1>
-            <nuxt-link class="backToHome" :to="localePath('index')"
-                >BACK TO HOME</nuxt-link
-            >
+            <h1 v-else>{{ $t('Ein Fehler ist aufgetreten') }}</h1>
+            <nuxt-link class="backToHome" :to="localePath('index')">{{
+                $t('ZURÜCK ZU HOME')
+            }}</nuxt-link>
         </div>
         <div class="section-wrapper">
             <div class="waves-bottom">
@@ -63,7 +69,7 @@ export default {
     },
     head() {
         return {
-            title: this.message,
+            title: this.$t('Diese Seite existiert nicht'),
             meta: [
                 {
                     name: 'viewport',
