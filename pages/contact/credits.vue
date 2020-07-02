@@ -16,6 +16,7 @@
                     href="https://www.jankopetzky.de/"
                     style="color: white"
                     target="_blank"
+                    rel="noreferrer"
                     title="Portfolio Jan Kopetzky"
                     >Jan Kopetzky</a
                 >.

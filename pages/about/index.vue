@@ -124,7 +124,7 @@
                     <strong>{{ $t('Kontaktimprovisation') }}</strong>
                     {{
                         $t(
-                            'für Freude, Leichtigkeit, experimentieren, aushandeln, somatisches Erleben, Achtsamkeit und Flow in der Gruppe.'
+                            'für Freude, Leichtigkeit, Weichheit, experimentieren, aushandeln, somatisches Erleben, Achtsamkeit und Flow in der Gruppe.'
                         )
                     }}
                 </p>
@@ -421,6 +421,7 @@
                                     <a
                                         href="https://gerenep.dissens.de/"
                                         target="_blank"
+                                        rel="noreferrer"
                                         style="color: lightgrey"
                                     >
                                         <strong>{{
@@ -447,6 +448,7 @@
                                         <a
                                             href="http://www.jungenarbeit-und-schule.de/"
                                             target="_blank"
+                                            rel="noreferrer"
                                             style="color: lightgrey"
                                         >
                                             <em>{{
@@ -774,11 +776,16 @@
                     {{ $t('Mitglied des') }}
                     <strong> {{ $t('Beirat') }}</strong>
                     {{ $t('der') }}
-                    <a href="https://oiigermany.org/" target="_blank">{{
-                        $t(
-                            'Internationalen Vereinigung Intergeschlechtlicher Menschen (IVIM / OII Germany)'
-                        )
-                    }}</a>
+                    <a
+                        href="https://oiigermany.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                        >{{
+                            $t(
+                                'Internationalen Vereinigung Intergeschlechtlicher Menschen (IVIM / OII Germany)'
+                            )
+                        }}</a
+                    >
                 </p>
             </div>
         </div>

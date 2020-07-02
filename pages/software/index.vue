@@ -24,6 +24,7 @@
                 <a
                     href="https://kite-inc.herokuapp.com/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('Zu meinem Sozialen Netzwerk Kite.Inc')"
                     ><h2 id="socialnetwork">
                         {{ $t('Soziales Netzwerk') }}
@@ -31,7 +32,10 @@
                 >
 
                 <div class="image-container">
-                    <a href="https://kite-inc.herokuapp.com/" target="_blank"
+                    <a
+                        href="https://kite-inc.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/kite.png"
                             :alt="
@@ -89,6 +93,7 @@
                             <a
                                 href="https://github.com/andy-9/socialnetwork"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 {{ $t('Der Code auf GitHub') }}
                             </a>
@@ -122,12 +127,16 @@
                 <a
                     href="https://algobias.herokuapp.com/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('Zu meiner Online-Petition')"
                     ><h2 id="petition">Petition</h2></a
                 >
 
                 <div class="image-container">
-                    <a href="https://algobias.herokuapp.com/" target="_blank"
+                    <a
+                        href="https://algobias.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/algobias.png"
                             :alt="
@@ -183,6 +192,7 @@
                             <a
                                 href="https://github.com/andy-9/petition"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 {{ $t('Der Code auf GitHub') }}
                             </a>
@@ -241,6 +251,7 @@
                 <a
                     href="http://graf-streetart.herokuapp.com/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('Zu meinem Imageboard')"
                     ><h2 id="imageboard">Imageboard</h2></a
                 >
@@ -249,6 +260,7 @@
                     <a
                         href="http://graf-streetart.herokuapp.com/"
                         target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/imageboard.png"
                             :alt="
@@ -305,6 +317,7 @@
                             <a
                                 href="https://github.com/andy-9/imageboard"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 {{ $t('Der Code auf GitHub') }}
                             </a>
@@ -339,6 +352,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="
                         $t(
                             'Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt'
@@ -348,7 +362,10 @@
                 >
 
                 <div class="image-container">
-                    <a href="http://kaleidoscop.herokuapp.com/" target="_blank"
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/kaleidoscope.png"
                             :alt="
@@ -408,6 +425,7 @@
                             <a
                                 href="https://github.com/andy-9/kaleidoscope"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 {{ $t('Der Code auf GitHub') }}
                             </a>
@@ -425,6 +443,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('zu meinem Skalierte Bilder-Projekt')"
                     ><h2 id="panes">{{ $t('Skalierte Bilder') }}</h2></a
                 >
@@ -433,6 +452,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/resizable_panes/"
                         target="_blank"
+                        rel="noreferrer"
                         :title="$t('zu meinem Skalierte Bilder-Projekt')"
                         ><img
                             src="/images/panes.png"
@@ -477,6 +497,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/spotify_search/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('zu meiner Spotify-Suche')"
                     ><h2 id="spotify">{{ $t('Spotify-Suche') }}</h2></a
                 >
@@ -485,6 +506,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/spotify_search/"
                         target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/spotify.png"
                             :alt="
@@ -535,6 +557,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('zu meinem Kätzchen-Karussell')"
                     ><h2 id="carousel">{{ $t('Kätzchen-Karussell') }}</h2></a
                 >
@@ -543,6 +566,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
                         target="_blank"
+                        rel="noreferrer"
                         :title="$t('zu meinem Kätzchen-Karussell')"
                         ><img
                             src="/images/carousel.png"
@@ -589,6 +613,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/ticker/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('zu meinem Ticker-Projekt')"
                     ><h2 id="ticker">Ticker</h2></a
                 >
@@ -597,6 +622,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/ticker/"
                         target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/ticker.png"
                             :alt="$t('Screenshot des Tickers')"
@@ -643,6 +669,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/local_storage/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('zu meinem Lokaler Speicher-Projekte')"
                     ><h2 id="localstorage">{{ $t('Lokaler Speicher') }}</h2></a
                 >
@@ -651,6 +678,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/local_storage/"
                         target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/localstorage.png"
                             :alt="$t('Screenshot Lokaler Speicher-Projekt')"
@@ -696,6 +724,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/JSON_validator/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('zu meinem JSON-Validator')"
                     ><h2 id="validator">{{ $t('JSON-Validator') }}</h2></a
                 >
@@ -704,6 +733,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/JSON_validator/"
                         target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/JSON.png"
                             :alt="
@@ -751,6 +781,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/connect4/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('zu meinem 4 Gewinnt')"
                     ><h2 id="connectfour">{{ $t('4 Gewinnt') }}</h2></a
                 >
@@ -759,6 +790,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/connect4/"
                         target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/connect4.png"
                             :alt="
@@ -808,6 +840,7 @@
                 <a
                     href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
                     target="_blank"
+                    rel="noreferrer"
                     :title="$t('zu meinem Spiced Homepage-Projekt')"
                     ><h2 id="spicedhomepage">Spiced Homepage</h2></a
                 >
@@ -816,6 +849,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
                         target="_blank"
+                        rel="noreferrer"
                         ><img
                             src="/images/spiced.png"
                             :alt="$t('Screenshot Spiced Homepage')"
@@ -863,6 +897,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/incremental_search/"
                         target="_blank"
+                        rel="noreferrer"
                         :title="$t('zu meiner inkrementellen Suche')"
                         ><h2 id="incremental">
                             {{ $t('Inkrementelle Suche') }}
@@ -872,6 +907,7 @@
                     <a
                         href="http://kaleidoscop.herokuapp.com/incremental_search/"
                         target="_blank"
+                        rel="noreferrer"
                         :title="$t('zu meiner inkrementellen Suche')"
                         ><img
                             src="/images/incremental_search.png"

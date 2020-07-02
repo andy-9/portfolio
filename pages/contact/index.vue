@@ -20,7 +20,11 @@
                 </div>
 
                 <div class="flex-row order-logos">
-                    <a href="https://github.com/andy-9" target="_blank">
+                    <a
+                        href="https://github.com/andy-9"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         <img
                             src="/icons/logo-github.svg"
                             alt="github logo"
@@ -32,6 +36,7 @@
                     <a
                         href="https://www.linkedin.com/in/andreas-hechler/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <img
                             src="/icons/logo-linkedin.svg"
@@ -44,6 +49,7 @@
                     <a
                         href="https://www.xing.com/profile/Andreas_Hechler10"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <img
                             src="/icons/logo-xing.svg"
@@ -56,6 +62,7 @@
                     <a
                         href="https://twitter.com/HechlerAndreas"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <img
                             src="/icons/logo-twitter.svg"
@@ -68,6 +75,7 @@
                     <a
                         href="https://dissens.academia.edu/AndreasHechler"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <img
                             src="/icons/academia.png"
@@ -79,6 +87,7 @@
                     <a
                         href="https://www.researchgate.net/profile/Andreas_Hechler"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <img
                             src="/icons/researchgate-icon.svg"

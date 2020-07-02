@@ -58,12 +58,14 @@
                 <a
                     href="https://dissens.academia.edu/AndreasHechler"
                     target="_blank"
+                    rel="noreferrer"
                     >Academia</a
                 >
                 {{ $t('und') }}
                 <a
                     href="https://www.researchgate.net/profile/Andreas_Hechler"
                     target="_blank"
+                    rel="noreferrer"
                     >ResearchGate</a
                 >{{ $t(' zu finden. Viele von ihnen sind auf') }}
                 <nuxt-link
@@ -169,6 +171,7 @@
                 <a
                     href="https://www.friedrich-verlag.de/shop/jenseits-der-norm-516321"
                     target="_blank"
+                    rel="noreferrer"
                     >Die Grundschulzeitschrift</a
                 >, Nr. 321, Juni 2020, 34. Jg. Hannover: Friedrich Verlag, S.
                 40-43.
@@ -181,6 +184,7 @@
                 <a
                     href="https://www.arbeitundleben.de/images/download/ARBEIT-UND-LEBEN_Jahrbuch_2019-2020.pdf"
                     target="_blank"
+                    rel="noreferrer"
                     >Für soziale Gerechtigkeit, gegen Ausgrenzung und
                     Rassismus</a
                 >. Jahrbuch 2019/2020. Wuppertal: Eigendruck, S. 47-48.
@@ -189,7 +193,7 @@
             <p>
                 Hechler, Andreas (2020): Texte zu
                 <strong>Intergeschlechtlichkeit und Pädagogik</strong> auf
-                <a href="https://inter-nrw.de/" target="_blank"
+                <a href="https://inter-nrw.de/" target="_blank" rel="noreferrer"
                     >inter-nrw.de:</a
                 >
             </p>
@@ -198,6 +202,7 @@
                     <a
                         href="https://inter-nrw.de/hinweise-zu-fuer-paedagoginnen/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong>Hinweise für Pädagog*innen</strong>
                     </a>
@@ -207,6 +212,7 @@
                     <a
                         href="https://inter-nrw.de/inter-in-bildung-und-lehre-integrieren/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong>Inter* in Bildung und Lehre integrieren</strong>
                     </a>
@@ -216,6 +222,7 @@
                     <a
                         href="https://inter-nrw.de/dos-donts-fuer-paedagoginnen-tipps-fuer-einen-guten-umgang/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong
                             >Dos &amp; Don'ts für Pädagog*innen – Tipps für
@@ -228,6 +235,7 @@
                     <a
                         href="https://inter-nrw.de/arbeitsmaterial/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong>Arbeitsmaterial</strong>
                     </a>
@@ -239,6 +247,7 @@
                 <a
                     href="/files/Hechler - Interdiskriminierung in der extremen Rechten (2019).pdf"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <strong
                         >"Missbildung" – Interdiskriminierung in der extremen
@@ -248,6 +257,7 @@
                 <a
                     href="https://www.mandelbaum.at/buch.php?id=891&menu=buecher"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     Rechtsextremismus, Band 3: Geschlechterreflektierte
                     Perspektiven</a
@@ -261,12 +271,16 @@
                 <a
                     href="/files/Hechler - Alles fuer alle (2019).pdf"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Alles für alle! Geschlechterreflektierte Pädagogik
                         gegen Rechts</strong
                     ></a
                 >. In:
-                <a href="https://www.bjr.de/service/juna.html" target="_blank"
+                <a
+                    href="https://www.bjr.de/service/juna.html"
+                    target="_blank"
+                    rel="noreferrer"
                     >juna – ‎Jugendnachrichten des Bayerischen Jugendrings</a
                 >, Nr. 01/2019, S. 23.
             </p>
@@ -276,6 +290,7 @@
                 <a
                     href="https://ficko-magazin.de/den-zweifel-naehren/"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Den Zweifel nähren. Meine kritische Auseinandersetzung
                         mit Männlichkeit</strong
@@ -288,6 +303,7 @@
                 <a
                     href="https://www.queer.de/detail.php?article_id=32783"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Wie berichte ich über die "Dritte Option"? Eine
                         polemische Anleitung für Journalist*innen</strong
@@ -300,6 +316,7 @@
                 <a
                     href="/files/Hechler - Diagnosen von Gewicht 2 (2018).pdf"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Diagnosen von Gewicht. Innerfamiliäre Folgen der
                         Ermordung meiner als "lebensunwert" diagnostizierten
@@ -309,6 +326,7 @@
                 <a
                     href="https://psychiatrie-verlag.de/product/der-regional-vernetzte-krankenmord/"
                     target="_blank"
+                    rel="noreferrer"
                     >Der regional vernetzte Krankenmord. Die Heil- und
                     Pflegeanstalt Klingenmünster/Pfalz in Verbindung mit Baden,
                     Bayern, Elsass und Lothringen</a
@@ -320,6 +338,7 @@
                 <a
                     href="http://blog.feministische-studien.de/2017/08/aus-der-bahn-geworfen/"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong>Aus der Bahn geworfen</strong></a
                 >. In: Blog der feministischen studien vom 16. August 2017. (Zum
                 Begriff 'Widerfahrnis')
@@ -333,6 +352,7 @@
                     <a
                         href="http://www.bpb.de/politik/extremismus/rechtsextremismus/232123/andreas-hechler-entscheidend-ist-der-kontext"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong>Entscheidend ist der Kontext</strong></a
                     >. In: Bundeszentrale für politische Bildung vom 3.08.2016.
                     Debatte: Soll man mit Neonazis reden?
@@ -343,6 +363,7 @@
                     <a
                         href="https://www.psychosozial-verlag.de/catalog/dispatch-free.php?id=6799"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >"Was ist es denn?" Intergeschlechtlichkeit in
                             Bildung, Pädagogik und Sozialer Arbeit</strong
@@ -359,6 +380,7 @@
                     <a
                         href="http://library.oapen.org/bitstream/handle/20.500.12657/25626/1004470.pdf?sequence=1&isAllowed=y"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong
                             >Geschlechterreflektierte Pädagogik gegen
@@ -373,6 +395,7 @@
                         <a
                             href="http://budrich.de/Zusatzmaterialien/9783847406952_Einleitung.pdf"
                             target="_blank"
+                            rel="noreferrer"
                             ><strong>Einleitung</strong></a
                         >, S. 7-42.
                     </li>
@@ -382,6 +405,7 @@
                         <a
                             href="http://www.budrich.de/DDD/HechlerStuve.pdf"
                             target="_blank"
+                            rel="noreferrer"
                             ><strong
                                 >Weder 'normal' noch 'richtig':
                                 Geschlechterreflektierte Pädagogik als Grundlage
@@ -395,6 +419,7 @@
                         <a
                             href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-praxissituationen-entgeschlechtlichen.pdf"
                             target="_blank"
+                            rel="noreferrer"
                             ><strong
                                 >Methode: Praxissituationen
                                 entgeschlechtlichen</strong
@@ -407,6 +432,7 @@
                         <a
                             href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-der-grosse-preis.pdf"
                             target="_blank"
+                            rel="noreferrer"
                             ><strong>Methode: Der große Preis</strong></a
                         >, S. 100-106.
                     </li>
@@ -420,6 +446,7 @@
                         <a
                             href="https://forschungsgruppefipu.wordpress.com/2017/11/07/beharrliche-bilder/"
                             target="_blank"
+                            rel="noreferrer"
                             >hier</a
                         >).
                     </li>
@@ -430,6 +457,7 @@
                     <a
                         href="/files/Hechler - Diagnosen von Gewicht (2015).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Diagnosen von Gewicht. Innerfamiliäre Folgen der
                             Ermordung meiner als 'lebensunwert' diagnostizierten
@@ -439,6 +467,7 @@
                     <a
                         href="http://www.edition-assemblage.de/gegendiagnose/"
                         target="_blank"
+                        rel="noreferrer"
                         >Gegendiagnose. Beiträge zur radikalen Kritik an
                         Psychologie und Psychiatrie</a
                     >. edition assemblage, Münster, S. 143-193.
@@ -449,6 +478,7 @@
                     <a
                         href="/files/Hechler - Intergeschlechtlichkeit in Bildung (2015).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Intergeschlechtlichkeit in Bildung, Pädagogik und
                             Sozialer Arbeit</strong
@@ -457,6 +487,7 @@
                     <a
                         href="http://www.bmfsfj.de/RedaktionBMFSFJ/Broschuerenstelle/Pdf-Anlagen/Geschlechtliche-Vielfalt,property=pdf,bereich=bmfsfj,sprache=de,rwb=true.pdf"
                         target="_blank"
+                        rel="noreferrer"
                         >Geschlechtliche Vielfalt. Begrifflichkeiten,
                         Definitionen und disziplinäre Zugänge zu Trans- und
                         Intergeschlechtlichkeiten. Begleitforschung zur
@@ -470,6 +501,7 @@
                     <a
                         href="/files/Stuve_Hechler - Geschlechterreflektierende Neonazismusprävention (2015).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Geschlechterreflektierende
                             Neonazismusprävention</strong
@@ -482,6 +514,7 @@
                     <a
                         href="/files/Hechler - Intergeschlechtlichkeit in Paedagogik (Sozialmagazin 2014).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Intergeschlechtlichkeit als Thema in Pädagogik und
                             Sozialer Arbeit</strong
@@ -494,6 +527,7 @@
                     <a
                         href="/files/Hechler - Maennlichkeitskritische Neonazismusprävention (2014).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Männlichkeitskritische
                             Neonazismusprävention</strong
@@ -502,6 +536,7 @@
                     <a
                         href="https://shop.budrich-academic.de/produkt/verantwortlich-handeln-praxis-der-sozialen-arbeit-mit-rechtsextrem-orientierten-und-gefaehrdeten-jugendlichen/?v=3a52f3c22ed6"
                         target="_blank"
+                        rel="noreferrer"
                         >Verantwortlich Handeln: Praxis der Sozialen Arbeit mit
                         rechtsextrem orientierten und gefährdeten
                         Jugendlichen</a
@@ -514,6 +549,7 @@
                     <a
                         href="/files/Hechler - Diskussion zu Gender und Rechtsextremismus(-praevention) (2014).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Diskussion zu Gender und
                             Rechtsextremismus(-prävention)</strong
@@ -528,6 +564,7 @@
                     <a
                         href="/files/Hechler_Stuve_Wielowiejski - Geschlechterreflektierende Neonazismuspraevention (2013).pdf"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong
                             >Geschlechterreflektierende Neonazismusprävention.
@@ -544,6 +581,7 @@
                     <a
                         href="http://www.kritisch-lesen.de/rezension/hermstories"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong>Hermstories</strong></a
                     >. Rezension des Buches "Inter – Erfahrungen
                     intergeschlechtlicher Menschen in der Welt der zwei
@@ -556,6 +594,7 @@
                     <a
                         href="https://gerenep.dissens.de/geschlechterreflektierte-neonazismuspraevention/publikationen-von-dissens-mitarbeitenden-zum-thema/hechler-jungenarbeit-und-neonazismuspraevention"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Männlichkeitskonstruktionen, Jungenarbeit und
                             Neonazismus-Prävention</strong
@@ -565,6 +604,7 @@
                     <a
                         href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Geschlechterreflektierte_Arbeit_mit_Jungen_an_der_Schule_Dissens_e.V-3.pdf"
                         target="_blank"
+                        rel="noreferrer"
                         >Geschlechterreflektierte Arbeit mit Jungen an der
                         Schule. Texte zu Pädagogik und Fortbildung rund um
                         Jungenarbeit, Geschlecht und Bildung</a
@@ -577,6 +617,7 @@
                         href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Hechler
             - Intergeschlechtlichkeit.pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Intergeschlechtlichkeit als Thema
                             geschlechterreflektierender Pädagogik</strong
@@ -586,6 +627,7 @@
                     <a
                         href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Geschlechterreflektierte_Arbeit_mit_Jungen_an_der_Schule_Dissens_e.V-3.pdf"
                         target="_blank"
+                        rel="noreferrer"
                         >Geschlechterreflektierte Arbeit mit Jungen an der
                         Schule. Texte zu Pädagogik und Fortbildung rund um
                         Jungenarbeit, Geschlecht und Bildung</a
@@ -601,6 +643,7 @@
                     <a
                         href="http://intersex.schattenbericht.org/public/Schattenbericht_CEDAW_2008-Intersexuelle_Menschen_e_V.pdf"
                         target="_blank"
+                        rel="noreferrer"
                         >Schattenbericht zum 6. Staatenbericht der BRD zum
                         Übereinkommen der Vereinten Nationen zur Beseitigung
                         jeder Form der Diskriminierung der Frau (CEDAW)</a
@@ -612,6 +655,7 @@
                     <a
                         href="/files/Hechler - Voids in Brandenburg (2008).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Voids in Brandenburg – Folgen des deutschen
                             Antisemitismus</strong
@@ -627,6 +671,7 @@
                     <a
                         href="/files/Krabel_Hechler - Für Jungen (und Maedchen) geeignet (2007).pdf"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong>Jungenarbeit in der Kita</strong></a
                     >. In: Welt des Kindes, Nr. 1, Januar/Februar 2007, 85.
@@ -638,6 +683,7 @@
                     <a
                         href="/files/Hechler - Wer fehlt (2007).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Wer fehlt? Voids in Reinhardtsdorf-Schöna</strong
                         ></a
@@ -652,6 +698,7 @@
                     <a
                         href="/files/Hechler - Taeter_innenforschung aus privilegierter Position (2006).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Täter_innenforschung aus privilegierter Position.
                             Rassismus und Antisemitismus im Feld</strong
@@ -664,6 +711,7 @@
                     <a
                         href="/files/Hechler - Der Kuhzaun (2004).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Der Kuhzaun – Jungenarbeit in Reinickendorf</strong
                         ></a
@@ -675,6 +723,7 @@
                     <a
                         href="/files/Hechler - Projektwoche Liebe-Freundschaft-Sexualitaet (2003).pdf"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong
                             >Projektwoche "Liebe – Freundschaft –
                             Sexualität"</strong
@@ -701,6 +750,7 @@
                 <a
                     href="https://www.facebook.com/events/269076727130862/"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     'Antifeminismus im Netz'</a
                 >
@@ -708,6 +758,7 @@
                 <a
                     href="https://www.facebook.com/OnlineCivilCourageDE/"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     Online Civil Courage Initiative in Berlin</a
                 >.
@@ -732,6 +783,7 @@
                 <a
                     href="https://www.nsberatung.de/index.php/de/arbeitsgruppen"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     Arbeitsgruppen Folgegenerationen</a
                 >
@@ -746,6 +798,7 @@
                 <a
                     href="http://www.jungenarbeit-hessen.de/index.php/124-einladung-zur-fachtagung-macht-maennlichkeit-ohnmacht-2"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     "Macht-Männlichkeit-Ohnmacht?!"</a
                 >
@@ -757,6 +810,7 @@
                 <a
                     href="http://www.kofas-ggmbh.de/news/2017/8/14/prsentation-der-handreichung-alles-mnnlich-praxistipps-fr-eine-geschlechterreflektierende-fanarbeit"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <strong
                         >"Alles männlich?! Praxistipps für eine
@@ -775,6 +829,7 @@
                 <a
                     href="https://intertranswissenschaft.net/tagung-2017/"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     "Solidarische Bündnisse gegen Diskriminierung und den
                     rechten 'Backlash'? – Perspektiven für Inter* und
@@ -793,11 +848,16 @@
                 <a
                     href="http://www.ak-ns-euthanasie.de/wp-content/uploads/2016/02/Herbst_2016.pdf"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     "Der regionalvernetzte Krankenmord"</a
                 >
                 des
-                <a href="http://www.ak-ns-euthanasie.de/" target="_blank">
+                <a
+                    href="http://www.ak-ns-euthanasie.de/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     Arbeitskreises zur Erforschung der nationalsozialistischen
                     "Euthanasie" und Zwangssterilisation</a
                 >
@@ -823,6 +883,7 @@
                 <a
                     href="http://www.bag-jungenarbeit.de/termin/hamburg2016"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     "Rechte Jungen! – Herausforderungen für die Jungenarbeit"</a
                 >
@@ -843,6 +904,7 @@
                 <a
                     href="https://www.dissens.de/fileadmin/gerenep/redakteure/mp3/hechler-stuve-geschlechterreflektierte-paedagogik-gegen-rechts.mp3"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <strong
                         >"Geschlechterreflektierte Pädagogik gegen Rechts –
@@ -853,6 +915,7 @@
                 <a
                     href="https://gerenep.dissens.de/fortbildungsangebote/tagung.html"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     Fachtagung
                 </a>
@@ -868,7 +931,11 @@
 
             <p>
                 11/2005: Teilnahme an Podiumsdiskussion
-                <a href="https://idw-online.de/en/event15188" target="_blank">
+                <a
+                    href="https://idw-online.de/en/event15188"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <strong
                         >"Tradierungen – Aufhebungen – (Neu)Konstruktionen.
                         Rasse im heutigen deutschen
@@ -890,6 +957,7 @@
                 <a
                     href="https://www.bpb.de/veranstaltungen/dokumentation/311298/girls-i-will-destroy-you-frauenhass-im-internet-"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >"Girls, I will destroy you!" – Frauenhass im
                         Internet</strong
@@ -911,6 +979,7 @@
                 <a
                     href="https://daserste.ndr.de/panorama/archiv/2019/Rechte-Terroristen-Hass-auf-Frauen,frauenhass100.html"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong>Rechte Terroristen: Hass auf Frauen</strong></a
                 >. Panorama-Sendung vom 31.10.2019. Interviews mit Anne Helm,
                 einer Gamerin und Andreas Hechler.
@@ -928,6 +997,7 @@
                 <a
                     href="https://www.unrast-verlag.de/neuerscheinungen/antiqueere-ideologie-detail"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Antiqueere Ideologie. Die Suche nach identitärer
                         Sicherheit – und was politische Bildung dagegen
@@ -943,6 +1013,7 @@
                 <a
                     href="https://bermudafunk.org/sendungen/sendungen/glottal-stop.html"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     Glottal Stop</a
                 >
@@ -950,6 +1021,7 @@
                 <a
                     href="https://www.facebook.com/events/2461735190601267/"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong>Antifeminismus</strong> - Sendung vom 06.10.2019</a
                 >. Interviews mit Eve Massacre (Manosphere), Veronika Kracher
                 (Incels), Tine (Kollegah/Felix Blume) und Andreas Hechler (Rolle
@@ -968,6 +1040,7 @@
                 <a
                     href="/files/Offen - Interview Hechler (JpB_3_18).pdf"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Komplexe Verhältnisse – Bildungsprozesse zwischen
                         Theorie und Praxis</strong
@@ -984,6 +1057,7 @@
                 <a
                     href="http://www.schattenblick.de/infopool/d-brille/report/dbri0092.html"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong>Befangenheit und Verzicht</strong></a
                 >. Interview mit Andreas Hechler zu Medizinkritik,
                 'Sterbehilfe', extreme Rechte, Feminismus, Trans- und
@@ -995,6 +1069,7 @@
                 <a
                     href="http://www.deutschlandfunkkultur.de/antifeministische-maennerrechtsbewegungen-der-verletzte-mann.1264.de.html?dram:article_id=418775"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong>Der Hass der Zukurzgekommenen</strong></a
                 >. Interview mit Andreas Hechler, Rolf Pohl und Ingrid Brodnig
                 zu den 'Incels' und der antifeministischen Männerrechtsbewegung
@@ -1013,6 +1088,7 @@
                 <a
                     href="https://www.gedenkort-t4.eu/de/blog/die-ursache-des-schweigens-ist-nicht-scham"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >"Die Ursache des Schweigens ist nicht Scham"</strong
                     ></a
@@ -1024,6 +1100,7 @@
                 <a
                     href="https://soundcloud.com/dehatepodcast/04-gender-und-rechte-ideologien"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong>Gender und rechte Ideologien</strong></a
                 >. Podcast des Projekts "de:hate".
             </p>
@@ -1044,6 +1121,7 @@
                         href="https://soundcloud.com/dehatepodcast"
                         title="de:hate"
                         target="_blank"
+                        rel="noreferrer"
                         SameSite="Lax"
                         style="color: #cccccc; text-decoration: none;"
                         >de:hate</a
@@ -1053,6 +1131,7 @@
                         href="https://soundcloud.com/dehatepodcast/04-gender-und-rechte-ideologien"
                         title="#04  Gender und rechte Ideologien"
                         target="_blank"
+                        rel="noreferrer"
                         SameSite="Lax"
                         style="color: #cccccc; text-decoration: none;"
                         >#04 Gender und rechte Ideologien
@@ -1065,6 +1144,7 @@
                 <a
                     href="https://rebecca-maskos.net/2016/12/16/der-mord-an-der-uroma-hat-unsere-"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >"Der Mord an der Uroma hat unsere Familie
                         geprägt"</strong
@@ -1077,6 +1157,7 @@
                 <a
                     href="https://www.progress-online.at/artikel/die-volksgemeinschaft%E2%80%98%E2%80%98-br%C3%B6ckelt"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong>Die "Volksgemeinschaft" bröckelt</strong></a
                 >
                 . Interview mit Andreas Hechler in progress, Nr. 5, S. 26-27.
@@ -1087,6 +1168,7 @@
                 <a
                     href="/files/NWfJ - Interview Stuve_Hechler (2015).pdf"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Geschlechterreflektierte Pädagogik gegen Rechts</strong
                     ></a
@@ -1102,7 +1184,10 @@
             <p>
                 Hechler, Andreas (2020):
                 <strong>Texts on intersex and pedagogy</strong> on
-                <a href="https://inter-nrw.de/en/home/" target="_blank"
+                <a
+                    href="https://inter-nrw.de/en/home/"
+                    target="_blank"
+                    rel="noreferrer"
                     >inter-nrw.de</a
                 >:
             </p>
@@ -1111,6 +1196,7 @@
                     <a
                         href="https://inter-nrw.de/en/information-for-educators/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong>Information for educators</strong>
                     </a>
@@ -1120,6 +1206,7 @@
                     <a
                         href="https://inter-nrw.de/en/integrating-inter-into-education-and-teaching/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong
                             >Integrating inter* into education and
@@ -1132,6 +1219,7 @@
                     <a
                         href="https://inter-nrw.de/en/dos-donts-for-educators-communication-tips/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong
                             >Dos &amp; don'ts for educators – communication
@@ -1144,6 +1232,7 @@
                     <a
                         href="https://inter-nrw.de/en/learning-materials/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong>Learning materials</strong>
                     </a>
@@ -1155,6 +1244,7 @@
                 <a
                     href="http://dsq-sds.org/article/view/5573/4651"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Diagnoses That Matter: My Great-Grandmother's Murder as
                         One Deemed 'Unworthy of Living' and Its Impact on Our
@@ -1168,6 +1258,7 @@
                 <a
                     href="http://www.contactfestival.de/english/archiv/textdocu/other/owsites/07AHechler.htm"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Heteronormativity in Contact Improvisation</strong
                     ></a
@@ -1176,6 +1267,7 @@
                 <a
                     href="https://www.researchgate.net/profile/Andreas_Hechler/publication/329880071_Heteronormativite_en_Contact_Improvisation/links/5c1f8fdf92851c22a340e05c/Heteronormativite-en-Contact-Improvisation.pdf?origin=publication_detail"
                     target="_blank"
+                    rel="noreferrer"
                     >Hétéronormativité en Contact Improvisation</a
                 >.
             </p>
@@ -1191,6 +1283,7 @@
                 <a
                     href="https://www.kuwi.europa-uni.de/de/lehrstuhl/lw/depolitbez/projekte/sexstillsells/index.html"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     "Sex Still Sells – Paradoxical Right Wing Sexual Politics in
                     Europe"</a
@@ -1203,6 +1296,7 @@
                 <a
                     href="/files/Kahle_Hechler - Intergenerational dialogue on the Shoah in German families (2009).pdf"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <strong
                         >"Intergenerational Dialogue on the Shoah in German
@@ -1223,6 +1317,7 @@
                 <a
                     href="https://soundcloud.com/american-academy-berlin/beyond-the-lecture-anne-finger"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Beyond the Lecture: Anne Finger on Disability and the
                         Politics of Memory</strong
@@ -1245,6 +1340,7 @@
                         href="https://soundcloud.com/american-academy-berlin"
                         title="Beyond the Lecture"
                         target="_blank"
+                        rel="noreferrer"
                         SameSite="Lax"
                         style="color: #cccccc; text-decoration: none;"
                         >Beyond the Lecture</a
@@ -1254,6 +1350,7 @@
                         href="https://soundcloud.com/american-academy-berlin/beyond-the-lecture-anne-finger"
                         title="Beyond the Lecture: Anne Finger on Disability and the Politics of Memory"
                         target="_blank"
+                        rel="noreferrer"
                         SameSite="Lax"
                         style="color: #cccccc; text-decoration: none;"
                         >Beyond the Lecture: Anne Finger on Disability and the
@@ -1269,7 +1366,10 @@
             <h2 id="turkce">Türkçe</h2>
             <p>
                 Hechler, Andreas (2020):
-                <a href="https://inter-nrw.de/tr/ev/" target="_blank"
+                <a
+                    href="https://inter-nrw.de/tr/ev/"
+                    target="_blank"
+                    rel="noreferrer"
                     >inter-nrw.de:</a
                 >
             </p>
@@ -1278,6 +1378,7 @@
                     <a
                         href="https://inter-nrw.de/tr/pedagoglar-icin-bilgiler/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong>Pedagoglar için bilgiler</strong>
                     </a>
@@ -1287,6 +1388,7 @@
                     <a
                         href="https://inter-nrw.de/tr/interseks-bireylerin-egitim-ve-oegrenime-entegre-edilmeleri/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong
                             >İnterseks bireylerin eğitim ve öğrenime entegre
@@ -1299,6 +1401,7 @@
                     <a
                         href="https://inter-nrw.de/tr/pedagoglar-acisindan-yapilmasi-ve-yapilmamasi-gerekenler-iyi-bir-iletisim-icin-tavsiyeler/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <strong
                             >Pedagoglar açısından yapılması ve yapılmaması
@@ -1312,6 +1415,7 @@
                     <a
                         href="https://inter-nrw.de/tr/calisma-malzemesi/"
                         target="_blank"
+                        rel="noreferrer"
                         ><strong>Çalışma malzemesi</strong></a
                     >
                 </li>
@@ -1327,6 +1431,7 @@
                 <a
                     href="https://www.researchgate.net/profile/Andreas_Hechler/publication/329880071_Heteronormativite_en_Contact_Improvisation/links/5c1f8fdf92851c22a340e05c/Heteronormativite-en-Contact-Improvisation.pdf?origin=publication_detail"
                     target="_blank"
+                    rel="noreferrer"
                     ><strong
                         >Hétéronormativité en Contact Improvisation</strong
                     ></a
@@ -1335,6 +1440,7 @@
                 <a
                     href="http://www.contactfestival.de/english/archiv/textdocu/other/owsites/07AHechler.htm"
                     target="_blank"
+                    rel="noreferrer"
                     >Heteronormativity in Contact Improvisation</a
                 >.
             </p>
