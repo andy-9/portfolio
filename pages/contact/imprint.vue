@@ -22,7 +22,7 @@
                 Websites besteht für mich nicht, da ich keine Kenntnis
                 rechtswidriger Tätigkeiten hatte und habe, mir solche
                 Rechtswidrigkeiten auch bisher nicht aufgefallen sind und ich
-                Links sofort entfernen würde, wenn mir Rechtswidrigkeiten
+                Links sofort entfernen werde, sollten mir Rechtswidrigkeiten
                 bekannt werden.
             </p>
             <p>
@@ -38,7 +38,7 @@
                 Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb
                 der Grenzen des Urheberrechtes bedürfen der schriftlichen
                 Zustimmung von mir. Downloads und Kopien dieser Seite sind nur
-                für den privaten, nicht kommerziellen Gebrauch gestattet. Falls
+                für den privaten, nicht-kommerziellen Gebrauch gestattet. Falls
                 notwendig, werde ich die unerlaubte Nutzung von Teilen der
                 Inhalte meiner Seite rechtlich verfolgen.
             </p>
@@ -53,11 +53,14 @@
                 urheberrechtlich geschützt.
             </p>
             <p>
-                Die Bilderrechte liegen bei den folgenden Fotografen und
-                Unternehmen:
+                Die Bilderrechte liegen bei den Fotograf*innen, die
+                <nuxt-link
+                    :to="localePath('contact-credits')"
+                    :title="$t('Dank und Anerkennung')"
+                    >hier</nuxt-link
+                >
+                aufgeführt werden.
             </p>
-            <p>* XXX</p>
-            <p>* Fotograf Jan Kopetzky</p>
 
             <h2>Datenschutz</h2>
             <p>
@@ -138,14 +141,21 @@ h1 {
 }
 
 img.style-mail {
-    width: 60%;
-    /* width: calc(45vw - 10vw); */
-    margin: 15% 0;
+    width: 12em;
+    transform: translateY(0.36em);
     filter: invert();
+}
+
+#imprint-paragraphs > h2 {
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 2em;
 }
 
 footer {
     grid-row-start: 3;
     grid-row-end: 4;
+    margin-top: 4em;
 }
 </style>
