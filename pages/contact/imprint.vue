@@ -2,84 +2,97 @@
     <div id="imprint-container">
         <h1>{{ $t('Impressum') }}</h1>
         <div id="imprint-paragraphs">
-            <p><strong>Angaben gemäß § 5 TMG</strong></p>
+            <p>
+                <strong>{{ $t('Angaben gemäß § 5 TMG') }}</strong>
+            </p>
             <p>Andreas Hechler</p>
             <p>Allee der Kosmonauten 67</p>
             <p>12681 Berlin</p>
-
             <p>
-                E-Mail:
+                {{ $t('E-Mail') }}
+                :
                 <img
                     src="/images/email.png"
                     :alt="$t('E-Mail-Addresse Andreas Hechler')"
                     class="style-mail"
                 />
             </p>
-            <h2>Haftung für Links auf dieser Website</h2>
+            <h2>{{ $t('Haftung für Links auf dieser Website') }}</h2>
             <p>
-                Meine Webseite enthält Links zu anderen Webseiten, für deren
-                Inhalt ich nicht verantwortlich bin. Haftung für verlinkte
-                Websites besteht für mich nicht, da ich keine Kenntnis
-                rechtswidriger Tätigkeiten hatte und habe, mir solche
-                Rechtswidrigkeiten auch bisher nicht aufgefallen sind und ich
-                Links sofort entfernen werde, sollten mir Rechtswidrigkeiten
-                bekannt werden.
+                {{
+                    $t(
+                        'Meine Webseite enthält Links zu anderen Webseiten, für deren Inhalt ich nicht verantwortlich bin. Haftung für verlinkte Websites besteht für mich nicht, da ich keine Kenntnis rechtswidriger Tätigkeiten hatte und habe, mir solche Rechtswidrigkeiten auch bisher nicht aufgefallen sind und ich Links sofort entfernen werde, sollten mir Rechtswidrigkeiten bekannt werden'
+                    )
+                }}.
             </p>
             <p>
-                Wenn Ihnen rechtswidrige Links auf meiner Website auffallen,
-                bitte ich Sie, mich zu kontaktieren. Sie finden die Kontaktdaten
-                oben.
-            </p>
-
-            <h2>Urheberrechtshinweis</h2>
-            <p>
-                Die von mir erstellten Inhalte und Werke auf diesen Seiten
-                unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
-                Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb
-                der Grenzen des Urheberrechtes bedürfen der schriftlichen
-                Zustimmung von mir. Downloads und Kopien dieser Seite sind nur
-                für den privaten, nicht-kommerziellen Gebrauch gestattet. Falls
-                notwendig, werde ich die unerlaubte Nutzung von Teilen der
-                Inhalte meiner Seite rechtlich verfolgen.
-            </p>
-            <p>
-                Sollten Sie auf dieser Webseite Inhalte finden, die das
-                Urheberrecht verletzen, bitte ich Sie, mich zu kontaktieren.
+                {{
+                    $t(
+                        'Wenn Ihnen rechtswidrige Links auf meiner Website auffallen, bitte ich Sie, mich zu kontaktieren. Sie finden die Kontaktdaten oben'
+                    )
+                }}.
             </p>
 
-            <h2>Bildernachweis</h2>
+            <h2>{{ $t('Urheberrechtshinweis') }}</h2>
             <p>
-                Die Fotos und Screenshots auf dieser Webseite sind
-                urheberrechtlich geschützt.
+                {{
+                    $t(
+                        'Die von mir erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung von mir. Downloads und Kopien dieser Seite sind nur für den privaten, nicht-kommerziellen Gebrauch gestattet. Falls notwendig, werde ich die unerlaubte Nutzung von Teilen der Inhalte meiner Seite rechtlich verfolgen'
+                    )
+                }}.
             </p>
             <p>
-                Die Bilderrechte liegen bei den Fotograf*innen, die
+                {{
+                    $t(
+                        'Sollten Sie auf dieser Webseite Inhalte finden, die das Urheberrecht verletzen, bitte ich Sie, mich zu kontaktieren'
+                    )
+                }}
+            </p>
+
+            <h2>{{ $t('Bildernachweis') }}</h2>
+            <p>
+                {{
+                    $t(
+                        'Die Fotos und Screenshots auf dieser Webseite sind urheberrechtlich geschützt'
+                    )
+                }}.
+            </p>
+            <p>
+                {{
+                    $t(
+                        'Die Bilderrechte liegen bei mir oder den Fotograf*innen, die'
+                    )
+                }}
+
                 <nuxt-link
                     :to="localePath('contact-credits')"
                     :title="$t('Dank und Anerkennung')"
-                    >hier</nuxt-link
+                    >{{ $t('hier') }}</nuxt-link
                 >
-                aufgeführt werden.
+                {{ $t('aufgeführt werden') }}.
             </p>
 
-            <h2>Datenschutz</h2>
+            <h2>{{ $t('Datenschutz') }}</h2>
             <p>
-                Die Nutzung meiner Webseite ist ohne Angabe personenbezogener
-                Daten möglich.
+                {{
+                    $t(
+                        'Die Nutzung meiner Webseite ist ohne Angabe personenbezogener Daten möglich'
+                    )
+                }}.
             </p>
             <p>
-                Ich weise darauf hin, dass die Datenübertragung im Internet
-                (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken
-                aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff
-                durch Dritte ist nicht möglich.
+                {{
+                    $t(
+                        'Ich weise darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich'
+                    )
+                }}.
             </p>
             <p>
-                Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten
-                Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich
-                angeforderter Werbung und Informationsmaterialien wird hiermit
-                ausdrücklich widersprochen. Ich behalte mir ausdrücklich
-                rechtliche Schritte im Falle der unverlangten Zusendung von
-                Werbeinformationen durch beispielsweise Spam-E-Mails vor.
+                {{
+                    $t(
+                        'Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Ich behalte mir ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen durch beispielsweise Spam-E-Mails vor'
+                    )
+                }}.
             </p>
         </div>
         <footer class="white">
@@ -130,7 +143,7 @@ h1 {
     font-size: 4em;
     font-weight: 300;
     letter-spacing: 0.4em;
-    margin-bottom: 2%;
+    margin-bottom: 1em;
     color: white;
 }
 
