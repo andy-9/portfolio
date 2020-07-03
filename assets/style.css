@@ -36,6 +36,10 @@ body {
     opacity: 0;
 }
 
+h1 {
+    word-break: break-word;
+}
+
 p {
     font-size: 1.2em;
     color: black;

@@ -173,13 +173,14 @@ h1 {
 }
 
 .info-left {
-    width: 25%;
+    width: 300px;
     justify-content: flex-start;
     flex: 1 0 auto;
 }
 
 img.style-mail {
-    width: 60%;
+    /* width: 60%; */
+    width: 222px;
     /* width: calc(45vw - 10vw); */
     margin: 15% 0;
     filter: invert();

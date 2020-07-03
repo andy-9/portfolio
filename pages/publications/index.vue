@@ -3,37 +3,41 @@
         <div class="publications-container">
             <h1 id="top">{{ $t('Veröffentlichungen') }}</h1>
 
-            <nuxt-link
-                :to="{ path: 'publications', hash: '#deutsch' }"
-                class="link-padding"
-                :title="
-                    $t('Publikationen, Vorträge und Interviews auf Deutsch')
-                "
-                >deutsch</nuxt-link
-            >
+            <div>
+                <nuxt-link
+                    :to="{ path: 'publications', hash: '#deutsch' }"
+                    class="link-padding"
+                    :title="
+                        $t('Publikationen, Vorträge und Interviews auf Deutsch')
+                    "
+                    >deutsch</nuxt-link
+                >
 
-            <nuxt-link
-                :to="{ path: 'publications', hash: '#english' }"
-                class="link-padding"
-                :title="
-                    $t('Publikationen, Vorträge und Interviews auf Englisch')
-                "
-                >english</nuxt-link
-            >
+                <nuxt-link
+                    :to="{ path: 'publications', hash: '#english' }"
+                    class="link-padding"
+                    :title="
+                        $t(
+                            'Publikationen, Vorträge und Interviews auf Englisch'
+                        )
+                    "
+                    >english</nuxt-link
+                >
 
-            <nuxt-link
-                :to="{ path: 'publications', hash: '#turkce' }"
-                class="link-padding"
-                :title="$t('Publikationen auf Türkisch')"
-                >türkçe</nuxt-link
-            >
+                <nuxt-link
+                    :to="{ path: 'publications', hash: '#turkce' }"
+                    class="link-padding"
+                    :title="$t('Publikationen auf Türkisch')"
+                    >türkçe</nuxt-link
+                >
 
-            <nuxt-link
-                :to="{ path: 'publications', hash: '#francais' }"
-                class="link-padding"
-                :title="$t('Publikationen auf Französisch')"
-                >français</nuxt-link
-            >
+                <nuxt-link
+                    :to="{ path: 'publications', hash: '#francais' }"
+                    class="link-padding"
+                    :title="$t('Publikationen auf Französisch')"
+                    >français</nuxt-link
+                >
+            </div>
 
             <p class="margin-top">{{ $t('Ich schreibe nicht nur Code') }}.</p>
             <p>
@@ -109,10 +113,11 @@
                 >
                 and
                 <nuxt-link
-                    :to="{ path: 'publications', hash: '#interviews_de' }"
+                    :to="{ path: 'publications', hash: interviewHash }"
                     :title="$t('Interviews')"
                     >{{ $t('Interviews') }}</nuxt-link
                 >{{ $t(', die ich gegeben habe') }}.
+                <!-- :to="{ path: 'publications', hash: '#interviews_de' }" -->
             </p>
 
             <span>
@@ -614,8 +619,7 @@
                 <p>
                     Hechler, Andreas (2012):
                     <a
-                        href="https://www.dissens.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Hechler
-            - Intergeschlechtlichkeit.pdf"
+                        href="http://www.jungenarbeit-und-schule.de/fileadmin/JuS/Redaktion/Dokumente/Buch/Hechler%20-%20Intergeschlechtlichkeit.pdf"
                         target="_blank"
                         rel="noreferrer"
                         ><strong
@@ -1450,6 +1454,15 @@
 
 <script>
 export default {
+    computed: {
+        interviewHash() {
+            if (this.$i18n.locale === 'en') {
+                return '#interviews_en'
+            } else {
+                return '#interviews_de'
+            }
+        }
+    },
     // mounted() {
     //     const hash = location.hash
     //     if (hash) {
@@ -1530,8 +1543,9 @@ h1 {
     font-family: 'Ubuntu-Light', sans-serif;
     font-size: 4em;
     font-weight: 300;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.3em;
     margin: 3% 0 1% 0;
+    display: inline-block;
 }
 
 h2 {

@@ -3,7 +3,7 @@
         <nav id="navbar">
             <ul>
                 <li>
-                    <nuxt-link class="nav-link" :to="localePath('index')"
+                    <nuxt-link class="nav-link active" :to="localePath('index')"
                         >Home</nuxt-link
                     >
                 </li>
@@ -45,7 +45,6 @@
                     >
                 </li>
             </ul>
-            <span class="target"></span>
 
             <span class="language-switcher">
                 <nuxt-link
@@ -70,76 +69,6 @@ export default {
             )
         }
     },
-    mounted() {
-        ;(function() {
-            const links = document.querySelectorAll('#navbar ul a')
-            const target = document.querySelector('.target')
-
-            for (let i = 0; i < links.length; i++) {
-                links[i].addEventListener('click', (e) => e.preventDefault())
-                links[i].addEventListener('click', mouseclickFunc)
-                links[i].addEventListener('mouseenter', mouseenterFunc)
-                links[i].addEventListener('mouseleave', mouseleaveFunc)
-            }
-
-            function mouseclickFunc() {
-                if (!this.parentNode.classList.contains('active')) {
-                    for (let i = 0; i < links.length; i++) {
-                        if (links[i].parentNode.classList.contains('active')) {
-                            links[i].parentNode.classList.remove('active')
-                        }
-                        links[i].style.opacity = '0.5'
-                    }
-
-                    this.parentNode.classList.add('active')
-                    this.style.opacity = '1'
-
-                    const width = this.getBoundingClientRect().width
-                    const height = this.getBoundingClientRect().height
-                    const left =
-                        this.getBoundingClientRect().left + window.pageXOffset
-                    const top =
-                        this.getBoundingClientRect().top + window.pageYOffset
-
-                    target.style.width = `${width}px`
-                    target.style.height = `${height}px`
-                    target.style.left = `${left}px`
-                    target.style.top = `${top}px`
-                    target.style.transform = 'none'
-                }
-            }
-
-            function mouseenterFunc() {
-                this.style.opacity = '1'
-            }
-
-            function mouseleaveFunc() {
-                this.style.opacity = '0.5'
-
-                for (let i = 0; i < links.length; i++) {
-                    if (links[i].parentNode.classList.contains('active')) {
-                        links[i].style.opacity = '1'
-                    }
-                }
-            }
-
-            function resizeFunc() {
-                const active = document.querySelector('#navbar li.active')
-
-                if (active) {
-                    const left =
-                        active.getBoundingClientRect().left + window.pageXOffset
-                    const top =
-                        active.getBoundingClientRect().top + window.pageYOffset
-
-                    target.style.left = `${left}px`
-                    target.style.top = `${top}px`
-                }
-            }
-
-            window.addEventListener('resize', resizeFunc)
-        })()
-    },
     head() {
         return {
             title: 'Thank you',
@@ -151,38 +80,37 @@ export default {
 
 <style scoped>
 #navbar {
-    max-height: 10vh;
     min-height: 10vh;
-
     z-index: 1;
+    position: relative;
     mix-blend-mode: screen;
 }
 
 #navbar ul {
     font-size: 1.2em;
     letter-spacing: 0.5px;
-
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
     margin-right: 4em;
-
     align-items: center;
-    z-index: 1;
-    mix-blend-mode: screen;
-}
-
-#navbar ul li {
-    mix-blend-mode: screen;
 }
 
 #navbar a {
     display: block;
     color: rgb(85, 84, 84);
     text-decoration: none;
-    padding: 0.7em 1.5em;
+    padding: 0.7em 1.1em;
+}
+
+#navbar .nav-link.nuxt-link-exact-active {
+    border-bottom: 3px solid rgb(94, 44, 44);
+}
+
+#navbar a:hover {
+    opacity: 0.6;
 }
 
 .target {
@@ -210,12 +138,12 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
-    nav {
-        font-size: 1em;
+    #navbar {
+        max-height: initial;
     }
 
-    .nav-link {
-        padding: 0.5em 1em;
+    #navbar a {
+        padding: 0.3em 1em;
     }
 }
 </style>

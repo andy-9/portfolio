@@ -148,7 +148,6 @@ export default {
 
 #img-container {
     width: 100%;
-    overflow: hidden;
 }
 
 #img-container img {
@@ -166,6 +165,7 @@ export default {
     font-size: 6em;
     font-weight: 300;
     letter-spacing: 1px;
+    line-height: 110%;
     color: #35495e;
 }
 
@@ -182,9 +182,8 @@ export default {
 }
 
 #social-media {
-    width: 50%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 1em 0 5em -1em;
 }
 
@@ -204,7 +203,6 @@ export default {
 
 @media only screen and (max-width: 768px) {
     .home-container {
-        height: auto;
         padding: 1em;
         grid-template-columns: 100%;
     }
