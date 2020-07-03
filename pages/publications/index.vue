@@ -107,7 +107,7 @@
                 {{ $t('Unten findet sich auch eine Auswahl von') }}
 
                 <nuxt-link
-                    :to="{ path: 'publications', hash: '#talks_de' }"
+                    :to="{ path: 'publications', hash: talksHash }"
                     :title="$t('Vorträge')"
                     >{{ $t('Vorträgen') }}</nuxt-link
                 >
@@ -117,7 +117,6 @@
                     :title="$t('Interviews')"
                     >{{ $t('Interviews') }}</nuxt-link
                 >{{ $t(', die ich gegeben habe') }}.
-                <!-- :to="{ path: 'publications', hash: '#interviews_de' }" -->
             </p>
 
             <span>
@@ -1455,6 +1454,13 @@
 <script>
 export default {
     computed: {
+        talksHash() {
+            if (this.$i18n.locale === 'en') {
+                return '#talks_en'
+            } else {
+                return '#talks_de'
+            }
+        },
         interviewHash() {
             if (this.$i18n.locale === 'en') {
                 return '#interviews_en'
