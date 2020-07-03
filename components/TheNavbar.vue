@@ -103,6 +103,7 @@ export default {
     color: rgb(85, 84, 84);
     text-decoration: none;
     padding: 0.7em 1.1em;
+    transition: all 0.5s ease-in-out;
 }
 
 #navbar .nav-link.nuxt-link-exact-active {
@@ -113,28 +114,11 @@ export default {
     opacity: 0.6;
 }
 
-.target {
-    position: absolute;
-    border-bottom: 4px solid rgb(94, 44, 44);
-    z-index: -1;
-    transform: translateX(-60px);
-}
-
-#navbar a,
-.target {
-    transition: all 0.35s ease-in-out;
-}
-
 .language-switcher {
     position: absolute;
     top: 0vh;
     right: 0.3em;
     font-size: 1.2em;
-    opacity: 0.5;
-}
-
-.language-switcher:hover {
-    opacity: 1;
 }
 
 @media only screen and (max-width: 768px) {

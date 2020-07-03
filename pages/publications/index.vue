@@ -3,10 +3,9 @@
         <div class="publications-container">
             <h1 id="top">{{ $t('Veröffentlichungen') }}</h1>
 
-            <div>
+            <div class="language-container">
                 <nuxt-link
                     :to="{ path: 'publications', hash: '#deutsch' }"
-                    class="link-padding"
                     :title="
                         $t('Publikationen, Vorträge und Interviews auf Deutsch')
                     "
@@ -15,7 +14,6 @@
 
                 <nuxt-link
                     :to="{ path: 'publications', hash: '#english' }"
-                    class="link-padding"
                     :title="
                         $t(
                             'Publikationen, Vorträge und Interviews auf Englisch'
@@ -26,14 +24,12 @@
 
                 <nuxt-link
                     :to="{ path: 'publications', hash: '#turkce' }"
-                    class="link-padding"
                     :title="$t('Publikationen auf Türkisch')"
                     >türkçe</nuxt-link
                 >
 
                 <nuxt-link
                     :to="{ path: 'publications', hash: '#francais' }"
-                    class="link-padding"
                     :title="$t('Publikationen auf Französisch')"
                     >français</nuxt-link
                 >
@@ -194,7 +190,7 @@
                 >. Jahrbuch 2019/2020. Wuppertal: Eigendruck, S. 47-48.
             </p>
 
-            <p>
+            <p class="no-bottom-margin">
                 Hechler, Andreas (2020): Texte zu
                 <strong>Intergeschlechtlichkeit und Pädagogik</strong> auf
                 <a href="https://inter-nrw.de/" target="_blank" rel="noreferrer"
@@ -379,7 +375,7 @@
                     >. Psychosozial-Verlag, Gießen, S. 161-185.
                 </p>
 
-                <p>
+                <p class="no-bottom-margin">
                     Hechler, Andreas/Stuve, Olaf (Hrsg.) (2015):
                     <a
                         href="http://library.oapen.org/bitstream/handle/20.500.12657/25626/1004470.pdf?sequence=1&isAllowed=y"
@@ -1184,7 +1180,7 @@
 
             <h2 id="english">English</h2>
 
-            <p>
+            <p class="no-bottom-margin">
                 Hechler, Andreas (2020):
                 <strong>Texts on intersex and pedagogy</strong> on
                 <a
@@ -1367,7 +1363,7 @@
             <!-- ///////////////////// TÜRKCE ///////////////////// -->
 
             <h2 id="turkce">Türkçe</h2>
-            <p>
+            <p class="no-bottom-margin">
                 Hechler, Andreas (2020):
                 <a
                     href="https://inter-nrw.de/tr/ev/"
@@ -1467,6 +1463,9 @@ export default {
             } else {
                 return '#interviews_de'
             }
+        },
+        lengthHeading() {
+            return document.getElementsByTagName('h1')[0].offsetWidth
         }
     },
     // mounted() {
@@ -1539,105 +1538,6 @@ export default {
 @font-face {
     font-family: 'RobotoMono-Light';
     src: url('/fonts/RobotoMono-Light.ttf') format('truetype');
-}
-
-.publications-container {
-    margin: 0 20% 3% 15%;
-}
-
-h1 {
-    font-family: 'Ubuntu-Light', sans-serif;
-    font-size: 4em;
-    font-weight: 300;
-    letter-spacing: 0.3em;
-    margin: 3% 0 1% 0;
-    display: inline-block;
-}
-
-h2 {
-    font-family: 'Ubuntu-Light', sans-serif;
-    font-size: 2.8em;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    padding: 0 0 1% 0;
-}
-
-h3 {
-    letter-spacing: 0.2em;
-    font-family: 'RobotoMono-Light', monospace;
-    font-weight: 300;
-    font-size: 2em;
-    padding-top: 2%;
-}
-
-h4 {
-    font-family: IndieFlower-Regular;
-    font-size: 1.7em;
-    text-align: center;
-    color: white;
-}
-
-p {
-    margin: 1em 0;
-}
-
-.link-padding {
-    margin: 0 13.6% 0 0;
-}
-
-.margin-top {
-    margin-top: 5%;
-}
-
-.up-arrow {
-    height: 1em;
-    filter: invert();
-}
-
-.jump-to-top {
-    /* position: sticky; */
-    position: fixed;
-    left: 90vw;
-    top: 90vh;
-    padding: 0.5em 0.5em;
-    background-color: rgb(85, 84, 84, 0.5);
-    color: white;
-    border-radius: 50%;
-}
-
-.jump-to-top:hover {
-    background-color: rgb(94, 44, 44);
-    text-decoration: none;
-}
-
-details > summary {
-    font-size: 1.2em;
-    width: 15em;
-    background-color: rgb(230, 228, 228);
-    padding: 2px 6px;
-    border: none;
-    margin-bottom: 1em;
-    cursor: pointer;
-}
-
-audio {
-    width: 100%;
-    margin-top: -1%;
-    outline: none;
-}
-
-audio:focus {
-    outline: none;
-}
-
-video {
-    width: 100%;
-    height: 12em;
-    outline: none;
-}
-
-video:focus {
-    outline: none;
 }
 
 /* ANIMATION */
@@ -1779,6 +1679,118 @@ video:focus {
     background-position: 0 100px;
 }
 
+/* STYLING OF PAGE */
+
+.publications-container {
+    margin: 0 20% 3% 15%;
+}
+
+h1 {
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    margin: 3% 0 1% 0;
+}
+
+h2 {
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 2.8em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding: 0 0 1% 0;
+}
+
+h3 {
+    font-family: 'RobotoMono-Light', monospace;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding-top: 2%;
+}
+
+h4 {
+    font-family: IndieFlower-Regular;
+    font-size: 1.7em;
+    text-align: center;
+    color: white;
+}
+
+.language-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: lengthHeading();
+}
+
+p {
+    margin: 1em 0;
+}
+
+.no-bottom-margin {
+    margin: 1em 0 0 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    transform: translateX(-1em);
+}
+
+.margin-top {
+    margin-top: 5%;
+}
+
+.up-arrow {
+    height: 1em;
+    filter: invert();
+}
+
+.jump-to-top {
+    /* position: sticky; */
+    position: fixed;
+    right: 10vw;
+    top: 90vh;
+    padding: 0.5em 0.5em;
+    background-color: rgb(85, 84, 84, 0.5);
+    color: white;
+    border-radius: 50%;
+}
+
+.jump-to-top:hover {
+    background-color: rgb(94, 44, 44);
+    text-decoration: none;
+}
+
+details > summary {
+    font-size: 1.2em;
+    width: 10em;
+    background-color: rgb(230, 228, 228);
+    padding: 2px 6px;
+    border: none;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+audio {
+    width: 100%;
+    margin-top: -1%;
+    outline: none;
+}
+
+audio:focus {
+    outline: none;
+}
+
+video {
+    width: 100%;
+    height: 12em;
+    outline: none;
+}
+
+video:focus {
+    outline: none;
+}
+
 @media only screen and (max-width: 1050px) {
     #peeler,
     #peeler .sticky,
@@ -1801,26 +1813,25 @@ video:focus {
 
     h1 {
         font-size: 3em;
+        letter-spacing: 0.1em;
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 2.3em;
+        letter-spacing: 0;
     }
 
     h3 {
-        font-size: 1.5em;
+        font-size: 1.7em;
+        letter-spacing: 0;
     }
 
-    h4 {
+    /* h4 {
         font-size: 1.2em;
-    }
+    } */
 
-    p {
-        font-size: 1em;
-    }
-
-    details > summary {
-        font-size: 1em;
+    .jump-to-top {
+        right: 1vw;
     }
 }
 </style>
