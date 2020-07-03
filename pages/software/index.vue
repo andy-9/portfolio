@@ -230,7 +230,6 @@
         </div>
 
         <span>
-            <!-- :to="localePath('software')" -->
             <nuxt-link
                 :to="{ localePath: 'software' }"
                 class="jump-to-top"
@@ -1046,7 +1045,7 @@ details {
 
 details > summary {
     padding: 2px 6px 2px 0.7em;
-    width: 15em;
+    width: 10em;
     border: none;
     cursor: pointer;
 }
@@ -1097,7 +1096,8 @@ details > p {
 .jump-to-top {
     /* position: sticky; */
     position: fixed;
-    left: 95vw;
+    /* left: 93vw; */
+    right: 1vw;
     top: 90vh;
     padding: 0.5em 0.5em;
     background-color: rgb(85, 84, 84, 0.5);
@@ -1111,8 +1111,39 @@ details > p {
 }
 
 @media only screen and (max-width: 768px) {
+    #software-container {
+        margin: 0 0.5em 1em 0.5em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+        letter-spacing: 0.3em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+        letter-spacing: 0.1em;
+    }
+
+    .software-explanation {
+        margin: 0 1% 3% 1%;
+    }
+
     .grid-container {
         grid-template-columns: 1fr;
+    }
+
+    .image-container {
+        width: 80%;
+        margin: 2% auto 0 auto;
+    }
+
+    .text-container {
+        padding: 5% 0 0 0;
+    }
+
+    details > summary {
+        padding: 2px 6px 2px 0.2em;
     }
 }
 </style>

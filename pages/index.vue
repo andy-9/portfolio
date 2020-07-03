@@ -223,7 +223,7 @@ export default {
     }
 
     #heading-home {
-        font-size: 5em;
+        font-size: 4.8em;
     }
 
     #subheading-home {

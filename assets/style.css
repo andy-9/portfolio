@@ -40,6 +40,10 @@ h1 {
     word-break: break-word;
 }
 
+h2 {
+    word-break: break-word;
+}
+
 p {
     font-size: 1.2em;
     color: black;
