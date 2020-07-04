@@ -2,9 +2,7 @@
     <div id="imprint-container">
         <h1>{{ $t('Impressum') }}</h1>
         <div id="imprint-paragraphs">
-            <p>
-                <strong>{{ $t('Angaben gemäß § 5 TMG') }}</strong>
-            </p>
+            <h2>{{ $t('Angaben gemäß § 5 TMG') }}</h2>
             <p>Andreas Hechler</p>
             <p>Allee der Kosmonauten 67</p>
             <p>12681 Berlin</p>
@@ -143,7 +141,6 @@ h1 {
     font-size: 4em;
     font-weight: 300;
     letter-spacing: 0.4em;
-    margin-bottom: 1em;
     color: white;
 }
 
@@ -170,5 +167,12 @@ footer {
     grid-row-start: 3;
     grid-row-end: 4;
     margin-top: 4em;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+        letter-spacing: 0.3em;
+    }
 }
 </style>
