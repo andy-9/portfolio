@@ -993,6 +993,16 @@ details .indent-content-in-details {
     margin-top: -70px;
 }
 
+@media only screen and (max-width: 1024px) {
+    details p {
+        margin-left: 1.5em;
+    }
+
+    details .indent-content-in-details {
+        margin-left: 2.5em;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .container-one,
     .container-two,
@@ -1009,15 +1019,6 @@ details .indent-content-in-details {
 
     .indent-after-heading-two {
         padding-left: 1.2em;
-    }
-
-    details p {
-        margin-left: 1.5em;
-        /* text-indent: -5.3em; */
-    }
-
-    details .indent-content-in-details {
-        margin-left: 2em;
     }
 }
 </style>

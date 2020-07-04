@@ -107,7 +107,7 @@
                     :title="$t('Vorträge')"
                     >{{ $t('Vorträgen') }}</nuxt-link
                 >
-                and
+                {{ $t('und') }}
                 <nuxt-link
                     :to="{ path: 'publications', hash: interviewHash }"
                     :title="$t('Interviews')"
@@ -116,7 +116,6 @@
             </p>
 
             <span>
-                <!-- :to="localePath('publications')" -->
                 <nuxt-link
                     :to="{ localePath: 'publications' }"
                     class="jump-to-top"
@@ -132,11 +131,9 @@
                 /></nuxt-link>
             </span>
 
-            <hr class="margin-top-bottom-five-percent" />
-
             <!-- ///////////////////// ANIMATION ///////////////////// -->
 
-            <div id="peeler" class="peeler-transition">
+            <span id="peeler" class="peeler-transition">
                 <div class="reveal circle_wrapper">
                     <p class="circle">
                         ...{{ $t("und lies' den ganzen Kram") }}! 📚
@@ -156,7 +153,9 @@
                         <div class="circle peeler-transition"></div>
                     </div>
                 </div>
-            </div>
+            </span>
+
+            <hr class="margin-top-bottom-five-percent" />
 
             <!-- ///////////////////// DEUTSCH ///////////////////// -->
 
@@ -1542,11 +1541,14 @@ export default {
 
 /* ANIMATION */
 #peeler {
-    position: absolute;
+    position: relative;
+    /* position: absolute; */
     width: 180px;
     height: 180px;
-    top: 65%;
-    right: 15%;
+    /* top: 67%; */
+    /* right: 15%; */
+    transform: translateY(-2em);
+    float: right;
     backface-visibility: hidden;
 }
 
@@ -1791,21 +1793,6 @@ video:focus {
     outline: none;
 }
 
-@media only screen and (max-width: 1050px) {
-    #peeler,
-    #peeler .sticky,
-    #peeler .circle_wrapper,
-    #peeler .circle,
-    #peeler h4 {
-        width: 0;
-    }
-
-    #peeler .front,
-    #peeler .back {
-        height: 0;
-    }
-}
-
 @media only screen and (max-width: 768px) {
     .publications-container {
         margin: 0 2% 2% 2%;
@@ -1826,12 +1813,21 @@ video:focus {
         letter-spacing: 0;
     }
 
-    /* h4 {
-        font-size: 1.2em;
-    } */
-
     .jump-to-top {
         right: 1vw;
+    }
+
+    #peeler,
+    #peeler .sticky,
+    #peeler .circle_wrapper,
+    #peeler .circle,
+    #peeler h4 {
+        width: 0;
+    }
+
+    #peeler .front,
+    #peeler .back {
+        height: 0;
     }
 }
 </style>
