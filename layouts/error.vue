@@ -1,10 +1,5 @@
 <template>
     <div id="error-container">
-        <img
-            src="/images/error.png"
-            :alt="$t('Astronaut mit Hund, Rakete im rechten Hintergrund')"
-            class="error-image"
-        />
         <div class="text-container">
             <p>
                 {{
@@ -13,15 +8,20 @@
                     )
                 }}.
             </p>
+
             <p>{{ $t('Aber es bestätigt sich die traurige Wahrheit') }}:</p>
-            <h1 v-if="error.statusCode === 404">
+
+            <h1>
+                <!-- <h1 v-if="error.statusCode === 404"> -->
                 {{ $t('Diese Seite existiert nicht') }}
             </h1>
-            <h1 v-else>{{ $t('Ein Fehler ist aufgetreten') }}</h1>
+            <!-- <h1 v-else>{{ $t('Ein Fehler ist aufgetreten') }}</h1> -->
+
             <nuxt-link class="backToHome" :to="localePath('index')">{{
                 $t('ZURÜCK ZU HOME')
             }}</nuxt-link>
         </div>
+
         <div class="section-wrapper">
             <div class="waves-bottom">
                 <svg
@@ -52,21 +52,21 @@
 
 <script>
 export default {
-    name: 'Error',
-    props: {
-        error: {
-            type: Object,
-            default: null
-        }
-    },
-    computed: {
-        statusCode() {
-            return (this.error && this.error.statusCode) || 500
-        },
-        message() {
-            return this.error.message
-        }
-    },
+    // name: 'Error',
+    // props: {
+    //     error: {
+    //         type: Object,
+    //         default: null
+    //     }
+    // },
+    // computed: {
+    // statusCode() {
+    //     return (this.error && this.error.statusCode) || 500
+    // },
+    //     message() {
+    //         return this.error.message
+    //     }
+    // },
     head() {
         return {
             title: this.$t('Diese Seite existiert nicht'),
@@ -90,15 +90,23 @@ export default {
 
 <style scoped>
 #error-container {
-    height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex-grow: 1;
+    background-image: url(/images/error.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
 }
 
 .text-container {
-    margin: 4em 2em 0 6em;
+    float: right;
+    margin: 4em 2em 0 0;
 }
 
 .text-container > p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-top: 1em;
 }
 
@@ -106,7 +114,6 @@ export default {
     font-family: 'Ubuntu-Light', sans-serif;
     font-size: 3em;
     margin: 1em 0 2em 0;
-    white-space: nowrap;
 }
 
 .backToHome {
@@ -119,16 +126,14 @@ export default {
 }
 
 .backToHome:hover {
-    color: #f56843;
+    color: white;
+    background-color: rgb(85, 84, 84);
+    text-decoration: none;
+    border: solid 1px white;
+    /* color: #f56843;
     background-color: #fecbc9;
     text-decoration: none;
-    border: solid 1px #f56843;
-}
-
-.error-image {
-    height: 40em;
-    width: 60em;
-    float: right;
+    border: solid 1px #f56843; */
 }
 
 /* .section-wrapper {
@@ -154,5 +159,20 @@ export default {
 
 .waves-bottom .shape-fill {
     fill: #ffd1d1;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-container {
+        float: left;
+        margin: 0.5em;
+    }
+
+    .text-container h1 {
+        text-align: center;
+    }
+
+    .backToHome {
+        margin-left: 3em;
+    }
 }
 </style>
