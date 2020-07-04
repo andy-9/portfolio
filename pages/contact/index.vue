@@ -179,9 +179,7 @@ h1 {
 }
 
 img.style-mail {
-    /* width: 60%; */
     width: 222px;
-    /* width: calc(45vw - 10vw); */
     margin: 15% 0;
     filter: invert();
 }
@@ -202,13 +200,13 @@ img.style-mail {
 }
 
 .bottom {
-    /* bottom: 0; */
     flex-shrink: 0;
 }
 
 @media only screen and (max-width: 768px) {
-    img.style-mail {
-        /* width: 60%; */
+    h1 {
+        font-size: 3em;
+        letter-spacing: 0.3em;
     }
 }
 </style>
