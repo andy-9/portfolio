@@ -862,16 +862,11 @@
                 in Klingenmünster. Ein ähnlicher Vortrag kann hier nachgehört
                 werden:
             </p>
-            <p>
-                <iframe
-                    src="https://hearthis.at/embed/938165/transparent/?hcolor=&amp;color=&amp;style=2&amp;block_size=2&amp;block_space=1&amp;background=0&amp;waveform=0&amp;cover=0&amp;css="
-                    scrolling="no"
-                    width="100%"
-                    height="166"
-                    SameSite="Lax"
-                    frameborder="0"
-                ></iframe>
-            </p>
+            <audio controls>
+                <source src="/files/gegendiagnose.mp3" type="audio/mp3" />
+                Your browser does not support the <code>audio</code> element.
+            </audio>
+
             <p>
                 11/2016:
                 <strong
@@ -960,8 +955,13 @@
                         >"Girls, I will destroy you!" – Frauenhass im
                         Internet</strong
                     ></a
-                >. Podcast im Rahmen der Reihe "Rechtsextreme Rückzugsräume".
-                Carina Huppertz im Gespräch mit Andreas Hechler und Franziska
+                >. Podcast vom 22.06.2020 im Rahmen der Reihe
+                <a
+                    href="https://www.bpb.de/veranstaltungen/dokumentation/311216/podcast-rechtsextreme-rueckzugsraeume-die-reihe"
+                    target="_blank"
+                    rel="noreferrer"
+                    >"Rechtsextreme Rückzugsräume"</a
+                >. Carina Huppertz im Gespräch mit Andreas Hechler und Franziska
                 Schutzbach.
             </p>
             <audio controls>
@@ -983,10 +983,7 @@
                 einer Gamerin und Andreas Hechler.
             </p>
             <video controls width="250">
-                <source
-                    src="https://mediandr-a.akamaihd.net/progressive/2019/1101/TV-20191101-0843-2000.hi.mp4"
-                    type="video/mp4"
-                />
+                <source src="/files/hass_auf_frauen.mp4" type="video/mp4" />
                 Sorry, your browser doesn't support embedded videos.
             </video>
 
@@ -1102,40 +1099,13 @@
                     ><strong>Gender und rechte Ideologien</strong></a
                 >. Podcast des Projekts "de:hate".
             </p>
-
-            <div>
-                <iframe
-                    width="100%"
-                    height="166"
-                    scrolling="no"
-                    frameborder="no"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323381707&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&SameSite=Lax"
-                >
-                </iframe>
-                <div
-                    style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
-                >
-                    <a
-                        href="https://soundcloud.com/dehatepodcast"
-                        title="de:hate"
-                        target="_blank"
-                        rel="noreferrer"
-                        SameSite="Lax"
-                        style="color: #cccccc; text-decoration: none;"
-                        >de:hate</a
-                    >
-                    ·
-                    <a
-                        href="https://soundcloud.com/dehatepodcast/04-gender-und-rechte-ideologien"
-                        title="#04  Gender und rechte Ideologien"
-                        target="_blank"
-                        rel="noreferrer"
-                        SameSite="Lax"
-                        style="color: #cccccc; text-decoration: none;"
-                        >#04 Gender und rechte Ideologien
-                    </a>
-                </div>
-            </div>
+            <audio controls>
+                <source
+                    src="/files/gender_und_rechte_Ideologien.mp3"
+                    type="audio/mp3"
+                />
+                Your browser does not support the <code>audio</code> element.
+            </audio>
 
             <p>
                 Maskos, Rebecca (2016):
@@ -1322,40 +1292,13 @@
                     ></a
                 >. Conversation with Andreas Hechler visiting Berlin-Buch.
             </p>
-
-            <div>
-                <iframe
-                    width="100%"
-                    height="166"
-                    scrolling="no"
-                    frameborder="no"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606279804&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&SameSite=Lax"
-                ></iframe>
-                <div
-                    style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
-                >
-                    <a
-                        href="https://soundcloud.com/american-academy-berlin"
-                        title="Beyond the Lecture"
-                        target="_blank"
-                        rel="noreferrer"
-                        SameSite="Lax"
-                        style="color: #cccccc; text-decoration: none;"
-                        >Beyond the Lecture</a
-                    >
-                    ·
-                    <a
-                        href="https://soundcloud.com/american-academy-berlin/beyond-the-lecture-anne-finger"
-                        title="Beyond the Lecture: Anne Finger on Disability and the Politics of Memory"
-                        target="_blank"
-                        rel="noreferrer"
-                        SameSite="Lax"
-                        style="color: #cccccc; text-decoration: none;"
-                        >Beyond the Lecture: Anne Finger on Disability and the
-                        Politics of Memory</a
-                    >
-                </div>
-            </div>
+            <audio controls>
+                <source
+                    src="https://dl.dropboxusercontent.com/s/ljue3tkqpd564oy/disability_and_politics_of_memory.wav?dl=0"
+                    type="audio/mp3"
+                />
+                Your browser does not support the <code>audio</code> element.
+            </audio>
 
             <hr class="margin-top-bottom-five-percent" />
 

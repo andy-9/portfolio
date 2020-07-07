@@ -5,6 +5,7 @@ import VueI18n from 'vue-i18n'
 Vue.use(VueI18n)
 
 export default ({ app, store }) => {
+    const newLocal = '~/locales/de.json'
     // Get localized path for homepage
     // const localePath = app.localePath('index')
     // Get path to switch current route to English
@@ -22,7 +23,7 @@ export default ({ app, store }) => {
 
         // Associate each locale to a content file
         messages: {
-            de: require('~/locales/de.json'),
+            de: require(newLocal),
             en: require('~/locales/en.json')
         }
     })
