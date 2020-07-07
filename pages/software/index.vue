@@ -69,7 +69,7 @@
                         />
                         <p>
                             <strong>{{ $t('Technologien') }}:</strong> React
-                            &amp; Redux, Express, Node, PostgreSQL, Socket.io,
+                            &amp; Redux, Node, Express, PostgreSQL, Socket.io,
                             Amazon S3 and SES, CSS, HTML
                         </p>
                     </div>
@@ -212,7 +212,7 @@
                             <p>
                                 {{
                                     $t(
-                                        'Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzer\innen-Profils.'
+                                        'Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzer\*innen-Profils.'
                                     )
                                 }}
                             </p>
@@ -292,7 +292,7 @@
                         />
                         <p>
                             <strong>{{ $t('Technologien') }}:</strong> Vue,
-                            Express, Node, PostgreSQL, Amazon S3, Jest, CSS,
+                            Node, Express, PostgreSQL, Amazon S3, Jest, CSS,
                             HTML
                         </p>
                     </div>
@@ -1045,7 +1045,7 @@ details {
 
 details > summary {
     padding: 2px 6px 2px 0.7em;
-    width: 10em;
+    width: 12em;
     border: none;
     cursor: pointer;
 }

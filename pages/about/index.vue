@@ -960,12 +960,12 @@ details {
 }
 
 details p {
-    margin-left: 6.2em;
-    /* text-indent: -5.3em; */
+    margin-left: 4em;
+    text-indent: -2.8em;
 }
 
 details .indent-content-in-details {
-    margin-left: 11.5em;
+    margin-left: 6.8em;
 }
 
 .triangle-to-top {
@@ -993,16 +993,6 @@ details .indent-content-in-details {
     margin-top: -70px;
 }
 
-@media only screen and (max-width: 1024px) {
-    details p {
-        margin-left: 1.5em;
-    }
-
-    details .indent-content-in-details {
-        margin-left: 2.5em;
-    }
-}
-
 @media only screen and (max-width: 768px) {
     .container-one,
     .container-two,
@@ -1015,10 +1005,6 @@ details .indent-content-in-details {
 
     .text-area-two {
         padding: 1em 0 1em 0;
-    }
-
-    .indent-after-heading-two {
-        padding-left: 1.2em;
     }
 }
 </style>
