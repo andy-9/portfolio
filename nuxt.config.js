@@ -94,7 +94,7 @@ export default {
                 loadLanguagesAsync: true,
                 langDir: 'locales/',
                 detectBrowserLanguage: {
-                    useCookie: false,
+                    useCookie: true,
                     alwaysRedirect: true
                 }
             }

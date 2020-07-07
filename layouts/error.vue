@@ -102,7 +102,7 @@ export default {
 
 .text-container {
     float: right;
-    margin: 4em 2em 0 0;
+    margin: 4em 12em 0 0;
 }
 
 .text-container > p {
@@ -127,13 +127,9 @@ export default {
 
 .backToHome:hover {
     color: white;
-    background-color: rgb(85, 84, 84);
+    background-color: rgb(85, 84, 84, 0.3);
     text-decoration: none;
     border: solid 1px white;
-    /* color: #f56843;
-    background-color: #fecbc9;
-    text-decoration: none;
-    border: solid 1px #f56843; */
 }
 
 /* .section-wrapper {
@@ -164,15 +160,12 @@ export default {
 @media only screen and (max-width: 768px) {
     .text-container {
         float: left;
-        margin: 0.5em;
-    }
-
-    .text-container h1 {
         text-align: center;
+        margin: 1em;
     }
 
     .backToHome {
-        margin-left: 3em;
+        margin-left: 0;
     }
 }
 </style>

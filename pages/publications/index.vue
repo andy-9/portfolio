@@ -863,7 +863,10 @@
                 werden:
             </p>
             <audio controls>
-                <source src="/files/gegendiagnose.mp3" type="audio/mp3" />
+                <source
+                    src="https://dl.dropboxusercontent.com/s/3wz19b69euw4dm6/gegendiagnose.mp3?dl=0"
+                    type="audio/mp3"
+                />
                 Your browser does not support the <code>audio</code> element.
             </audio>
 
@@ -983,8 +986,11 @@
                 einer Gamerin und Andreas Hechler.
             </p>
             <video controls width="250">
-                <source src="/files/hass_auf_frauen.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support embedded videos.
+                <source
+                    src="https://dl.dropboxusercontent.com/s/u9hivxiik3gunsj/hass_auf_frauen.mp4?dl=0"
+                    type="video/mp4"
+                />
+                Sorry, your browser does not support embedded videos.
             </video>
 
             <p>
@@ -1072,7 +1078,7 @@
             </p>
             <audio controls>
                 <source
-                    src="https://ondemand-mp3.dradio.de/file/dradio/2018/05/26/der_verletzte_mann_antifeminismus_im_netz_drk_20180526_1315_eb61b182.mp3"
+                    src="https://dl.dropboxusercontent.com/s/dozqvl0amc75d6u/hass_der_zukurzgekommenen.mp3?dl=0"
                     type="audio/mp3"
                 />
                 Your browser does not support the <code>audio</code> element.
@@ -1101,7 +1107,7 @@
             </p>
             <audio controls>
                 <source
-                    src="/files/gender_und_rechte_Ideologien.mp3"
+                    src="https://dl.dropboxusercontent.com/s/ou82r5ndpj00m1u/gender_und_rechte_Ideologien.mp3?dl=0"
                     type="audio/mp3"
                 />
                 Your browser does not support the <code>audio</code> element.

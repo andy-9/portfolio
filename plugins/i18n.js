@@ -23,6 +23,7 @@ export default ({ app, store }) => {
 
         // Associate each locale to a content file
         messages: {
+            // de: require('~/locales/de.json'),
             de: require(newLocal),
             en: require('~/locales/en.json')
         }
