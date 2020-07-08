@@ -137,10 +137,6 @@ body,
 }
 
 h1 {
-    font-family: 'Ubuntu-Light', sans-serif;
-    font-size: 4em;
-    font-weight: 300;
-    letter-spacing: 0.4em;
     color: white;
 }
 
@@ -167,12 +163,5 @@ footer {
     grid-row-start: 3;
     grid-row-end: 4;
     margin-top: 4em;
-}
-
-@media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 3em;
-        letter-spacing: 0.3em;
-    }
 }
 </style>

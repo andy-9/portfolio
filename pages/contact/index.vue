@@ -99,7 +99,7 @@
                 </div>
             </div>
 
-            <p class="bottom">
+            <p class="bottom white">
                 <nuxt-link
                     class="white"
                     :to="localePath('contact-credits')"
@@ -154,10 +154,6 @@ body > * {
 }
 
 h1 {
-    font-family: 'Ubuntu-Light', sans-serif;
-    font-size: 4em;
-    font-weight: 300;
-    letter-spacing: 0.4em;
     margin: 1% 0 2% 3%;
 }
 
@@ -187,8 +183,7 @@ img.style-mail {
 .social-media-logo {
     height: 30px;
     width: 30px;
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
-        brightness(110%) contrast(100%);
+    filter: invert();
 }
 
 .order-logos {
@@ -196,7 +191,7 @@ img.style-mail {
 }
 
 .social-media-logo:hover {
-    filter: invert();
+    opacity: 0.5;
 }
 
 .bottom {

@@ -89,10 +89,6 @@ body,
 }
 
 h1 {
-    font-family: 'Ubuntu-Light', sans-serif;
-    font-size: 4em;
-    font-weight: 300;
-    letter-spacing: 0.4em;
     color: white;
 }
 

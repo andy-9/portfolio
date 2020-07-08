@@ -881,9 +881,9 @@ export default {
 
 .text-area-one h1,
 .text-area-two h1 {
-    font-family: 'Ubuntu-Light', sans-serif;
+    /* font-family: 'Ubuntu-Light', sans-serif; */
     font-size: 3em;
-    font-weight: 700;
+    font-weight: bold;
     color: white;
     line-height: 130%;
 }
@@ -891,9 +891,9 @@ export default {
 .text-area-one h2,
 .text-area-two h2,
 .text-area-four h2 {
-    font-family: 'Ubuntu-Light', sans-serif;
+    /* font-family: 'Ubuntu-Light', sans-serif; */
     font-size: 2.4em;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .text-area-one h2 {

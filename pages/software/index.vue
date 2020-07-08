@@ -978,29 +978,32 @@ export default {
 
 <style scoped>
 #software-container {
-    margin: 0 2em 2em 2em;
+    margin: 0 2em 10em 2em;
 }
 
 h1 {
-    font-family: 'Ubuntu-Light', sans-serif;
+    /* font-family: 'Ubuntu-Light', sans-serif; */
     font-size: 4em;
-    font-weight: 300;
-    letter-spacing: 0.4em;
+    font-weight: bold;
+    /* font-weight: 300; */
+    /* letter-spacing: 0.4em; */
     text-align: center;
     margin: 2% 0 2% 0;
 }
 
 h2 {
-    font-family: 'Ubuntu-Light', sans-serif;
+    /* font-family: 'Ubuntu-Light', sans-serif; */
     font-size: 2.8em;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    padding-top: 1em;
+    font-weight: bold;
+    color: black;
+    /* font-weight: 300; */
+    /* letter-spacing: 0.2em; */
+    margin-top: 2em;
 }
 
 .software-explanation {
     text-align: center;
-    margin: 0 15% 3% 15%;
+    margin: 0 15% 0 15%;
 }
 
 .grid-container {
@@ -1044,7 +1047,7 @@ details {
 }
 
 details > summary {
-    padding: 2px 6px 2px 0.7em;
+    padding: 2px 6px 2px 16px;
     width: 12em;
     border: none;
     cursor: pointer;
@@ -1052,7 +1055,7 @@ details > summary {
 
 details > p {
     font-size: 1em;
-    padding: 2px 6px;
+    padding: 2px 6px 2px 38px;
     margin: 0;
 }
 
@@ -1091,23 +1094,6 @@ details > p {
 .up-arrow {
     height: 1em;
     filter: invert();
-}
-
-.jump-to-top {
-    /* position: sticky; */
-    position: fixed;
-    /* left: 93vw; */
-    right: 1vw;
-    top: 90vh;
-    padding: 0.5em 0.5em;
-    background-color: rgb(85, 84, 84, 0.5);
-    color: white;
-    border-radius: 50%;
-}
-
-.jump-to-top:hover {
-    background-color: rgb(94, 44, 44);
-    text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {

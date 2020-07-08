@@ -9,7 +9,7 @@
                     :title="
                         $t('Publikationen, Vorträge und Interviews auf Deutsch')
                     "
-                    >deutsch</nuxt-link
+                    >Deutsch</nuxt-link
                 >
 
                 <nuxt-link
@@ -19,19 +19,19 @@
                             'Publikationen, Vorträge und Interviews auf Englisch'
                         )
                     "
-                    >english</nuxt-link
+                    >English</nuxt-link
                 >
 
                 <nuxt-link
                     :to="{ path: 'publications', hash: '#turkce' }"
                     :title="$t('Publikationen auf Türkisch')"
-                    >türkçe</nuxt-link
+                    >Türkçe</nuxt-link
                 >
 
                 <nuxt-link
                     :to="{ path: 'publications', hash: '#francais' }"
                     :title="$t('Publikationen auf Französisch')"
-                    >français</nuxt-link
+                    >Français</nuxt-link
                 >
             </div>
 
@@ -155,7 +155,7 @@
                 </div>
             </span>
 
-            <hr class="margin-top-bottom-five-percent" />
+            <hr />
 
             <!-- ///////////////////// DEUTSCH ///////////////////// -->
 
@@ -1149,7 +1149,7 @@
                 >. Interview mit Olaf Stuve und Andreas Hechler vom 30.11.2015.
             </p>
 
-            <hr class="margin-top-bottom-five-percent" />
+            <hr />
 
             <!-- ///////////////////// ENGLISH ///////////////////// -->
 
@@ -1306,7 +1306,7 @@
                 Your browser does not support the <code>audio</code> element.
             </audio>
 
-            <hr class="margin-top-bottom-five-percent" />
+            <hr />
 
             <!-- ///////////////////// TÜRKCE ///////////////////// -->
 
@@ -1368,7 +1368,7 @@
                 </li>
             </ul>
 
-            <hr class="margin-top-bottom-five-percent" />
+            <hr />
 
             <!-- ///////////////////// FRANCAIS ///////////////////// -->
 
@@ -1411,12 +1411,18 @@ export default {
             } else {
                 return '#interviews_de'
             }
-        },
-        lengthHeading() {
-            return document.getElementsByTagName('h1')[0].offsetWidth
         }
     },
     // mounted() {
+    //     cssProps() {
+    //         let lengthHeading = 500
+    //         if (this.document.getElementById('top')) {
+    //             lengthHeading = this.document.getElementById('top').offsetWidth
+    //         }
+    //         return {
+    //             '--length-heading': lengthHeading
+    //         }
+    //     }
     //     const hash = location.hash
     //     if (hash) {
     //         // console.log('publications.vue, 1st if-statement running')
@@ -1483,10 +1489,10 @@ export default {
     src: url('/fonts/IndieFlower-Regular.ttf') format('truetype');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'RobotoMono-Light';
     src: url('/fonts/RobotoMono-Light.ttf') format('truetype');
-}
+} */
 
 /* ANIMATION */
 #peeler {
@@ -1637,27 +1643,31 @@ export default {
 }
 
 h1 {
-    font-family: 'Ubuntu-Light', sans-serif;
+    /* font-family: 'Ubuntu-Light', sans-serif; */
     font-size: 4em;
-    font-weight: 300;
-    letter-spacing: 0.3em;
+    /* font-weight: 300; */
+    font-weight: bold;
+    /* letter-spacing: 0.3em; */
     margin: 3% 0 1% 0;
+    display: inline-block;
 }
 
 h2 {
-    font-family: 'Ubuntu-Light', sans-serif;
+    /* font-family: 'Ubuntu-Light', sans-serif; */
     font-size: 2.8em;
-    font-weight: 300;
-    letter-spacing: 0.2em;
+    font-weight: bold;
+    /* font-weight: 300; */
+    /* letter-spacing: 0.2em; */
     padding: 0 0 1% 0;
 }
 
 h3 {
-    font-family: 'RobotoMono-Light', monospace;
+    /* font-family: 'RobotoMono-Light', monospace; */
     font-size: 2em;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    padding-top: 2%;
+    font-weight: bold;
+    /* font-weight: 300; */
+    /* letter-spacing: 0.2em; */
+    padding-top: 1em;
 }
 
 h4 {
@@ -1671,7 +1681,8 @@ h4 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: lengthHeading();
+    width: 555px;
+    /* width: var(--length-heading); */
 }
 
 p {
@@ -1694,22 +1705,6 @@ ul li {
 .up-arrow {
     height: 1em;
     filter: invert();
-}
-
-.jump-to-top {
-    /* position: sticky; */
-    position: fixed;
-    right: 10vw;
-    top: 90vh;
-    padding: 0.5em 0.5em;
-    background-color: rgb(85, 84, 84, 0.5);
-    color: white;
-    border-radius: 50%;
-}
-
-.jump-to-top:hover {
-    background-color: rgb(94, 44, 44);
-    text-decoration: none;
 }
 
 details > summary {

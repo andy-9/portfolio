@@ -19,7 +19,7 @@
         />
         <link rel="manifest" href="/site.webmanifest" />
 
-        <TheNavbar />
+        <Nav />
 
         <!-- <transition name="fade" mode="out-in">
             <router-view :key="$route.path" />
@@ -30,10 +30,10 @@
 </template>
 
 <script>
-import TheNavbar from '@/components/TheNavbar'
+import Nav from '@/components/nav'
 export default {
     components: {
-        TheNavbar
+        Nav
     },
 
     mounted() {

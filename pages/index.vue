@@ -159,9 +159,6 @@ export default {
 }
 
 #heading-home {
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
-        BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-        sans-serif;
     font-size: 6em;
     font-weight: 300;
     letter-spacing: 1px;
@@ -194,11 +191,11 @@ export default {
 .social-media-logo {
     height: 2em;
     width: 2em;
+    opacity: 0.8;
 }
 
 #social-media a:hover {
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
-        brightness(110%) contrast(100%);
+    opacity: 0.5;
 }
 
 @media only screen and (max-width: 768px) {

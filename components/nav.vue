@@ -107,7 +107,8 @@ export default {
 }
 
 #navbar .nav-link.nuxt-link-exact-active {
-    border-bottom: 3px solid rgb(94, 44, 44);
+    color: #35495e;
+    border-bottom: 3px solid #35495e;
 }
 
 #navbar a:hover {
