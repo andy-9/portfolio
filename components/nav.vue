@@ -84,7 +84,6 @@ export default {
     z-index: 1;
     position: relative;
     mix-blend-mode: screen;
-    isolation: isolate;
 }
 
 #navbar ul {

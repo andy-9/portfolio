@@ -111,3 +111,7 @@ hr {
     opacity: 1;
     text-decoration: none;
 }
+
+#__layout > div {
+    isolation: isolate;
+}
