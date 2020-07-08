@@ -195,7 +195,7 @@
                                 </p>
 
                                 <p>
-                                    2018-2019:
+                                    2018–2019:
                                     {{
                                         $t(
                                             'Anne Frank Zentrum / Deutsches Rotes Kreuz Thüringen'
@@ -203,7 +203,7 @@
                                     }}:
                                     <strong>{{
                                         $t(
-                                            'Prozessbegleitung zu Antidiskriminierung und Rechtsextremismusprävention'
+                                            'Prozessbegleitung zu Antidiskriminierung und Rechtsextremismus-Prävention'
                                         )
                                     }}</strong>
                                     {{
@@ -247,7 +247,7 @@
                                 </p>
 
                                 <p>
-                                    2016-2018:
+                                    2016–2018:
                                     {{
                                         $t(
                                             'KoFaS – Kompetenzgruppe Fankulturen &amp; Sport'
@@ -264,7 +264,7 @@
                                 </p>
 
                                 <p>
-                                    2017-2018: Bundesarbeitskreis Arbeit und
+                                    2017–2018: Bundesarbeitskreis Arbeit und
                                     Leben: {{ $t('Umfangreiche') }}
                                     <strong>Evaluation</strong>
                                     {{
@@ -280,7 +280,7 @@
                                 </p>
 
                                 <p>
-                                    2016-2017: ufuq.de:
+                                    2016–2017: ufuq.de:
                                     <strong>{{
                                         $t('Teamberatung und -begleitung')
                                     }}</strong>
@@ -340,7 +340,7 @@
                                 ><summary>{{ $t('Ausführlicher') }}</summary>
 
                                 <p>
-                                    2010-2020: {{ $t('1-9-tägige') }}
+                                    2010–2020: {{ $t('1-9-tägige') }}
                                     <strong>{{
                                         $t(
                                             'Fort- und Weiterbildungen und Train the Trainer-Schulungen'
@@ -468,7 +468,7 @@
                         <li>
                             <strong>{{ $t('Jungenarbeit') }}</strong>
                             {{ $t('und Hilfen zur Erziehung') }}
-                            (2002-2017)
+                            (2002–2017)
                         </li>
 
                         <div>
@@ -565,13 +565,13 @@
                             <strong>{{
                                 $t('Nachrichtenagentur Reuters')
                             }}</strong>
-                            (2004-2008) ({{ $t('studienbegleitend') }})
+                            (2004–2008) ({{ $t('studienbegleitend') }})
                         </li>
 
                         <li>
                             <strong>{{ $t('Psychosoziale Betreuung') }}</strong>
                             {{ $t('beim Psychosozialen') }}
-                            Verbund Treptow (2001-2006) ({{
+                            Verbund Treptow (2001–2006) ({{
                                 $t('studienbegleitend')
                             }})
                         </li>
@@ -599,7 +599,7 @@
                     </p>
 
                     <p>
-                        1998-2008:
+                        1998–2008:
                         <strong
                             >{{
                                 $t(
@@ -619,7 +619,7 @@
                     </p>
 
                     <p>
-                        1997-1998:
+                        1997–1998:
                         <strong
                             >{{ $t('Freiwilliges Ökologisches Jahr') }}
                         </strong>
@@ -628,12 +628,12 @@
                     </p>
 
                     <p>
-                        1989-1997: <strong>{{ $t('Abitur') }}</strong>
+                        1989–1997: <strong>{{ $t('Abitur') }}</strong>
                         {{ $t('an der Sophie-Charlotte-Oberschule') }} (Berlin)
                     </p>
 
                     <p>
-                        1994-1995:
+                        1994–1995:
                         <strong>{{ $t('Abschluss (Graduation)') }}</strong> Dyer
                         County High School (Tennessee/USA)
                     </p>
@@ -651,7 +651,7 @@
                     </p>
 
                     <p>
-                        2012-2013:
+                        2012–2013:
                         {{ $t('Weiterbildung zum Verfahrensbeistand') }}
                     </p>
 
@@ -664,7 +664,7 @@
                         {{ $t('Ausbildung zum Jugendgruppenleiter') }} (JuLeiCa)
                     </p>
 
-                    <p>
+                    <p class="no-indent">
                         {{
                             $t(
                                 'Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate &amp; Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, Intersektionale Gewaltprävention, Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr'
@@ -791,8 +791,6 @@
         </div>
 
         <div id="circle"></div>
-
-        <!-- <div class="footer nav-fixed-bottom"></div> -->
     </div>
 </template>
 
@@ -800,7 +798,6 @@
 export default {
     _methods: {
         scrollToTop() {
-            // console.log('about page, scrollToTop running')
             window.scrollTo({
                 behavior: 'smooth',
                 left: 0,
@@ -879,21 +876,10 @@ export default {
     padding: 5em 0 0;
 }
 
-.text-area-one h1,
-.text-area-two h1 {
-    /* font-family: 'Ubuntu-Light', sans-serif; */
+.text-area-one h1 {
     font-size: 3em;
-    font-weight: bold;
     color: white;
     line-height: 130%;
-}
-
-.text-area-one h2,
-.text-area-two h2,
-.text-area-four h2 {
-    /* font-family: 'Ubuntu-Light', sans-serif; */
-    font-size: 2.4em;
-    font-weight: bold;
 }
 
 .text-area-one h2 {
@@ -936,11 +922,20 @@ export default {
 }
 
 h3 {
-    font-size: 1.5em;
     font-variant: small-caps;
     color: white;
     padding-bottom: 0.5em;
     padding-top: 2em;
+}
+
+.indent-after-heading-two > p {
+    margin-left: 2.8em;
+    text-indent: -2.8em;
+}
+
+.indent-after-heading-two > p.no-indent {
+    margin-left: 0;
+    text-indent: 0;
 }
 
 ul {
@@ -969,8 +964,6 @@ details .indent-content-in-details {
 }
 
 .triangle-to-top {
-    /* filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(190deg)
-        brightness(110%) contrast(100%); */
     filter: invert();
     margin-left: 70vw;
     height: 2em;

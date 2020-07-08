@@ -982,23 +982,18 @@ export default {
 }
 
 h1 {
-    /* font-family: 'Ubuntu-Light', sans-serif; */
-    font-size: 4em;
-    font-weight: bold;
-    /* font-weight: 300; */
-    /* letter-spacing: 0.4em; */
     text-align: center;
     margin: 2% 0 2% 0;
 }
 
 h2 {
-    /* font-family: 'Ubuntu-Light', sans-serif; */
-    font-size: 2.8em;
-    font-weight: bold;
     color: black;
-    /* font-weight: 300; */
-    /* letter-spacing: 0.2em; */
     margin-top: 2em;
+}
+
+h2:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 .software-explanation {

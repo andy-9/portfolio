@@ -96,13 +96,14 @@ export default {
     background-image: url(/images/error.png);
     background-repeat: no-repeat;
     background-size: contain;
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
+    min-height: 100%;
+    /* display: grid; */
+    /* grid-template-rows: 1fr auto; */
 }
 
 .text-container {
     float: right;
-    margin: 4em 12em 0 0;
+    margin: 4em 12em 0 3em;
 }
 
 .text-container > p {
@@ -111,8 +112,6 @@ export default {
 }
 
 .text-container h1 {
-    font-family: 'Ubuntu-Light', sans-serif;
-    font-size: 3em;
     margin: 1em 0 2em 0;
 }
 
@@ -132,9 +131,11 @@ export default {
     border: solid 1px white;
 }
 
-/* .section-wrapper {
-    position: relative;
-} */
+/* .section-wrapper { */
+/* position: relative; */
+/* grid-row-start: 2; */
+/* grid-row-end: 3; */
+/* } */
 
 .waves-bottom {
     position: absolute;
@@ -162,6 +163,11 @@ export default {
         float: left;
         text-align: center;
         margin: 1em;
+    }
+
+    .text-container h1 {
+        font-size: 3em;
+        margin: 1em 0 1em 0;
     }
 
     .backToHome {

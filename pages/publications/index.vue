@@ -1423,30 +1423,9 @@ export default {
     //             '--length-heading': lengthHeading
     //         }
     //     }
-    //     const hash = location.hash
-    //     if (hash) {
-    //         // console.log('publications.vue, 1st if-statement running')
-    //         const currentElem = document.querySelector(hash)
-    //         if (currentElem) {
-    //             // console.log('publications.vue, 2nd if-statement running')
-    //             scrollToPlaces(currentElem)
-    //         }
-    //     }
-    //     // if not true do it, if true set to false, repeat
-    //     function scrollToPlaces(elem) {
-    //         // console.log('publications.vue elem', elem)
-    //         // console.log('publications.vue elem.offsetTop', elem.offsetTop)
-    //         window.scrollTo({
-    //             behavior: 'smooth',
-    //             left: 0,
-    //             top: elem.offsetTop
-    //             // top: null
-    //         })
-    //     }
     // },
     _methods: {
         scrollToTop() {
-            // console.log('publications-page, scrollToTop running')
             window.scrollTo({
                 behavior: 'smooth',
                 left: 0,
@@ -1460,20 +1439,6 @@ export default {
     set methods(value) {
         this._methods = value
     },
-    // scrollBehavior(to) {
-    //     // console.log('publications.js to:', to)
-    //     if (to.hash) {
-    //         return window.scrollTo({
-    //             top:
-    //                 document.querySelector(to.hash).offsetTop +
-    //                 window.innerHeight,
-    //             behavior: 'smooth',
-    //             left: 0
-    //         })
-    //     }
-    //     return window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-    //     // }
-    // },
     head() {
         return {
             title: this.$t('Veröffentlichungen Andreas Hechler'),
@@ -1489,19 +1454,11 @@ export default {
     src: url('/fonts/IndieFlower-Regular.ttf') format('truetype');
 }
 
-/* @font-face {
-    font-family: 'RobotoMono-Light';
-    src: url('/fonts/RobotoMono-Light.ttf') format('truetype');
-} */
-
 /* ANIMATION */
 #peeler {
     position: relative;
-    /* position: absolute; */
     width: 180px;
     height: 180px;
-    /* top: 67%; */
-    /* right: 15%; */
     transform: translateY(-2em);
     float: right;
     backface-visibility: hidden;
@@ -1627,7 +1584,6 @@ export default {
 #peeler:hover h4 {
     opacity: 0;
     transition: opacity 50ms linear 300ms;
-    /* transform: translateY(-2px); */
 }
 
 #peeler:hover .front .circle {
@@ -1643,30 +1599,15 @@ export default {
 }
 
 h1 {
-    /* font-family: 'Ubuntu-Light', sans-serif; */
-    font-size: 4em;
-    /* font-weight: 300; */
-    font-weight: bold;
-    /* letter-spacing: 0.3em; */
     margin: 3% 0 1% 0;
     display: inline-block;
 }
 
 h2 {
-    /* font-family: 'Ubuntu-Light', sans-serif; */
-    font-size: 2.8em;
-    font-weight: bold;
-    /* font-weight: 300; */
-    /* letter-spacing: 0.2em; */
     padding: 0 0 1% 0;
 }
 
 h3 {
-    /* font-family: 'RobotoMono-Light', monospace; */
-    font-size: 2em;
-    font-weight: bold;
-    /* font-weight: 300; */
-    /* letter-spacing: 0.2em; */
     padding-top: 1em;
 }
 

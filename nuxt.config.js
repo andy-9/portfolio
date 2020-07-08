@@ -1,9 +1,10 @@
 export default {
     mode: 'universal',
-    /*
-     ** Headers of the page
-     */
+    // plugins: [{ src: '~plugins/i18n.js', injectAs: 'i18n' }],
     head: {
+        htmlAttrs: {
+            // lang: this.$i18n.locale
+        },
         title: process.env.npm_package_name || '',
         meta: [
             { charset: 'utf-8' },

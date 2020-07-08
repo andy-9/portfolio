@@ -150,7 +150,6 @@ body > * {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    /* flex-shrink: 0; */
 }
 
 h1 {
