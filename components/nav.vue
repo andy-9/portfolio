@@ -83,7 +83,7 @@ export default {
     min-height: 10vh;
     z-index: 1;
     position: relative;
-    mix-blend-mode: screen;
+    /* mix-blend-mode: screen; */
 }
 
 #navbar ul {
