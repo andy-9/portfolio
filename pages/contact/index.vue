@@ -197,11 +197,4 @@ img.style-mail {
 .bottom {
     flex-shrink: 0;
 }
-
-@media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 3em;
-        letter-spacing: 0.3em;
-    }
-}
 </style>

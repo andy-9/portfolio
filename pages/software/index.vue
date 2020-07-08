@@ -1101,16 +1101,6 @@ details > p {
         margin: 0 0.5em 1em 0.5em;
     }
 
-    h1 {
-        font-size: 3.5em;
-        letter-spacing: 0.3em;
-    }
-
-    h2 {
-        font-size: 2.5em;
-        letter-spacing: 0.1em;
-    }
-
     .software-explanation {
         margin: 0 1% 3% 1%;
     }

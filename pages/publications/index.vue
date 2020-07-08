@@ -831,7 +831,7 @@
                 >
                     "Solidarische Bündnisse gegen Diskriminierung und den
                     rechten 'Backlash'? – Perspektiven für Inter* und
-                    Trans*-Forschung im Inter*_Trans*_Wissenschaftsnetzwerk"
+                    Trans*-Forschung im Inter*_Trans*-Wissenschaftsnetzwerk"
                 </a>
                 in Köln.
             </p>
@@ -1681,7 +1681,8 @@ h4 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 555px;
+    width: 400px;
+    max-width: 100%;
     /* width: var(--length-heading); */
 }
 
@@ -1742,36 +1743,12 @@ video:focus {
         margin: 0 2% 2% 2%;
     }
 
-    h1 {
-        font-size: 3em;
-        letter-spacing: 0.1em;
-    }
-
-    h2 {
-        font-size: 2.3em;
-        letter-spacing: 0;
-    }
-
-    h3 {
-        font-size: 1.7em;
-        letter-spacing: 0;
-    }
-
     .jump-to-top {
         right: 1vw;
     }
 
-    #peeler,
-    #peeler .sticky,
-    #peeler .circle_wrapper,
-    #peeler .circle,
-    #peeler h4 {
-        width: 0;
-    }
-
-    #peeler .front,
-    #peeler .back {
-        height: 0;
+    #peeler {
+        display: none;
     }
 }
 </style>

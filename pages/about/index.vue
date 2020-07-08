@@ -307,7 +307,7 @@
                                     }}
                                     <strong
                                         >{{
-                                            $t('Beschwerdemanagementverfahren')
+                                            $t('Beschwerdemanagement-Verfahren')
                                         }}
                                     </strong>
                                 </p>
@@ -1005,6 +1005,15 @@ details .indent-content-in-details {
 
     .text-area-two {
         padding: 1em 0 1em 0;
+    }
+
+    .indent-after-heading-two {
+        padding-left: 0;
+    }
+
+    details p {
+        margin-left: 0;
+        text-indent: 0;
     }
 }
 </style>

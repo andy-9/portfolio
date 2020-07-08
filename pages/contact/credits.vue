@@ -99,15 +99,8 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 3em;
-        letter-spacing: 0.3em;
-    }
-
     #credit-paragraphs > p {
-        color: white;
-        margin-left: 20%;
-        padding: 1% 0;
+        margin-left: 3%;
     }
 }
 </style>
