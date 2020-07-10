@@ -165,6 +165,7 @@ h1 {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }
 
 .info-left {
@@ -194,6 +195,7 @@ img.style-mail {
 }
 
 .bottom {
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
+    margin-top: 3em;
 }
 </style>
