@@ -594,16 +594,18 @@
                         </p>
                     </div>
                     <!-- Zum Ausklappen -->
-                    <details>
-                        <summary>{{ $t('Mehr Informationen') }}</summary>
-                        <p>
-                            {{
-                                $t(
-                                    '4 Bilder von Kätzchen bewegen sich in einer Endlosschleife von rechts nach links, ein Bild pro Sekunde. Es kann auch ein bestimmtes Bild ausgewählt werden, indem auf den entsprechenden weißen Punkt geklickt wird. Bei der Programmierung waren timing und Raum wichtig, einschließlich des Hinzufügens und Entfernens von QuerySelectors, eventListeners und clickHandlers. Es war das erste Mal, dass ich mit CSS-transitions gearbeitet habe. Niedlich, nicht wahr? Klick auf den Link, um das Kätzchen-Karussell zu sehen...'
-                                )
-                            }}
-                        </p>
-                    </details>
+                    <div>
+                        <details>
+                            <summary>{{ $t('Mehr Informationen') }}</summary>
+                            <p>
+                                {{
+                                    $t(
+                                        '4 Bilder von Kätzchen bewegen sich in einer Endlosschleife von rechts nach links, ein Bild pro Sekunde. Es kann auch ein bestimmtes Bild ausgewählt werden, indem auf den entsprechenden weißen Punkt geklickt wird. Bei der Programmierung waren timing und Raum wichtig, einschließlich des Hinzufügens und Entfernens von QuerySelectors, eventListeners und clickHandlers. Es war das erste Mal, dass ich mit CSS-transitions gearbeitet habe. Niedlich, nicht wahr? Klick auf den Link, um das Kätzchen-Karussell zu sehen...'
+                                    )
+                                }}
+                            </p>
+                        </details>
+                    </div>
                 </div>
             </div>
 
@@ -1029,11 +1031,11 @@ h2:hover {
 }
 
 .text-container > div {
-    margin-top: 2%;
+    margin-top: 1em;
 }
 
 .code-margin {
-    margin-top: 2%;
+    margin-top: 1em;
     margin-left: 2em;
 }
 
@@ -1050,7 +1052,7 @@ details > summary {
 
 details > p {
     font-size: 1em;
-    padding: 2px 6px 2px 38px;
+    padding: 2px 6px 2px 2em;
     margin: 0;
 }
 
@@ -1093,7 +1095,7 @@ details > p {
 
 @media only screen and (max-width: 768px) {
     #software-container {
-        margin: 0 0.5em 1em 0.5em;
+        margin: 0 0.5em 10em 0.5em;
     }
 
     .software-explanation {
@@ -1114,7 +1116,7 @@ details > p {
     }
 
     details > summary {
-        padding: 2px 6px 2px 0.2em;
+        padding: 2px 6px 2px 0.85em;
     }
 }
 </style>
