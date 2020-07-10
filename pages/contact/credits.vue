@@ -86,6 +86,7 @@ body,
     background-attachment: fixed;
     text-align: right;
     padding: 5%;
+    overflow: scroll;
 }
 
 h1 {
