@@ -277,7 +277,7 @@
                                     }}
                                     <em>{{
                                         $t(
-                                            'breit aufgestellt – Fortbildung zur Prävention von Ungleichwertigkeitsvorstellungen'
+                                            'breit aufgestellt – Fortbildung zur Prävention von Ungleichwertigkeits-Vorstellungen'
                                         )
                                     }}</em>
                                 </p>
@@ -683,7 +683,7 @@
 
                     <h3 id="expertise">{{ $t('Arbeitsschwerpunkte') }}</h3>
 
-                    <p>
+                    <p class="no-indent">
                         {{ $t('Forschung, Praxis und Theorie zu den Themen') }}:
                     </p>
 
@@ -998,6 +998,10 @@ details .indent-content-in-details {
 }
 
 @media only screen and (max-width: 768px) {
+    h3 {
+        font-size: 1.8em;
+    }
+
     .container-one,
     .container-two,
     .container-three,
