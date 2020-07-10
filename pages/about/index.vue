@@ -151,9 +151,12 @@
                                     'Entwicklung von Software im Front- und Backend'
                                 )
                             }}</strong>
-                            (JavaScript, Node, Vue, React/Redux, Express,
-                            Handlebars, jQuery, Socket.io, Jest, PostgreSQL,
-                            GitHub, HTML, CSS)
+                            (<em>Front End:</em> JavaScript, React.js, redux,
+                            Vue.js, jQuery, handlebars, HTML, CSS<br />
+                            <em>Back End:</em> Node.js, express, PostgreSQL,
+                            socket.io, AWS<br />
+                            <em>Testing:</em> Jest, Supertest, React Testing
+                            Library)
                         </li>
 
                         <li>
@@ -363,7 +366,9 @@
                                     }}
                                 </p>
 
-                                <p class="indent-content-in-details">
+                                <p
+                                    class="indent-content-in-details margin-bottom"
+                                >
                                     <em>{{
                                         $t('Einzelne Schulen und Vereine')
                                     }}</em
@@ -376,7 +381,9 @@
                                 </p>
 
                                 <p>2010–2019: <strong>Workshops</strong></p>
-                                <p class="indent-content-in-details">
+                                <p
+                                    class="indent-content-in-details  margin-bottom"
+                                >
                                     <em>{{ $t('Auftraggebende/Träger') }}</em
                                     >:
                                     {{
@@ -667,7 +674,7 @@
                     <p class="no-indent">
                         {{
                             $t(
-                                'Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate &amp; Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, Intersektionale Gewaltprävention, Sexualisierte Gewalt an Jungen, Neonazismus/Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr'
+                                'Agilität, Projektmanagement, Moderation, Argumentations-, Kommunikations- und Diskussionstrainings, Visualisierung, Fundraising, Presse- und Öffentlichkeitsarbeit, Social Media, Blended Learning, OER, Hate &amp; Counter-Speech, Interviewführung, Antidiskriminierungspädagogik, Social Justice, Intersektionale Gewaltprävention, Sexualisierte Gewalt an Jungen, Neonazismus/ Rechtsextremismus, Critical Whiteness, Handeln gegen Alltagsrassismus, Antisemitismus und viele mehr'
                             )
                         }}
                     </p>
@@ -963,6 +970,10 @@ details .indent-content-in-details {
     margin-left: 6.8em;
 }
 
+.margin-bottom {
+    margin-bottom: 1em;
+}
+
 .triangle-to-top {
     filter: invert();
     margin-left: 70vw;
@@ -1005,8 +1016,17 @@ details .indent-content-in-details {
     }
 
     details p {
-        margin-left: 0;
-        text-indent: 0;
+        margin-left: 1em;
+        text-indent: -1em;
+    }
+
+    details .indent-content-in-details {
+        margin-left: 0.5em;
+        text-indent: -0.5em;
+    }
+
+    .triangle-to-top {
+        margin-left: 65vw;
     }
 }
 </style>
