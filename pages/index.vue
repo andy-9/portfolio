@@ -3,7 +3,7 @@
         <!-- <logo /> -->
 
         <div id="img-container">
-            <img src="/images/ah.jpg" alt="Andreas Hechler" />
+            <img src="/images/ah.webp" alt="Andreas Hechler" />
         </div>
 
         <div id="text-container">

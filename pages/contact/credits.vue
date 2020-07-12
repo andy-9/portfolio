@@ -80,7 +80,7 @@ body,
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    background-image: url(/images/flower.jpg);
+    background-image: url(/images/flower.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

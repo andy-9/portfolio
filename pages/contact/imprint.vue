@@ -127,7 +127,7 @@ body,
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    background-image: url(/images/footprint.jpg);
+    background-image: url(/images/footprint.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

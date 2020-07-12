@@ -96,7 +96,7 @@ export default {
     background-image: url(/images/error.png);
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 100%;
+    /* min-height: 100%; */
     /* display: grid; */
     /* grid-template-rows: 1fr auto; */
 }
