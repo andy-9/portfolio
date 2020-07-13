@@ -21,10 +21,6 @@
 
         <Nav />
 
-        <!-- <transition name="fade" mode="out-in">
-            <router-view :key="$route.path" />
-        </transition> -->
-
         <nuxt />
     </div>
 </template>
@@ -34,52 +30,7 @@ import Nav from '@/components/nav'
 export default {
     components: {
         Nav
-    },
-
-    mounted() {
-        const hash = location.hash
-        if (hash) {
-            // console.log('default.vue, 1st if-statement running')
-            const currentElem = document.querySelector(hash)
-            if (currentElem) {
-                // console.log('default.vue, 2nd if-statement running')
-                scrollToPlaces(currentElem)
-            }
-        }
-        // if not true do it, if true set to false, repeat
-        function scrollToPlaces(elem) {
-            // console.log('default.vue elem', elem)
-            // console.log('default.vue elem.offsetTop', elem.offsetTop)
-            window.scrollTo({
-                behavior: 'smooth',
-                left: 0,
-                top: elem.offsetTop
-            })
-        }
-        // function scrollToTop() {
-        //     window.scrollTo({
-        //         behavior: 'smooth',
-        //         left: 0,
-        //         top: 0
-        //     })
-        // }
     }
-
-    // _methods: {
-    //     scrollToTop() {
-    //         window.scrollTo({
-    //             behavior: 'smooth',
-    //             left: 0,
-    //             top: 0
-    //         })
-    //     }
-    // },
-    // get methods() {
-    //     return this._methods
-    // },
-    // set methods(value) {
-    //     this._methods = value
-    // }
 }
 </script>
 

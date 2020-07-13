@@ -12,10 +12,8 @@
             <p>{{ $t('Aber es bestätigt sich die traurige Wahrheit') }}:</p>
 
             <h1>
-                <!-- <h1 v-if="error.statusCode === 404"> -->
                 {{ $t('Diese Seite existiert nicht') }}
             </h1>
-            <!-- <h1 v-else>{{ $t('Ein Fehler ist aufgetreten') }}</h1> -->
 
             <nuxt-link class="backToHome" :to="localePath('index')">{{
                 $t('ZURÜCK ZU HOME')
@@ -52,21 +50,6 @@
 
 <script>
 export default {
-    // name: 'Error',
-    // props: {
-    //     error: {
-    //         type: Object,
-    //         default: null
-    //     }
-    // },
-    // computed: {
-    // statusCode() {
-    //     return (this.error && this.error.statusCode) || 500
-    // },
-    //     message() {
-    //         return this.error.message
-    //     }
-    // },
     head() {
         return {
             title: this.$t('Diese Seite existiert nicht'),
@@ -90,15 +73,10 @@ export default {
 
 <style scoped>
 #error-container {
-    /* display: flex; */
-    /* flex-direction: column; */
     flex-grow: 1;
     background-image: url(/images/error.png);
     background-repeat: no-repeat;
     background-size: contain;
-    /* min-height: 100%; */
-    /* display: grid; */
-    /* grid-template-rows: 1fr auto; */
 }
 
 .text-container {
@@ -130,12 +108,6 @@ export default {
     text-decoration: none;
     border: solid 1px white;
 }
-
-/* .section-wrapper { */
-/* position: relative; */
-/* grid-row-start: 2; */
-/* grid-row-end: 3; */
-/* } */
 
 .waves-bottom {
     position: absolute;
