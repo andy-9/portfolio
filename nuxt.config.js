@@ -39,24 +39,6 @@ export default {
      */
     css: ['~/assets/style.css'],
     /*
-     ** Plugins to load before mounting the App
-     */
-    // plugins: ['~/plugins/i18n.js'],
-    router: {
-        //     middleware: ['i18n']
-        // scrollBehavior(to) {
-        //     console.log('nuxt.config.js to:', to)
-        //     if (to.hash) {
-        //         return window.scrollTo({
-        //             top: document.querySelector(to.hash).offsetTop,
-        //             //  + window.innerHeight,
-        //             behavior: 'smooth'
-        //         })
-        //     }
-        //     return window.scrollTo({ top: 0, behavior: 'smooth' })
-        // }
-    },
-    /*
      ** Nuxt.js dev-modules
      */
     buildModules: [
@@ -110,5 +92,4 @@ export default {
          */
         extend(config, ctx) {}
     }
-    // serverMiddleware: ['~/api/contact']
 }
