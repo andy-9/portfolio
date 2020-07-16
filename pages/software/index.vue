@@ -37,7 +37,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/kite.webp"
+                            src="/images/kite.jpg"
                             :alt="
                                 $t(
                                     'Screenshot von Suchergebnissen des Sozialen Netzwerks Kite.Inc'
@@ -138,7 +138,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/algobias.webp"
+                            src="/images/algobias.jpg"
                             :alt="
                                 $t(
                                     'Screenshot der Registrierungs-Seite der Online-Petition gegen algorithmische Diskriminierung'
@@ -261,7 +261,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/imageboard.webp"
+                            src="/images/imageboard.jpg"
                             :alt="
                                 $t(
                                     'Screenshot der Startseite des Imageboards für Graffiti und Street Art'
@@ -366,7 +366,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/kaleidoscope.webp"
+                            src="/images/kaleidoscope.jpg"
                             :alt="
                                 $t(
                                     'Screenshot der Startseite des Kaleidoskops mit allen Projekten'
@@ -454,7 +454,7 @@
                         rel="noreferrer"
                         :title="$t('zu meinem Skalierte Bilder-Projekt')"
                         ><img
-                            src="/images/panes.webp"
+                            src="/images/panes.jpg"
                             :alt="$t('Screenshot Skalierte Bilder')"
                     /></a>
                 </div>
@@ -507,7 +507,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/spotify.webp"
+                            src="/images/spotify.jpg"
                             :alt="
                                 $t(
                                     'Screenshot Spotify-Suche, Suchergebnisse für \'monae\''
@@ -568,7 +568,7 @@
                         rel="noreferrer"
                         :title="$t('zu meinem Kätzchen-Karussell')"
                         ><img
-                            src="/images/carousel.webp"
+                            src="/images/carousel.jpg"
                             :alt="
                                 $t(
                                     'Screenshot des Kätzchen-Karussells, ein Kätzchen kommt von rechts rein, während das andere nach links gleitet'
@@ -625,7 +625,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/ticker.webp"
+                            src="/images/ticker.jpg"
                             :alt="$t('Screenshot des Tickers')"
                             :title="$t('zu meinem Ticker-Projekt')"
                     /></a>
@@ -681,7 +681,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/localstorage.webp"
+                            src="/images/localstorage.jpg"
                             :alt="$t('Screenshot Lokaler Speicher-Projekt')"
                             :title="$t('zu meinem Lokaler Speicher-Projekte')"
                     /></a>
@@ -736,7 +736,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/JSON.webp"
+                            src="/images/JSON.jpg"
                             :alt="
                                 $t(
                                     'Screenshot JSON-Validator, der in grün valides JSON anzeigt'
@@ -793,7 +793,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/connect4.webp"
+                            src="/images/connect4.jpg"
                             :alt="
                                 $t(
                                     'Screenshot 4 Gewinnt, beide Farben im Spiel'
@@ -852,7 +852,7 @@
                         target="_blank"
                         rel="noreferrer"
                         ><img
-                            src="/images/spiced.webp"
+                            src="/images/spiced.jpg"
                             :alt="$t('Screenshot Spiced Homepage')"
                             :title="$t('zu meinem Spiced Homepage-Projekt')"
                     /></a>
@@ -911,7 +911,7 @@
                         rel="noreferrer"
                         :title="$t('zu meiner inkrementellen Suche')"
                         ><img
-                            src="/images/incremental_search.webp"
+                            src="/images/incremental_search.jpg"
                             :alt="
                                 $t(
                                     'Screenshot inkrementelle Suche für Suchergebnis \'ca\''

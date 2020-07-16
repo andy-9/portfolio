@@ -158,7 +158,7 @@ h1 {
 
 .content {
     padding: 3%;
-    background-image: url(/images/typewriter.webp);
+    background-image: url(/images/typewriter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

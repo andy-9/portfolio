@@ -18,7 +18,7 @@ module.exports = {
     // add your custom rules here
     rules: {
         // indent: ['error', 4]
-        'max-lines': ['error', 150],
+        // 'max-lines': ['error', 150],
         'max-lines-per-function': ['error', 20],
         'max-len': ['off', { code: 130, tabWidth: 2 }],
         'max-statements': ['error', 10],
