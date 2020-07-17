@@ -98,7 +98,7 @@
                 </a>
 
                 <a
-                    href="https://dissens.academia.edu/AndreasHechler"
+                    href="https://independent.academia.edu/AndreasHechler"
                     target="_blank"
                     rel="noreferrer"
                 >

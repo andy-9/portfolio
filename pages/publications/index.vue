@@ -56,7 +56,7 @@
                 >
                 {{ $t('Die meisten meiner Texte sind auch auf') }}
                 <a
-                    href="https://dissens.academia.edu/AndreasHechler"
+                    href="https://independent.academia.edu/AndreasHechler"
                     target="_blank"
                     rel="noreferrer"
                     >Academia</a
