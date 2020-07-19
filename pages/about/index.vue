@@ -34,12 +34,12 @@
                 <p>
                     {{
                         $t(
-                            'Ich bin fasziniert davon, was Sprache kann: die Gedanken und Handlungen von Menschen mit Wörtern verändern oder das, was sie auf dem Bildschirm sehen mit Code.'
+                            'Mich fasziniert, was Sprache kann: die Gedanken und Handlungen von Menschen mit Wörtern verändern oder das, was sie auf dem Bildschirm sehen mit Code'
                         )
-                    }}
+                    }}.
                     {{
                         $t(
-                            'Ich arbeite gerne in einem sozialen Umfeld, in dem Zusammenarbeit und offene Kommunikation gelebt werden. Ich schätze einen Arbeitsplatz, an dem ich meine kritischen Gedanken sinnvoll einsetzen kann, intellektuell herausgefordert werde und beruflich wachse'
+                            'Von der Änderung der Größe einer Schriftart bis hin zum Abrufen von Daten aus Datenbanken, dem Programmieren von Musik, Spielen und der Automatisierung verschiedener Prozesse. Das Leben einfacher, bunter und die Welt etwas kleiner zu machen, was die Verbindung zu Menschen betrifft. Kleine Änderungen im Code können potenziell große Auswirkungen haben'
                         )
                     }}.
                 </p>

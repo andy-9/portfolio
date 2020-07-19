@@ -232,7 +232,6 @@
         <span>
             <nuxt-link
                 :to="{ localePath: 'software' }"
-                class="jump-to-top"
                 :title="$t('zum Seitenanfang')"
                 @click.native="scrollToTop"
             >
@@ -1083,7 +1082,6 @@ details > p {
 .social-media-logo {
     height: 30px;
     width: 30px;
-    /* font-size: 1.2em; */
     margin-right: 0.5em;
 }
 

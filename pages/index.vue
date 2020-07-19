@@ -38,9 +38,9 @@
                 <p>
                     {{
                         $t(
-                            'Ich bin fasziniert davon, was Sprache kann: die Gedanken und Handlungen von Menschen mit Wörtern verändern oder das, was sie auf dem Bildschirm sehen mit Code.'
+                            'Mich fasziniert, was Sprache kann: die Gedanken und Handlungen von Menschen mit Wörtern verändern oder das, was sie auf dem Bildschirm sehen mit Code'
                         )
-                    }}
+                    }}.
                 </p>
             </div>
 
