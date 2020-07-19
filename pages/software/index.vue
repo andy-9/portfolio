@@ -25,7 +25,11 @@
                     href="https://kite-inc.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
-                    :title="$t('Zu meinem Sozialen Netzwerk Kite.Inc')"
+                    :title="
+                        $t(
+                            'Zu meinem Sozialen Netzwerk Kite.Inc (der Start dauert ca. 10 Sekunden)'
+                        )
+                    "
                     ><h2 id="socialnetwork">
                         {{ $t('Soziales Netzwerk') }}
                     </h2></a
@@ -43,7 +47,11 @@
                                     'Screenshot von Suchergebnissen des Sozialen Netzwerks Kite.Inc'
                                 )
                             "
-                            :title="$t('Zu meinem Sozialen Netzwerk Kite.Inc')"
+                            :title="
+                                $t(
+                                    'Zu meinem Sozialen Netzwerk Kite.Inc (der Start dauert ca. 10 Sekunden)'
+                                )
+                            "
                     /></a>
                 </div>
 
@@ -128,7 +136,11 @@
                     href="https://algobias.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
-                    :title="$t('Zu meiner Online-Petition')"
+                    :title="
+                        $t(
+                            'Zu meiner Online-Petition (der Start dauert ca. 10 Sekunden)'
+                        )
+                    "
                     ><h2 id="petition">Petition</h2></a
                 >
 
@@ -144,7 +156,11 @@
                                     'Screenshot der Registrierungs-Seite der Online-Petition gegen algorithmische Diskriminierung'
                                 )
                             "
-                            :title="$t('Zu meiner Online-Petition')"
+                            :title="
+                                $t(
+                                    'Zu meiner Online-Petition (der Start dauert ca. 10 Sekunden)'
+                                )
+                            "
                     /></a>
                 </div>
 
@@ -232,6 +248,7 @@
         <span>
             <nuxt-link
                 :to="{ localePath: 'software' }"
+                class="jump-to-top"
                 :title="$t('zum Seitenanfang')"
                 @click.native="scrollToTop"
             >
@@ -250,7 +267,11 @@
                     href="http://graf-streetart.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
-                    :title="$t('Zu meinem Imageboard')"
+                    :title="
+                        $t(
+                            'Zu meinem Imageboard (der Start dauert ca. 10 Sekunden)'
+                        )
+                    "
                     ><h2 id="imageboard">Imageboard</h2></a
                 >
 
@@ -266,7 +287,11 @@
                                     'Screenshot der Startseite des Imageboards für Graffiti und Street Art'
                                 )
                             "
-                            :title="$t('Zu meinem Imageboard')"
+                            :title="
+                                $t(
+                                    'Zu meinem Imageboard (der Start dauert ca. 10 Sekunden)'
+                                )
+                            "
                     /></a>
                 </div>
 
@@ -353,7 +378,7 @@
                     rel="noreferrer"
                     :title="
                         $t(
-                            'Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt'
+                            'Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt (der Start dauert ca. 10 Sekunden)'
                         )
                     "
                     ><h2 id="kaleidoscope">{{ $t('Kaleidoskop') }}</h2></a
@@ -373,7 +398,7 @@
                             "
                             :title="
                                 $t(
-                                    'Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt'
+                                    'Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt (der Start dauert ca. 10 Sekunden)'
                                 )
                             "
                     /></a>

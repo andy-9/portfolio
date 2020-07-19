@@ -124,9 +124,7 @@
                 >
                     <img
                         src="/icons/chevron-up.svg"
-                        :alt="
-                            $t('Pfeil nach oben, um zum Seitenanfang zu kommen')
-                        "
+                        :alt="$t('Pfeil nach oben zum Anfang der Seite')"
                         class="up-arrow"
                 /></nuxt-link>
             </span>

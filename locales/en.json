@@ -39,7 +39,7 @@
 
     "Weiter oben befinden sich die größeren Projekte, gefolgt von mittleren und kleineren Projekten.": "On top are the bigger projects followed by medium-sized and smaller projects.",
 
-    "Zu meinem Sozialen Netzwerk Kite.Inc": "Visit my Social Network Kite.Inc",
+    "Zu meinem Sozialen Netzwerk Kite.Inc (der Start dauert ca. 10 Sekunden)": "Visit my Social Network Kite.Inc (the start takes about 10 seconds)",
 
     "Soziales Netzwerk": "Social Network",
 
@@ -69,7 +69,7 @@
 
     "Der Code auf GitHub": "The code on GitHub",
 
-    "Zu meiner Online-Petition": "Visit my online petition",
+    "Zu meiner Online-Petition (der Start dauert ca. 10 Sekunden)": "Visit my online petition (the start takes about 10 seconds)",
 
     "Screenshot der Registrierungs-Seite der Online-Petition gegen algorithmische Diskriminierung": "screenshot of petition against algorithmic bias displaying the register site",
 
@@ -87,7 +87,7 @@
 
     "Pfeil nach oben zum Anfang der Seite": "up-arrow to jump to the top of the page",
 
-    "Zu meinem Imageboard": "Visit my imageboard",
+    "Zu meinem Imageboard (der Start dauert ca. 10 Sekunden)": "Visit my imageboard (the start takes about 10 seconds)",
 
     "Screenshot der Startseite des Imageboards für Graffiti und Street Art": "screenshot of imageboard graffiti and street art displaying landing page",
 
@@ -97,7 +97,7 @@
 
     "Ich habe viel über Vue.js und die Arbeit mit state, un-/mounting, dynamischem Routing, Click-Handlern, Event-Emittern und Wächtern (watchers) gelernt. Das Imageboard ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.": "I learned about Vue.js and working with state, un/mounting, dynamic routing, click handlers, event-emitters and watchers. The imageboard is protected against SQL-injection, clickjacking, XSS- and CSRF-attacks.",
 
-    "Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt": "Visit my online Kaleidoscope displaying all my medium-sized and smaller projects",
+    "Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt (der Start dauert ca. 10 Sekunden)": "Visit my online Kaleidoscope displaying all my medium-sized and smaller projects (the start takes about 10 seconds)",
 
     "Kaleidoskop": "Kaleidoscope",
 
@@ -244,8 +244,6 @@
     "Schäl' mich": "Peel me",
 
     "Deutsch": "German",
-
-    "Pfeil nach oben, um zum Seitenanfang zu kommen": "up-arrow to jump to the top of the page",
 
     "Mehr": "Show more",
 
