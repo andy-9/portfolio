@@ -100,7 +100,7 @@ hr {
     line-height: 0;
     padding: 0.7em;
     background-color: #35495e;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     color: white;
     border-radius: 50%;
 }

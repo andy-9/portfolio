@@ -128,7 +128,7 @@ export default {
     }
 
     #navbar a {
-        padding: 0.3em 1em;
+        padding: 0.2em 1em;
     }
 }
 </style>
