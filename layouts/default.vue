@@ -30,6 +30,9 @@ import Nav from '@/components/nav'
 export default {
     components: {
         Nav
+    },
+    head() {
+        return this.$nuxtI18nSeo()
     }
 }
 </script>

@@ -70,13 +70,16 @@ export default {
                         file: 'de.json'
                     }
                 ],
+                routesNameSeparator: '___',
                 lazy: true,
-                loadLanguagesAsync: true,
                 langDir: 'locales/',
+                loadLanguagesAsync: true,
                 detectBrowserLanguage: {
                     useCookie: true,
-                    alwaysRedirect: true
-                }
+                    alwaysRedirect: true,
+                    fallbackLocale: null
+                },
+                seo: false
             }
         ]
     ],
