@@ -947,6 +947,30 @@
             </h3>
 
             <p>
+                Dissens - Institut für Bildung und Forschung (2020):
+                <a
+                    href="https://www.dissens.de/podcast"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Folge #1 Debatte: Männlichkeit - Teil I.
+                    <strong
+                        >Was ist Männlichkeit und wohin wollen wir mit der
+                        Auseinandersetzung?</strong
+                    ></a
+                >
+                Der Dissens-Podcast 'Alles für Alle!' vom 20. Juli 2020. Sarah
+                Klemm und Ulla Wittenzellner im Gespräch mit Andreas Hechler,
+                Mart Busche und Olaf Stuve.
+            </p>
+            <audio controls>
+                <source
+                    src="https://dl.dropboxusercontent.com/s/2juxw0ovwytgwkj/Dissens_Podcast_I.mp3?dl=0"
+                    type="audio/mp3"
+                />
+                Your browser does not support the <code>audio</code> element.
+            </audio>
+
+            <p>
                 Bundeszentrale für politische Bildung (2020):
                 <a
                     href="https://www.bpb.de/veranstaltungen/dokumentation/311298/girls-i-will-destroy-you-frauenhass-im-internet-"

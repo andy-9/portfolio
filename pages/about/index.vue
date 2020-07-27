@@ -27,14 +27,14 @@
                     }}
                     {{
                         $t(
-                            'Schwerpunkt meiner Arbeit in den letzten Jahrzehnten war Antidiskriminierung und das Schaffen einer Gesellschaft, in der Menschen ohne Angst verschieden sein können.'
+                            'Schwerpunkt meiner Arbeit in den letzten Jahrzehnten war Antidiskriminierung und das Mitgestalten einer Gesellschaft, in der Menschen ohne Angst verschieden sein können.'
                         )
                     }}
                 </p>
                 <p>
                     {{
                         $t(
-                            'Mich fasziniert, was Sprache kann: die Gedanken und Handlungen von Menschen mit Wörtern verändern oder das, was sie auf dem Bildschirm sehen mit Code'
+                            'Mich fasziniert, was Sprache kann: die Gedanken und Handlungen von Menschen mit Worten verändern oder das, was sie auf dem Bildschirm sehen mit Code'
                         )
                     }}.
                     {{
@@ -150,13 +150,14 @@
                                 $t(
                                     'Entwicklung von Software im Front- und Backend'
                                 )
-                            }}</strong>
-                            (<em>Front End:</em> JavaScript, React.js, redux,
+                            }}</strong
+                            ><br />
+                            <em>Front End:</em> JavaScript, React.js, redux,
                             Vue.js, jQuery, handlebars, HTML, CSS<br />
-                            <em>Back End:</em> Node.js, express, PostgreSQL,
+                            <em>Back End:</em> Node.js/Express, PostgreSQL,
                             socket.io, AWS<br />
                             <em>Testing:</em> Jest, Supertest, React Testing
-                            Library)
+                            Library
                         </li>
 
                         <li>
@@ -703,7 +704,7 @@
                         <li>
                             {{
                                 $t(
-                                    'Geschlecht und Neonazismus (u.a. Interdiskriminierung, manosphere, Incels)'
+                                    'Geschlecht und Neonazismus (u.a. Interdiskriminierung, Manosphere, Incels)'
                                 )
                             }}
                         </li>

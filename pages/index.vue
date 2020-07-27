@@ -31,14 +31,14 @@
                     }}
                     {{
                         $t(
-                            'Schwerpunkt meiner Arbeit in den letzten Jahrzehnten war Antidiskriminierung und das Schaffen einer Gesellschaft, in der Menschen ohne Angst verschieden sein können.'
+                            'Schwerpunkt meiner Arbeit in den letzten Jahrzehnten war Antidiskriminierung und das Mitgestalten einer Gesellschaft, in der Menschen ohne Angst verschieden sein können.'
                         )
                     }}
                 </p>
                 <p>
                     {{
                         $t(
-                            'Mich fasziniert, was Sprache kann: die Gedanken und Handlungen von Menschen mit Wörtern verändern oder das, was sie auf dem Bildschirm sehen mit Code'
+                            'Mich fasziniert, was Sprache kann: die Gedanken und Handlungen von Menschen mit Worten verändern oder das, was sie auf dem Bildschirm sehen mit Code'
                         )
                     }}.
                 </p>
