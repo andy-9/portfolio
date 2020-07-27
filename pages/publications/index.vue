@@ -298,6 +298,19 @@
             <p>
                 Hechler, Andreas (2019):
                 <a
+                    href="https://www.annefrank.de/fileadmin/Redaktion/Themenfelder/Zivilgesellschaft_staerken/Dokumente/Diskriminierung__Fokus_Kita.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong>Was ist Diskriminierung?</strong></a
+                >
+                Umfangreiches Handout für das Anne Frank Zentrum Berlin und das
+                Deutsche Rote Kreuz Thüringen mit einem Fokus auf den Bereich
+                Kita.
+            </p>
+
+            <p>
+                Hechler, Andreas (2019):
+                <a
                     href="https://www.queer.de/detail.php?article_id=32783"
                     target="_blank"
                     rel="noreferrer"
