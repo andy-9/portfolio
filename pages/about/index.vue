@@ -8,13 +8,13 @@
                     <strong>
                         {{
                             $t(
-                                'Ich bin Full Stack Web-Entwickler in Berlin. Ich interessiere mich für Agilität im Allgemeinen und für Scrum im Besonderen'
+                                'Ich bin Full Stack Web-Entwickler in Berlin. Ich interessiere mich für Software und Coding, außerdem für Agilität im Allgemeinen und für Scrum im Besonderen'
                             )
                         }}
                         ({{ $t('ich bin zertifizierter PSM I und PSPO I') }}).
                         {{
                             $t(
-                                'Ich nutze diese Seite auch, um meine Arbeitsergebnisse, Projekte und Forschung allen so zugänglich und verfügbar wie möglich zu machen'
+                                'Diese Seite wird von mir auch dafür verwendet, meine Arbeitsergebnisse, Projekte und Forschung allen so zugänglich und verfügbar wie möglich zu machen'
                             )
                         }}.
                     </strong>
