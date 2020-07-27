@@ -5,6 +5,8 @@
         <div id="img-container">
             <img src="/images/ah.jpg" alt="Andreas Hechler" />
         </div>
+        <!-- width="583"
+                height="583" -->
 
         <div id="text-container">
             <h1 id="heading-home" class="title">
@@ -152,6 +154,7 @@ export default {
 
 #img-container img {
     width: 90%;
+    /* aspect-ratio: attr(width) / attr(height); */
 }
 
 #text-container {

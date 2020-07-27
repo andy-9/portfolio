@@ -388,7 +388,7 @@
                 <p class="no-bottom-margin">
                     Hechler, Andreas/Stuve, Olaf (Hrsg.) (2015):
                     <a
-                        href="http://library.oapen.org/bitstream/handle/20.500.12657/25626/1004470.pdf?sequence=1&isAllowed=y"
+                        href="https://library.oapen.org/viewer/web/viewer.html?file=/bitstream/handle/20.500.12657/25626/1004470.pdf?sequence=1&isAllowed=y"
                         target="_blank"
                         rel="noreferrer"
                     >

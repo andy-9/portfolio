@@ -1,6 +1,12 @@
+import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer'
+
 export default {
+    build: {
+        analyze: true
+    },
     mode: 'universal',
     // plugins: [{ src: '~plugins/i18n.js', injectAs: 'i18n' }],
+    // plugins: [new BundleAnalyzerPlugin()],
     head: {
         htmlAttrs: {
             // lang: this.$i18n.locale
@@ -41,11 +47,13 @@ export default {
     /*
      ** Nuxt.js dev-modules
      */
-    buildModules: ['@nuxtjs/eslint-module'],
+    buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/pwa', 'nuxt-purgecss'],
     /*
      ** Nuxt.js modules
      */
     modules: [
+        'nuxt-brotli',
+        '@nuxtjs/component-cache',
         [
             'nuxt-i18n',
             {
