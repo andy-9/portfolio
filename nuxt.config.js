@@ -1,8 +1,9 @@
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer'
+import shrinkRay from 'shrink-ray-current'
 
 export default {
-    build: {
-        analyze: true
+    render: {
+        compressor: shrinkRay()
     },
     mode: 'universal',
     // plugins: [{ src: '~plugins/i18n.js', injectAs: 'i18n' }],
@@ -98,6 +99,7 @@ export default {
         /*
          ** You can extend webpack config here
          */
+        // analyze: true,
         extend(config, ctx) {}
     }
 }

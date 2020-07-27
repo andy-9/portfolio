@@ -1,7 +1,5 @@
 <template>
     <div class="home-container">
-        <!-- <logo /> -->
-
         <div id="img-container">
             <img src="/images/ah.jpg" alt="Andreas Hechler" />
         </div>
