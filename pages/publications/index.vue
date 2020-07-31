@@ -960,28 +960,58 @@
             </h3>
 
             <p>
-                Dissens - Institut für Bildung und Forschung (2020):
-                <a
-                    href="https://www.dissens.de/podcast"
-                    target="_blank"
-                    rel="noreferrer"
-                    >Folge #1 Debatte: Männlichkeit - Teil I.
-                    <strong
-                        >Was ist Männlichkeit und wohin wollen wir mit der
-                        Auseinandersetzung?</strong
-                    ></a
-                >
-                Der Dissens-Podcast 'Alles für Alle!' vom 20. Juli 2020. Sarah
-                Klemm und Ulla Wittenzellner im Gespräch mit Andreas Hechler,
-                Mart Busche und Olaf Stuve.
+                Dissens - Institut für Bildung und Forschung (2020): Der
+                Dissens-Podcast 'Alles für Alle!'. Sarah Klemm und Ulla
+                Wittenzellner im Gespräch mit Andreas Hechler, Mart Busche und
+                Olaf Stuve.
             </p>
-            <audio controls>
-                <source
-                    src="https://dl.dropboxusercontent.com/s/2juxw0ovwytgwkj/Dissens_Podcast_I.mp3?dl=0"
-                    type="audio/mp3"
-                />
-                Your browser does not support the <code>audio</code> element.
-            </audio>
+
+            <!-- <br /> -->
+            <ul>
+                <li class="bullet-point-less-distance">
+                    <a
+                        href="https://www.dissens.de/podcast"
+                        target="_blank"
+                        rel="noreferrer"
+                        >Folge #1 Debatte: Männlichkeit - Teil I.
+                        <strong
+                            >Was ist Männlichkeit und wohin wollen wir mit der
+                            Auseinandersetzung?</strong
+                        >
+                        (20. Juli 2020)</a
+                    >.
+                    <audio controls class="distance-audio">
+                        <source
+                            src="https://dl.dropboxusercontent.com/s/2juxw0ovwytgwkj/Dissens_Podcast_I.mp3?dl=0"
+                            type="audio/mp3"
+                        />
+                        Your browser does not support the
+                        <code>audio</code> element.
+                    </audio>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.dissens.de/podcast"
+                        target="_blank"
+                        rel="noreferrer"
+                        >Folge #2 Debatte: Männlichkeit - Teil II.
+                        <strong
+                            >Was motiviert Männer, sich mit Männlichkeit zu
+                            beschäftigen?
+                        </strong>
+                        (27. Juli 2020)</a
+                    >.
+                    <audio controls class="distance-audio">
+                        <source
+                            src="https://dl.dropboxusercontent.com/s/zo9ywqfybt6sbur/Dissens_Podcast_II.mp3?dl=0"
+                            type="audio/mp3"
+                        />
+                        Your browser does not support the
+                        <code>audio</code> element.
+                    </audio>
+                </li>
+            </ul>
 
             <p>
                 Bundeszentrale für politische Bildung (2020):
@@ -1712,6 +1742,14 @@ video {
 
 video:focus {
     outline: none;
+}
+
+.bullet-point-less-distance {
+    margin-top: -0.5em;
+}
+
+.distance-audio {
+    margin-top: 0.5em;
 }
 
 @media only screen and (max-width: 768px) {
