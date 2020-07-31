@@ -71,6 +71,7 @@ export default {
                         name: 'English',
                         abbr: 'EN',
                         file: 'en.json'
+                        // file: 'en.js'
                     },
                     {
                         code: 'de',
@@ -78,6 +79,7 @@ export default {
                         name: 'Deutsch',
                         abbr: 'DE',
                         file: 'de.json'
+                        // file: 'de.js'
                     }
                 ],
                 routesNameSeparator: '___',

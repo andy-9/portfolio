@@ -68,12 +68,6 @@ export default {
                 (i) => i.code !== this.$i18n.locale
             )
         }
-    },
-    head() {
-        return {
-            title: 'Thank you',
-            meta: []
-        }
     }
 }
 </script>

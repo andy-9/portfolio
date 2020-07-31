@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio Andreas Hechler
 
 > My brilliant Nuxt.js project
 
