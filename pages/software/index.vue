@@ -995,7 +995,13 @@ export default {
     head() {
         return {
             title: 'Software - Andreas Hechler',
-            meta: []
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Software Andreas Hechler'
+                }
+            ]
         }
     }
 }

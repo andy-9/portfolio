@@ -104,7 +104,13 @@ export default {
     head() {
         return {
             title: this.$t('Impressum Andreas Hechler'),
-            meta: []
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: '$t("Impressum Andreas Hechler")'
+                }
+            ]
         }
     }
 }

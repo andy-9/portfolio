@@ -127,13 +127,17 @@
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue'
-
 export default {
     head() {
         return {
             title: 'Andreas Hechler',
-            meta: []
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Portfolio Andreas Hechler'
+                }
+            ]
         }
     }
 }

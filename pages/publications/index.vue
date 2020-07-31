@@ -1478,17 +1478,6 @@ export default {
             }
         }
     },
-    // mounted() {
-    //     cssProps() {
-    //         let lengthHeading = 500
-    //         if (this.document.getElementById('top')) {
-    //             lengthHeading = this.document.getElementById('top').offsetWidth
-    //         }
-    //         return {
-    //             '--length-heading': lengthHeading
-    //         }
-    //     }
-    // },
     _methods: {
         scrollToTop() {
             window.scrollTo({
@@ -1507,7 +1496,14 @@ export default {
     head() {
         return {
             title: this.$t('Veröffentlichungen Andreas Hechler'),
-            meta: []
+            meta: [
+                // { name: 'keywords', content: 'keyword 1, keyword 2' }
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: '$t("Veröffentlichungen Andreas Hechler")'
+                }
+            ]
         }
     }
 }

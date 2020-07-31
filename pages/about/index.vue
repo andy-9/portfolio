@@ -822,14 +822,13 @@ export default {
     head() {
         return {
             title: this.$t('Mehr über Andreas Hechler'),
-            meta: []
-            // meta: [
-            //     {
-            //         hid: 'description',
-            //         name: 'description',
-            //         content: this.$i18n.t('Mehr über Andreas Hechler')
-            //     }
-            // ]
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: '$t("Mehr über Andreas Hechler")'
+                }
+            ]
         }
     }
 }

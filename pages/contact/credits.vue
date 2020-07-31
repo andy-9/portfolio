@@ -57,7 +57,13 @@ export default {
     head() {
         return {
             title: this.$t('Dank von Andreas Hechler'),
-            meta: []
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: '$t("Dank von Andreas Hechler")'
+                }
+            ]
         }
     }
 }
