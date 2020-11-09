@@ -39,7 +39,7 @@
                     }}.
                     {{
                         $t(
-                            'Von der Änderung der Größe einer Schriftart bis hin zum Abrufen von Daten aus Datenbanken, dem Programmieren von Musik, Spielen und der Automatisierung verschiedener Prozesse. Das Leben einfacher, bunter und die Welt etwas kleiner zu machen, was die Verbindung zu Menschen betrifft. Kleine Änderungen im Code können potenziell große Auswirkungen haben'
+                            'Von der Änderung der Größe einer Schriftart und dem Abrufen von Daten aus Datenbanken über das Programmieren von Musik und Spielen bis hin zur Automatisierung verschiedener Prozesse. Das Leben einfacher, bunter und die Welt etwas kleiner zu machen, was die Verbindung zu Menschen betrifft. Kleine Änderungen im Code können potenziell große Auswirkungen haben'
                         )
                     }}.
                 </p>
