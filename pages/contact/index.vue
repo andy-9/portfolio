@@ -34,6 +34,19 @@
                     </a>
 
                     <a
+                        href="https://gitlab.com/gloxinie"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img
+                            src="/icons/logo-gitlab.svg"
+                            alt="gitlab logo"
+                            :title="$t('Mein Profil auf GitLab')"
+                            class="social-media-logo"
+                        />
+                    </a>
+
+                    <a
                         href="https://www.linkedin.com/in/andreas-hechler/"
                         target="_blank"
                         rel="noreferrer"

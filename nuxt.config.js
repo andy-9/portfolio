@@ -5,7 +5,6 @@ export default {
     render: {
         compressor: shrinkRay()
     },
-    mode: 'universal',
     // plugins: [{ src: '~plugins/i18n.js', injectAs: 'i18n' }],
     // plugins: [new BundleAnalyzerPlugin()],
     head: {

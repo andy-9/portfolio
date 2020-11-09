@@ -15,27 +15,27 @@
     },
     "dependencies": {
         "@nuxtjs/component-cache": "^1.1.6",
-        "nuxt": "^2.14.0",
+        "nuxt": "^2.14.7",
         "nuxt-brotli": "^1.1.7",
-        "nuxt-i18n": "^6.13.1",
+        "nuxt-i18n": "^6.15.4",
         "shrink-ray-current": "^4.1.2"
     },
     "devDependencies": {
         "@nuxtjs/eslint-config": "^2.0.0",
         "@nuxtjs/eslint-module": "^1.0.0",
-        "@nuxtjs/pwa": "^3.0.0-beta.20",
-        "@vue/test-utils": "^1.0.0-beta.27",
+        "@nuxtjs/pwa": "^3.2.2",
+        "@vue/test-utils": "^1.1.1",
         "babel-eslint": "^10.0.1",
         "babel-jest": "^24.1.0",
         "eslint": "^6.1.0",
-        "eslint-config-prettier": "^6.10.0",
+        "eslint-config-prettier": "^6.15.0",
         "eslint-plugin-nuxt": ">=0.4.2",
         "eslint-plugin-prettier": "^3.1.4",
         "jest": "^24.1.0",
         "nuxt-purgecss": "^1.0.0",
-        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "optimize-css-assets-webpack-plugin": "^5.0.4",
         "prettier": "^1.19.1",
-        "vue-jest": "^4.0.0-beta.4",
-        "webpack-bundle-analyzer": "^3.8.0"
+        "vue-jest": "^4.0.0-rc.0",
+        "webpack-bundle-analyzer": "^3.9.0"
     }
 }
