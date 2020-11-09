@@ -797,6 +797,20 @@
         <div class="container-four">
             <div class="text-area-four">
                 <h2>{{ $t('Ehrenamtliches Engagement') }}</h2>
+
+                <p>
+                    <strong>{{ $t('Assoziiertes Mitglied') }}</strong>
+                    {{ $t('bei') }}
+                    <a
+                        href="https://dissens.de/"
+                        target="_blank"
+                        rel="noreferrer"
+                        >{{
+                            $t('Dissens - Institut für Bildung und Forschung')
+                        }}</a
+                    >
+                </p>
+
                 <p>
                     {{ $t('Mitglied des') }}
                     <strong> {{ $t('Beirat') }}</strong>
@@ -930,6 +944,13 @@ export default {
 }
 
 .text-area-two p {
+    color: #333333;
+    padding: 0.5em 0;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.text-area-four p {
     color: #333333;
     padding: 0.5em 0;
     line-height: 150%;
