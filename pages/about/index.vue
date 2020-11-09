@@ -154,11 +154,28 @@
                             ><br />
                             <em>Front End:</em> JavaScript, React.js, redux,
                             Vue.js, jQuery, handlebars, HTML, CSS<br />
-                            <em>Back End:</em> Node.js/Express, PostgreSQL,
-                            socket.io, AWS<br />
+                            <em>Back End:</em> Node.js/Express, Python,
+                            PostgreSQL, SQLite, socket.io, AWS<br />
                             <em>Testing:</em> Jest, Supertest, React Testing
                             Library
                         </li>
+
+                        <div>
+                            <details
+                                ><summary>{{ $t('Ausführlicher') }}</summary>
+
+                                <p>
+                                    2020:
+                                    {{
+                                        $t('Cascade Informationssysteme GmbH')
+                                    }}:
+                                    <strong>{{
+                                        $t('Softwareentwickler')
+                                    }}</strong>
+                                    (Python, SQLite)
+                                </p>
+                            </details>
+                        </div>
 
                         <li>
                             <strong>{{ $t('Prozessbegleitung') }}</strong>
