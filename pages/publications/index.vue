@@ -160,6 +160,28 @@
             <h2 id="deutsch">Deutsch</h2>
 
             <p>
+                Hechler, Andreas (2020):
+                <a
+                    href="https://rechtsextremismus-und-familie.de/mediapool/funktionalisierte_kinder_online.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <strong
+                        >Funktionalisierte Kinder. Kindeswohlgefährdung in
+                        Neonazifamilien – eine Hilfestellung für Fachkräfte in
+                        den Bereichen Recht und (Sozial-)Pädagogik</strong
+                    ></a
+                >. Herausgegeben von der
+                <a
+                    href="https://rechtsextremismus-und-familie.de/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Fachstelle Rechtsextremismus und Familie</a
+                >
+                / Lidicehaus. Bremen: Eigendruck.
+            </p>
+
+            <p>
                 Hechler, Andreas / Baar, Robert (2020):
                 <strong
                     >Mehr als zwei. Intergeschlechtlichkeit in der
