@@ -812,8 +812,7 @@
                 </p>
 
                 <p>
-                    {{ $t('Mitglied des') }}
-                    <strong> {{ $t('Beirat') }}</strong>
+                    <strong> {{ $t('Beiratsmitglied') }} </strong>
                     {{ $t('der') }}
                     <a
                         href="https://oiigermany.org/"
@@ -825,6 +824,18 @@
                             )
                         }}</a
                     >
+                </p>
+
+                <p>
+                    <strong> {{ $t('Beiratsmitglied') }} </strong>
+                    {{ $t('des digitalen Sounding Board Inter* des Projekts') }}
+                    <a
+                        href="https://www.gender-nrw.de/bit/"
+                        target="_blank"
+                        rel="noreferrer"
+                        >{{ $t('#BIT | Basics Inter* und Trans') }}</a
+                    >
+                    {{ $t('der FUMA Fachstelle Gender & Diversität NRW') }}
                 </p>
             </div>
         </div>
