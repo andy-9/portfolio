@@ -1033,6 +1033,25 @@
                         <code>audio</code> element.
                     </audio>
                 </li>
+
+                <li>
+                    <a
+                        href="https://www.dissens.de/podcast"
+                        target="_blank"
+                        rel="noreferrer"
+                        >Folge #3 Debatte: Männlichkeit - Teil III.
+                        <strong>Wie verhält Mann sich richtig?</strong>
+                        (21. August 2020)</a
+                    >.
+                    <audio controls class="distance-audio">
+                        <source
+                            src="https://dl.dropboxusercontent.com/s/uixxnwwy5cmd8n0/Dissens_Podcast_III.mp3?dl=0"
+                            type="audio/mp3"
+                        />
+                        Your browser does not support the
+                        <code>audio</code> element.
+                    </audio>
+                </li>
             </ul>
 
             <p>
