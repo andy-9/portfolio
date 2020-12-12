@@ -697,12 +697,17 @@
 
                 <p>
                     Diewald, Heidi / Hechler, Andreas / Kröger, Fabian (2008):
-                    <strong
-                        >Intersexualität – Die alltägliche Folter in
-                        Deutschland</strong
+                    <a
+                        href="/files/Intersexualität_-_Die_alltaegliche_Folter_in_Deutschland.pdf"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><strong
+                            >Intersexualität – Die alltägliche Folter in
+                            Deutschland</strong
+                        ></a
                     >. In: Intersexuelle Menschen e. V. / XY-Frauen:
                     <a
-                        href="http://intersex.schattenbericht.org/public/Schattenbericht_CEDAW_2008-Intersexuelle_Menschen_e_V.pdf"
+                        href="/files/Schattenbericht_CEDAW_2008_Intersexuelle_Menschen.pdf"
                         target="_blank"
                         rel="noreferrer"
                         >Schattenbericht zum 6. Staatenbericht der BRD zum
