@@ -61,11 +61,11 @@
 
     "Funktionalität": "Funktionalität",
 
-    "Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer*innen, Suche nach Benutzer*innen mit Vor- und Nachnamen, Anzeigen von Freund*innen von Freund*innen, Abmelden": "Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer*innen, Suche nach Benutzer*innen mit Vor- und Nachnamen, Anzeigen von Freund*innen von Freund*innen, Abmelden",
+    "Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer*innen, Suche nach Benutzer*innen mit Vor- und Nachnamen, Anzeigen von Freund*innen von Freund*innen, Abmelden": "Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer:innen, Suche nach Benutzer:innen mit Vor- und Nachnamen, Anzeigen von Freund:innen von Freund:innen, Abmelden",
 
     "Mehr Informationen": "Mehr Informationen",
 
-    "Benutzer*innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.": "Benutzer*innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.",
+    "Benutzer*innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.": "Benutzer:innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.",
 
     "Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.": "Eine hohe Priorität hat konditionales Rendering, Sicherheitsfragen (Passwort-Hashing, Schutz vor SQL-Injektion, CSRF- und XSS-Angriffen, Reset-Code per E-Mail) und eine differenzierte Fehlerbehandlung (verschiedene Fehlermeldungen werden angezeigt, z.B. wenn die E-Mail nicht in der Datenbank ist, das erneut eingegebene Passwort nicht mit dem ersten Passwort übereinstimmt oder die Eingabefelder leer bleiben) in den Registrierungs-, Login- und Reset-Passwort-Komponenten.",
 
@@ -79,11 +79,11 @@
 
     "gegen algorithmische Diskriminierung": "gegen algorithmische Diskriminierung",
 
-    "Unterstützer*innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden": "Unterstützer*innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden",
+    "Unterstützer*innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden": "Unterstützer:innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden",
 
-    "Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer*innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.": "Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer*innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.",
+    "Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer*innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.": "Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer:innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.",
 
-    "Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzer*innen-Profils.": "Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzer*innen-Profils.",
+    "Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzer*innen-Profils.": "Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzer:innen-Profils.",
 
     "Die Seite verfügt über eine differenzierte Fehlerbehandlung und ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.": "Die Seite verfügt über eine differenzierte Fehlerbehandlung und ist gegen SQL-Injektion, Clickjacking, XSS- und CSRF-Angriffe geschützt.",
 
@@ -97,7 +97,7 @@
 
     "Hochladen von Bildern mit Titel, Beschreibung und Benutzernamen, jedes Bild kann angeklickt und groß angezeigt werden mit mehr Informationen und der Möglichkeit, das Bild zu kommentieren und auch zu löschen, weitere Bilder können geladen werden": "Hochladen von Bildern mit Titel, Beschreibung und Benutzernamen, jedes Bild kann angeklickt und groß angezeigt werden mit mehr Informationen und der Möglichkeit, das Bild zu kommentieren und auch zu löschen, weitere Bilder können geladen werden",
 
-    "Jede*r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.": "Jede*r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.",
+    "Jede*r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.": "Jede:r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.",
 
     "Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt (der Start dauert ca. 10 Sekunden)": "Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt (der Start dauert ca. 10 Sekunden)",
 
@@ -127,9 +127,9 @@
 
     "Screenshot Spotify-Suche, Suchergebnisse für 'monae'": "Screenshot Spotify-Suche, Suchergebnisse für 'monae'",
 
-    "Spotify-Datenbank über API durchsuchen, Album/Künstler*in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden": "Spotify-Datenbank über API durchsuchen, Album/Künstler*in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden",
+    "Spotify-Datenbank über API durchsuchen, Album/Künstler*in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden": "Spotify-Datenbank über API durchsuchen, Album/Künstler:in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden",
 
-    "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...": "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...",
+    "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...": "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler:in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler:s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...",
 
     "Kätzchen-Karussell": "Kätzchen-Karussell",
 
@@ -175,7 +175,7 @@
 
     "Screenshot 4 Gewinnt, beide Farben im Spiel": "Screenshot 4 Gewinnt, beide Farben im Spiel",
 
-    "2 Spieler*innen können gegeneinander spielen, horizontale, vertikale oder diagonale Siege, Animation, wenn ein*e Spieler*in gewinnt, die Farbe des Gewinners wird angezeigt, erneut spielen": "2 Spieler*innen können gegeneinander spielen, horizontale, vertikale oder diagonale Siege, Animation, wenn ein*e Spieler*in gewinnt, die Farbe des Gewinners wird angezeigt, erneut spielen",
+    "2 Spieler*innen können gegeneinander spielen, horizontale, vertikale oder diagonale Siege, Animation, wenn ein*e Spieler*in gewinnt, die Farbe des Gewinners wird angezeigt, erneut spielen": "2 Spieler:innen können gegeneinander spielen, horizontale, vertikale oder diagonale Siege, Animation, wenn ein:e Spieler:in gewinnt, die Farbe des Gewinners wird angezeigt, erneut spielen",
 
     "Schon als Kind habe ich gerne 4 gewinnt gespielt - und tue es bis heute! Ich hätte nie gedacht, dass ich das mal als Computerspiel programmieren würde. Das Schwierigste war das Herausfinden und Programmieren der Diagonalsiege. Man kann entweder dunkelrot oder pink zum Spielen auswählen. Jeder Spielzug wird von einem Klick-Geräusch begleitet. Wenn eine Farbe gewinnt, dehnt sich das ganze Brett aus und die Gewinner-Farbe füllt den ganzen Bildschirm. Diese Animation habe ich mit jQuery erstellt. Zusätzlich gibt es eine Gewinnerinnen-Meldung, die blinkt - diese habe ich mit CSS-Animationen und Keyframes erstellt. Der 'Play again'-Knopf startet ein neues Spiel - Viel Spaß dabei!": "Schon als Kind habe ich gerne 4 gewinnt gespielt - und tue es bis heute! Ich hätte nie gedacht, dass ich das mal als Computerspiel programmieren würde. Das Schwierigste war das Herausfinden und Programmieren der Diagonalsiege. Man kann entweder dunkelrot oder pink zum Spielen auswählen. Jeder Spielzug wird von einem Klick-Geräusch begleitet. Wenn eine Farbe gewinnt, dehnt sich das ganze Brett aus und die Gewinner-Farbe füllt den ganzen Bildschirm. Diese Animation habe ich mit jQuery erstellt. Zusätzlich gibt es eine Gewinnerinnen-Meldung, die blinkt - diese habe ich mit CSS-Animationen und Keyframes erstellt. Der 'Play again'-Knopf startet ein neues Spiel - Viel Spaß dabei!",
 
@@ -195,7 +195,7 @@
 
     "Ländersuche, geht mit Maus oder Tasten": "Ländersuche, geht mit Maus oder Tasten",
 
-    "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzer*in schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können.": "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzer*in schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können.",
+    "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzer*in schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können.": "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzer:in schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können.",
     "Publikationen, Vorträge und Interviews auf Deutsch": "Publikationen, Vorträge und Interviews auf Deutsch",
 
     "Publikationen, Vorträge und Interviews auf Englisch": "Publikationen, Vorträge und Interviews auf Englisch",
@@ -324,7 +324,7 @@
 
     "Prozessbegleitung zu Antidiskriminierung und Rechtsextremismus-Prävention": "Prozessbegleitung zu Antidiskriminierung und Rechtsextremismus-Prävention",
 
-    "für Kita-Berater*innen des DRK Thüringen": "für Kita-Berater*innen des DRK Thüringen",
+    "für Kita-Berater*innen des DRK Thüringen": "für Kita-Berater:innen des DRK Thüringen",
 
     "Gegen Vergessen – Für Demokratie: Umfangreiche": "Gegen Vergessen – Für Demokratie: Umfangreiche",
 
@@ -350,7 +350,7 @@
 
     "Teamberatung und -begleitung": "Teamberatung und -begleitung",
 
-    "zu geschlechterreflektierten Ansätzen, Multiplikator*innen-Schulung": "zu geschlechterreflektierten Ansätzen, Multiplikator*innen-Schulung",
+    "zu geschlechterreflektierten Ansätzen, Multiplikator*innen-Schulung": "zu geschlechterreflektierten Ansätzen, Multiplikator:innen-Schulung",
 
     "Anne Frank Zentrum: Inhaltliches": "Anne Frank Zentrum: Inhaltliches",
 
@@ -376,7 +376,7 @@
 
     "Fort- und Weiterbildungen und Train the Trainer-Schulungen": "Fort- und Weiterbildungen und Train the Trainer-Schulungen",
 
-    "für Lehrer*innen, Sozialarbeiter*innen und politische Bildner*innen im gesamten Bundesgebiet": "für Lehrer*innen, Sozialarbeiter*innen und politische Bildner*innen im gesamten Bundesgebiet",
+    "für Lehrer*innen, Sozialarbeiter*innen und politische Bildner*innen im gesamten Bundesgebiet": "für Lehrer:innen, Sozialarbeiter:innen und politische Bildner:innen im gesamten Bundesgebiet",
 
     "Auftraggebende/Träger": "Auftraggebende/Träger",
 
@@ -385,8 +385,6 @@
     "Einzelne Schulen und Vereine": "Einzelne Schulen und Vereine",
 
     "Alfred Brehm Grundschule Berlin, Dunant Grundschule Berlin, Martin-Luther-Gymnasium Eisenach, Miteinander e.V. (Sachsen-Anhalt), Vielfalt e.V. Berlin, Werbellin Grundschule Berlin, Willi-Graf-Gymnasium Berlin": "Alfred Brehm Grundschule Berlin, Dunant Grundschule Berlin, Martin-Luther-Gymnasium Eisenach, Miteinander e.V. (Sachsen-Anhalt), Vielfalt e.V. Berlin, Werbellin Grundschule Berlin, Willi-Graf-Gymnasium Berlin",
-
-    "Auftraggebende/Träger": "Auftraggebende/Träger",
 
     "u.a. Amadeu Antonio Stiftung, Dissens – Institut für Bildung und Forschung, Rosa-Luxemburg-Stiftung": "u.a. Amadeu Antonio Stiftung, Dissens – Institut für Bildung und Forschung, Rosa-Luxemburg-Stiftung",
 
@@ -400,13 +398,13 @@
 
     "Forschungs- und Fortbildungsprojekt zu geschlechterreflektierter Neonazismusprävention bei Dissens – Institut für Bildung und Forschung": "Forschungs- und Fortbildungsprojekt zu geschlechterreflektierter Neonazismusprävention bei Dissens – Institut für Bildung und Forschung",
 
-    "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator*innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber*innen; Praktikant*innen- und Honorarteambetreuung": "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator*innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber*innen; Praktikant*innen- und Honorarteambetreuung",
+    "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator*innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber*innen; Praktikant*innen- und Honorarteambetreuung": "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator:innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber:innen; Praktikant:innen- und Honorarteambetreuung",
 
     "Bundesweite Fortbildungstätigkeit beim Fortbildungsprojekt": "Bundesweite Fortbildungstätigkeit beim Fortbildungsprojekt",
 
     "Jungenarbeit und Schule": "Jungenarbeit und Schule",
 
-    "8-tägige Lehrer*innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung": "8-tägige Lehrer*innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung",
+    "8-tägige Lehrer*innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung": "8-tägige Lehrer:innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung",
 
     "Jungenarbeit": "Jungenarbeit",
 
@@ -502,7 +500,7 @@
 
     "Geschlechterreflektierte Pädagogik": "Geschlechterreflektierte Pädagogik",
 
-    "Jungen*arbeit": "Jungen*arbeit",
+    "Jungen*arbeit": "Jungen:arbeit",
 
     "Geschlecht und Neonazismus (u.a. Interdiskriminierung, Manosphere, Incels)": "Geschlecht und Neonazismus (u.a. Interdiskriminierung, Manosphere, Incels)",
 
@@ -599,7 +597,7 @@
 
     "Die Fotos und Screenshots auf dieser Webseite sind urheberrechtlich geschützt": "Die Fotos und Screenshots auf dieser Webseite sind urheberrechtlich geschützt",
 
-    "Die Bilderrechte liegen bei mir oder den Fotograf*innen, die": "Die Bilderrechte liegen bei mir oder den Fotograf*innen, die",
+    "Die Bilderrechte liegen bei mir oder den Fotograf*innen, die": "Die Bilderrechte liegen bei mir oder den Fotograf:innen, die",
 
     "hier": "hier",
 
