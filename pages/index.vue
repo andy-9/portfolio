@@ -12,17 +12,11 @@
             </h1>
 
             <h2 id="subheading-home" class="subtitle">
-                {{ $t('Software | Agilität | Coaching | Antidiskriminierung') }}
+                {{ $t('Untertitel') }}
             </h2>
 
             <div id="short-bio">
-                <p>
-                    {{
-                        $t(
-                            'Ich bin Full Stack Web-Entwickler in Berlin und interessiere mich für Software und Coding, außerdem für Agilität im Allgemeinen und für Scrum im Besonderen'
-                        )
-                    }}.
-                </p>
+                <p>{{ $t('job_description') }}.</p>
                 <p>
                     {{
                         $t(

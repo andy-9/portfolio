@@ -6,11 +6,7 @@
                 <h1>{{ $t('ich bin') }} Andreas Hechler.</h1>
                 <p>
                     <strong>
-                        {{
-                            $t(
-                                'Ich bin Full Stack Web-Entwickler in Berlin und interessiere mich für Software und Coding, außerdem für Agilität im Allgemeinen und für Scrum im Besonderen'
-                            )
-                        }}
+                        {{ $t('job_description') }}
                         ({{ $t('ich bin zertifizierter PSM I und PSPO I') }}).
                         {{
                             $t(
