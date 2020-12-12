@@ -781,19 +781,40 @@
             </h3>
 
             <p>
-                10/2020:
-                <strong>"Diagnosen von Gewicht"</strong>. Vortrag zur
-                Ausstellungseröffnung
-                <a
+                11/2020:
+                <strong
+                    >"Krisengebrüll – Weiblichkeitsabwehr und viriler
+                    Resouveränisierungsterror"</strong
+                >
+                [ab 1:03:35]. Vortrag im Rahmen der Veranstaltung "<a
+                    href="https://www.muenchen.de/rathaus/Stadtverwaltung/Direktorium/Frauengleichstellung/aktionstag_gegen_gewalt.html"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Strategien gegen Antifeminismus & Frauen*hass</a
+                >" am internationalen Tag gegen Gewalt gegen Frauen*.
+            </p>
+            <!-- <video controls width="250">
+                <source
+                    src="https://www.youtube.com/watch?v=GrJ8d6vyVs8"
+                    type="video/mp4"
+                />
+                Sorry, your browser does not support embedded videos.
+            </video> -->
+
+            <p>
+                10/2020: "<a
                     href="https://www.topfundsoehne.de/ts/de/service/mediathek/videos/2020/137132.html"
                     target="_blank"
                     rel="noreferrer"
-                >
-                    "Wohin bringt ihr uns? 'Euthanasie'-Verbrechen im
-                    Nationalsozialismus"</a
-                >
-                im Erinnerungsort Topf & Söhne – Die Ofenbauer von Auschwitz in
-                Erfurt.
+                    ><strong>Diagnosen von Gewicht</strong></a
+                >". Vortrag zur Ausstellungseröffnung "<a
+                    href="https://www.topfundsoehne.de/ts/de/service/aktuelles/ausstellungen/2020/136718.html"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Wohin bringt ihr uns? 'Euthanasie'-Verbrechen im
+                    Nationalsozialismus</a
+                >" im Erinnerungsort Topf & Söhne – Die Ofenbauer von Auschwitz
+                in Erfurt.
             </p>
             <video controls width="250">
                 <source
