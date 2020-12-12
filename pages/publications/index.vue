@@ -781,6 +781,29 @@
             </h3>
 
             <p>
+                10/2020:
+                <strong>"Diagnosen von Gewicht"</strong>. Vortrag zur
+                Ausstellungseröffnung
+                <a
+                    href="https://www.topfundsoehne.de/ts/de/service/mediathek/videos/2020/137132.html"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    "Wohin bringt ihr uns? 'Euthanasie'-Verbrechen im
+                    Nationalsozialismus"</a
+                >
+                im Erinnerungsort Topf & Söhne – Die Ofenbauer von Auschwitz in
+                Erfurt.
+            </p>
+            <video controls width="250">
+                <source
+                    src="https://dl.dropboxusercontent.com/s/r7nfpviyr105mbb/Hechler_Diagnosen-von-Gewicht.30.10.2020.mp4?dl=0"
+                    type="video/mp4"
+                />
+                Sorry, your browser does not support embedded videos.
+            </video>
+
+            <p>
                 12/2018:
                 <strong
                     >"Frauenhasser sucht Frau – Paradoxien und Effekte der
