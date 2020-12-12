@@ -1,5 +1,13 @@
 <template>
     <div>
+        <!-- <div id="fb-root"></div>
+        <script
+            async
+            defer
+            src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v9.0"
+            nonce="gISkR127"
+        ></script> -->
+
         <div class="publications-container">
             <h1 id="top">{{ $t('Veröffentlichungen') }}</h1>
 
@@ -1189,6 +1197,31 @@
                 />
                 Your browser does not support the <code>audio</code> element.
             </audio>
+
+            <p>
+                Jäger & Sammler (2017):
+                <a
+                    href="https://www.facebook.com/JaegerundSammlerDE/videos/inter/1984272875188581/"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong>Inter</strong></a
+                >. Interview mit Andreas Hechler als Beiratsmitglied der
+                Internationalen Vereinigung Intergeschlechtlicher Menschen vom
+                18.12.2017.
+            </p>
+            <!-- <video controls width="250">
+                <source
+                    src="https://dl.dropboxusercontent.com/s/u9hivxiik3gunsj/hass_auf_frauen.mp4?dl=0"
+                    type="video/mp4"
+                />
+                Sorry, your browser does not support embedded videos.
+            </video> -->
+
+            <!-- <source src="https://fb.watch/2jPdsK_P4K/" /> -->
+            <!-- <source
+                src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FJaegerundSammlerDE%2Fvideos%2F1984272875188581%2F&show_text=false"
+                    type="video/mp4"
+            /> -->
 
             <p>
                 Frick, Julia (2017):
