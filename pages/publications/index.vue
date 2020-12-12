@@ -1,13 +1,5 @@
 <template>
     <div>
-        <!-- <div id="fb-root"></div>
-        <script
-            async
-            defer
-            src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v9.0"
-            nonce="gISkR127"
-        ></script> -->
-
         <div class="publications-container">
             <h1 id="top">{{ $t('Veröffentlichungen') }}</h1>
 
@@ -188,6 +180,36 @@
                 >
                 / Lidicehaus. Bremen: Eigendruck.
             </p>
+            <p class="less-distance">
+                <a
+                    href="https://issuu.com/lidicehaus/docs/ruf_funktionalisierte_kinder"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Online angucken</a
+                >
+            </p>
+            <p class="less-distance">
+                Rezensionen in der
+                <a
+                    href="https://jungle.world/artikel/2020/47/hakenkreuze-malen-der-kita"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Jungle World</a
+                >
+                und dem
+                <a
+                    href="https://www.bnr.de/artikel/hintergrund/neonazis-und-kindeswohlgef-hrdung"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Blick nach Rechts</a
+                >, Interview im
+                <a
+                    href="https://www.neues-deutschland.de/artikel/1144806.rechte-familien-es-ist-so-gemein-was-diesen-kindern-angetan-wird.html"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Neuen Deutschland</a
+                >
+            </p>
 
             <p>
                 Hechler, Andreas / Baar, Robert (2020):
@@ -201,7 +223,7 @@
                     rel="noreferrer"
                     >Die Grundschulzeitschrift</a
                 >, Nr. 321, Juni 2020, 34. Jg. Hannover: Friedrich Verlag, S.
-                40-43.
+                40–43.
             </p>
 
             <p>
@@ -214,7 +236,7 @@
                     rel="noreferrer"
                     >Für soziale Gerechtigkeit, gegen Ausgrenzung und
                     Rassismus</a
-                >. Jahrbuch 2019/2020. Wuppertal: Eigendruck, S. 47-48.
+                >. Jahrbuch 2019/2020. Wuppertal: Eigendruck, S. 47–48.
             </p>
 
             <p class="no-bottom-margin">
@@ -370,7 +392,7 @@
                     >Der regional vernetzte Krankenmord. Die Heil- und
                     Pflegeanstalt Klingenmünster/Pfalz in Verbindung mit Baden,
                     Bayern, Elsass und Lothringen</a
-                >. Köln: Psychiatrie Verlag, S. 204-213.
+                >. Köln: Psychiatrie Verlag, S. 204–213.
             </p>
 
             <p>
@@ -412,7 +434,7 @@
                     <a href="https://www.psychosozial-verlag.de/6799"
                         >Geschlechtliche, sexuelle und reproduktive
                         Selbstbestimmung. Praxisorientierte Zugänge</a
-                    >. Psychosozial-Verlag, Gießen, S. 161-185.
+                    >. Psychosozial-Verlag, Gießen, S. 161–185.
                 </p>
 
                 <p class="no-bottom-margin">
@@ -437,7 +459,7 @@
                             target="_blank"
                             rel="noreferrer"
                             ><strong>Einleitung</strong></a
-                        >, S. 7-42.
+                        >, S. 7–42.
                     </li>
 
                     <li>
@@ -451,7 +473,7 @@
                                 Geschlechterreflektierte Pädagogik als Grundlage
                                 einer Neonazismusprävention</strong
                             ></a
-                        >, S. 44-72.
+                        >, S. 44–72.
                     </li>
 
                     <li>
@@ -464,7 +486,7 @@
                                 >Methode: Praxissituationen
                                 entgeschlechtlichen</strong
                             ></a
-                        >, S. 73-78.
+                        >, S. 73–78.
                     </li>
 
                     <li>
@@ -474,7 +496,7 @@
                             target="_blank"
                             rel="noreferrer"
                             ><strong>Methode: Der große Preis</strong></a
-                        >, S. 100-106.
+                        >, S. 100–106.
                     </li>
 
                     <li>
@@ -482,7 +504,7 @@
                             >Beharrliche Bilder. Bildsprache und
                             geschlechterreflektierte
                             Neonazismusprävention</strong
-                        >, S. 223-237 (gekürzt und überarbeitet
+                        >, S. 223–237 (gekürzt und überarbeitet
                         <a
                             href="https://forschungsgruppefipu.wordpress.com/2017/11/07/beharrliche-bilder/"
                             target="_blank"
@@ -510,7 +532,7 @@
                         rel="noreferrer"
                         >Gegendiagnose. Beiträge zur radikalen Kritik an
                         Psychologie und Psychiatrie</a
-                    >. edition assemblage, Münster, S. 143-193.
+                    >. edition assemblage, Münster, S. 143–193.
                 </p>
 
                 <p>
@@ -533,7 +555,7 @@
                         Intergeschlechtlichkeiten. Begleitforschung zur
                         Interministeriellen Arbeitsgruppe Inter- &amp;
                         Transsexualität</a
-                    >. Berlin, S. 61-74.
+                    >. Berlin, S. 61–74.
                 </p>
 
                 <p>
@@ -546,7 +568,7 @@
                             >Geschlechterreflektierende
                             Neonazismusprävention</strong
                         ></a
-                    >. In: deutsche jugend, Nr. 4, 63. Jg., S. 166-175.
+                    >. In: deutsche jugend, Nr. 4, 63. Jg., S. 166–175.
                 </p>
 
                 <p>
@@ -559,7 +581,7 @@
                             >Intergeschlechtlichkeit als Thema in Pädagogik und
                             Sozialer Arbeit</strong
                         ></a
-                    >. In: Sozialmagazin, Nr. 3-4/2014, 39. Jg., S. 46-53.
+                    >. In: Sozialmagazin, Nr. 3–4/2014, 39. Jg., S. 46–53.
                 </p>
 
                 <p>
@@ -581,7 +603,7 @@
                         rechtsextrem orientierten und gefährdeten
                         Jugendlichen</a
                     >. Opladen/Berlin/Toronto: Verlag Barbara Budrich, S.
-                    103-113.
+                    103–113.
                 </p>
 
                 <p>
@@ -595,7 +617,7 @@
                             Rechtsextremismus(-prävention)</strong
                         >
                     </a>
-                    im Themenforum des BIKnetz vom 17.-23. Februar 2014.
+                    im Themenforum des BIKnetz vom 17.–23. Februar 2014.
                 </p>
 
                 <p>
@@ -613,7 +635,7 @@
                             Präventionsarbeit</strong
                         ></a
                     >. In: Switchboard. Zeitschrift für Männer und Jungenarbeit,
-                    Nr. 204, Winter 2013, S. 30-34.
+                    Nr. 204, Winter 2013, S. 30–34.
                 </p>
 
                 <p>
@@ -648,7 +670,7 @@
                         >Geschlechterreflektierte Arbeit mit Jungen an der
                         Schule. Texte zu Pädagogik und Fortbildung rund um
                         Jungenarbeit, Geschlecht und Bildung</a
-                    >. Berlin: Eigendruck, S. 73-91.
+                    >. Berlin: Eigendruck, S. 73–91.
                 </p>
 
                 <p>
@@ -670,7 +692,7 @@
                         >Geschlechterreflektierte Arbeit mit Jungen an der
                         Schule. Texte zu Pädagogik und Fortbildung rund um
                         Jungenarbeit, Geschlecht und Bildung</a
-                    >. Berlin: Eigendruck, S. 125-135.
+                    >. Berlin: Eigendruck, S. 125–135.
                 </p>
 
                 <p>
@@ -686,7 +708,7 @@
                         >Schattenbericht zum 6. Staatenbericht der BRD zum
                         Übereinkommen der Vereinten Nationen zur Beseitigung
                         jeder Form der Diskriminierung der Frau (CEDAW)</a
-                    >. Hamburg, S. 87-125.
+                    >. Hamburg, S. 87–125.
                 </p>
 
                 <p>
@@ -702,7 +724,7 @@
                     >. In: JungdemokratInnen/Junge Linke Brandenburg: I
                     remember, remember the 9th of november – Die Erinnerung und
                     das Gedenken an die Novemberpogrome in Deutschland.
-                    Berlin-Brandenburg: Eigendruck, S. 37-55.
+                    Berlin-Brandenburg: Eigendruck, S. 37–55.
                 </p>
 
                 <p>
@@ -714,7 +736,7 @@
                     >
                         <strong>Jungenarbeit in der Kita</strong></a
                     >. In: Welt des Kindes, Nr. 1, Januar/Februar 2007, 85.
-                    Jahrgang, S. 22-25.
+                    Jahrgang, S. 22–25.
                 </p>
 
                 <p>
@@ -729,7 +751,7 @@
                     >. In: Blask, Falk (Hg.): Ein Dorf voller Narren. Karneval –
                     Idylle – Rechtsextremismus. Berliner Blätter, Sonderheft
                     43/2007. Münster/Hamburg/Berlin/London: Lit Verlag, S.
-                    171-196.
+                    171–196.
                 </p>
 
                 <p>
@@ -754,7 +776,7 @@
                         ><strong
                             >Der Kuhzaun – Jungenarbeit in Reinickendorf</strong
                         ></a
-                    >. In: Die Stadtteilzeitung, Ausgabe Mai 2004, S. 12-13.
+                    >. In: Die Stadtteilzeitung, Ausgabe Mai 2004, S. 12–13.
                 </p>
 
                 <p>
@@ -770,7 +792,7 @@
                     >. In: "Znarelot – Toleranz". Projektarbeit in
                     Marzahn-Hellersdorf 2002. Geschlechterdifferenzierte Arbeit
                     mit Jungen und Mädchen im Kinder- und Jugendfreizeitbereich.
-                    Dokumentation, S. 45-50.
+                    Dokumentation, S. 45–50.
                 </p>
             </details>
 
@@ -786,12 +808,13 @@
                     >"Krisengebrüll – Weiblichkeitsabwehr und viriler
                     Resouveränisierungsterror"</strong
                 >
-                [ab 1:03:35]. Vortrag im Rahmen der Veranstaltung "<a
+                [ab 1:03:35]. Vortrag im Rahmen der Münchner Veranstaltung "<a
                     href="https://www.muenchen.de/rathaus/Stadtverwaltung/Direktorium/Frauengleichstellung/aktionstag_gegen_gewalt.html"
                     target="_blank"
                     rel="noreferrer"
                     >Strategien gegen Antifeminismus & Frauen*hass</a
-                >" am internationalen Tag gegen Gewalt gegen Frauen*.
+                >" mit Franziska Schutzbach und Micky Wenngatz am
+                internationalen Tag gegen Gewalt gegen Frauen*.
             </p>
             <!-- <video controls width="250">
                 <source
@@ -1034,13 +1057,28 @@
             </h3>
 
             <p>
+                Nowak, Peter (2020):
+                <a
+                    href="https://www.neues-deutschland.de/artikel/1144806.rechte-familien-es-ist-so-gemein-was-diesen-kindern-angetan-wird.html"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong
+                        >»Es ist so gemein, was diesen Kindern angetan
+                        wird«</strong
+                    >
+                    Nachwuchs als Politikum: Neurechte instrumentalisieren ihre
+                    Töchter und Söhne für den vermeintlich höheren Zweck</a
+                >. Interview mit Andreas Hechler zu Kindeswohlgefährdung in
+                Neonazifamilien. In: Neues Deutschland vom 23.11.2020.
+            </p>
+
+            <p>
                 Dissens - Institut für Bildung und Forschung (2020): Der
                 Dissens-Podcast 'Alles für Alle!'. Sarah Klemm und Ulla
                 Wittenzellner im Gespräch mit Andreas Hechler, Mart Busche und
                 Olaf Stuve.
             </p>
 
-            <!-- <br /> -->
             <ul>
                 <li class="bullet-point-less-distance">
                     <a
@@ -1317,7 +1355,7 @@
                     rel="noreferrer"
                     ><strong>Die "Volksgemeinschaft" bröckelt</strong></a
                 >
-                . Interview mit Andreas Hechler in progress, Nr. 5, S. 26-27.
+                . Interview mit Andreas Hechler in progress, Nr. 5, S. 26–27.
             </p>
 
             <p>
@@ -1856,6 +1894,10 @@ video {
 
 video:focus {
     outline: none;
+}
+
+.less-distance {
+    margin-top: -0.8em;
 }
 
 .bullet-point-less-distance {
