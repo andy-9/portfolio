@@ -816,7 +816,7 @@
                         >Krisengebrüll – Weiblichkeitsabwehr und viriler
                         Resouveränisierungsterror</strong
                     ></a
-                >" [ab 1:03:35]. Vortrag im Rahmen der Münchner Veranstaltung
+                >" [ab 1:03:29]. Vortrag im Rahmen der Münchner Veranstaltung
                 "<a
                     href="https://www.muenchen.de/rathaus/Stadtverwaltung/Direktorium/Frauengleichstellung/aktionstag_gegen_gewalt.html"
                     target="_blank"
@@ -825,13 +825,15 @@
                 >" mit Franziska Schutzbach und Micky Wenngatz am
                 internationalen Tag gegen Gewalt gegen Frauen*.
             </p>
-            <video controls width="250">
+            <video controls width="250" poster="/images/krisengebruell.webp">
                 <source
-                    src="https://dl.dropboxusercontent.com/s/wd9d5unfph2b5al/Strategien_gegen_Antifeminismus_und_Frauenhass.mp4?dl=0#t=4300"
+                    src="https://dl.dropboxusercontent.com/s/wd9d5unfph2b5al/Strategien_gegen_Antifeminismus_und_Frauenhass.mp4?dl=0"
+                    preload="none"
                     type="video/mp4"
                 />
                 Sorry, your browser does not support embedded videos.
             </video>
+            <!-- src="https://dl.dropboxusercontent.com/s/wd9d5unfph2b5al/Strategien_gegen_Antifeminismus_und_Frauenhass.mp4?dl=0#t=3809" -->
 
             <p>
                 10/2020: "<a
@@ -851,6 +853,7 @@
             <video controls width="250">
                 <source
                     src="https://dl.dropboxusercontent.com/s/r7nfpviyr105mbb/Hechler_Diagnosen-von-Gewicht.30.10.2020.mp4?dl=0"
+                    preload="none"
                     type="video/mp4"
                 />
                 Sorry, your browser does not support embedded videos.
@@ -1190,9 +1193,10 @@
                 >. Panorama-Sendung vom 31.10.2019. Interviews mit Anne Helm,
                 einer Gamerin und Andreas Hechler.
             </p>
-            <video controls width="250">
+            <video controls width="250" poster="/images/panorama.webp">
                 <source
                     src="https://dl.dropboxusercontent.com/s/u9hivxiik3gunsj/hass_auf_frauen.mp4?dl=0"
+                    preload="none"
                     type="video/mp4"
                 />
                 Sorry, your browser does not support embedded videos.
@@ -1300,9 +1304,10 @@
                 Internationalen Vereinigung Intergeschlechtlicher Menschen vom
                 18.12.2017.
             </p>
-            <video controls width="250">
+            <video controls width="250" poster="/images/j&s.jpg">
                 <source
                     src="https://dl.dropboxusercontent.com/s/893r4b9jh42q8dc/J%26S_Inter.mp4?dl=0"
+                    preload="none"
                     type="video/mp4"
                 />
                 Sorry, your browser does not support embedded videos.
