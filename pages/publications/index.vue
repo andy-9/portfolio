@@ -808,12 +808,16 @@
             </h3>
 
             <p>
-                11/2020:
-                <strong
-                    >"Krisengebrüll – Weiblichkeitsabwehr und viriler
-                    Resouveränisierungsterror"</strong
-                >
-                [ab 1:03:35]. Vortrag im Rahmen der Münchner Veranstaltung "<a
+                11/2020: "<a
+                    href="https://www.youtube.com/watch?v=GrJ8d6vyVs8"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong
+                        >Krisengebrüll – Weiblichkeitsabwehr und viriler
+                        Resouveränisierungsterror</strong
+                    ></a
+                >" [ab 1:03:35]. Vortrag im Rahmen der Münchner Veranstaltung
+                "<a
                     href="https://www.muenchen.de/rathaus/Stadtverwaltung/Direktorium/Frauengleichstellung/aktionstag_gegen_gewalt.html"
                     target="_blank"
                     rel="noreferrer"
@@ -821,13 +825,13 @@
                 >" mit Franziska Schutzbach und Micky Wenngatz am
                 internationalen Tag gegen Gewalt gegen Frauen*.
             </p>
-            <!-- <video controls width="250">
+            <video controls width="250">
                 <source
-                    src="https://www.youtube.com/watch?v=GrJ8d6vyVs8"
+                    src="https://dl.dropboxusercontent.com/s/wd9d5unfph2b5al/Strategien_gegen_Antifeminismus_und_Frauenhass.mp4?dl=0#t=4300"
                     type="video/mp4"
                 />
                 Sorry, your browser does not support embedded videos.
-            </video> -->
+            </video>
 
             <p>
                 10/2020: "<a
@@ -1296,19 +1300,13 @@
                 Internationalen Vereinigung Intergeschlechtlicher Menschen vom
                 18.12.2017.
             </p>
-            <!-- <video controls width="250">
+            <video controls width="250">
                 <source
-                    src="https://dl.dropboxusercontent.com/s/u9hivxiik3gunsj/hass_auf_frauen.mp4?dl=0"
+                    src="https://dl.dropboxusercontent.com/s/893r4b9jh42q8dc/J%26S_Inter.mp4?dl=0"
                     type="video/mp4"
                 />
                 Sorry, your browser does not support embedded videos.
-            </video> -->
-
-            <!-- <source src="https://fb.watch/2jPdsK_P4K/" /> -->
-            <!-- <source
-                src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FJaegerundSammlerDE%2Fvideos%2F1984272875188581%2F&show_text=false"
-                    type="video/mp4"
-            /> -->
+            </video>
 
             <p>
                 Frick, Julia (2017):
