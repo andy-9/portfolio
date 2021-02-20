@@ -160,6 +160,20 @@
             <h2 id="deutsch">Deutsch</h2>
 
             <p>
+                Groß, Melanie / Hechler, Andreas (2021): Intergeschlechtlichkeit
+                als Herausforderung für Fachkräfte in Erziehungs- und
+                Bildungseinrichtungen. In: Groß, Melanie / Niedenthal, Katrin
+                (Hrsg.):
+                <a
+                    href="https://www.transcript-verlag.de/978-3-8376-5341-0/geschlecht-divers/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Geschlecht: Divers. Die "Dritte Option" im
+                    Personenstandsgesetz - Perspektiven für die Soziale
+                    Arbeit</a
+                >. Bielefeld, transcript, Verlag, S. 211-223.
+            </p>
+            <p>
                 Hechler, Andreas (2020):
                 <a
                     href="https://rechtsextremismus-und-familie.de/mediapool/funktionalisierte_kinder_online.pdf"
