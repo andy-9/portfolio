@@ -189,7 +189,20 @@
                 >
             </p>
             <p class="less-distance">
-                Rezensionen in der
+                Interviews im
+                <a
+                    href="https://www.neues-deutschland.de/artikel/1144806.rechte-familien-es-ist-so-gemein-was-diesen-kindern-angetan-wird.html"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Neuen Deutschland</a
+                >
+                und dem
+                <a
+                    href="https://www.freitag.de/autoren/peter-nowak/wenn-die-eltern-nazis-sind"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Blog des Freitag</a
+                >, Rezensionen in der
                 <a
                     href="https://jungle.world/artikel/2020/47/hakenkreuze-malen-der-kita"
                     target="_blank"
@@ -202,12 +215,6 @@
                     target="_blank"
                     rel="noreferrer"
                     >Blick nach Rechts</a
-                >, Interview im
-                <a
-                    href="https://www.neues-deutschland.de/artikel/1144806.rechte-familien-es-ist-so-gemein-was-diesen-kindern-angetan-wird.html"
-                    target="_blank"
-                    rel="noreferrer"
-                    >Neuen Deutschland</a
                 >
             </p>
 

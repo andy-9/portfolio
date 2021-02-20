@@ -2,6 +2,7 @@ import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer'
 import shrinkRay from 'shrink-ray-current'
 
 export default {
+    // target: 'static',
     render: {
         compressor: shrinkRay()
     },
