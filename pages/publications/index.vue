@@ -249,15 +249,14 @@
 
             <p>
                 Hechler, Andreas (2020):
-                <strong>Nicht nur, sondern auch</strong>. In: Bundesarbeitskreis
-                Arbeit und Leben DGB/VHS:
                 <a
                     href="https://www.arbeitundleben.de/images/download/ARBEIT-UND-LEBEN_Jahrbuch_2019-2020.pdf"
                     target="_blank"
                     rel="noreferrer"
-                    >Für soziale Gerechtigkeit, gegen Ausgrenzung und
-                    Rassismus</a
-                >. Jahrbuch 2019/2020. Wuppertal: Eigendruck, S. 47–48.
+                    ><strong>Nicht nur, sondern auch</strong></a
+                >. In: Bundesarbeitskreis Arbeit und Leben DGB/VHS: Für soziale
+                Gerechtigkeit, gegen Ausgrenzung und Rassismus. Jahrbuch
+                2019/2020. Wuppertal: Eigendruck, S. 47–48.
             </p>
 
             <p class="no-bottom-margin">
