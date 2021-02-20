@@ -718,7 +718,7 @@
                 <p>
                     Diewald, Heidi / Hechler, Andreas / Kröger, Fabian (2008):
                     <a
-                        href="/files/Intersexualität_-_Die_alltaegliche_Folter_in_Deutschland.pdf"
+                        href="/files/Diewald_Hechler_Kroeger_-_Die_alltaegliche_Folter_in_Deutschland_[2008].pdf"
                         target="_blank"
                         rel="noreferrer"
                         ><strong
@@ -727,7 +727,7 @@
                         ></a
                     >. In: Intersexuelle Menschen e. V. / XY-Frauen:
                     <a
-                        href="/files/Schattenbericht_CEDAW_2008_Intersexuelle_Menschen.pdf"
+                        href="https://www.im-ev.de/pdf/Schattenbericht_CEDAW_2008-Intersexuelle_Menschen_e_V.pdf"
                         target="_blank"
                         rel="noreferrer"
                         >Schattenbericht zum 6. Staatenbericht der BRD zum
