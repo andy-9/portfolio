@@ -521,7 +521,7 @@
 
                     <li>
                         <a
-                            href="href=https://library.oapen.org/viewer/web/viewer.html?file=/bitstream/handle/20.500.12657/25626/1004470.pdf"
+                            href="https://library.oapen.org/viewer/web/viewer.html?file=/bitstream/handle/20.500.12657/25626/1004470.pdf"
                             target="_blank"
                             rel="noreferrer"
                             ><strong
