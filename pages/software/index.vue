@@ -1022,9 +1022,33 @@ h2 {
     margin-top: 2em;
 }
 
+/* CODE, DER VERSUCHT, DIE UNTERSTREICHUNG VON STYLE.CSS WEGZUKRIEGEN - ERFOLGLOS */
+a > h2:hover {
+    text-decoration: none;
+}
+
+a h2:hover {
+    text-decoration: none;
+}
+
+a:hover h2 {
+    text-decoration: none;
+}
+
+a:hover > h2 {
+    text-decoration: none;
+}
+
+/* DIESER CODE HIER SOLL DIE UNTERSTRICHENE LINIE SCHWARZ UND ETWAS DICKER MACHEN */
 h2:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
+    /* text-decoration: inherit; */
+    /* text-decoration: initial; */
+    /* text-decoration: unset; */
+    /* text-decoration-color: black; */
+    /* text-decoration: underline; */
+    /* text-decoration-thickness: 0.5em; */
+    /* text-decoration-thickness: 3px; */
+    /* text-decoration-thickness: 5%; */
 }
 
 .software-explanation {

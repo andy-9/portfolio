@@ -760,9 +760,9 @@
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <strong>Jungenarbeit in der Kita</strong></a
-                    >. In: Welt des Kindes, Nr. 1, Januar/Februar 2007, 85.
-                    Jahrgang, S. 22–25.
+                        <strong>Für Mädchen und Jungen geeignet</strong></a
+                    >. Jungenarbeit in der Kita. In: Welt des Kindes, Nr. 1,
+                    Januar/Februar 2007, 85. Jahrgang, S. 22–25.
                 </p>
 
                 <p>
