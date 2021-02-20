@@ -4,7 +4,7 @@
             <p>
                 {{
                     $t(
-                        '...wir haben überall gesucht und sind sogar ins All geflogen'
+                        '...ich habe überall gesucht und bin sogar ins All geflogen'
                     )
                 }}.
             </p>
