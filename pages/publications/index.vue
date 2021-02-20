@@ -451,7 +451,7 @@
                             >"Was ist es denn?" Intergeschlechtlichkeit in
                             Bildung, Pädagogik und Sozialer Arbeit</strong
                         ></a
-                    >. In: Katzer, Michaela/Voß, Heinz-Jürgen (Hrsg.):
+                    >. In: Katzer, Michaela / Voß, Heinz-Jürgen (Hrsg.):
                     <a href="https://www.psychosozial-verlag.de/6799"
                         >Geschlechtliche, sexuelle und reproduktive
                         Selbstbestimmung. Praxisorientierte Zugänge</a
@@ -459,7 +459,7 @@
                 </p>
 
                 <p class="no-bottom-margin">
-                    Hechler, Andreas/Stuve, Olaf (Hrsg.) (2015):
+                    Hechler, Andreas / Stuve, Olaf (Hrsg.) (2015):
                     <a
                         href="https://library.oapen.org/viewer/web/viewer.html?file=/bitstream/handle/20.500.12657/25626/1004470.pdf?sequence=1&isAllowed=y"
                         target="_blank"
@@ -498,7 +498,7 @@
                     </li>
 
                     <li>
-                        Könnecke, Bernard/Laumann, Vivien/Hechler, Andreas:
+                        Könnecke, Bernard / Laumann, Vivien / Hechler, Andreas:
                         <a
                             href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-praxissituationen-entgeschlechtlichen.pdf"
                             target="_blank"
@@ -511,7 +511,7 @@
                     </li>
 
                     <li>
-                        Debus, Katharina/Hechler, Andreas:
+                        Debus, Katharina / Hechler, Andreas:
                         <a
                             href="http://gerenep.dissens.de/fileadmin/gerenep/redakteure/docs/gerenep-methodenbeschreibung-der-grosse-preis.pdf"
                             target="_blank"
@@ -747,7 +747,7 @@
                             >Voids in Brandenburg – Folgen des deutschen
                             Antisemitismus</strong
                         ></a
-                    >. In: JungdemokratInnen/Junge Linke Brandenburg: I
+                    >. In: JungdemokratInnen / Junge Linke Brandenburg: I
                     remember, remember the 9th of november – Die Erinnerung und
                     das Gedenken an die Novemberpogrome in Deutschland.
                     Berlin-Brandenburg: Eigendruck, S. 37–55.
@@ -1089,6 +1089,16 @@
                 Interviews
             </h3>
 
+            <p>
+                Nowak, Peter (2021):
+                <a
+                    href="https://www.freitag.de/autoren/peter-nowak/wenn-die-eltern-nazis-sind"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong> Wenn die Eltern Nazis sind</strong></a
+                >. Interview mit Andreas Hechler zu Kindeswohlgefährdung in
+                Neonazifamilien. In: Blog des Freitag vom 06.02.2021.
+            </p>
             <p>
                 Nowak, Peter (2020):
                 <a
