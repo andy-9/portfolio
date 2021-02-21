@@ -1280,7 +1280,7 @@
             </p>
             <audio controls>
                 <source
-                    src="https://dl.dropboxusercontent.com/s/tfme9mejteh17bo/GlottalStop -  Antifeminismus.2019-10.mp3?dl=0"
+                    src="/files/GlottalStop_Antifeminismus.2019-10.mp3"
                     type="audio/mp3"
                 />
                 Your browser does not support the <code>audio</code> element.
