@@ -261,7 +261,13 @@
 
             <p class="no-bottom-margin">
                 Hechler, Andreas (2020): Texte zu
-                <strong>Intergeschlechtlichkeit und Pädagogik</strong> auf
+                <a
+                    href="https://inter-nrw.de/category/educators/"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong>Intergeschlechtlichkeit und Pädagogik</strong></a
+                >
+                auf
                 <a href="https://inter-nrw.de/" target="_blank" rel="noreferrer"
                     >inter-nrw.de:</a
                 >
@@ -1421,7 +1427,13 @@
 
             <p class="no-bottom-margin">
                 Hechler, Andreas (2020):
-                <strong>Texts on intersex and pedagogy</strong> on
+                <a
+                    href="https://inter-nrw.de/en/category/educators-en/"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong>Texts on intersex and pedagogy</strong></a
+                >
+                on
                 <a
                     href="https://inter-nrw.de/en/home/"
                     target="_blank"
@@ -1575,15 +1587,24 @@
             <!-- ///////////////////// TÜRKCE ///////////////////// -->
 
             <h2 id="turkce">Türkçe</h2>
+
             <p class="no-bottom-margin">
                 Hechler, Andreas (2020):
+                <!-- <a
+                    href="https://inter-nrw.de/tr/category/egitimciler/"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong>Intergeschlechtlichkeit und Pädagogik</strong></a
+                > -->
+
                 <a
                     href="https://inter-nrw.de/tr/ev/"
                     target="_blank"
                     rel="noreferrer"
-                    >inter-nrw.de:</a
-                >
+                    >inter-nrw.de</a
+                >:
             </p>
+
             <ul>
                 <li>
                     <a
