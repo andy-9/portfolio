@@ -21,19 +21,20 @@
         <div class="grid-container">
             <!-- //////////// Social Network //////////// -->
             <div class="small-project-container">
-                <a
-                    href="https://kite-inc.herokuapp.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="
-                        $t(
-                            'Zu meinem Sozialen Netzwerk Kite.Inc (der Start dauert ca. 10 Sekunden)'
-                        )
-                    "
-                    ><h2 id="socialnetwork">
+                <h2 id="socialnetwork">
+                    <a
+                        href="https://kite-inc.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="
+                            $t(
+                                'Zu meinem Sozialen Netzwerk Kite.Inc (der Start dauert ca. 10 Sekunden)'
+                            )
+                        "
+                    >
                         {{ $t('Soziales Netzwerk') }}
-                    </h2></a
-                >
+                    </a>
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -132,17 +133,19 @@
 
             <!-- //////////// Petition //////////// -->
             <div class="small-project-container">
-                <a
-                    href="https://algobias.herokuapp.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="
-                        $t(
-                            'Zu meiner Online-Petition (der Start dauert ca. 10 Sekunden)'
-                        )
-                    "
-                    ><h2 id="petition">Petition</h2></a
-                >
+                <h2 id="petition">
+                    <a
+                        href="https://algobias.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="
+                            $t(
+                                'Zu meiner Online-Petition (der Start dauert ca. 10 Sekunden)'
+                            )
+                        "
+                        >Petition</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -263,17 +266,19 @@
             <!-- //////////// Imageboard //////////// -->
 
             <div class="small-project-container">
-                <a
-                    href="http://graf-streetart.herokuapp.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="
-                        $t(
-                            'Zu meinem Imageboard (der Start dauert ca. 10 Sekunden)'
-                        )
-                    "
-                    ><h2 id="imageboard">Imageboard</h2></a
-                >
+                <h2 id="imageboard">
+                    <a
+                        href="http://graf-streetart.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="
+                            $t(
+                                'Zu meinem Imageboard (der Start dauert ca. 10 Sekunden)'
+                            )
+                        "
+                        >Imageboard</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -372,17 +377,19 @@
             <!-- //////////// Kaleidoscope //////////// -->
 
             <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="
-                        $t(
-                            'Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt (der Start dauert ca. 10 Sekunden)'
-                        )
-                    "
-                    ><h2 id="kaleidoscope">{{ $t('Kaleidoskop') }}</h2></a
-                >
+                <h2 id="kaleidoscope">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="
+                            $t(
+                                'Zu meinem online-Kaleidoskop, das meine mittleren und kleineren Projekte zeigt (der Start dauert ca. 10 Sekunden)'
+                            )
+                        "
+                        >{{ $t('Kaleidoskop') }}</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -463,13 +470,15 @@
         <div class="grid-container">
             <!-- //////////// Resizable Panes //////////// -->
             <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/resizable_panes/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="$t('zu meinem Skalierte Bilder-Projekt')"
-                    ><h2 id="panes">{{ $t('Skalierte Bilder') }}</h2></a
-                >
+                <h2 id="panes">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/resizable_panes/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="$t('zu meinem Skalierte Bilder-Projekt')"
+                        >{{ $t('Skalierte Bilder') }}</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -517,13 +526,15 @@
 
             <!-- //////////// Spotify Search //////////// -->
             <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/spotify_search/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="$t('zu meiner Spotify-Suche')"
-                    ><h2 id="spotify">{{ $t('Spotify-Suche') }}</h2></a
-                >
+                <h2 id="spotify">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/spotify_search/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="$t('zu meiner Spotify-Suche')"
+                        >{{ $t('Spotify-Suche') }}</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -577,13 +588,15 @@
         <div class="grid-container">
             <!-- //////////// Kitty Carousel //////////// -->
             <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="$t('zu meinem Kätzchen-Karussell')"
-                    ><h2 id="carousel">{{ $t('Kätzchen-Karussell') }}</h2></a
-                >
+                <h2 id="carousel">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/kitty_carousel/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="$t('zu meinem Kätzchen-Karussell')"
+                        >{{ $t('Kätzchen-Karussell') }}</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -635,13 +648,15 @@
 
             <!-- //////////// Ticker //////////// -->
             <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/ticker/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="$t('zu meinem Ticker-Projekt')"
-                    ><h2 id="ticker">Ticker</h2></a
-                >
+                <h2 id="ticker">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/ticker/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="$t('zu meinem Ticker-Projekt')"
+                        >Ticker</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -691,13 +706,15 @@
         <div class="grid-container">
             <!-- //////////// Local Storage //////////// -->
             <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/local_storage/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="$t('zu meinem Lokaler Speicher-Projekte')"
-                    ><h2 id="localstorage">{{ $t('Lokaler Speicher') }}</h2></a
-                >
+                <h2 id="localstorage">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/local_storage/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="$t('zu meinem Lokaler Speicher-Projekte')"
+                        >{{ $t('Lokaler Speicher') }}</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -746,13 +763,15 @@
             <!-- //////////// JSON-validator //////////// -->
 
             <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/JSON_validator/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="$t('zu meinem JSON-Validator')"
-                    ><h2 id="validator">{{ $t('JSON-Validator') }}</h2></a
-                >
+                <h2 id="validator">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/JSON_validator/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="$t('zu meinem JSON-Validator')"
+                        >{{ $t('JSON-Validator') }}</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -803,13 +822,15 @@
         <div class="grid-container">
             <!-- //////////// Connect 4 //////////// -->
             <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/connect4/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="$t('zu meinem 4 Gewinnt')"
-                    ><h2 id="connectfour">{{ $t('4 Gewinnt') }}</h2></a
-                >
+                <h2 id="connectfour">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/connect4/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="$t('zu meinem 4 Gewinnt')"
+                        >{{ $t('4 Gewinnt') }}</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -862,13 +883,15 @@
             <!-- //////////// Spiced Homepage //////////// -->
 
             <div class="small-project-container">
-                <a
-                    href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
-                    target="_blank"
-                    rel="noreferrer"
-                    :title="$t('zu meinem Spiced Homepage-Projekt')"
-                    ><h2 id="spicedhomepage">Spiced Homepage</h2></a
-                >
+                <h2 id="spicedhomepage">
+                    <a
+                        href="http://kaleidoscop.herokuapp.com/spiced_homepage/"
+                        target="_blank"
+                        rel="noreferrer"
+                        :title="$t('zu meinem Spiced Homepage-Projekt')"
+                        >Spiced Homepage</a
+                    >
+                </h2>
 
                 <div class="image-container">
                     <a
@@ -919,15 +942,16 @@
 
             <div class="small-project-container">
                 <div class="image-container">
-                    <a
-                        href="http://kaleidoscop.herokuapp.com/incremental_search/"
-                        target="_blank"
-                        rel="noreferrer"
-                        :title="$t('zu meiner inkrementellen Suche')"
-                        ><h2 id="incremental">
+                    <h2 id="incremental">
+                        <a
+                            href="http://kaleidoscop.herokuapp.com/incremental_search/"
+                            target="_blank"
+                            rel="noreferrer"
+                            :title="$t('zu meiner inkrementellen Suche')"
+                        >
                             {{ $t('Inkrementelle Suche') }}
-                        </h2></a
-                    >
+                        </a>
+                    </h2>
 
                     <a
                         href="http://kaleidoscop.herokuapp.com/incremental_search/"
@@ -1018,37 +1042,11 @@ h1 {
 }
 
 h2 {
-    color: black;
     margin-top: 2em;
 }
 
-/* CODE, DER VERSUCHT, DIE UNTERSTREICHUNG VON STYLE.CSS WEGZUKRIEGEN - ERFOLGLOS */
-a > h2:hover {
-    text-decoration: none;
-}
-
-a h2:hover {
-    text-decoration: none;
-}
-
-a:hover h2 {
-    text-decoration: none;
-}
-
-a:hover > h2 {
-    text-decoration: none;
-}
-
-/* DIESER CODE HIER SOLL DIE UNTERSTRICHENE LINIE SCHWARZ UND ETWAS DICKER MACHEN */
-h2:hover {
-    /* text-decoration: inherit; */
-    /* text-decoration: initial; */
-    /* text-decoration: unset; */
-    /* text-decoration-color: black; */
-    /* text-decoration: underline; */
-    /* text-decoration-thickness: 0.5em; */
-    /* text-decoration-thickness: 3px; */
-    /* text-decoration-thickness: 5%; */
+h2 > a {
+    color: black;
 }
 
 .software-explanation {
