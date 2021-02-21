@@ -1377,7 +1377,7 @@
             </p>
             <audio controls>
                 <source
-                    src="https://dl.dropboxusercontent.com/s/ou82r5ndpj00m1u/gender_und_rechte_Ideologien.mp3?dl=0"
+                    src="/files/gender_und_rechte_Ideologien.mp3"
                     type="audio/mp3"
                 />
                 Your browser does not support the <code>audio</code> element.
