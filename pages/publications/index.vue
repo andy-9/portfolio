@@ -1014,10 +1014,7 @@
                 werden:
             </p>
             <audio controls>
-                <source
-                    src="https://dl.dropboxusercontent.com/s/3wz19b69euw4dm6/gegendiagnose.mp3?dl=0"
-                    type="audio/mp3"
-                />
+                <source src="/files/gegendiagnose.mp3" type="audio/mp3" />
                 Your browser does not support the <code>audio</code> element.
             </audio>
 
