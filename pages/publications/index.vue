@@ -160,10 +160,42 @@
             <h2 id="deutsch">Deutsch</h2>
 
             <p>
-                Groß, Melanie / Hechler, Andreas (2021): Intergeschlechtlichkeit
-                als Herausforderung für Fachkräfte in Erziehungs- und
-                Bildungseinrichtungen. In: Groß, Melanie / Niedenthal, Katrin
-                (Hrsg.):
+                Hechler, Andreas (2021):
+                <strong
+                    >Beharrliche Bilder. Bildsprache und
+                    Rechtsextremismusprävention</strong
+                >. In: Goetz, Judith / FIPU / Sulzbacher, Markus (Hrsg.):
+                <a
+                    href="https://www.mandelbaum.at/buecher/fipu/rechtsextremismus-bd-4/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Rechtsextremismus, Band 4: Herausforderungen für den
+                    Journalismus</a
+                >. Wien/Berlin: mandelbaum Verlag kritik & utopie, S. 282-297.
+            </p>
+            <p class="less-distance">
+                Ähnliche Fassungen des Beitrags finden sich bei
+                <a
+                    href="https://library.oapen.org/viewer/web/viewer.html?file=/bitstream/handle/20.500.12657/25626/1004470.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Budrich</a
+                >
+                und dem
+                <a
+                    href="https://forschungsgruppefipu.wordpress.com/2017/11/07/beharrliche-bilder/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Blog der FIPU</a
+                >.
+            </p>
+
+            <p>
+                Groß, Melanie / Hechler, Andreas (2021):
+                <strong>
+                    Intergeschlechtlichkeit als Herausforderung für Fachkräfte
+                    in Erziehungs- und Bildungsprozessen</strong
+                >. In: Groß, Melanie / Niedenthal, Katrin (Hrsg.):
                 <a
                     href="https://www.transcript-verlag.de/978-3-8376-5341-0/geschlecht-divers/"
                     target="_blank"
@@ -173,8 +205,9 @@
                     Arbeit</a
                 >. Bielefeld, transcript, Verlag, S. 211-223.
             </p>
+
             <p>
-                Hechler, Andreas (2020):
+                Hechler, Andreas (2021):
                 <a
                     href="https://rechtsextremismus-und-familie.de/mediapool/funktionalisierte_kinder_online.pdf"
                     target="_blank"
@@ -192,14 +225,15 @@
                     rel="noreferrer"
                     >Fachstelle Rechtsextremismus und Familie</a
                 >
-                / Lidicehaus. Bremen: Eigendruck.
+                / Lidicehaus. Bremen: Eigendruck (2., leicht veränderte Auflage;
+                1. Auflage 2020).
             </p>
             <p class="less-distance">
                 <a
                     href="https://issuu.com/lidicehaus/docs/ruf_funktionalisierte_kinder"
                     target="_blank"
                     rel="noreferrer"
-                    >Online angucken</a
+                    >Online lesen</a
                 >
             </p>
             <p class="less-distance">
@@ -234,9 +268,14 @@
 
             <p>
                 Hechler, Andreas / Baar, Robert (2020):
-                <strong
-                    >Mehr als zwei. Intergeschlechtlichkeit in der
-                    (Grund-)Schule</strong
+                <a
+                    href="files/Hechler_Baar - Intergeschlechtlichkeit in der Grundschule (2020).pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong
+                        >Mehr als zwei. Intergeschlechtlichkeit in der
+                        (Grund-)Schule</strong
+                    ></a
                 >. In:
                 <a
                     href="https://www.friedrich-verlag.de/shop/jenseits-der-norm-516321"
@@ -1097,6 +1136,22 @@
             </h3>
 
             <p>
+                Zimprich, Inga (2021):
+                <strong
+                    >"Wenn man sich gegen herrschende Normen verändern will,
+                    braucht man Unterstützung"</strong
+                >. Gespräch mit Andreas Hechler. In: Doppe, Blu / Holtermann,
+                Daniel (Hrsg.):
+                <a
+                    href="https://www.unrast-verlag.de/neuerscheinungen/vom-scheitern-zweifeln-und-aendern-detail"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Vom Scheitern, Zweifeln und Ändern. Kritische Reflexionen
+                    von Männlichkeiten</a
+                >. Münster: Unrast Verlag, S. 249-258.
+            </p>
+
+            <p>
                 Nowak, Peter (2021):
                 <a
                     href="https://www.freitag.de/autoren/peter-nowak/wenn-die-eltern-nazis-sind"
@@ -1421,6 +1476,17 @@
             <!-- ///////////////////// ENGLISH ///////////////////// -->
 
             <h2 id="english">English</h2>
+
+            <p>
+                Hechler, Andreas (2021):
+                <a
+                    href="https://overland.org.au/2021/02/in-memory-of-emilie-rau-and-of-the-other-victims-of-nazi-euthanasia/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >In memory of Emilie Rau and of the other victims of Nazi
+                    ‘euthanasia’</a
+                >. In: Overland Literary Journal, Feb. 22, 2021.
+            </p>
 
             <p class="no-bottom-margin">
                 Hechler, Andreas (2020):
