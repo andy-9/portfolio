@@ -49,7 +49,11 @@ export default {
     /*
      ** Nuxt.js dev-modules
      */
-    buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/pwa', 'nuxt-purgecss'],
+    buildModules: [
+        // '@nuxtjs/eslint-module',
+        '@nuxtjs/pwa',
+        'nuxt-purgecss'
+    ],
     /*
      ** Nuxt.js modules
      */
