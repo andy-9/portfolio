@@ -162,6 +162,20 @@
             <p>
                 Hechler, Andreas (2021):
                 <strong
+                    >Virile Vollpfosten #1 – Argumente gegen antifeministische
+                    Klassiker</strong
+                >. In:
+                <a
+                    href="https://www.boykott-magazin.de/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Boykott Magazin</a
+                >, Nr. 1, März 2021, S. 112–117.
+            </p>
+
+            <p>
+                Hechler, Andreas (2021):
+                <strong
                     >Beharrliche Bilder. Bildsprache und
                     Rechtsextremismusprävention</strong
                 >. In: Goetz, Judith / FIPU / Sulzbacher, Markus (Hrsg.):
