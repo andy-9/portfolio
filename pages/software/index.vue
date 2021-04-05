@@ -22,24 +22,24 @@
             <!-- //////////// Social Network //////////// -->
             <div class="small-project-container">
                 <h2 id="socialnetwork">
+                    <!-- href="https://kite-inc.herokuapp.com/" -->
+                    <!-- target="_blank" -->
                     <a
-                        href="https://kite-inc.herokuapp.com/"
-                        target="_blank"
+                        href="https://andreashechler.com/software"
                         rel="noreferrer"
-                        :title="
-                            $t(
-                                'Zu meinem Sozialen Netzwerk Kite.Inc (der Start dauert ca. 10 Sekunden)'
-                            )
-                        "
+                        :title="$t('Currently down')"
                     >
+                        <!-- 'Zu meinem Sozialen Netzwerk Kite.Inc (der Start dauert ca. 10 Sekunden)' -->
                         {{ $t('Soziales Netzwerk') }}
                     </a>
                 </h2>
 
                 <div class="image-container">
+                    <!-- href="https://kite-inc.herokuapp.com/"
+                        target="_blank" -->
+                    <!-- 'Zu meinem Sozialen Netzwerk Kite.Inc (der Start dauert ca. 10 Sekunden)' -->
                     <a
-                        href="https://kite-inc.herokuapp.com/"
-                        target="_blank"
+                        href="https://andreashechler.com/software"
                         rel="noreferrer"
                         ><img
                             src="/images/kite.jpg"
@@ -48,11 +48,7 @@
                                     'Screenshot von Suchergebnissen des Sozialen Netzwerks Kite.Inc'
                                 )
                             "
-                            :title="
-                                $t(
-                                    'Zu meinem Sozialen Netzwerk Kite.Inc (der Start dauert ca. 10 Sekunden)'
-                                )
-                            "
+                            :title="$t('Currently down')"
                     /></a>
                 </div>
 
