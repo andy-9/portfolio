@@ -129,7 +129,7 @@
 
     "Spotify-Datenbank über API durchsuchen, Album/Künstler*in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden": "Spotify-Datenbank über API durchsuchen, Album/Künstler:in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden",
 
-    "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...": "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler:in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler:s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...",
+    "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer:m Künstler:in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des:r Künstler:in angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...": "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer:m Künstler:in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des:r Künstler:in angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...",
 
     "Kätzchen-Karussell": "Kätzchen-Karussell",
 
@@ -324,7 +324,7 @@
 
     "Prozessbegleitung zu Antidiskriminierung und Rechtsextremismus-Prävention": "Prozessbegleitung zu Antidiskriminierung und Rechtsextremismus-Prävention",
 
-    "für Kita-Berater*innen des DRK Thüringen": "für Kita-Berater:innen des DRK Thüringen",
+    "für Kita-Berater:innen des DRK Thüringen": "für Kita-Berater:innen des DRK Thüringen",
 
     "Gegen Vergessen – Für Demokratie: Umfangreiche": "Gegen Vergessen – Für Demokratie: Umfangreiche",
 
@@ -350,7 +350,7 @@
 
     "Teamberatung und -begleitung": "Teamberatung und -begleitung",
 
-    "zu geschlechterreflektierten Ansätzen, Multiplikator*innen-Schulung": "zu geschlechterreflektierten Ansätzen, Multiplikator:innen-Schulung",
+    "zu geschlechterreflektierten Ansätzen, Multiplikator:innen-Schulung": "zu geschlechterreflektierten Ansätzen, Multiplikator:innen-Schulung",
 
     "Anne Frank Zentrum: Inhaltliches": "Anne Frank Zentrum: Inhaltliches",
 
@@ -376,7 +376,7 @@
 
     "Fort- und Weiterbildungen und Train the Trainer-Schulungen": "Fort- und Weiterbildungen und Train the Trainer-Schulungen",
 
-    "für Lehrer*innen, Sozialarbeiter*innen und politische Bildner*innen im gesamten Bundesgebiet": "für Lehrer:innen, Sozialarbeiter:innen und politische Bildner:innen im gesamten Bundesgebiet",
+    "für Lehrer:innen, Sozialarbeiter:innen und politische Bildner:innen im gesamten Bundesgebiet": "für Lehrer:innen, Sozialarbeiter:innen und politische Bildner:innen im gesamten Bundesgebiet",
 
     "Auftraggebende/Träger": "Auftraggebende/Träger",
 
@@ -398,13 +398,13 @@
 
     "Forschungs- und Fortbildungsprojekt zu geschlechterreflektierter Neonazismusprävention bei Dissens – Institut für Bildung und Forschung": "Forschungs- und Fortbildungsprojekt zu geschlechterreflektierter Neonazismusprävention bei Dissens – Institut für Bildung und Forschung",
 
-    "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator*innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber*innen; Praktikant*innen- und Honorarteambetreuung": "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator:innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber:innen; Praktikant:innen- und Honorarteambetreuung",
+    "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator:innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber:innen; Praktikant:innen- und Honorarteambetreuung": "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator:innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber:innen; Praktikant:innen- und Honorarteambetreuung",
 
     "Bundesweite Fortbildungstätigkeit beim Fortbildungsprojekt": "Bundesweite Fortbildungstätigkeit beim Fortbildungsprojekt",
 
     "Jungenarbeit und Schule": "Jungenarbeit und Schule",
 
-    "8-tägige Lehrer*innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung": "8-tägige Lehrer:innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung",
+    "8-tägige Lehrer:innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung": "8-tägige Lehrer:innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung",
 
     "Jungenarbeit": "Jungenarbeit",
 
@@ -500,7 +500,7 @@
 
     "Geschlechterreflektierte Pädagogik": "Geschlechterreflektierte Pädagogik",
 
-    "Jungen*arbeit": "Jungen:arbeit",
+    "Jungen:arbeit": "Jungen:arbeit",
 
     "Geschlecht und Neonazismus (u.a. Interdiskriminierung, Manosphere, Incels)": "Geschlecht und Neonazismus (u.a. Interdiskriminierung, Manosphere, Incels)",
 
@@ -597,7 +597,7 @@
 
     "Die Fotos und Screenshots auf dieser Webseite sind urheberrechtlich geschützt": "Die Fotos und Screenshots auf dieser Webseite sind urheberrechtlich geschützt",
 
-    "Die Bilderrechte liegen bei mir oder den Fotograf*innen, die": "Die Bilderrechte liegen bei mir oder den Fotograf:innen, die",
+    "Die Bilderrechte liegen bei mir oder den Fotograf:innen, die": "Die Bilderrechte liegen bei mir oder den Fotograf:innen, die",
 
     "hier": "hier",
 

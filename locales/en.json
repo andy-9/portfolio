@@ -129,7 +129,7 @@
 
     "Spotify-Datenbank über API durchsuchen, Album/Künstler*in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden": "Search Spotify database through API, display album/artist with hyperlinked cover and name, load more through button click or infinite scroll",
 
-    "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...": "Still not having a Spotify account myself, nonetheless I programmed a user interface to search via an API the spotify database. When you search for an artist or album the first 20 search items are displayed with an image of the album and the name of the artist. If you've reached the bottom, you can click 'More' to load the next 20 items. I also added infinite scroll. I used jQuery, clickhandlers, several ajax 'GET'-requests, CSS flexbox and played with pseudo-selectors - fun! I found it quite difficult to figure out the order when to call which function and that they don't interfere with each other. In the end I managed and if you click on the link below you have an unlimited supply of search results - hopefully YOU have a spotify account...",
+    "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer:m Künstler:in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des:r Künstler:in angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto...": "Still not having a Spotify account myself, nonetheless I programmed a user interface to search via an API the spotify database. When you search for an artist or album the first 20 search items are displayed with an image of the album and the name of the artist. If you've reached the bottom, you can click 'More' to load the next 20 items. I also added infinite scroll. I used jQuery, clickhandlers, several ajax 'GET'-requests, CSS flexbox and played with pseudo-selectors - fun! I found it quite difficult to figure out the order when to call which function and that they don't interfere with each other. In the end I managed and if you click on the link below you have an unlimited supply of search results - hopefully YOU have a spotify account...",
 
     "Kätzchen-Karussell": "Kitty Carousel",
 
@@ -325,7 +325,7 @@
 
     "Prozessbegleitung zu Antidiskriminierung und Rechtsextremismus-Prävention": "Process support for measures against discrimination and prevention of right-wing extremism",
 
-    "für Kita-Berater*innen des DRK Thüringen": "for day-care center advisors of the German Red Cross Thuringia",
+    "für Kita-Berater:innen des DRK Thüringen": "for day-care center advisors of the German Red Cross Thuringia",
 
     "Gegen Vergessen – Für Demokratie: Umfangreiche": "Against forgetting - For democracy: Extensive",
 
@@ -351,7 +351,7 @@
 
     "Teamberatung und -begleitung": "Team consulting and support",
 
-    "zu geschlechterreflektierten Ansätzen, Multiplikator*innen-Schulung": "on gender-reflected approaches, train the trainer",
+    "zu geschlechterreflektierten Ansätzen, Multiplikator:innen-Schulung": "on gender-reflected approaches, train the trainer",
 
     "Anne Frank Zentrum: Inhaltliches": "Anne Frank Center: Content",
 
@@ -377,7 +377,7 @@
 
     "Fort- und Weiterbildungen und Train the Trainer-Schulungen": "further education and train the trainer courses",
 
-    "für Lehrer*innen, Sozialarbeiter*innen und politische Bildner*innen im gesamten Bundesgebiet": "for teachers, social workers and political educators throughout Germany",
+    "für Lehrer:innen, Sozialarbeiter:innen und politische Bildner:innen im gesamten Bundesgebiet": "for teachers, social workers and political educators throughout Germany",
 
     "Auftraggebende/Träger": "Institutions",
 
@@ -401,13 +401,13 @@
 
     "Forschungs- und Fortbildungsprojekt zu geschlechterreflektierter Neonazismusprävention bei Dissens – Institut für Bildung und Forschung": "Research and further education project on gender-reflected neo-Nazi prevention at Dissens - Institute for Education and Research",
 
-    "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator*innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber*innen; Praktikant*innen- und Honorarteambetreuung": "Project management, conception and planning; nationwide professional and train the trainer trainings (up to 9 days); consulting and supervision of practical projects; inputs; teaching of methods; lectures; preparation of scientific findings; conference organization and implementation; financial applications and contact with funding agencies; supervision of interns and honorary team",
+    "Projektmanagement, -konzeption und -planung; bundesweite Multiplikator:innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber:innen; Praktikant:innen- und Honorarteambetreuung": "Project management, conception and planning; nationwide professional and train the trainer trainings (up to 9 days); consulting and supervision of practical projects; inputs; teaching of methods; lectures; preparation of scientific findings; conference organization and implementation; financial applications and contact with funding agencies; supervision of interns and honorary team",
 
     "Bundesweite Fortbildungstätigkeit beim Fortbildungsprojekt": "Nationwide advanced trainings in the further education project",
 
     "Jungenarbeit und Schule": "Boys' work and school",
 
-    "8-tägige Lehrer*innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung": "8-day teacher training courses on the topic of working with boys; train the trainer trainings; inputs, teaching of methods, consulting",
+    "8-tägige Lehrer:innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung": "8-day teacher training courses on the topic of working with boys; train the trainer trainings; inputs, teaching of methods, consulting",
 
     "Jungenarbeit": "Gender sensitive social work",
 
@@ -503,7 +503,7 @@
 
     "Geschlechterreflektierte Pädagogik": "Gender Reflective Pedagogy",
 
-    "Jungen*arbeit": "Boys' work",
+    "Jungen:arbeit": "Boys' work",
 
     "Geschlecht und Neonazismus (u.a. Interdiskriminierung, Manosphere, Incels)": "Gender and neo-Nazism (among others interphobia, manosphere, incels)",
 
@@ -600,7 +600,7 @@
 
     "Die Fotos und Screenshots auf dieser Webseite sind urheberrechtlich geschützt": "The photos and screenshots on this website are protected by copyright",
 
-    "Die Bilderrechte liegen bei mir oder den Fotograf*innen, die": "The picture rights are with me or the photographers who are listed",
+    "Die Bilderrechte liegen bei mir oder den Fotograf:innen, die": "The picture rights are with me or the photographers who are listed",
 
     "hier": "here",
 

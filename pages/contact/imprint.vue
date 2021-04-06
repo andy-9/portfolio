@@ -58,7 +58,7 @@
             <p>
                 {{
                     $t(
-                        'Die Bilderrechte liegen bei mir oder den Fotograf*innen, die'
+                        'Die Bilderrechte liegen bei mir oder den Fotograf:innen, die'
                     )
                 }}
 

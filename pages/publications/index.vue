@@ -332,7 +332,7 @@
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <strong>Hinweise für Pädagog*innen</strong>
+                        <strong>Hinweise für Pädagog:innen</strong>
                     </a>
                 </li>
 
@@ -353,7 +353,7 @@
                         rel="noreferrer"
                     >
                         <strong
-                            >Dos &amp; Don'ts für Pädagog*innen – Tipps für
+                            >Dos &amp; Don'ts für Pädagog:innen – Tipps für
                             einen guten Umgang</strong
                         >
                     </a>
@@ -1320,7 +1320,7 @@
                         Sicherheit – und was politische Bildung dagegen
                         ausrichten kann</strong
                     ></a
-                >. U.a. Expert*inneninterviews mit Andreas Hechler
+                >. U.a. Expert:inneninterviews mit Andreas Hechler
                 (geschlechterreflektierte Rechtsextremismusprävention), Mutlu
                 Ergün-Hamaz (antirassistische Bildungsarbeit) und Ute Neumann
                 (geschlechterreflektierende gewerkschaftliche Bildung).

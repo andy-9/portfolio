@@ -225,7 +225,7 @@
                                     }}</strong>
                                     {{
                                         $t(
-                                            'für Kita-Berater\*innen des DRK Thüringen'
+                                            'für Kita-Berater:innen des DRK Thüringen'
                                         )
                                     }}
                                 </p>
@@ -303,7 +303,7 @@
                                     }}</strong>
                                     {{
                                         $t(
-                                            'zu geschlechterreflektierten Ansätzen, Multiplikator\*innen-Schulung'
+                                            'zu geschlechterreflektierten Ansätzen, Multiplikator:innen-Schulung'
                                         )
                                     }}
                                 </p>
@@ -365,7 +365,7 @@
                                     }}</strong>
                                     {{
                                         $t(
-                                            'für Lehrer\*innen, Sozialarbeiter\*innen und politische Bildner\*innen im gesamten Bundesgebiet'
+                                            'für Lehrer:innen, Sozialarbeiter:innen und politische Bildner:innen im gesamten Bundesgebiet'
                                         )
                                     }}
                                 </p>
@@ -453,7 +453,7 @@
                                     >:
                                     {{
                                         $t(
-                                            'Projektmanagement, -konzeption und -planung; bundesweite Multiplikator\*innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber\*innen; Praktikant\*innen- und Honorarteambetreuung'
+                                            'Projektmanagement, -konzeption und -planung; bundesweite Multiplikator:innen- und Train the Trainer-Schulungen (bis 9 Tage); Beratung und Betreuung von Praxisprojekten; Inhaltliche Inputs; Vermittlung von Methoden und Vortragstätigkeiten; Aufbereitung wissenschaftlicher Erkenntnisse; Tagungsorganisation und -durchführung; Finanzanträge und Kontakt zu Zuwendungsgeber:innen; Praktikant:innen- und Honorarteambetreuung'
                                         )
                                     }}
                                 </p>
@@ -479,7 +479,7 @@
                                     >:
                                     {{
                                         $t(
-                                            '8-tägige Lehrer*innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung'
+                                            '8-tägige Lehrer:innenschulungen zum Thema Arbeit mit Jungen; Train the Trainer-Weiterbildung; inhaltliche Inputs, Vermittlung von Methoden, Beratung'
                                         )
                                     }}
                                 </p>
@@ -712,7 +712,7 @@
 
                         <li>{{ $t('Geschlechterreflektierte Pädagogik') }}</li>
 
-                        <li>{{ $t('Jungen\*arbeit') }}</li>
+                        <li>{{ $t('Jungen:arbeit') }}</li>
 
                         <li>
                             {{

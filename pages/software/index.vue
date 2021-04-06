@@ -88,7 +88,7 @@
                             <strong>{{ $t('Funktionalität') }}:</strong>
                             {{
                                 $t(
-                                    'Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer\*innen, Suche nach Benutzer\*innen mit Vor- und Nachnamen, Anzeigen von Freund\*innen von Freund\*innen, Abmelden'
+                                    'Registrierung, Login, persönliches Profil mit Bio- und Bild-Upload, Senden, Empfangen und Annehmen von Freundschaftsanfragen, Freundschaft beenden, Gespräche in einem Chat-Raum führen, Anzeige der letzten 3 registrierten Benutzer:innen, Suche nach Benutzer:innen mit Vor- und Nachnamen, Anzeigen von Freund:innen von Freund:innen, Abmelden'
                                 )
                             }}
                         </p>
@@ -111,7 +111,7 @@
                             <p>
                                 {{
                                     $t(
-                                        'Benutzer\*innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.'
+                                        'Benutzer:innen können einem Sozialen Netzwerk beitreten, in diesem Fall einem für inklusive Kitesurfing-Communities.'
                                     )
                                 }}
                             </p>
@@ -196,7 +196,7 @@
                             <strong>{{ $t('Funktionalität') }}:</strong>
                             {{
                                 $t(
-                                    'Unterstützer\*innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden'
+                                    'Unterstützer:innen können sich registrieren, einloggen, ihre Profilinformationen aktualisieren, unterschreiben, die Unterschrift wieder zurückziehen, Mitunterzeichnende nach Ort sortiert anzeigen lassen, sich abmelden'
                                 )
                             }}
                         </p>
@@ -220,14 +220,14 @@
                             <p>
                                 {{
                                     $t(
-                                        'Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer\*innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.'
+                                        'Diese Petition plädiert für die Unterzeichnung der Algo.Rules und gegen algorithmische Diskriminierung. Je nachdem, ob sich Benutzer:innen registrieren und unterschreiben, werden ihnen unterschiedliche Seiten angezeigt. Wenn sie unterzeichnen, werden andere Unterzeichnende, deren Homepages, ihr Alter und ihre Stadt angezeigt.'
                                     )
                                 }}
                             </p>
                             <p>
                                 {{
                                     $t(
-                                        'Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzer\*innen-Profils.'
+                                        'Ich habe viel über Datenfluss gelernt, die Arbeit mit Session-Cookies, Get- und Post-Routen und wie man sie mit Supertest testet. Ich habe auch mit promises, Passwort-Hashing und inserts, updates, upserts und deletes in der Datenbank gearbeitet. Besonders herausfordernd fand ich die Unterschrift mit canvas und das konditionale Bearbeiten des Benutzer:innen-Profils.'
                                     )
                                 }}
                             </p>
@@ -354,7 +354,7 @@
                             <p>
                                 {{
                                     $t(
-                                        'Jede*r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.'
+                                        'Jede:r kann Bilder ihrer Wahl hochladen; das Thema dieses Imageboards ist Graffiti und Street Art.'
                                     )
                                 }}
                             </p>
@@ -559,7 +559,7 @@
                             <strong>{{ $t('Funktionalität') }}:</strong>
                             {{
                                 $t(
-                                    'Spotify-Datenbank über API durchsuchen, Album/Künstler\*in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden'
+                                    'Spotify-Datenbank über API durchsuchen, Album/Künstler:in mit verlinktem Cover und Namen anzeigen, mehr Daten durch Button oder Endlos-Scroll laden'
                                 )
                             }}
                         </p>
@@ -571,7 +571,7 @@
                             <p>
                                 {{
                                     $t(
-                                        "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer Künstler\*in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des Künstler\*s angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto..."
+                                        "Trotz des Nicht-Vorhandenseins eines eigenen Spotify-Kontos, habe ich trotzdem eine Benutzeroberfläche programmiert, um über eine API die Spotify-Datenbank durchsuchen zu können. Wird nach einer:m Künstler:in oder Album gesucht, werden die ersten 20 Suchbegriffe mit einem Bild des Albums und dem Namen des:r Künstler:in angezeigt. Unten angekommen, kann für die nächsten 20 Suchbegriffe auf 'More' geklickt werden. Endlos-Scroll ist auch möglich. Ich habe jQuery, Clickhandler, mehrere Ajax-'GET'-Requests, CSS-Flexbox und Pseudo-Selektoren verwendet. Ich fand es schwierig, die Reihenfolge herauszufinden, wann welche Funktion aufgerufen werden soll und dass sie sich nicht gegenseitig stören. Schlussendlich habe ich es geschafft, und wer auf den Link unten klickt, hat einen unbegrenzten Vorrat an Suchergebnissen - hoffentlich hast DU ein Spotify-Konto..."
                                     )
                                 }}
                             </p>
@@ -855,7 +855,7 @@
                             <strong>{{ $t('Funktionalität') }}:</strong>
                             {{
                                 $t(
-                                    '2 Spieler\*innen können gegeneinander spielen, horizontale, vertikale oder diagonale Siege, Animation, wenn ein\*e Spieler\*in gewinnt, die Farbe des Gewinners wird angezeigt, erneut spielen'
+                                    '2 Spieler:innen können gegeneinander spielen, horizontale, vertikale oder diagonale Siege, Animation, wenn ein:e Spieler:in gewinnt, die Farbe des Gewinners wird angezeigt, erneut spielen'
                                 )
                             }}
                         </p>
@@ -983,7 +983,7 @@
                             <p>
                                 {{
                                     $t(
-                                        "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzer\*in schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können."
+                                        "Ich habe in meinem Leben viele Male inkrementelle Suchen verwendet und kannte diesen Begriff noch nicht einmal, bis ich eine programmieren sollte... Ich habe nie über all die verschiedenen Schritte nachgedacht, die dafür notwendig sind. Ich habe gelernt, wie man mit Mouseovers, Mousedowns und Tastenbefehlen arbeitet und wie man ein Suchergebnis hervorhebt - alles programmiert mit jQuery. Ich habe auch Fokus und Unschärfe verwendet, sollte die Aufmerksamkeit einer Benutzerin schwinden 😉, und schlussendlich war es mein erster Ajax-'GET'-Request, um von einer Länder-API aus suchen zu können."
                                     )
                                 }}
                             </p>
