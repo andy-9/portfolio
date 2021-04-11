@@ -833,6 +833,18 @@
                     >
                     {{ $t('der FUMA Fachstelle Gender & Diversität NRW') }}
                 </p>
+
+                <p>
+                    <strong> {{ $t('Mitglied') }} </strong>
+                    {{ $t('E-Learning-Projekt') }}
+                    <a
+                        href="https://soz-kult.hs-duesseldorf.de/forschung/forschungsaktivitaeten/forschungsprojekte/Seiten/vt-politics.aspx"
+                        target="_blank"
+                        rel="noreferrer"
+                        >{{ $t('vt:politics') }}</a
+                    >
+                    {{ $t('der Hochschule Düsseldorf') }}
+                </p>
             </div>
         </div>
 
