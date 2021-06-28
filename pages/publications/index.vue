@@ -1705,8 +1705,9 @@
                 >. Conversation with Andreas Hechler visiting Berlin-Buch.
             </p>
             <audio controls>
+                <!-- src="https://dl.dropboxusercontent.com/s/ljue3tkqpd564oy/disability_and_politics_of_memory.wav?dl=0" -->
                 <source
-                    src="https://dl.dropboxusercontent.com/s/ljue3tkqpd564oy/disability_and_politics_of_memory.wav?dl=0"
+                    src="/files/disability_and_politics_of_memory.mp3"
                     type="audio/mp3"
                 />
                 Your browser does not support the <code>audio</code> element.
