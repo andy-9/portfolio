@@ -892,6 +892,32 @@
             </h3>
 
             <p>
+                05/2021: "<a
+                    href="https://queereringvorlesung.de/2021/05/13/frauenhasser-sucht-frau-paradoxien-und-effekte-der-incels/"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><strong
+                        >Frauenhasser sucht Frau - Paradoxien und Effekte der
+                        Incels.</strong
+                    ></a
+                >
+                Online-Vortrag an der Universität Lüneburg im Rahmen der
+                <a
+                    href="https://queereringvorlesung.de/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Queeren Ringvorlesung</a
+                >.
+            </p>
+            <audio controls>
+                <source
+                    src="/files/Hechler_Incels_Vortrag.27-05-2021.mp3"
+                    type="audio/mp3"
+                />
+                Your browser does not support the <code>audio</code> element.
+            </audio>
+
+            <p>
                 11/2020: "<a
                     href="https://www.youtube.com/watch?v=GrJ8d6vyVs8"
                     target="_blank"
