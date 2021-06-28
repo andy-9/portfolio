@@ -1150,6 +1150,33 @@
             </h3>
 
             <p>
+                Dissens - Institut für Bildung und Forschung (2021): Der
+                Dissens-Podcast 'Alles für Alle!'. Sarah Klemm und Ulla
+                Wittenzellner im Gespräch mit Andreas Hechler und Vivien
+                Laumann.
+            </p>
+            <ul>
+                <li class="bullet-point-less-distance">
+                    <a
+                        href="https://www.dissens.de/podcast"
+                        target="_blank"
+                        rel="noreferrer"
+                        >Folge #10 Debatte:
+                        <strong>Dilemmata navigieren - Teil I</strong>
+                        (23. Juni 2021)</a
+                    >.
+                    <audio controls class="distance-audio">
+                        <source
+                            src="/files/Dissens_Podcast_X.mp3"
+                            type="audio/mp3"
+                        />
+                        Your browser does not support the
+                        <code>audio</code> element.
+                    </audio>
+                </li>
+            </ul>
+
+            <p>
                 Zimprich, Inga (2021):
                 <strong
                     >"Wenn man sich gegen herrschende Normen verändern will,
