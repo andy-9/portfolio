@@ -910,8 +910,9 @@
                 >.
             </p>
             <audio controls>
+                <!-- src="files/Hechler_Incels_Vortrag.27-05-2021.mp3" -->
                 <source
-                    src="files/Hechler_Incels_Vortrag.27-05-2021.mp3"
+                    src="https://dl.dropboxusercontent.com/s/dvgg95mub7r3m6r/Hechler%20-%20Incels.27-05-2021.mp3?dl=0"
                     type="audio/mp3"
                 />
                 Your browser does not support the <code>audio</code> element.
@@ -1192,8 +1193,9 @@
                         (23. Juni 2021)</a
                     >.
                     <audio controls class="distance-audio">
+                        <!-- src="/files/Dissens_Podcast_X.mp3" -->
                         <source
-                            src="/files/Dissens_Podcast_X.mp3"
+                            src="https://www.dissens.de/fileadmin/podcast/AudioFiles/Folge_10_Dilemmata_navigieren_I_final.mp3"
                             type="audio/mp3"
                         />
                         Your browser does not support the
@@ -1265,8 +1267,9 @@
                         (20. Juli 2020)</a
                     >.
                     <audio controls class="distance-audio">
+                        <!-- src="/files/Dissens_Podcast_I.mp3" -->
                         <source
-                            src="/files/Dissens_Podcast_I.mp3"
+                            src="https://www.dissens.de/fileadmin/podcast/AudioFiles/Neu_Teil_I_Ist_Mkt_problematisch_Master.mp3"
                             type="audio/mp3"
                         />
                         Your browser does not support the
@@ -1287,8 +1290,9 @@
                         (27. Juli 2020)</a
                     >.
                     <audio controls class="distance-audio">
+                        <!-- src="/files/Dissens_Podcast_II.mp3" -->
                         <source
-                            src="/files/Dissens_Podcast_II.mp3"
+                            src="https://www.dissens.de/fileadmin/podcast/AudioFiles/Neu_Teil_II_Motivationen_und_Taeterschaft.mp3"
                             type="audio/mp3"
                         />
                         Your browser does not support the
@@ -1306,8 +1310,9 @@
                         (21. August 2020)</a
                     >.
                     <audio controls class="distance-audio">
+                        <!-- src="/files/Dissens_Podcast_III.mp3" -->
                         <source
-                            src="/files/Dissens_Podcast_III.mp3"
+                            src="https://www.dissens.de/fileadmin/podcast/AudioFiles/Dissens_03_Master.mp3"
                             type="audio/mp3"
                         />
                         Your browser does not support the
@@ -1398,8 +1403,9 @@
                 von Männern).
             </p>
             <audio controls>
+                <!-- src="/files/GlottalStop_Antifeminismus.2019-10.mp3" -->
                 <source
-                    src="/files/GlottalStop_Antifeminismus.2019-10.mp3"
+                    src="https://dl.dropboxusercontent.com/s/o92l5pytyklf6qj/GlottalStop_Antifeminismus.2019-10.mp3?dl=0"
                     type="audio/mp3"
                 />
                 Your browser does not support the <code>audio</code> element.
@@ -1705,12 +1711,12 @@
                 >. Conversation with Andreas Hechler visiting Berlin-Buch.
             </p>
             <audio controls>
-                <!-- src="https://dl.dropboxusercontent.com/s/ljue3tkqpd564oy/disability_and_politics_of_memory.wav?dl=0" -->
+                <!-- src="/files/disability_and_politics_of_memory.mp3" -->
                 <source
-                    src="/files/disability_and_politics_of_memory.mp3"
+                    src="https://dl.dropboxusercontent.com/s/qsj9h5lv6evdacw/disability_and_politics_of_memory.mp3?dl=0"
                     type="audio/mp3"
                 />
-                Your browser does not support the <code>audio</code> element.
+                Your browser does not support the /> <code>audio</code> element.
             </audio>
 
             <hr />
