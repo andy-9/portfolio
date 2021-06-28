@@ -911,7 +911,7 @@
             </p>
             <audio controls>
                 <source
-                    src="/files/Hechler_Incels_Vortrag.27-05-2021.mp3"
+                    src="static/files/Hechler_Incels_Vortrag.27-05-2021.mp3"
                     type="audio/mp3"
                 />
                 Your browser does not support the <code>audio</code> element.
