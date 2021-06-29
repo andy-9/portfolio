@@ -1090,11 +1090,17 @@
                     Arbeitskreises zur Erforschung der nationalsozialistischen
                     "Euthanasie" und Zwangssterilisation</a
                 >
-                in Klingenmünster. Ein ähnlicher Vortrag kann hier nachgehört
-                werden:
+                in Klingenmünster.
             </p>
+            <p class="less-distance">
+                Ein ähnlicher Vortrag kann hier nachgehört werden:
+            </p>
+            <!-- <source src="/files/gegendiagnose.mp3" type="audio/mp3" /> -->
             <audio controls>
-                <source src="/files/gegendiagnose.mp3" type="audio/mp3" />
+                <source
+                    src="https://dl.dropboxusercontent.com/s/3wz19b69euw4dm6/gegendiagnose.mp3?dl=0"
+                    type="audio/mp3"
+                />
                 Your browser does not support the <code>audio</code> element.
             </audio>
 
@@ -1501,8 +1507,9 @@
                 >. Podcast des Projekts "de:hate".
             </p>
             <audio controls>
+                <!-- src="/files/gender_und_rechte_Ideologien.mp3" -->
                 <source
-                    src="/files/gender_und_rechte_Ideologien.mp3"
+                    src="https://dl.dropboxusercontent.com/s/ou82r5ndpj00m1u/gender_und_rechte_Ideologien.mp3?dl=0"
                     type="audio/mp3"
                 />
                 Your browser does not support the <code>audio</code> element.
